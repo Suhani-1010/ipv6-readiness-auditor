@@ -1,0 +1,3579 @@
+{
+  "schema": "ipv6-readiness-audit/1",
+  "page": "https://nptel.ac.in/",
+  "final_url": "https://nptel.ac.in/",
+  "started_utc": "2026-10-24T09:43:48+00:00",
+  "load_seconds": 48.57,
+  "vantage": {
+    "nat64_prefixes": [
+      "64:ff9b::/96"
+    ],
+    "ipv6_stack": true,
+    "ipv6_default_route": true,
+    "ipv4_default_route": true,
+    "lab_v6_shim": false,
+    "pathway": "dual-stack + DNS64/NAT64"
+  },
+  "capture_errors": [],
+  "summary": {
+    "page_verdict": "NOT_READY",
+    "root_verdict": "IPV4_ONLY_NAT64",
+    "root_has_aaaa": false,
+    "resources_total": 99,
+    "origins_total": 12,
+    "resources_by_verdict": {
+      "IPV4_ONLY_NAT64": 76,
+      "READY": 22,
+      "BROKEN_BOTH": 1
+    },
+    "origins_by_verdict": {
+      "IPV4_ONLY_NAT64": 2,
+      "READY": 9,
+      "BROKEN_BOTH": 1
+    },
+    "ipv6_failures_by_stage": {
+      "dns": 2
+    },
+    "ipv6_failing_resources": 76,
+    "inconclusive_resources": 0,
+    "ipv6_failing_critical": 42,
+    "ipv6_failing_third_party": 12,
+    "resource_ipv6_ready_pct": 22.2,
+    "ipv4_only_hosts": [
+      "nptel.ac.in",
+      "www.imprzd.com"
+    ],
+    "aaaa_but_broken_hosts": [],
+    "root_host": "nptel.ac.in",
+    "root_http_parity": false
+  },
+  "tree": {
+    "root": "https://nptel.ac.in/",
+    "edges": [
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/assets/Footer.DGPTK-Tr.css"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/assets/0.DYSnzahK.css"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/assets/7.O8VK0yRo.css"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/entry/start.D0zia9da.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/chunks/C17xq56W.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/chunks/rDe-gDDQ.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/chunks/FpG7l3Wf.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/chunks/r7gs4R8x.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/chunks/B9zNngbE.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/chunks/D9Dy6ETF.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/chunks/DNfYUInM.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/entry/app.DilMKi-k.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/chunks/PPVm8Dsz.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/chunks/DsOvFlM4.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/chunks/DsnmJJEf.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/chunks/B66KlvAM.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/chunks/BiuTovcz.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/chunks/ChafJ16U.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/chunks/DLtT3R2i.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/chunks/DCVOSmmS.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/nodes/0.Btdp08OS.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/chunks/DJLrSUvh.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/chunks/MSGxDnBC.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/chunks/q36Eg1F8.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/chunks/hvslHpdg.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/chunks/C9OZrgbY.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/chunks/1bLsDMV3.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/chunks/DRxF_y6Y.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/chunks/DZ719gsR.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/chunks/EL9XQTGB.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/chunks/CT9KH_MA.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/nodes/7.UBs6KOp0.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/chunks/x3zJI4hq.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/chunks/x3ssMnMT.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://www.imprzd.com/bi/in-scol/app.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/assets/logo-m.CNHeS_sM.jpg"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/assets/learners.jcmAQYuj.png"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/assets/NPTELAward.sSmi-dqY.avif"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/assets/Special%20Live%20Series.BI9Yd347.jpg"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/assets/workshop.D7iOMQLF.png"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/assets/portal.DGu1wwoh.avif"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/assets/star.BFH-bh00.jpg"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/assets/NPTEL%20Merchandise.CyH6QEBJ.avif"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/assets/Course%20offering%20faculty.rhCa6XX6.avif"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/assets/Coordinator.CYZNANbB.avif"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/assets/ENROLLMENT_old.C6eDPk9e.avif"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/assets/front.BnYX-uS_.avif"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/assets/logo-d.CaFEBZLW.avif"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/assets/Twitter.DOxwyA0o.avif"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://www.googletagmanager.com/gtag/js?id=G-YBKYHPL1B9"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://www.youtube.com/embed/QOxsC6OBICI"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://www.youtube.com/embed/20n_KqaPP7Q"
+      ],
+      [
+        "https://nptel.ac.in/_app/immutable/assets/0.DYSnzahK.css",
+        "https://nptel.ac.in/fonts/Inter-VariableFont_slnt,wght.ttf"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/assets/iitbombay.G7-X2_CT.avif"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/assets/iitdelhi.DAmPA8ch.avif"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/assets/iitkanpur.DfK-EVjg.avif"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/assets/iitkharagpur.C__HUKNU.avif"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/assets/iitguwahati.Cz15Awa1.avif"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/assets/iitroorkee.DLXHc0E6.avif"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/assets/iitmadras.D6XDNVlL.avif"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/assets/iisbangalore.Ca2dKIYx.avif"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/nodes/1.BBVMMAUt.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/chunks/CneKBbD1.js"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/_app/immutable/chunks/BaN02l0r.js"
+      ],
+      [
+        "https://nptel.ac.in/_app/immutable/chunks/D9Dy6ETF.js",
+        "https://nptel.ac.in/api/auth/session"
+      ],
+      [
+        "https://nptel.ac.in/_app/immutable/nodes/7.UBs6KOp0.js",
+        "https://nptel.ac.in/_app/immutable/chunks/HHZ1VOk6.js"
+      ],
+      [
+        "https://www.imprzd.com/bi/in-scol/app.js",
+        "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      ],
+      [
+        "https://nptel.ac.in/_app/immutable/chunks/D9Dy6ETF.js",
+        "https://www.imprzd.com/BroadcastImpression/api/feed/scrollOfLove/NTY"
+      ],
+      [
+        "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+        "https://fonts.gstatic.com/s/poppins/v24/pxiEyp8kv8JHgFVrJJfecg.woff2"
+      ],
+      [
+        "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+        "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://www.imprzd.com/BroadcastImpression/api/file/displayImageV2/POSTIMG/MjAyNi8xMC8yNC8yMDI2MTAyNDAzMTEyNTAwNzMucG5n"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://www.imprzd.com/BroadcastImpression/api/file/displayImageV2/POSTIMG/MjAyNi8xMC8yNC8yMDI2MTAyNDAxMzE0MzAzMTUucG5n"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://www.imprzd.com/BroadcastImpression/api/file/displayImageV2/POSTIMG/MjAyNi8xMC8yNC8yMDI2MTAyNDAxMjEzOTA5NDUucG5n"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://www.imprzd.com/BroadcastImpression/api/file/displayImageV2/POSTIMG/MjAyNi8xMC8yNC8yMDI2MTAyNDEyNTkxNjA4NzIucG5n"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://www.imprzd.com/BroadcastImpression/api/file/displayImageV2/POSTIMG/MjAyNi8xMC8yNC8yMDI2MTAyNDEyNTIyMzA1NDEucG5n"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://www.imprzd.com/BroadcastImpression/api/file/displayImageV2/POSTIMG/MjAyNi8xMC8yNC8yMDI2MTAyNDEyMjUyNjAyOTQucG5n"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://www.imprzd.com/BroadcastImpression/api/file/displayImageV2/POSTIMG/MjAyNi8xMC8yNC8yMDI2MTAyNDEyMDIwNTAzNDMucG5n"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://www.imprzd.com/BroadcastImpression/api/file/displayImageV2/POSTIMG/MjAyNi8xMC8yNC8yMDI2MTAyNDExNDYxODAzODQucG5n"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://www.imprzd.com/BroadcastImpression/api/file/displayImageV2/POSTIMG/MjAyNi8xMC8yNC8yMDI2MTAyNDExNDQzNTAwMzgucG5n"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://www.imprzd.com/BroadcastImpression/api/file/displayImageV2/POSTIMG/MjAyNi8xMC8yNC8yMDI2MTAyNDExMzEwOTA2OTIucG5n"
+      ],
+      [
+        "https://nptel.ac.in/_app/immutable/chunks/D9Dy6ETF.js",
+        "https://www.google-analytics.com/g/collect?v=2&tid=G-YBKYHPL1B9&gtm=45je6al1v873137942za208zd873137942xf1&_p=1792835030751&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=643349771.1792835042&frm=0&pscdl=noapi&rcb=6&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&_s=1&tag_exp=115938465~115938469~118897920~118897930~119793974~120213116~120385423~120469145~120469153~121246026~121246034&sid=1792835041&sct=1&seg=0&dl=https%3A%2F%2Fnptel.ac.in%2F&dt=&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=12009"
+      ],
+      [
+        "https://nptel.ac.in/",
+        "https://nptel.ac.in/favicon.ico"
+      ],
+      [
+        "https://www.youtube.com/embed/QOxsC6OBICI",
+        "https://www.youtube.com/s/player/cbcfbf2f/www-player.css"
+      ],
+      [
+        "https://www.youtube.com/embed/QOxsC6OBICI",
+        "https://www.youtube.com/s/_/ytembeds/_/ss/k=ytembeds.base.SKK5Z7LAK_Y.L.W.O/am=AAAAQA/d=1/br=1/rs=AGKMywE2gvDaiqpgAAck_AdbYTxiiYoLSQ/m=root,base"
+      ],
+      [
+        "https://www.youtube.com/embed/QOxsC6OBICI",
+        "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2"
+      ],
+      [
+        "https://www.youtube.com/embed/QOxsC6OBICI",
+        "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.IkWErumI3ck.2021.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywHKwBZQHZN85EdXcVlZmeF_dJDq7Q/m=root,base"
+      ],
+      [
+        "https://www.youtube.com/embed/QOxsC6OBICI",
+        "https://www.youtube.com/s/player/cbcfbf2f/player_embed_es6.vflset/en_GB/base.js"
+      ],
+      [
+        "https://www.youtube.com/embed/20n_KqaPP7Q",
+        "https://googleads.g.doubleclick.net/pagead/id"
+      ],
+      [
+        "https://www.youtube.com/embed/20n_KqaPP7Q",
+        "https://static.doubleclick.net/instream/ad_status.js"
+      ],
+      [
+        "https://www.youtube.com/embed/20n_KqaPP7Q",
+        "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.IkWErumI3ck.2021.O/ck=ytembeds.base.SKK5Z7LAK_Y.L.W.O/am=AAAAQA/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywFLt1TGolnkeIGDW4a_JBsoaJYKKQ/m=r78Drb"
+      ],
+      [
+        "https://www.youtube.com/embed/20n_KqaPP7Q",
+        "https://www.google.com/js/th/pxwG18Euy-n6Uq6PY9vb4Ohp58yKH_56NpBvs6fBnH8.js"
+      ],
+      [
+        "https://www.youtube.com/embed/20n_KqaPP7Q",
+        "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1"
+      ],
+      [
+        "https://www.youtube.com/embed/QOxsC6OBICI",
+        "https://i.ytimg.com/vi_webp/QOxsC6OBICI/maxresdefault.webp"
+      ],
+      [
+        "https://www.youtube.com/embed/20n_KqaPP7Q",
+        "https://i.ytimg.com/vi/20n_KqaPP7Q/maxresdefault.jpg"
+      ],
+      [
+        "https://www.youtube.com/embed/QOxsC6OBICI",
+        "https://www.youtube.com/youtubei/v1/log_event?alt=json"
+      ],
+      [
+        "https://www.youtube.com/embed/20n_KqaPP7Q",
+        "https://www.youtube.com/generate_204?MgXPtw"
+      ],
+      [
+        "https://www.youtube.com/embed/QOxsC6OBICI",
+        "https://www.youtube.com/generate_204?qDEIbA"
+      ],
+      [
+        "https://www.youtube.com/embed/QOxsC6OBICI",
+        "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+      ]
+    ]
+  },
+  "resources": {
+    "https://nptel.ac.in/": {
+      "url": "https://nptel.ac.in/",
+      "resource_type": "Document",
+      "initiator_type": "other",
+      "parent": null,
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 0,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://nptel.ac.in/_app/immutable/assets/Footer.DGPTK-Tr.css": {
+      "url": "https://nptel.ac.in/_app/immutable/assets/Footer.DGPTK-Tr.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/assets/0.DYSnzahK.css": {
+      "url": "https://nptel.ac.in/_app/immutable/assets/0.DYSnzahK.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/assets/7.O8VK0yRo.css": {
+      "url": "https://nptel.ac.in/_app/immutable/assets/7.O8VK0yRo.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/entry/start.D0zia9da.js": {
+      "url": "https://nptel.ac.in/_app/immutable/entry/start.D0zia9da.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/chunks/C17xq56W.js": {
+      "url": "https://nptel.ac.in/_app/immutable/chunks/C17xq56W.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/chunks/rDe-gDDQ.js": {
+      "url": "https://nptel.ac.in/_app/immutable/chunks/rDe-gDDQ.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/chunks/FpG7l3Wf.js": {
+      "url": "https://nptel.ac.in/_app/immutable/chunks/FpG7l3Wf.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/chunks/r7gs4R8x.js": {
+      "url": "https://nptel.ac.in/_app/immutable/chunks/r7gs4R8x.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/chunks/B9zNngbE.js": {
+      "url": "https://nptel.ac.in/_app/immutable/chunks/B9zNngbE.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/chunks/D9Dy6ETF.js": {
+      "url": "https://nptel.ac.in/_app/immutable/chunks/D9Dy6ETF.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/chunks/DNfYUInM.js": {
+      "url": "https://nptel.ac.in/_app/immutable/chunks/DNfYUInM.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/entry/app.DilMKi-k.js": {
+      "url": "https://nptel.ac.in/_app/immutable/entry/app.DilMKi-k.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/chunks/PPVm8Dsz.js": {
+      "url": "https://nptel.ac.in/_app/immutable/chunks/PPVm8Dsz.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/chunks/DsOvFlM4.js": {
+      "url": "https://nptel.ac.in/_app/immutable/chunks/DsOvFlM4.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/chunks/DsnmJJEf.js": {
+      "url": "https://nptel.ac.in/_app/immutable/chunks/DsnmJJEf.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/chunks/B66KlvAM.js": {
+      "url": "https://nptel.ac.in/_app/immutable/chunks/B66KlvAM.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/chunks/BiuTovcz.js": {
+      "url": "https://nptel.ac.in/_app/immutable/chunks/BiuTovcz.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/chunks/ChafJ16U.js": {
+      "url": "https://nptel.ac.in/_app/immutable/chunks/ChafJ16U.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/chunks/DLtT3R2i.js": {
+      "url": "https://nptel.ac.in/_app/immutable/chunks/DLtT3R2i.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/chunks/DCVOSmmS.js": {
+      "url": "https://nptel.ac.in/_app/immutable/chunks/DCVOSmmS.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/nodes/0.Btdp08OS.js": {
+      "url": "https://nptel.ac.in/_app/immutable/nodes/0.Btdp08OS.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/chunks/DJLrSUvh.js": {
+      "url": "https://nptel.ac.in/_app/immutable/chunks/DJLrSUvh.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/chunks/MSGxDnBC.js": {
+      "url": "https://nptel.ac.in/_app/immutable/chunks/MSGxDnBC.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/chunks/q36Eg1F8.js": {
+      "url": "https://nptel.ac.in/_app/immutable/chunks/q36Eg1F8.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/chunks/hvslHpdg.js": {
+      "url": "https://nptel.ac.in/_app/immutable/chunks/hvslHpdg.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/chunks/C9OZrgbY.js": {
+      "url": "https://nptel.ac.in/_app/immutable/chunks/C9OZrgbY.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/chunks/1bLsDMV3.js": {
+      "url": "https://nptel.ac.in/_app/immutable/chunks/1bLsDMV3.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/chunks/DRxF_y6Y.js": {
+      "url": "https://nptel.ac.in/_app/immutable/chunks/DRxF_y6Y.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/chunks/DZ719gsR.js": {
+      "url": "https://nptel.ac.in/_app/immutable/chunks/DZ719gsR.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/chunks/EL9XQTGB.js": {
+      "url": "https://nptel.ac.in/_app/immutable/chunks/EL9XQTGB.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/chunks/CT9KH_MA.js": {
+      "url": "https://nptel.ac.in/_app/immutable/chunks/CT9KH_MA.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/nodes/7.UBs6KOp0.js": {
+      "url": "https://nptel.ac.in/_app/immutable/nodes/7.UBs6KOp0.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/chunks/x3zJI4hq.js": {
+      "url": "https://nptel.ac.in/_app/immutable/chunks/x3zJI4hq.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/chunks/x3ssMnMT.js": {
+      "url": "https://nptel.ac.in/_app/immutable/chunks/x3ssMnMT.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://www.imprzd.com/bi/in-scol/app.js": {
+      "url": "https://www.imprzd.com/bi/in-scol/app.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::dcb:733d]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.imprzd.com",
+      "origin": "https://www.imprzd.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/assets/logo-m.CNHeS_sM.jpg": {
+      "url": "https://nptel.ac.in/_app/immutable/assets/logo-m.CNHeS_sM.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/assets/learners.jcmAQYuj.png": {
+      "url": "https://nptel.ac.in/_app/immutable/assets/learners.jcmAQYuj.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/assets/NPTELAward.sSmi-dqY.avif": {
+      "url": "https://nptel.ac.in/_app/immutable/assets/NPTELAward.sSmi-dqY.avif",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/assets/Special%20Live%20Series.BI9Yd347.jpg": {
+      "url": "https://nptel.ac.in/_app/immutable/assets/Special%20Live%20Series.BI9Yd347.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/assets/workshop.D7iOMQLF.png": {
+      "url": "https://nptel.ac.in/_app/immutable/assets/workshop.D7iOMQLF.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/assets/portal.DGu1wwoh.avif": {
+      "url": "https://nptel.ac.in/_app/immutable/assets/portal.DGu1wwoh.avif",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/assets/star.BFH-bh00.jpg": {
+      "url": "https://nptel.ac.in/_app/immutable/assets/star.BFH-bh00.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/assets/NPTEL%20Merchandise.CyH6QEBJ.avif": {
+      "url": "https://nptel.ac.in/_app/immutable/assets/NPTEL%20Merchandise.CyH6QEBJ.avif",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/assets/Course%20offering%20faculty.rhCa6XX6.avif": {
+      "url": "https://nptel.ac.in/_app/immutable/assets/Course%20offering%20faculty.rhCa6XX6.avif",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/assets/Coordinator.CYZNANbB.avif": {
+      "url": "https://nptel.ac.in/_app/immutable/assets/Coordinator.CYZNANbB.avif",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/assets/ENROLLMENT_old.C6eDPk9e.avif": {
+      "url": "https://nptel.ac.in/_app/immutable/assets/ENROLLMENT_old.C6eDPk9e.avif",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/assets/front.BnYX-uS_.avif": {
+      "url": "https://nptel.ac.in/_app/immutable/assets/front.BnYX-uS_.avif",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/assets/logo-d.CaFEBZLW.avif": {
+      "url": "https://nptel.ac.in/_app/immutable/assets/logo-d.CaFEBZLW.avif",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/assets/Twitter.DOxwyA0o.avif": {
+      "url": "https://nptel.ac.in/_app/immutable/assets/Twitter.DOxwyA0o.avif",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://www.googletagmanager.com/gtag/js?id=G-YBKYHPL1B9": {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-YBKYHPL1B9",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4013:804::61]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.googletagmanager.com",
+      "origin": "https://www.googletagmanager.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://www.youtube.com/embed/QOxsC6OBICI": {
+      "url": "https://www.youtube.com/embed/QOxsC6OBICI",
+      "resource_type": "Document",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2001:4860:4829:400::]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.youtube.com",
+      "origin": "https://www.youtube.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://www.youtube.com/embed/20n_KqaPP7Q": {
+      "url": "https://www.youtube.com/embed/20n_KqaPP7Q",
+      "resource_type": "Document",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2001:4860:4829:400::]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.youtube.com",
+      "origin": "https://www.youtube.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/fonts/Inter-VariableFont_slnt,wght.ttf": {
+      "url": "https://nptel.ac.in/fonts/Inter-VariableFont_slnt,wght.ttf",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/_app/immutable/assets/0.DYSnzahK.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 2,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/assets/iitbombay.G7-X2_CT.avif": {
+      "url": "https://nptel.ac.in/_app/immutable/assets/iitbombay.G7-X2_CT.avif",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/assets/iitdelhi.DAmPA8ch.avif": {
+      "url": "https://nptel.ac.in/_app/immutable/assets/iitdelhi.DAmPA8ch.avif",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/assets/iitkanpur.DfK-EVjg.avif": {
+      "url": "https://nptel.ac.in/_app/immutable/assets/iitkanpur.DfK-EVjg.avif",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/assets/iitkharagpur.C__HUKNU.avif": {
+      "url": "https://nptel.ac.in/_app/immutable/assets/iitkharagpur.C__HUKNU.avif",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/assets/iitguwahati.Cz15Awa1.avif": {
+      "url": "https://nptel.ac.in/_app/immutable/assets/iitguwahati.Cz15Awa1.avif",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/assets/iitroorkee.DLXHc0E6.avif": {
+      "url": "https://nptel.ac.in/_app/immutable/assets/iitroorkee.DLXHc0E6.avif",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/assets/iitmadras.D6XDNVlL.avif": {
+      "url": "https://nptel.ac.in/_app/immutable/assets/iitmadras.D6XDNVlL.avif",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/assets/iisbangalore.Ca2dKIYx.avif": {
+      "url": "https://nptel.ac.in/_app/immutable/assets/iisbangalore.Ca2dKIYx.avif",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/nodes/1.BBVMMAUt.js": {
+      "url": "https://nptel.ac.in/_app/immutable/nodes/1.BBVMMAUt.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/chunks/CneKBbD1.js": {
+      "url": "https://nptel.ac.in/_app/immutable/chunks/CneKBbD1.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/chunks/BaN02l0r.js": {
+      "url": "https://nptel.ac.in/_app/immutable/chunks/BaN02l0r.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/api/auth/session": {
+      "url": "https://nptel.ac.in/api/auth/session",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://nptel.ac.in/_app/immutable/chunks/D9Dy6ETF.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 2,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/_app/immutable/chunks/HHZ1VOk6.js": {
+      "url": "https://nptel.ac.in/_app/immutable/chunks/HHZ1VOk6.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://nptel.ac.in/_app/immutable/nodes/7.UBs6KOp0.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 2,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap": {
+      "url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+      "resource_type": "Stylesheet",
+      "initiator_type": "script",
+      "parent": "https://www.imprzd.com/bi/in-scol/app.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4013:800::5f]",
+      "count": 1,
+      "depth": 2,
+      "host": "fonts.googleapis.com",
+      "origin": "https://fonts.googleapis.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://www.imprzd.com/BroadcastImpression/api/feed/scrollOfLove/NTY": {
+      "url": "https://www.imprzd.com/BroadcastImpression/api/feed/scrollOfLove/NTY",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://nptel.ac.in/_app/immutable/chunks/D9Dy6ETF.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::dcb:733d]",
+      "count": 2,
+      "depth": 2,
+      "host": "www.imprzd.com",
+      "origin": "https://www.imprzd.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://fonts.gstatic.com/s/poppins/v24/pxiEyp8kv8JHgFVrJJfecg.woff2": {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiEyp8kv8JHgFVrJJfecg.woff2",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4013:807::5e]",
+      "count": 1,
+      "depth": 3,
+      "host": "fonts.gstatic.com",
+      "origin": "https://fonts.gstatic.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2": {
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4013:807::5e]",
+      "count": 1,
+      "depth": 3,
+      "host": "fonts.gstatic.com",
+      "origin": "https://fonts.gstatic.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://www.imprzd.com/BroadcastImpression/api/file/displayImageV2/POSTIMG/MjAyNi8xMC8yNC8yMDI2MTAyNDAzMTEyNTAwNzMucG5n": {
+      "url": "https://www.imprzd.com/BroadcastImpression/api/file/displayImageV2/POSTIMG/MjAyNi8xMC8yNC8yMDI2MTAyNDAzMTEyNTAwNzMucG5n",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::dcb:733d]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.imprzd.com",
+      "origin": "https://www.imprzd.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://www.imprzd.com/BroadcastImpression/api/file/displayImageV2/POSTIMG/MjAyNi8xMC8yNC8yMDI2MTAyNDAxMzE0MzAzMTUucG5n": {
+      "url": "https://www.imprzd.com/BroadcastImpression/api/file/displayImageV2/POSTIMG/MjAyNi8xMC8yNC8yMDI2MTAyNDAxMzE0MzAzMTUucG5n",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::dcb:733d]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.imprzd.com",
+      "origin": "https://www.imprzd.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://www.imprzd.com/BroadcastImpression/api/file/displayImageV2/POSTIMG/MjAyNi8xMC8yNC8yMDI2MTAyNDAxMjEzOTA5NDUucG5n": {
+      "url": "https://www.imprzd.com/BroadcastImpression/api/file/displayImageV2/POSTIMG/MjAyNi8xMC8yNC8yMDI2MTAyNDAxMjEzOTA5NDUucG5n",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::dcb:733d]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.imprzd.com",
+      "origin": "https://www.imprzd.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://www.imprzd.com/BroadcastImpression/api/file/displayImageV2/POSTIMG/MjAyNi8xMC8yNC8yMDI2MTAyNDEyNTkxNjA4NzIucG5n": {
+      "url": "https://www.imprzd.com/BroadcastImpression/api/file/displayImageV2/POSTIMG/MjAyNi8xMC8yNC8yMDI2MTAyNDEyNTkxNjA4NzIucG5n",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::dcb:733d]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.imprzd.com",
+      "origin": "https://www.imprzd.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://www.imprzd.com/BroadcastImpression/api/file/displayImageV2/POSTIMG/MjAyNi8xMC8yNC8yMDI2MTAyNDEyNTIyMzA1NDEucG5n": {
+      "url": "https://www.imprzd.com/BroadcastImpression/api/file/displayImageV2/POSTIMG/MjAyNi8xMC8yNC8yMDI2MTAyNDEyNTIyMzA1NDEucG5n",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::dcb:733d]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.imprzd.com",
+      "origin": "https://www.imprzd.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://www.imprzd.com/BroadcastImpression/api/file/displayImageV2/POSTIMG/MjAyNi8xMC8yNC8yMDI2MTAyNDEyMjUyNjAyOTQucG5n": {
+      "url": "https://www.imprzd.com/BroadcastImpression/api/file/displayImageV2/POSTIMG/MjAyNi8xMC8yNC8yMDI2MTAyNDEyMjUyNjAyOTQucG5n",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::dcb:733d]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.imprzd.com",
+      "origin": "https://www.imprzd.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://www.imprzd.com/BroadcastImpression/api/file/displayImageV2/POSTIMG/MjAyNi8xMC8yNC8yMDI2MTAyNDEyMDIwNTAzNDMucG5n": {
+      "url": "https://www.imprzd.com/BroadcastImpression/api/file/displayImageV2/POSTIMG/MjAyNi8xMC8yNC8yMDI2MTAyNDEyMDIwNTAzNDMucG5n",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::dcb:733d]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.imprzd.com",
+      "origin": "https://www.imprzd.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://www.imprzd.com/BroadcastImpression/api/file/displayImageV2/POSTIMG/MjAyNi8xMC8yNC8yMDI2MTAyNDExNDYxODAzODQucG5n": {
+      "url": "https://www.imprzd.com/BroadcastImpression/api/file/displayImageV2/POSTIMG/MjAyNi8xMC8yNC8yMDI2MTAyNDExNDYxODAzODQucG5n",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::dcb:733d]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.imprzd.com",
+      "origin": "https://www.imprzd.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://www.imprzd.com/BroadcastImpression/api/file/displayImageV2/POSTIMG/MjAyNi8xMC8yNC8yMDI2MTAyNDExNDQzNTAwMzgucG5n": {
+      "url": "https://www.imprzd.com/BroadcastImpression/api/file/displayImageV2/POSTIMG/MjAyNi8xMC8yNC8yMDI2MTAyNDExNDQzNTAwMzgucG5n",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::dcb:733d]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.imprzd.com",
+      "origin": "https://www.imprzd.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://www.imprzd.com/BroadcastImpression/api/file/displayImageV2/POSTIMG/MjAyNi8xMC8yNC8yMDI2MTAyNDExMzEwOTA2OTIucG5n": {
+      "url": "https://www.imprzd.com/BroadcastImpression/api/file/displayImageV2/POSTIMG/MjAyNi8xMC8yNC8yMDI2MTAyNDExMzEwOTA2OTIucG5n",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::dcb:733d]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.imprzd.com",
+      "origin": "https://www.imprzd.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://www.google-analytics.com/g/collect?v=2&tid=G-YBKYHPL1B9&gtm=45je6al1v873137942za208zd873137942xf1&_p=1792835030751&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=643349771.1792835042&frm=0&pscdl=noapi&rcb=6&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&_s=1&tag_exp=115938465~115938469~118897920~118897930~119793974~120213116~120385423~120469145~120469153~121246026~121246034&sid=1792835041&sct=1&seg=0&dl=https%3A%2F%2Fnptel.ac.in%2F&dt=&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=12009": {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-YBKYHPL1B9&gtm=45je6al1v873137942za208zd873137942xf1&_p=1792835030751&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=643349771.1792835042&frm=0&pscdl=noapi&rcb=6&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&_s=1&tag_exp=115938465~115938469~118897920~118897930~119793974~120213116~120385423~120469145~120469153~121246026~121246034&sid=1792835041&sct=1&seg=0&dl=https%3A%2F%2Fnptel.ac.in%2F&dt=&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=12009",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://nptel.ac.in/_app/immutable/chunks/D9Dy6ETF.js",
+      "status": 204,
+      "browser_error": "net::ERR_ABORTED",
+      "remote_ip": "[2404:6800:4013:813::71]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.google-analytics.com",
+      "origin": "https://www.google-analytics.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://nptel.ac.in/favicon.ico": {
+      "url": "https://nptel.ac.in/favicon.ico",
+      "resource_type": "Other",
+      "initiator_type": "other",
+      "parent": "https://nptel.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8e9:3158]",
+      "count": 1,
+      "depth": 1,
+      "host": "nptel.ac.in",
+      "origin": "https://nptel.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://www.youtube.com/s/player/cbcfbf2f/www-player.css": {
+      "url": "https://www.youtube.com/s/player/cbcfbf2f/www-player.css",
+      "resource_type": "stylesheet",
+      "initiator_type": "frame",
+      "parent": "https://www.youtube.com/embed/QOxsC6OBICI",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "www.youtube.com",
+      "origin": "https://www.youtube.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://www.youtube.com/s/_/ytembeds/_/ss/k=ytembeds.base.SKK5Z7LAK_Y.L.W.O/am=AAAAQA/d=1/br=1/rs=AGKMywE2gvDaiqpgAAck_AdbYTxiiYoLSQ/m=root,base": {
+      "url": "https://www.youtube.com/s/_/ytembeds/_/ss/k=ytembeds.base.SKK5Z7LAK_Y.L.W.O/am=AAAAQA/d=1/br=1/rs=AGKMywE2gvDaiqpgAAck_AdbYTxiiYoLSQ/m=root,base",
+      "resource_type": "stylesheet",
+      "initiator_type": "frame",
+      "parent": "https://www.youtube.com/embed/QOxsC6OBICI",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "www.youtube.com",
+      "origin": "https://www.youtube.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2": {
+      "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+      "resource_type": "font",
+      "initiator_type": "frame",
+      "parent": "https://www.youtube.com/embed/QOxsC6OBICI",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "fonts.gstatic.com",
+      "origin": "https://fonts.gstatic.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.IkWErumI3ck.2021.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywHKwBZQHZN85EdXcVlZmeF_dJDq7Q/m=root,base": {
+      "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.IkWErumI3ck.2021.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywHKwBZQHZN85EdXcVlZmeF_dJDq7Q/m=root,base",
+      "resource_type": "script",
+      "initiator_type": "frame",
+      "parent": "https://www.youtube.com/embed/QOxsC6OBICI",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "www.youtube.com",
+      "origin": "https://www.youtube.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://www.youtube.com/s/player/cbcfbf2f/player_embed_es6.vflset/en_GB/base.js": {
+      "url": "https://www.youtube.com/s/player/cbcfbf2f/player_embed_es6.vflset/en_GB/base.js",
+      "resource_type": "script",
+      "initiator_type": "frame",
+      "parent": "https://www.youtube.com/embed/QOxsC6OBICI",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "www.youtube.com",
+      "origin": "https://www.youtube.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://googleads.g.doubleclick.net/pagead/id": {
+      "url": "https://googleads.g.doubleclick.net/pagead/id",
+      "resource_type": "xhr",
+      "initiator_type": "frame",
+      "parent": "https://www.youtube.com/embed/20n_KqaPP7Q",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "googleads.g.doubleclick.net",
+      "origin": "https://googleads.g.doubleclick.net:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://static.doubleclick.net/instream/ad_status.js": {
+      "url": "https://static.doubleclick.net/instream/ad_status.js",
+      "resource_type": "script",
+      "initiator_type": "frame",
+      "parent": "https://www.youtube.com/embed/20n_KqaPP7Q",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "static.doubleclick.net",
+      "origin": "https://static.doubleclick.net:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.IkWErumI3ck.2021.O/ck=ytembeds.base.SKK5Z7LAK_Y.L.W.O/am=AAAAQA/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywFLt1TGolnkeIGDW4a_JBsoaJYKKQ/m=r78Drb": {
+      "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.IkWErumI3ck.2021.O/ck=ytembeds.base.SKK5Z7LAK_Y.L.W.O/am=AAAAQA/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywFLt1TGolnkeIGDW4a_JBsoaJYKKQ/m=r78Drb",
+      "resource_type": "script",
+      "initiator_type": "frame",
+      "parent": "https://www.youtube.com/embed/20n_KqaPP7Q",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "www.youtube.com",
+      "origin": "https://www.youtube.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://www.google.com/js/th/pxwG18Euy-n6Uq6PY9vb4Ohp58yKH_56NpBvs6fBnH8.js": {
+      "url": "https://www.google.com/js/th/pxwG18Euy-n6Uq6PY9vb4Ohp58yKH_56NpBvs6fBnH8.js",
+      "resource_type": "script",
+      "initiator_type": "frame",
+      "parent": "https://www.youtube.com/embed/20n_KqaPP7Q",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "www.google.com",
+      "origin": "https://www.google.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1": {
+      "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
+      "resource_type": "xhr",
+      "initiator_type": "frame",
+      "parent": "https://www.youtube.com/embed/20n_KqaPP7Q",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "googleads.g.doubleclick.net",
+      "origin": "https://googleads.g.doubleclick.net:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://i.ytimg.com/vi_webp/QOxsC6OBICI/maxresdefault.webp": {
+      "url": "https://i.ytimg.com/vi_webp/QOxsC6OBICI/maxresdefault.webp",
+      "resource_type": "image",
+      "initiator_type": "frame",
+      "parent": "https://www.youtube.com/embed/QOxsC6OBICI",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "i.ytimg.com",
+      "origin": "https://i.ytimg.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://i.ytimg.com/vi/20n_KqaPP7Q/maxresdefault.jpg": {
+      "url": "https://i.ytimg.com/vi/20n_KqaPP7Q/maxresdefault.jpg",
+      "resource_type": "image",
+      "initiator_type": "frame",
+      "parent": "https://www.youtube.com/embed/20n_KqaPP7Q",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "i.ytimg.com",
+      "origin": "https://i.ytimg.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://www.youtube.com/youtubei/v1/log_event?alt=json": {
+      "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+      "resource_type": "xhr",
+      "initiator_type": "frame",
+      "parent": "https://www.youtube.com/embed/QOxsC6OBICI",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "www.youtube.com",
+      "origin": "https://www.youtube.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://www.youtube.com/generate_204?MgXPtw": {
+      "url": "https://www.youtube.com/generate_204?MgXPtw",
+      "resource_type": "image",
+      "initiator_type": "frame",
+      "parent": "https://www.youtube.com/embed/20n_KqaPP7Q",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "www.youtube.com",
+      "origin": "https://www.youtube.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://www.youtube.com/generate_204?qDEIbA": {
+      "url": "https://www.youtube.com/generate_204?qDEIbA",
+      "resource_type": "image",
+      "initiator_type": "frame",
+      "parent": "https://www.youtube.com/embed/QOxsC6OBICI",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "www.youtube.com",
+      "origin": "https://www.youtube.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://nptel.ac.in/"
+    },
+    "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT": {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "resource_type": "xhr",
+      "initiator_type": "frame",
+      "parent": "https://www.youtube.com/embed/QOxsC6OBICI",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "jnn-pa.googleapis.com",
+      "origin": "https://jnn-pa.googleapis.com:443",
+      "third_party": true,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_404",
+      "critical": true,
+      "blocked_by": "https://nptel.ac.in/"
+    }
+  },
+  "origins": {
+    "https://nptel.ac.in:443": {
+      "origin": "https://nptel.ac.in:443",
+      "host": "nptel.ac.in",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://nptel.ac.in/",
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "64:ff9b::8e9:3158"
+          ],
+          "cname_chain": [],
+          "ttl": 252,
+          "ms": 62.0,
+          "synthesized": true
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "64:ff9b::8e9:3158",
+              "ok": true,
+              "ms": 67.6
+            }
+          ],
+          "shim": false,
+          "addr": "64:ff9b::8e9:3158"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "nptel.ac.in",
+          "cert_not_after": "Dec 25 01:13:12 2026 GMT",
+          "ms": 247.3
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "Google Frontend",
+          "ms": 270.2,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "8.233.49.88"
+          ],
+          "cname_chain": [],
+          "ttl": 44,
+          "ms": 10.0
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "8.233.49.88",
+              "ok": true,
+              "ms": 106.8
+            }
+          ],
+          "shim": false,
+          "addr": "8.233.49.88"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "nptel.ac.in",
+          "cert_not_after": "Dec 25 01:13:12 2026 GMT",
+          "ms": 227.2
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "Google Frontend",
+          "ms": 187.0,
+          "ok": true
+        }
+      }
+    },
+    "https://www.imprzd.com:443": {
+      "origin": "https://www.imprzd.com:443",
+      "host": "www.imprzd.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.imprzd.com/bi/in-scol/app.js",
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "64:ff9b::dcb:733d",
+            "64:ff9b::307:31ca",
+            "64:ff9b::239a:4543"
+          ],
+          "cname_chain": [
+            "albprd-2010171805.ap-south-1.elb.amazonaws.com"
+          ],
+          "ttl": 1,
+          "ms": 94.6,
+          "synthesized": true
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "64:ff9b::dcb:733d",
+              "ok": true,
+              "ms": 154.1
+            }
+          ],
+          "shim": false,
+          "addr": "64:ff9b::dcb:733d"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.2",
+          "cipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "cert_cn": "www.imprzd.com",
+          "cert_not_after": "Dec 24 23:59:59 2026 GMT",
+          "ms": 410.7
+        },
+        "http": {
+          "status": 200,
+          "reason": "",
+          "location": null,
+          "server": null,
+          "ms": 153.1,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "13.203.115.61",
+            "3.7.49.202",
+            "35.154.69.67"
+          ],
+          "cname_chain": [
+            "albprd-2010171805.ap-south-1.elb.amazonaws.com"
+          ],
+          "ttl": 1,
+          "ms": 101.3
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "13.203.115.61",
+              "ok": true,
+              "ms": 152.2
+            }
+          ],
+          "shim": false,
+          "addr": "13.203.115.61"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.2",
+          "cipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "cert_cn": "www.imprzd.com",
+          "cert_not_after": "Dec 24 23:59:59 2026 GMT",
+          "ms": 214.9
+        },
+        "http": {
+          "status": 200,
+          "reason": "",
+          "location": null,
+          "server": null,
+          "ms": 97.1,
+          "ok": true
+        }
+      }
+    },
+    "https://www.googletagmanager.com:443": {
+      "origin": "https://www.googletagmanager.com:443",
+      "host": "www.googletagmanager.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.googletagmanager.com/gtag/js?id=G-YBKYHPL1B9",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4013:804::61"
+          ],
+          "cname_chain": [],
+          "ttl": 201,
+          "ms": 27.0,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2404:6800:4013:804::61",
+              "ok": true,
+              "ms": 101.5
+            }
+          ],
+          "shim": false,
+          "addr": "2404:6800:4013:804::61"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google-analytics.com",
+          "cert_not_after": "Dec 21 18:38:19 2026 GMT",
+          "ms": 218.0
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "Google Tag Manager",
+          "ms": 318.5,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.250.122.97"
+          ],
+          "cname_chain": [],
+          "ttl": 196,
+          "ms": 24.0
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.250.122.97",
+              "ok": true,
+              "ms": 75.1
+            }
+          ],
+          "shim": false,
+          "addr": "142.250.122.97"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google-analytics.com",
+          "cert_not_after": "Dec 21 18:38:19 2026 GMT",
+          "ms": 227.9
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "Google Tag Manager",
+          "ms": 269.1,
+          "ok": true
+        }
+      }
+    },
+    "https://www.youtube.com:443": {
+      "origin": "https://www.youtube.com:443",
+      "host": "www.youtube.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.youtube.com/embed/QOxsC6OBICI",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2001:4860:482c:400::",
+            "2001:4860:4829:400::",
+            "2001:4860:482b:400::",
+            "2001:4860:482a:400::",
+            "2001:4860:4827:400::",
+            "2001:4860:4828:400::",
+            "2001:4860:482d:400::",
+            "2001:4860:4826:400::"
+          ],
+          "cname_chain": [],
+          "ttl": 107,
+          "ms": 28.2,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2001:4860:482c:400::",
+              "ok": true,
+              "ms": 100.0
+            }
+          ],
+          "shim": false,
+          "addr": "2001:4860:482c:400::"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google.com",
+          "cert_not_after": "Dec 21 18:38:32 2026 GMT",
+          "ms": 254.4
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "ESF",
+          "ms": 463.8,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.251.150.4",
+            "142.251.156.4",
+            "142.251.151.4",
+            "142.251.152.4",
+            "142.251.155.4",
+            "142.251.154.4",
+            "142.251.153.4",
+            "142.251.157.4"
+          ],
+          "cname_chain": [],
+          "ttl": 120,
+          "ms": 17.3
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.251.150.4",
+              "ok": true,
+              "ms": 127.5
+            }
+          ],
+          "shim": false,
+          "addr": "142.251.150.4"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google.com",
+          "cert_not_after": "Dec 21 18:38:32 2026 GMT",
+          "ms": 189.3
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "ESF",
+          "ms": 2069.3,
+          "ok": true
+        }
+      }
+    },
+    "https://fonts.googleapis.com:443": {
+      "origin": "https://fonts.googleapis.com:443",
+      "host": "fonts.googleapis.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4013:800::5f"
+          ],
+          "cname_chain": [],
+          "ttl": 99,
+          "ms": 34.3,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2404:6800:4013:800::5f",
+              "ok": true,
+              "ms": 179.4
+            }
+          ],
+          "shim": false,
+          "addr": "2404:6800:4013:800::5f"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "upload.video.google.com",
+          "cert_not_after": "Dec 21 18:40:11 2026 GMT",
+          "ms": 174.7
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "ESF",
+          "ms": 462.8,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "192.178.158.95"
+          ],
+          "cname_chain": [],
+          "ttl": 114,
+          "ms": 12.9
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "192.178.158.95",
+              "ok": true,
+              "ms": 95.9
+            }
+          ],
+          "shim": false,
+          "addr": "192.178.158.95"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "upload.video.google.com",
+          "cert_not_after": "Dec 21 18:40:11 2026 GMT",
+          "ms": 206.1
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "ESF",
+          "ms": 291.9,
+          "ok": true
+        }
+      }
+    },
+    "https://fonts.gstatic.com:443": {
+      "origin": "https://fonts.gstatic.com:443",
+      "host": "fonts.gstatic.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://fonts.gstatic.com/s/poppins/v24/pxiEyp8kv8JHgFVrJJfecg.woff2",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4013:807::5e"
+          ],
+          "cname_chain": [],
+          "ttl": 117,
+          "ms": 26.3,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2404:6800:4013:807::5e",
+              "ok": true,
+              "ms": 100.6
+            }
+          ],
+          "shim": false,
+          "addr": "2404:6800:4013:807::5e"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.gstatic.com",
+          "cert_not_after": "Dec 21 18:40:05 2026 GMT",
+          "ms": 224.2
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "sffe",
+          "ms": 290.2,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "192.178.177.94"
+          ],
+          "cname_chain": [],
+          "ttl": 118,
+          "ms": 12.6
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "192.178.177.94",
+              "ok": true,
+              "ms": 107.0
+            }
+          ],
+          "shim": false,
+          "addr": "192.178.177.94"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.gstatic.com",
+          "cert_not_after": "Dec 21 18:40:05 2026 GMT",
+          "ms": 116.3
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "sffe",
+          "ms": 185.6,
+          "ok": true
+        }
+      }
+    },
+    "https://www.google-analytics.com:443": {
+      "origin": "https://www.google-analytics.com:443",
+      "host": "www.google-analytics.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.google-analytics.com/g/collect?v=2&tid=G-YBKYHPL1B9&gtm=45je6al1v873137942za208zd873137942xf1&_p=1792835030751&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=643349771.1792835042&frm=0&pscdl=noapi&rcb=6&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&_s=1&tag_exp=115938465~115938469~118897920~118897930~119793974~120213116~120385423~120469145~120469153~121246026~121246034&sid=1792835041&sct=1&seg=0&dl=https%3A%2F%2Fnptel.ac.in%2F&dt=&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=12009",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4013:813::65",
+            "2404:6800:4013:813::71",
+            "2404:6800:4013:813::8a",
+            "2404:6800:4013:813::64"
+          ],
+          "cname_chain": [],
+          "ttl": 167,
+          "ms": 26.1,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2404:6800:4013:813::65",
+              "ok": true,
+              "ms": 135.3
+            }
+          ],
+          "shim": false,
+          "addr": "2404:6800:4013:813::65"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google-analytics.com",
+          "cert_not_after": "Dec 21 18:38:19 2026 GMT",
+          "ms": 235.1
+        },
+        "http": {
+          "status": 204,
+          "reason": "No Content",
+          "location": null,
+          "server": "Golfe2",
+          "ms": 483.0,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "172.217.24.14"
+          ],
+          "cname_chain": [],
+          "ttl": 91,
+          "ms": 4.1
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "172.217.24.14",
+              "ok": true,
+              "ms": 106.1
+            }
+          ],
+          "shim": false,
+          "addr": "172.217.24.14"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google-analytics.com",
+          "cert_not_after": "Dec 21 18:38:19 2026 GMT",
+          "ms": 220.0
+        },
+        "http": {
+          "status": 204,
+          "reason": "No Content",
+          "location": null,
+          "server": "Golfe2",
+          "ms": 281.7,
+          "ok": true
+        }
+      }
+    },
+    "https://googleads.g.doubleclick.net:443": {
+      "origin": "https://googleads.g.doubleclick.net:443",
+      "host": "googleads.g.doubleclick.net",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://googleads.g.doubleclick.net/pagead/id",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4013:800::9c",
+            "2404:6800:4013:800::9b",
+            "2404:6800:4013:800::9d",
+            "2404:6800:4013:800::9a"
+          ],
+          "cname_chain": [],
+          "ttl": 199,
+          "ms": 31.8,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2404:6800:4013:800::9c",
+              "ok": true,
+              "ms": 94.6
+            }
+          ],
+          "shim": false,
+          "addr": "2404:6800:4013:800::9c"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.g.doubleclick.net",
+          "cert_not_after": "Dec 21 18:38:12 2026 GMT",
+          "ms": 222.6
+        },
+        "http": {
+          "status": 302,
+          "reason": "Found",
+          "location": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
+          "server": "cafe",
+          "ms": 413.4,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.250.122.154",
+            "142.250.122.155",
+            "142.250.122.157",
+            "142.250.122.156"
+          ],
+          "cname_chain": [],
+          "ttl": 97,
+          "ms": 45.3
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.250.122.154",
+              "ok": true,
+              "ms": 90.6
+            }
+          ],
+          "shim": false,
+          "addr": "142.250.122.154"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.g.doubleclick.net",
+          "cert_not_after": "Dec 21 18:38:12 2026 GMT",
+          "ms": 163.1
+        },
+        "http": {
+          "status": 302,
+          "reason": "Found",
+          "location": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
+          "server": "cafe",
+          "ms": 294.6,
+          "ok": true
+        }
+      }
+    },
+    "https://static.doubleclick.net:443": {
+      "origin": "https://static.doubleclick.net:443",
+      "host": "static.doubleclick.net",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://static.doubleclick.net/instream/ad_status.js",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4013:802::95",
+            "2404:6800:4013:802::94"
+          ],
+          "cname_chain": [],
+          "ttl": 199,
+          "ms": 26.1,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2404:6800:4013:802::95",
+              "ok": true,
+              "ms": 185.4
+            }
+          ],
+          "shim": false,
+          "addr": "2404:6800:4013:802::95"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.doubleclick.net",
+          "cert_not_after": "Dec 21 18:38:02 2026 GMT",
+          "ms": 178.7
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "sffe",
+          "ms": 416.1,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.250.122.149",
+            "142.250.122.148"
+          ],
+          "cname_chain": [],
+          "ttl": 99,
+          "ms": 39.3
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.250.122.149",
+              "ok": true,
+              "ms": 142.2
+            }
+          ],
+          "shim": false,
+          "addr": "142.250.122.149"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.doubleclick.net",
+          "cert_not_after": "Dec 21 18:38:02 2026 GMT",
+          "ms": 176.7
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "sffe",
+          "ms": 200.7,
+          "ok": true
+        }
+      }
+    },
+    "https://www.google.com:443": {
+      "origin": "https://www.google.com:443",
+      "host": "www.google.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.google.com/js/th/pxwG18Euy-n6Uq6PY9vb4Ohp58yKH_56NpBvs6fBnH8.js",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2001:4860:4829:7700::",
+            "2001:4860:482a:7700::",
+            "2001:4860:482d:7700::",
+            "2001:4860:4828:7700::",
+            "2001:4860:4826:7700::",
+            "2001:4860:4827:7700::",
+            "2001:4860:482b:7700::",
+            "2001:4860:482c:7700::"
+          ],
+          "cname_chain": [],
+          "ttl": 100,
+          "ms": 30.6,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2001:4860:4829:7700::",
+              "ok": true,
+              "ms": 94.0
+            }
+          ],
+          "shim": false,
+          "addr": "2001:4860:4829:7700::"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "www.google.com",
+          "cert_not_after": "Dec 21 18:41:20 2026 GMT",
+          "ms": 257.8
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "sffe",
+          "ms": 261.5,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.251.153.119",
+            "142.251.152.119",
+            "142.251.151.119",
+            "142.251.155.119",
+            "142.251.156.119",
+            "142.251.154.119",
+            "142.251.157.119",
+            "142.251.150.119"
+          ],
+          "cname_chain": [],
+          "ttl": 116,
+          "ms": 8.9
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.251.153.119",
+              "ok": true,
+              "ms": 120.3
+            }
+          ],
+          "shim": false,
+          "addr": "142.251.153.119"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "www.google.com",
+          "cert_not_after": "Dec 21 18:41:20 2026 GMT",
+          "ms": 212.7
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "sffe",
+          "ms": 171.8,
+          "ok": true
+        }
+      }
+    },
+    "https://i.ytimg.com:443": {
+      "origin": "https://i.ytimg.com:443",
+      "host": "i.ytimg.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://i.ytimg.com/vi_webp/QOxsC6OBICI/maxresdefault.webp",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2001:4860:4822:600::",
+            "2001:4860:4821:600::",
+            "2001:4860:4831:600::",
+            "2001:4860:4830:600::",
+            "2001:4860:4820:600::",
+            "2001:4860:4825:600::",
+            "2001:4860:4823:600::",
+            "2001:4860:4824:600::"
+          ],
+          "cname_chain": [],
+          "ttl": 241,
+          "ms": 32.8,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2001:4860:4822:600::",
+              "ok": true,
+              "ms": 166.3
+            }
+          ],
+          "shim": false,
+          "addr": "2001:4860:4822:600::"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google.com",
+          "cert_not_after": "Dec 21 18:38:00 2026 GMT",
+          "ms": 257.4
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "sffe",
+          "ms": 386.5,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "172.253.118.119",
+            "74.125.24.119",
+            "172.217.194.119",
+            "142.251.12.119",
+            "142.251.10.119",
+            "74.125.68.119",
+            "74.125.130.119",
+            "74.125.200.119",
+            "142.251.175.119",
+            "64.233.170.119",
+            "142.250.4.119"
+          ],
+          "cname_chain": [],
+          "ttl": 71,
+          "ms": 16.1
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "172.253.118.119",
+              "ok": true,
+              "ms": 185.5
+            }
+          ],
+          "shim": false,
+          "addr": "172.253.118.119"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "edgestatic.com",
+          "cert_not_after": "Dec 21 18:37:57 2026 GMT",
+          "ms": 160.2
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "sffe",
+          "ms": 290.3,
+          "ok": true
+        }
+      }
+    },
+    "https://jnn-pa.googleapis.com:443": {
+      "origin": "https://jnn-pa.googleapis.com:443",
+      "host": "jnn-pa.googleapis.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_404",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "http",
+        "failure_code": "HTTP_404",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2001:4860:4842:400::",
+            "2001:4860:4840:400::",
+            "2001:4860:4844:400::",
+            "2001:4860:4841:400::",
+            "2001:4860:4845:400::",
+            "2001:4860:4846:400::",
+            "2001:4860:4843:400::",
+            "2001:4860:4847:400::"
+          ],
+          "cname_chain": [],
+          "ttl": 251,
+          "ms": 32.9,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2001:4860:4842:400::",
+              "ok": true,
+              "ms": 156.9
+            }
+          ],
+          "shim": false,
+          "addr": "2001:4860:4842:400::"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "upload.video.google.com",
+          "cert_not_after": "Dec 21 18:40:11 2026 GMT",
+          "ms": 200.0
+        },
+        "http": {
+          "status": 404,
+          "reason": "Not Found",
+          "location": null,
+          "server": "ESF",
+          "ms": 454.4,
+          "ok": false
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": "http",
+        "failure_code": "HTTP_404",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "172.217.112.4",
+            "172.217.117.4",
+            "172.217.116.4",
+            "172.217.115.4",
+            "172.217.114.4",
+            "172.217.119.4",
+            "172.217.113.4",
+            "172.217.118.4"
+          ],
+          "cname_chain": [],
+          "ttl": 5,
+          "ms": 14.2
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "172.217.112.4",
+              "ok": true,
+              "ms": 96.6
+            }
+          ],
+          "shim": false,
+          "addr": "172.217.112.4"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "upload.video.google.com",
+          "cert_not_after": "Dec 21 18:40:11 2026 GMT",
+          "ms": 205.9
+        },
+        "http": {
+          "status": 404,
+          "reason": "Not Found",
+          "location": null,
+          "server": "ESF",
+          "ms": 297.5,
+          "ok": false
+        }
+      }
+    }
+  },
+  "site": {
+    "category": "Education",
+    "name": "NPTEL",
+    "url": "https://nptel.ac.in/"
+  }
+}

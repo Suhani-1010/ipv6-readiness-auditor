@@ -1,0 +1,2505 @@
+{
+  "schema": "ipv6-readiness-audit/1",
+  "page": "https://uidai.gov.in/",
+  "final_url": "https://uidai.gov.in/en",
+  "started_utc": "2026-10-19T05:36:30+00:00",
+  "load_seconds": 12.3,
+  "vantage": {
+    "nat64_prefixes": [],
+    "ipv6_stack": true,
+    "ipv6_default_route": false,
+    "ipv4_default_route": true,
+    "lab_v6_shim": false,
+    "pathway": "ipv4-only"
+  },
+  "capture_errors": [],
+  "summary": {
+    "page_verdict": "NOT_READY",
+    "root_verdict": "IPV4_ONLY",
+    "root_has_aaaa": false,
+    "resources_total": 90,
+    "origins_total": 5,
+    "resources_by_verdict": {
+      "IPV4_ONLY": 86,
+      "INCONCLUSIVE_NO_IPV6": 4
+    },
+    "origins_by_verdict": {
+      "IPV4_ONLY": 3,
+      "INCONCLUSIVE_NO_IPV6": 2
+    },
+    "ipv6_failures_by_stage": {
+      "dns": 3
+    },
+    "ipv6_failing_resources": 86,
+    "inconclusive_resources": 4,
+    "ipv6_failing_critical": 44,
+    "ipv6_failing_third_party": 3,
+    "resource_ipv6_ready_pct": 0.0,
+    "ipv4_only_hosts": [
+      "backend.uidai.gov.in",
+      "translation-plugin.bhashini.co.in",
+      "uidai.gov.in"
+    ],
+    "aaaa_but_broken_hosts": [],
+    "root_host": "uidai.gov.in"
+  },
+  "tree": {
+    "root": "https://uidai.gov.in/",
+    "edges": [
+      [
+        "https://uidai.gov.in/",
+        "https://uidai.gov.in/en"
+      ],
+      [
+        "https://uidai.gov.in/",
+        "https://uidai.gov.in/_next/static/media/1755441e3a2fa970-s.p.woff2"
+      ],
+      [
+        "https://uidai.gov.in/",
+        "https://uidai.gov.in/_next/static/css/c53e31056a854737.css"
+      ],
+      [
+        "https://uidai.gov.in/",
+        "https://uidai.gov.in/_next/static/css/02405c06b6426716.css"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/webpack-6c28624086dbe3f6.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/4bd1b696-100b9d70ed4e49c1.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/1255-9b85e6331cb20dbd.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/main-app-234525b5e3ddebfb.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/app/global-error-b79c574f468baaec.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/5615-2897a35d79332ebd.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/6978-3aa6440512f3ffd5.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/3720-048837a67babd2b9.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/93-039f0ea9e3ebeeca.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/2077-66ebd9eb8ffee4eb.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/3894-ad97fd39e5fbc2d2.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/app/layout-c8aad115af93ee81.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/app/not-found-74f32c289901a8e5.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/690-53379676e8d898fe.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/1543-370208647ded216e.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/5070-3908a46da19eb27f.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/2099-fda4910b2dfa0a9c.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/9353-f65e63aa97ff7a26.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/114-46aa325d6ecaa607.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/8548-75f6228b2a625ee6.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/925-06f2757b55f20acf.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/9265-16f8c3676200a5df.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/3530-fb955d4a6a3412b8.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/5984-dc3d30d25b139457.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/3210-ed1b229a8dbd74d9.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/app/(locale)/page-ed5145453b24f73d.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/6206-348ca97ae28a677e.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/2218-dc04d7f8ff64996c.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/8538-07dfb766fb86b7fb.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/3866-da2dbacd5a77c49d.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/3495-5c83e9f1cf9c0cbc.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/3077-686b6c52a2a3e953.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/8603-d58eb7cbdd151ea1.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/app/(locale)/layout-a0a43aabbc98d43f.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/app/(locale)/error-08cb56fa0ad99555.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/_next/static/chunks/app/(locale)/not-found-f827c174dde075a1.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/assets/logo/logoWithTitle.svg"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://backend.uidai.gov.in/get/files/media/document/2026-09/playbook-desktop.webp"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/assets/svgs/footerbackground.svg"
+      ],
+      [
+        "https://uidai.gov.in/_next/static/css/c53e31056a854737.css",
+        "https://uidai.gov.in/_next/static/media/30d74baa196fe88a-s.woff2"
+      ],
+      [
+        "https://uidai.gov.in/_next/static/css/c53e31056a854737.css",
+        "https://uidai.gov.in/_next/static/media/77c207b095007c34-s.woff2"
+      ],
+      [
+        "https://uidai.gov.in/_next/static/css/c53e31056a854737.css",
+        "https://uidai.gov.in/_next/static/media/bd82c78e5b7b3fe9-s.woff2"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://backend.uidai.gov.in/get/files/media/document/2026-06/desktop-aadhaar.webp"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/assets/dashboard/stats_banner_bg.svg"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://backend.uidai.gov.in/get/files/media/2026-04/work_at_uidai_bg.webp"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/assets/svgs/arrow_right.svg"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://backend.uidai.gov.in/get/files/media/2026-04/come_build_with_us_bg.webp"
+      ],
+      [
+        "https://uidai.gov.in/_next/static/css/c53e31056a854737.css",
+        "https://uidai.gov.in/_next/static/media/bf3469fb4390326b-s.woff2"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/assets/svgs/screen-reader.svg"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/Vector.svg"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://backend.uidai.gov.in/get/files/media/2026-06/Icon.svg"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://backend.uidai.gov.in/get/files/media/2026-04/Icon.svg"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://backend.uidai.gov.in/get/files/media/2026-04/Frame.svg"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://backend.uidai.gov.in/get/files/media/2026-04/build_with_us.svg"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://backend.uidai.gov.in/get/files/media/2026-05/media.svg"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://backend.uidai.gov.in/get/files/media/2026-04/documents_0.svg"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://backend.uidai.gov.in/get/files/media/2026-04/help.svg"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/assets/svgs/backgroundServiceTop.webp"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/assets/svgs/backgroundServiceBottom.webp"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/assets/svgs/icons/ArrowLeftBlue.svg"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://backend.uidai.gov.in/get/files/media/2026-04/download_aadhaar.svg"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/assets/svgs/icons/RoundArrow.svg"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://backend.uidai.gov.in/get/files/media/2026-04/Vector_1.svg"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://backend.uidai.gov.in/get/files/media/2026-04/biometrics.svg"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://backend.uidai.gov.in/get/files/media/2026-04/check_update_status.svg"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://backend.uidai.gov.in/get/files/media/2026-04/phone.svg"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://uidai.gov.in/chatbot-logo.webp"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://backend.uidai.gov.in/get/files/media/2026-04/barcode.webp"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://backend.uidai.gov.in/get/files/media/2026-04/appstore_logo_0.webp"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://backend.uidai.gov.in/get/files/media/2026-04/googleplay_logo_0.webp"
+      ],
+      [
+        "https://uidai.gov.in/_next/static/css/c53e31056a854737.css",
+        "https://uidai.gov.in/_next/static/media/5b22c9edf7b0ed60-s.woff2"
+      ],
+      [
+        "https://uidai.gov.in/_next/static/css/c53e31056a854737.css",
+        "https://uidai.gov.in/_next/static/media/ed873e0918d65364-s.woff2"
+      ],
+      [
+        "https://uidai.gov.in/_next/static/chunks/webpack-6c28624086dbe3f6.js",
+        "https://uidai.gov.in/_next/static/chunks/9983-33b42befa11a7c1c.js"
+      ],
+      [
+        "https://uidai.gov.in/_next/static/chunks/webpack-6c28624086dbe3f6.js",
+        "https://uidai.gov.in/_next/static/chunks/3379.ed89c6fd9cb83ef6.js"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://backend.uidai.gov.in/get/files/media/document/2026-06/banner-1_0.webp"
+      ],
+      [
+        "https://uidai.gov.in/en",
+        "https://backend.uidai.gov.in/get/files/media/document/2026-07/SITAA_Banner_desktop_0.webp"
+      ],
+      [
+        "https://uidai.gov.in/_next/static/chunks/93-039f0ea9e3ebeeca.js",
+        "https://www.googletagmanager.com/gtm.js?id=GTM-PMPV4ZLJ"
+      ],
+      [
+        "https://uidai.gov.in/_next/static/chunks/93-039f0ea9e3ebeeca.js",
+        "https://translation-plugin.bhashini.co.in/website_translation_utility.js"
+      ],
+      [
+        "https://uidai.gov.in/",
+        "https://uidai.gov.in/favicon.ico"
+      ],
+      [
+        "https://translation-plugin.bhashini.co.in/website_translation_utility.js",
+        "https://translation-plugin.bhashini.co.in/website_translation_utility.css"
+      ],
+      [
+        "https://uidai.gov.in/",
+        "https://translation-plugin.bhashini.co.in/bhashini_logo.png"
+      ],
+      [
+        "https://www.googletagmanager.com/gtm.js?id=GTM-PMPV4ZLJ",
+        "https://www.googletagmanager.com/gtag/js?id=G-0TGWE4YZ20&cx=c&gtm=4e6ae1"
+      ],
+      [
+        "https://www.googletagmanager.com/gtm.js?id=GTM-PMPV4ZLJ",
+        "https://www.googletagmanager.com/gtag/js?id=G-3HXPQVCFM7&cx=c&gtm=4e6ae1"
+      ],
+      [
+        "https://www.googletagmanager.com/gtag/js?id=G-0TGWE4YZ20&cx=c&gtm=4e6ae1",
+        "https://www.google-analytics.com/g/collect?v=2&tid=G-0TGWE4YZ20&gtm=45je6ae1v9254288450za20ozb9254248741zd9254248741xf1&_p=1792388194276&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=817754880.1792388199&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-in&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&sid=1792388198&sct=1&seg=0&dl=https%3A%2F%2Fuidai.gov.in%2Fen&dt=Home%20-%20Unique%20Identification%20Authority%20of%20India%20%7C%20Government%20of%20India%20-%20Unique%20Identification%20Authority%20of%20India%20%7C%20Government%20of%20India&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=7030"
+      ],
+      [
+        "https://uidai.gov.in/",
+        "https://backend.uidai.gov.in/get/files/media/document/2026-06/My-aadhaar-new-look-desktop.webp"
+      ]
+    ]
+  },
+  "resources": {
+    "https://uidai.gov.in/": {
+      "url": "https://uidai.gov.in/",
+      "resource_type": "Document",
+      "initiator_type": "other",
+      "parent": null,
+      "status": 307,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 0,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://uidai.gov.in/en": {
+      "url": "https://uidai.gov.in/en",
+      "resource_type": "Document",
+      "initiator_type": "redirect",
+      "parent": "https://uidai.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 1,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/media/1755441e3a2fa970-s.p.woff2": {
+      "url": "https://uidai.gov.in/_next/static/media/1755441e3a2fa970-s.p.woff2",
+      "resource_type": "Font",
+      "initiator_type": "other",
+      "parent": "https://uidai.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 1,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/css/c53e31056a854737.css": {
+      "url": "https://uidai.gov.in/_next/static/css/c53e31056a854737.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "other",
+      "parent": "https://uidai.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 1,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/css/02405c06b6426716.css": {
+      "url": "https://uidai.gov.in/_next/static/css/02405c06b6426716.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "other",
+      "parent": "https://uidai.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 1,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/webpack-6c28624086dbe3f6.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/webpack-6c28624086dbe3f6.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/4bd1b696-100b9d70ed4e49c1.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/4bd1b696-100b9d70ed4e49c1.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/1255-9b85e6331cb20dbd.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/1255-9b85e6331cb20dbd.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/main-app-234525b5e3ddebfb.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/main-app-234525b5e3ddebfb.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/app/global-error-b79c574f468baaec.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/app/global-error-b79c574f468baaec.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/5615-2897a35d79332ebd.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/5615-2897a35d79332ebd.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/6978-3aa6440512f3ffd5.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/6978-3aa6440512f3ffd5.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/3720-048837a67babd2b9.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/3720-048837a67babd2b9.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/93-039f0ea9e3ebeeca.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/93-039f0ea9e3ebeeca.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/2077-66ebd9eb8ffee4eb.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/2077-66ebd9eb8ffee4eb.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/3894-ad97fd39e5fbc2d2.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/3894-ad97fd39e5fbc2d2.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/app/layout-c8aad115af93ee81.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/app/layout-c8aad115af93ee81.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/app/not-found-74f32c289901a8e5.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/app/not-found-74f32c289901a8e5.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/690-53379676e8d898fe.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/690-53379676e8d898fe.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/1543-370208647ded216e.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/1543-370208647ded216e.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/5070-3908a46da19eb27f.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/5070-3908a46da19eb27f.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/2099-fda4910b2dfa0a9c.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/2099-fda4910b2dfa0a9c.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/9353-f65e63aa97ff7a26.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/9353-f65e63aa97ff7a26.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/114-46aa325d6ecaa607.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/114-46aa325d6ecaa607.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/8548-75f6228b2a625ee6.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/8548-75f6228b2a625ee6.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/925-06f2757b55f20acf.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/925-06f2757b55f20acf.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/9265-16f8c3676200a5df.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/9265-16f8c3676200a5df.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/3530-fb955d4a6a3412b8.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/3530-fb955d4a6a3412b8.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/5984-dc3d30d25b139457.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/5984-dc3d30d25b139457.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/3210-ed1b229a8dbd74d9.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/3210-ed1b229a8dbd74d9.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/app/(locale)/page-ed5145453b24f73d.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/app/(locale)/page-ed5145453b24f73d.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/6206-348ca97ae28a677e.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/6206-348ca97ae28a677e.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/2218-dc04d7f8ff64996c.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/2218-dc04d7f8ff64996c.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/8538-07dfb766fb86b7fb.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/8538-07dfb766fb86b7fb.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/3866-da2dbacd5a77c49d.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/3866-da2dbacd5a77c49d.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/3495-5c83e9f1cf9c0cbc.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/3495-5c83e9f1cf9c0cbc.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/3077-686b6c52a2a3e953.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/3077-686b6c52a2a3e953.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/8603-d58eb7cbdd151ea1.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/8603-d58eb7cbdd151ea1.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/app/(locale)/layout-a0a43aabbc98d43f.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/app/(locale)/layout-a0a43aabbc98d43f.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/app/(locale)/error-08cb56fa0ad99555.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/app/(locale)/error-08cb56fa0ad99555.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/app/(locale)/not-found-f827c174dde075a1.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/app/(locale)/not-found-f827c174dde075a1.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/assets/logo/logoWithTitle.svg": {
+      "url": "https://uidai.gov.in/assets/logo/logoWithTitle.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://backend.uidai.gov.in/get/files/media/document/2026-09/playbook-desktop.webp": {
+      "url": "https://backend.uidai.gov.in/get/files/media/document/2026-09/playbook-desktop.webp",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.31",
+      "count": 1,
+      "depth": 2,
+      "host": "backend.uidai.gov.in",
+      "origin": "https://backend.uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/assets/svgs/footerbackground.svg": {
+      "url": "https://uidai.gov.in/assets/svgs/footerbackground.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/media/30d74baa196fe88a-s.woff2": {
+      "url": "https://uidai.gov.in/_next/static/media/30d74baa196fe88a-s.woff2",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/_next/static/css/c53e31056a854737.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/media/77c207b095007c34-s.woff2": {
+      "url": "https://uidai.gov.in/_next/static/media/77c207b095007c34-s.woff2",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/_next/static/css/c53e31056a854737.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/media/bd82c78e5b7b3fe9-s.woff2": {
+      "url": "https://uidai.gov.in/_next/static/media/bd82c78e5b7b3fe9-s.woff2",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/_next/static/css/c53e31056a854737.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://backend.uidai.gov.in/get/files/media/document/2026-06/desktop-aadhaar.webp": {
+      "url": "https://backend.uidai.gov.in/get/files/media/document/2026-06/desktop-aadhaar.webp",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.31",
+      "count": 1,
+      "depth": 2,
+      "host": "backend.uidai.gov.in",
+      "origin": "https://backend.uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/assets/dashboard/stats_banner_bg.svg": {
+      "url": "https://uidai.gov.in/assets/dashboard/stats_banner_bg.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://backend.uidai.gov.in/get/files/media/2026-04/work_at_uidai_bg.webp": {
+      "url": "https://backend.uidai.gov.in/get/files/media/2026-04/work_at_uidai_bg.webp",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.31",
+      "count": 1,
+      "depth": 2,
+      "host": "backend.uidai.gov.in",
+      "origin": "https://backend.uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/assets/svgs/arrow_right.svg": {
+      "url": "https://uidai.gov.in/assets/svgs/arrow_right.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://backend.uidai.gov.in/get/files/media/2026-04/come_build_with_us_bg.webp": {
+      "url": "https://backend.uidai.gov.in/get/files/media/2026-04/come_build_with_us_bg.webp",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.31",
+      "count": 1,
+      "depth": 2,
+      "host": "backend.uidai.gov.in",
+      "origin": "https://backend.uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/media/bf3469fb4390326b-s.woff2": {
+      "url": "https://uidai.gov.in/_next/static/media/bf3469fb4390326b-s.woff2",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/_next/static/css/c53e31056a854737.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/assets/svgs/screen-reader.svg": {
+      "url": "https://uidai.gov.in/assets/svgs/screen-reader.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/Vector.svg": {
+      "url": "https://uidai.gov.in/Vector.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://backend.uidai.gov.in/get/files/media/2026-06/Icon.svg": {
+      "url": "https://backend.uidai.gov.in/get/files/media/2026-06/Icon.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.31",
+      "count": 1,
+      "depth": 2,
+      "host": "backend.uidai.gov.in",
+      "origin": "https://backend.uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://backend.uidai.gov.in/get/files/media/2026-04/Icon.svg": {
+      "url": "https://backend.uidai.gov.in/get/files/media/2026-04/Icon.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.31",
+      "count": 1,
+      "depth": 2,
+      "host": "backend.uidai.gov.in",
+      "origin": "https://backend.uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://backend.uidai.gov.in/get/files/media/2026-04/Frame.svg": {
+      "url": "https://backend.uidai.gov.in/get/files/media/2026-04/Frame.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.31",
+      "count": 1,
+      "depth": 2,
+      "host": "backend.uidai.gov.in",
+      "origin": "https://backend.uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://backend.uidai.gov.in/get/files/media/2026-04/build_with_us.svg": {
+      "url": "https://backend.uidai.gov.in/get/files/media/2026-04/build_with_us.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.31",
+      "count": 1,
+      "depth": 2,
+      "host": "backend.uidai.gov.in",
+      "origin": "https://backend.uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://backend.uidai.gov.in/get/files/media/2026-05/media.svg": {
+      "url": "https://backend.uidai.gov.in/get/files/media/2026-05/media.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.31",
+      "count": 1,
+      "depth": 2,
+      "host": "backend.uidai.gov.in",
+      "origin": "https://backend.uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://backend.uidai.gov.in/get/files/media/2026-04/documents_0.svg": {
+      "url": "https://backend.uidai.gov.in/get/files/media/2026-04/documents_0.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.31",
+      "count": 1,
+      "depth": 2,
+      "host": "backend.uidai.gov.in",
+      "origin": "https://backend.uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://backend.uidai.gov.in/get/files/media/2026-04/help.svg": {
+      "url": "https://backend.uidai.gov.in/get/files/media/2026-04/help.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.31",
+      "count": 1,
+      "depth": 2,
+      "host": "backend.uidai.gov.in",
+      "origin": "https://backend.uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/assets/svgs/backgroundServiceTop.webp": {
+      "url": "https://uidai.gov.in/assets/svgs/backgroundServiceTop.webp",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/assets/svgs/backgroundServiceBottom.webp": {
+      "url": "https://uidai.gov.in/assets/svgs/backgroundServiceBottom.webp",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/assets/svgs/icons/ArrowLeftBlue.svg": {
+      "url": "https://uidai.gov.in/assets/svgs/icons/ArrowLeftBlue.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://backend.uidai.gov.in/get/files/media/2026-04/download_aadhaar.svg": {
+      "url": "https://backend.uidai.gov.in/get/files/media/2026-04/download_aadhaar.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.31",
+      "count": 1,
+      "depth": 2,
+      "host": "backend.uidai.gov.in",
+      "origin": "https://backend.uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/assets/svgs/icons/RoundArrow.svg": {
+      "url": "https://uidai.gov.in/assets/svgs/icons/RoundArrow.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://backend.uidai.gov.in/get/files/media/2026-04/Vector_1.svg": {
+      "url": "https://backend.uidai.gov.in/get/files/media/2026-04/Vector_1.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.31",
+      "count": 1,
+      "depth": 2,
+      "host": "backend.uidai.gov.in",
+      "origin": "https://backend.uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://backend.uidai.gov.in/get/files/media/2026-04/biometrics.svg": {
+      "url": "https://backend.uidai.gov.in/get/files/media/2026-04/biometrics.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.31",
+      "count": 1,
+      "depth": 2,
+      "host": "backend.uidai.gov.in",
+      "origin": "https://backend.uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://backend.uidai.gov.in/get/files/media/2026-04/check_update_status.svg": {
+      "url": "https://backend.uidai.gov.in/get/files/media/2026-04/check_update_status.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.31",
+      "count": 1,
+      "depth": 2,
+      "host": "backend.uidai.gov.in",
+      "origin": "https://backend.uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://backend.uidai.gov.in/get/files/media/2026-04/phone.svg": {
+      "url": "https://backend.uidai.gov.in/get/files/media/2026-04/phone.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.31",
+      "count": 1,
+      "depth": 2,
+      "host": "backend.uidai.gov.in",
+      "origin": "https://backend.uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/chatbot-logo.webp": {
+      "url": "https://uidai.gov.in/chatbot-logo.webp",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://backend.uidai.gov.in/get/files/media/2026-04/barcode.webp": {
+      "url": "https://backend.uidai.gov.in/get/files/media/2026-04/barcode.webp",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.31",
+      "count": 1,
+      "depth": 2,
+      "host": "backend.uidai.gov.in",
+      "origin": "https://backend.uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://backend.uidai.gov.in/get/files/media/2026-04/appstore_logo_0.webp": {
+      "url": "https://backend.uidai.gov.in/get/files/media/2026-04/appstore_logo_0.webp",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.31",
+      "count": 1,
+      "depth": 2,
+      "host": "backend.uidai.gov.in",
+      "origin": "https://backend.uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://backend.uidai.gov.in/get/files/media/2026-04/googleplay_logo_0.webp": {
+      "url": "https://backend.uidai.gov.in/get/files/media/2026-04/googleplay_logo_0.webp",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.31",
+      "count": 1,
+      "depth": 2,
+      "host": "backend.uidai.gov.in",
+      "origin": "https://backend.uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/media/5b22c9edf7b0ed60-s.woff2": {
+      "url": "https://uidai.gov.in/_next/static/media/5b22c9edf7b0ed60-s.woff2",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/_next/static/css/c53e31056a854737.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/media/ed873e0918d65364-s.woff2": {
+      "url": "https://uidai.gov.in/_next/static/media/ed873e0918d65364-s.woff2",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/_next/static/css/c53e31056a854737.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 2,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/9983-33b42befa11a7c1c.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/9983-33b42befa11a7c1c.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://uidai.gov.in/_next/static/chunks/webpack-6c28624086dbe3f6.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 3,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/_next/static/chunks/3379.ed89c6fd9cb83ef6.js": {
+      "url": "https://uidai.gov.in/_next/static/chunks/3379.ed89c6fd9cb83ef6.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://uidai.gov.in/_next/static/chunks/webpack-6c28624086dbe3f6.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 3,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://backend.uidai.gov.in/get/files/media/document/2026-06/banner-1_0.webp": {
+      "url": "https://backend.uidai.gov.in/get/files/media/document/2026-06/banner-1_0.webp",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.31",
+      "count": 1,
+      "depth": 2,
+      "host": "backend.uidai.gov.in",
+      "origin": "https://backend.uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://backend.uidai.gov.in/get/files/media/document/2026-07/SITAA_Banner_desktop_0.webp": {
+      "url": "https://backend.uidai.gov.in/get/files/media/document/2026-07/SITAA_Banner_desktop_0.webp",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://uidai.gov.in/en",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.31",
+      "count": 1,
+      "depth": 2,
+      "host": "backend.uidai.gov.in",
+      "origin": "https://backend.uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://www.googletagmanager.com/gtm.js?id=GTM-PMPV4ZLJ": {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PMPV4ZLJ",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://uidai.gov.in/_next/static/chunks/93-039f0ea9e3ebeeca.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "142.251.220.104",
+      "count": 1,
+      "depth": 3,
+      "host": "www.googletagmanager.com",
+      "origin": "https://www.googletagmanager.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://translation-plugin.bhashini.co.in/website_translation_utility.js": {
+      "url": "https://translation-plugin.bhashini.co.in/website_translation_utility.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://uidai.gov.in/_next/static/chunks/93-039f0ea9e3ebeeca.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.114.152.114",
+      "count": 1,
+      "depth": 3,
+      "host": "translation-plugin.bhashini.co.in",
+      "origin": "https://translation-plugin.bhashini.co.in:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://uidai.gov.in/favicon.ico": {
+      "url": "https://uidai.gov.in/favicon.ico",
+      "resource_type": "Other",
+      "initiator_type": "other",
+      "parent": "https://uidai.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.101",
+      "count": 1,
+      "depth": 1,
+      "host": "uidai.gov.in",
+      "origin": "https://uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://translation-plugin.bhashini.co.in/website_translation_utility.css": {
+      "url": "https://translation-plugin.bhashini.co.in/website_translation_utility.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "script",
+      "parent": "https://translation-plugin.bhashini.co.in/website_translation_utility.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.114.152.114",
+      "count": 1,
+      "depth": 4,
+      "host": "translation-plugin.bhashini.co.in",
+      "origin": "https://translation-plugin.bhashini.co.in:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://translation-plugin.bhashini.co.in/bhashini_logo.png": {
+      "url": "https://translation-plugin.bhashini.co.in/bhashini_logo.png",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://uidai.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.114.152.114",
+      "count": 1,
+      "depth": 1,
+      "host": "translation-plugin.bhashini.co.in",
+      "origin": "https://translation-plugin.bhashini.co.in:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://www.googletagmanager.com/gtag/js?id=G-0TGWE4YZ20&cx=c&gtm=4e6ae1": {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-0TGWE4YZ20&cx=c&gtm=4e6ae1",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtm.js?id=GTM-PMPV4ZLJ",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "142.251.220.104",
+      "count": 1,
+      "depth": 4,
+      "host": "www.googletagmanager.com",
+      "origin": "https://www.googletagmanager.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://www.googletagmanager.com/gtag/js?id=G-3HXPQVCFM7&cx=c&gtm=4e6ae1": {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-3HXPQVCFM7&cx=c&gtm=4e6ae1",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtm.js?id=GTM-PMPV4ZLJ",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "142.251.220.104",
+      "count": 1,
+      "depth": 4,
+      "host": "www.googletagmanager.com",
+      "origin": "https://www.googletagmanager.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://www.google-analytics.com/g/collect?v=2&tid=G-0TGWE4YZ20&gtm=45je6ae1v9254288450za20ozb9254248741zd9254248741xf1&_p=1792388194276&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=817754880.1792388199&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-in&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&sid=1792388198&sct=1&seg=0&dl=https%3A%2F%2Fuidai.gov.in%2Fen&dt=Home%20-%20Unique%20Identification%20Authority%20of%20India%20%7C%20Government%20of%20India%20-%20Unique%20Identification%20Authority%20of%20India%20%7C%20Government%20of%20India&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=7030": {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-0TGWE4YZ20&gtm=45je6ae1v9254288450za20ozb9254248741zd9254248741xf1&_p=1792388194276&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=817754880.1792388199&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-in&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&sid=1792388198&sct=1&seg=0&dl=https%3A%2F%2Fuidai.gov.in%2Fen&dt=Home%20-%20Unique%20Identification%20Authority%20of%20India%20%7C%20Government%20of%20India%20-%20Unique%20Identification%20Authority%20of%20India%20%7C%20Government%20of%20India&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=7030",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtag/js?id=G-0TGWE4YZ20&cx=c&gtm=4e6ae1",
+      "status": 204,
+      "browser_error": "net::ERR_ABORTED",
+      "remote_ip": "142.250.67.46",
+      "count": 1,
+      "depth": 5,
+      "host": "www.google-analytics.com",
+      "origin": "https://www.google-analytics.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": "https://uidai.gov.in/"
+    },
+    "https://backend.uidai.gov.in/get/files/media/document/2026-06/My-aadhaar-new-look-desktop.webp": {
+      "url": "https://backend.uidai.gov.in/get/files/media/document/2026-06/My-aadhaar-new-look-desktop.webp",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://uidai.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.57.226.31",
+      "count": 1,
+      "depth": 1,
+      "host": "backend.uidai.gov.in",
+      "origin": "https://backend.uidai.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://uidai.gov.in/"
+    }
+  },
+  "origins": {
+    "https://uidai.gov.in:443": {
+      "origin": "https://uidai.gov.in:443",
+      "host": "uidai.gov.in",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://uidai.gov.in/",
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "dns",
+        "failure_code": "DNS_NO_AAAA",
+        "dns": {
+          "ok": false,
+          "rcode": "NOERROR",
+          "addresses": [],
+          "cname_chain": [],
+          "ttl": null,
+          "ms": 130.8
+        },
+        "tcp": {},
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "103.58.114.101",
+            "103.57.226.101"
+          ],
+          "cname_chain": [],
+          "ttl": 201,
+          "ms": 1.4
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "103.58.114.101",
+              "ok": true,
+              "ms": 102.2
+            }
+          ],
+          "shim": false,
+          "addr": "103.58.114.101"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.uidai.gov.in",
+          "cert_not_after": "Jan 13 01:14:06 2027 GMT",
+          "ms": 208.1
+        },
+        "http": {
+          "status": 307,
+          "reason": "Temporary Redirect",
+          "location": "https://uidai.gov.in/en",
+          "server": null,
+          "ms": 200.7,
+          "ok": true
+        }
+      }
+    },
+    "https://backend.uidai.gov.in:443": {
+      "origin": "https://backend.uidai.gov.in:443",
+      "host": "backend.uidai.gov.in",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://backend.uidai.gov.in/get/files/media/document/2026-09/playbook-desktop.webp",
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "dns",
+        "failure_code": "DNS_NO_AAAA",
+        "dns": {
+          "ok": false,
+          "rcode": "NOERROR",
+          "addresses": [],
+          "cname_chain": [],
+          "ttl": null,
+          "ms": 131.0
+        },
+        "tcp": {},
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "103.57.226.31",
+            "103.58.114.31"
+          ],
+          "cname_chain": [],
+          "ttl": 201,
+          "ms": 0.4
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "103.57.226.31",
+              "ok": true,
+              "ms": 100.8
+            }
+          ],
+          "shim": false,
+          "addr": "103.57.226.31"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.uidai.gov.in",
+          "cert_not_after": "Jan 13 01:14:06 2027 GMT",
+          "ms": 212.4
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "nginx",
+          "ms": 198.6,
+          "ok": true
+        }
+      }
+    },
+    "https://www.googletagmanager.com:443": {
+      "origin": "https://www.googletagmanager.com:443",
+      "host": "www.googletagmanager.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.googletagmanager.com/gtm.js?id=GTM-PMPV4ZLJ",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4007:82f::2008"
+          ],
+          "cname_chain": [],
+          "ttl": 216,
+          "ms": 4.6,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2404:6800:4007:82f::2008",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.2
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.251.220.104"
+          ],
+          "cname_chain": [],
+          "ttl": 56,
+          "ms": 1.0
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.251.220.104",
+              "ok": true,
+              "ms": 58.2
+            }
+          ],
+          "shim": false,
+          "addr": "142.251.220.104"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google-analytics.com",
+          "cert_not_after": "Dec 21 18:38:19 2026 GMT",
+          "ms": 174.3
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "Google Tag Manager",
+          "ms": 197.4,
+          "ok": true
+        }
+      }
+    },
+    "https://translation-plugin.bhashini.co.in:443": {
+      "origin": "https://translation-plugin.bhashini.co.in:443",
+      "host": "translation-plugin.bhashini.co.in",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://translation-plugin.bhashini.co.in/website_translation_utility.js",
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "dns",
+        "failure_code": "DNS_NO_AAAA",
+        "dns": {
+          "ok": false,
+          "rcode": "NOERROR",
+          "addresses": [],
+          "cname_chain": [],
+          "ttl": null,
+          "ms": 24.7
+        },
+        "tcp": {},
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "103.114.152.114"
+          ],
+          "cname_chain": [],
+          "ttl": 193,
+          "ms": 1.4
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "103.114.152.114",
+              "ok": true,
+              "ms": 97.0
+            }
+          ],
+          "shim": false,
+          "addr": "103.114.152.114"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.bhashini.co.in",
+          "cert_not_after": "Oct 26 11:28:39 2026 GMT",
+          "ms": 117.5
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 194.7,
+          "ok": true
+        }
+      }
+    },
+    "https://www.google-analytics.com:443": {
+      "origin": "https://www.google-analytics.com:443",
+      "host": "www.google-analytics.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.google-analytics.com/g/collect?v=2&tid=G-0TGWE4YZ20&gtm=45je6ae1v9254288450za20ozb9254248741zd9254248741xf1&_p=1792388194276&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=817754880.1792388199&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-in&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&sid=1792388198&sct=1&seg=0&dl=https%3A%2F%2Fuidai.gov.in%2Fen&dt=Home%20-%20Unique%20Identification%20Authority%20of%20India%20%7C%20Government%20of%20India%20-%20Unique%20Identification%20Authority%20of%20India%20%7C%20Government%20of%20India&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=7030",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4007:805::200e"
+          ],
+          "cname_chain": [],
+          "ttl": 250,
+          "ms": 1.1,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2404:6800:4007:805::200e",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.1
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.250.67.46"
+          ],
+          "cname_chain": [],
+          "ttl": 85,
+          "ms": 1.4
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.250.67.46",
+              "ok": true,
+              "ms": 58.3
+            }
+          ],
+          "shim": false,
+          "addr": "142.250.67.46"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google-analytics.com",
+          "cert_not_after": "Dec 21 18:38:19 2026 GMT",
+          "ms": 170.6
+        },
+        "http": {
+          "status": 204,
+          "reason": "No Content",
+          "location": null,
+          "server": "Golfe2",
+          "ms": 199.2,
+          "ok": true
+        }
+      }
+    }
+  },
+  "site": {
+    "category": "Government",
+    "name": "UIDAI (Aadhaar)",
+    "url": "https://uidai.gov.in/"
+  }
+}

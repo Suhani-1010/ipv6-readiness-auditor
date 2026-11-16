@@ -1,0 +1,3629 @@
+{
+  "schema": "ipv6-readiness-audit/1",
+  "page": "https://www.myntra.com/",
+  "final_url": "https://www.myntra.com/",
+  "started_utc": "2026-10-19T05:40:34+00:00",
+  "load_seconds": 48.29,
+  "vantage": {
+    "nat64_prefixes": [],
+    "ipv6_stack": true,
+    "ipv6_default_route": false,
+    "ipv4_default_route": true,
+    "lab_v6_shim": false,
+    "pathway": "ipv4-only"
+  },
+  "capture_errors": [],
+  "summary": {
+    "page_verdict": "INCONCLUSIVE_NO_IPV6",
+    "root_verdict": "INCONCLUSIVE_NO_IPV6",
+    "root_has_aaaa": true,
+    "resources_total": 69,
+    "origins_total": 22,
+    "resources_by_verdict": {
+      "INCONCLUSIVE_NO_IPV6": 53,
+      "IPV4_ONLY": 16
+    },
+    "origins_by_verdict": {
+      "INCONCLUSIVE_NO_IPV6": 16,
+      "IPV4_ONLY": 6
+    },
+    "ipv6_failures_by_stage": {
+      "dns": 6
+    },
+    "ipv6_failing_resources": 16,
+    "inconclusive_resources": 53,
+    "ipv6_failing_critical": 14,
+    "ipv6_failing_third_party": 16,
+    "resource_ipv6_ready_pct": 0.0,
+    "ipv4_only_hosts": [
+      "ad.doubleclick.net",
+      "bam.nr-data.net",
+      "pixel.tapad.com",
+      "sc-static.net",
+      "t.contentsquare.net",
+      "tr.snapchat.com"
+    ],
+    "aaaa_but_broken_hosts": [],
+    "root_host": "www.myntra.com"
+  },
+  "tree": {
+    "root": "https://www.myntra.com/",
+    "edges": [
+      [
+        "https://www.myntra.com/",
+        "https://constant.myntassets.com/web/assets/js/main.6cc9bb9a5db318337f7a.js"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://constant.myntassets.com/web/assets/js/vendor.4cffa7290299098b2d9b.js"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://constant.myntassets.com/web/assets/js/d-shop.03b41f96d82f58ea9ad8.js"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://constant.myntassets.com/web/assets/css/d-shop.3e75489907d13f32c87e.css"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://constant.myntassets.com/web/assets/img/MyntraWebSprite_27_01_2021.png"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://s.go-mpulse.net/boomerang/5HGF9-8HWNR-5RKQC-BB2LE-73DQ7"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://www.myntra.com/akam/13/781ce191"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://constant.myntassets.com/checkout/fonts/Figtree-Bold.woff"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://constant.myntassets.com/checkout/fonts/Figtree-Regular.woff"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://constant.myntassets.com/web/assets/img/studio-logo-new.svg"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://constant.myntassets.com/web/assets/img/sudio-nav-banner.png"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://constant.myntassets.com/web/assets/img/chevron-right.svg"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://www.google-analytics.com/analytics.js"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://www.myntra.com/faTPfzsZdAJJ16JLKw/S57hXpXtXNSbXzuw/T3VIcjEB/KTl9OzE/SVmg"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://www.myntra.com/faTPfzsZdAJJ16JLKw/cL7h/SFoxcjEB/cwU0b2U/nEwJY"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://www.myntra.com/faTPfzsZdAJJ16JLKw/cL7h/SFoxcjEB/J0AwREA/tPnIo"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://www.google-analytics.com/plugins/ua/ec.js"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://www.myntra.com/web/v1/context"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://www.myntra.com/gateway/v1/user/locationContext"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://www.googletagmanager.com/gtm.js?id=GTM-H34B"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/7/335962a86c7e49aebb0db6bce64a6eab.jpg"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://assets.myntassets.com/f_webp,w_490,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/7/6ba17125083649a880f6c46ec40f0b98.jpg"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://assets.myntassets.com/f_webp,w_490,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/7/2630882880a24ac99365a5e357665f56.jpg"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://assets.myntassets.com/f_webp,w_326,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/6/1d6c32c369094eb5b69bbdbc647d888c.jpg"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://assets.myntassets.com/f_webp,w_326,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/6/f6f16ae52106439b9b27e9e459b94a6e.jpg"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://assets.myntassets.com/f_webp,w_326,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/6/4de46bfe4e574e0587f0e20bed34e2fc.jpg"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://assets.myntassets.com/f_webp,w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/6/87ee4885a2804d9aa29fae5d2e826ce4.jpg"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://assets.myntassets.com/f_webp,w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/6/32e02d125c3143118fb922a8eae35f56.jpg"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://assets.myntassets.com/f_webp,w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/6/2697096bba524d7eaff418bb2f5651c6.jpg"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://assets.myntassets.com/f_webp,w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/6/258dd3c2a329432fa1b7a1c41f7a3ada.jpg"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/6/66e76e2f18ae4a88ac668d763981077f.gif"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://www.myntra.com/gateway/v1/getContextAttrs"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://www.myntra.com/akam/13/pixel_781ce191"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://www.myntra.com/gateway/v1/cart/default/summary"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://c.go-mpulse.net/api/config.json?key=5HGF9-8HWNR-5RKQC-BB2LE-73DQ7&d=www.myntra.com&t=5974628&v=1.720.0&sl=0&si=fad6957c-05c7-4580-99e6-210690be1ecb-tn53ro&plugins=AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,LOGN&acao=&ak.ai=281519"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://touch.myntra.com/track-web"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://www.googletagmanager.com/gtag/destination?id=AW-1009500818&cx=c&gtm=4e6ae1"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://sc-static.net/scevent.min.js"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://www.googletagmanager.com/gtag/js?id=DC-8758799"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://www.google.com/ccm/collect?rcb=15&frm=0&apvc=1&ae=g&auid=1152967328.1792388440&dt=Online%20Shopping%20for%20Women%2C%20Men%2C%20Kids%20Fashion%20%26%20Lifestyle%20-%20Myntra&en=page_view&dl=https%3A%2F%2Fwww.myntra.com%2F&scrsrc=www.googletagmanager.com&rnd=254016615.1792388440&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6ae1v571582za200zd571582xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~117776795~118897920~118897930~119317810~120385422~120469145~120469153~121246026~121246034&tft=1792388439860&tfd=3452&_gsid=bL1Gvh_cUfsVhajwUnQBdFZKnWTYLquMcQ&fmt=8"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://ad.doubleclick.net/ccm/s/collect?_gsid=bL1Gvh_cUfsVhajwUnQBdFZKnWTYLquMcQ&auid=1152967328.1792388440&gtm=45He6ae1v571582za200zd571582xeaxf1&fmt=8"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://t.contentsquare.net/uxa/217fb7aef6a6c.js"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://www.google.com/ccm/collect?rcb=5&frm=0&apvc=0&auid=1152967328.1792388440&dt=Online%20Shopping%20for%20Women%2C%20Men%2C%20Kids%20Fashion%20%26%20Lifestyle%20-%20Myntra&tid=DC-8758799&en=page_view&dl=https%3A%2F%2Fwww.myntra.com%2F&scrsrc=www.googletagmanager.com&rnd=254016615.1792388440&navt=n&npa=0&gtm=45fe6ae1v9181624917za208zd9181624917xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938469~117776795~118897920~118897930~119317810~120213116~120385422~120469145~120469153~121246026~121246034&tft=1792388440339&tfd=3930&_gsid=bL1Gvh_cUfsVhajwUnQBdFZKnWTYLquMcQ&tids=DC-8758799&fmt=8"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1009500818/?random=1792388440453&cv=11&fst=1792388440453&bg=ffffff&guid=ON&async=1&gtm=45be6ae1v895342649z8571582za20gzb571582zd571582xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~117776795~118897920~118897930~119317810~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.myntra.com%2F&rcb=15&label=qsPNCJ-RzWsQkoWv4QM&frm=0&tiba=Online%20Shopping%20for%20Women%2C%20Men%2C%20Kids%20Fashion%20%26%20Lifestyle%20-%20Myntra&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1152967328.1792388440&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=4"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://www.google.com/rmkt/collect/1009500818/?random=1792388440453&cv=11&fst=1792388440453&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6ae1v895342649z8571582za20gzb571582zd571582xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~117776795~118897920~118897930~119317810~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.myntra.com%2F&rcb=15&label=qsPNCJ-RzWsQkoWv4QM&frm=0&tiba=Online%20Shopping%20for%20Women%2C%20Men%2C%20Kids%20Fashion%20%26%20Lifestyle%20-%20Myntra&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1152967328.1792388440&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=CA&ept=68&gcp=5"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://www.google.com/ccm/collect?rcb=15&frm=0&apvc=0&ae=g&auid=1152967328.1792388440&dt=Online%20Shopping%20for%20Women%2C%20Men%2C%20Kids%20Fashion%20%26%20Lifestyle%20-%20Myntra&tid=AW-1009500818&dl=https%3A%2F%2Fwww.myntra.com%2F&scrsrc=www.googletagmanager.com&rnd=254016615.1792388440&navt=n&npa=0&_tu=CA&gtm=45be6ae1v895342649z8571582za20gzb571582zd571582xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~117776795~118897920~118897930~119317810~120213116~120385422~120469145~120469153~121246026~121246034&tft=1792388440499&tfd=4091&_gsid=bL1Gvh_cUfsVhajwUnQBdFZKnWTYLquMcQ&tids=AW-1009500818&fmt=8"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://connect.facebook.net/signals/config/1535206906706865?v=2.9.419&r=stable&domain=www.myntra.com&hme=7459fa3e38c2784dbaf309537bed5fa7e8560fab51fb61e53e5ffafeb46a02a9&ex_m=118%2C241%2C171%2C27%2C82%2C83%2C162%2C78%2C77%2C11%2C181%2C102%2C20%2C153%2C141%2C46%2C85%2C90%2C149%2C176%2C183%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C115%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C163%2C87%2C126%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C124%2C160%2C164%2C53%2C125%2C29%2C26%2C133%2C79%2C43%2C166%2C165%2C167%2C157%2C155%2C30%2C42%2C66%2C123%2C178%2C80%2C21%2C128%2C93%2C76%2C23%2C97%2C98%2C130%2C96%2C151%2C150%2C154%2C109%2C177%2C180%2C41%2C56%2C127%2C54%2C161%2C72%2C185%2C110%2C184%2C210%2C255%2C84%2C274%2C273%2C272%2C14%2C25%2C28%2C40%2C62%2C117%2C68%2C10%2C73%2C111%2C112%2C113%2C119%2C144%2C38%2C36%2C146%2C147%2C148%2C143%2C142%2C172%2C86%2C175%2C173%2C174%2C57%2C69%2C67%2C137%2C19%2C179%2C52%2C324%2C325%2C326%2C323%2C339%2C361%2C248%2C237%2C70%2C238%2C236%2C364%2C355%2C59%2C249%2C121%2C145%2C92%2C135%2C61%2C134%2C140%2C139%2C65%2C74%2C168%2C88%2C89%2C129%2C44%2C39%2C60%2C63%2C114%2C182%2C1%2C138%2C16%2C136%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C132%2C101%2C100%2C187%2C188%2C106%2C107%2C9%2C116%2C186%2C58%2C158%2C99%2C91%2C81%2C131%2C120%2C169%2C50%2C159%2C0%2C94%2C152%2C156%2C170%2C45%2C122%2C13%2C189"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://www.google.com/pagead/1p-user-list/1009500818/?random=1792388440453&cv=11&fst=1792386000000&bg=ffffff&guid=ON&async=1&gtm=45be6ae1v895342649z8571582za20gzb571582zd571582xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~117776795~118897920~118897930~119317810~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.myntra.com%2F&rcb=15&label=qsPNCJ-RzWsQkoWv4QM&frm=0&tiba=Online%20Shopping%20for%20Women%2C%20Men%2C%20Kids%20Fashion%20%26%20Lifestyle%20-%20Myntra&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1152967328.1792388440&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAQM4h3Cq-niIESlbmh2SKwxfUUmC8zN5XJzfsVaSYDCtdyYWyDH5m86dlIjE8P2iNlM5ay8ENhDzJjgY3_hRHdzqWO13lxpOqRuU8G9tCbm6B1HrOpdHkjhfEPTyHSM-t-2yjVBMVhtoEPsxfi3rQxKcCHZXcKYzp0E4J5-_FCHnHwaDYSz83uT2mnKo2Ky_ooaLYUgzD8sCyBpGeuCyXiKfLeBQ9ukUxE9P0pRrrn5T5GLUEjlePb-XfvZLh6rfu8J5MRCjMVMPPmO09tLPabzvF&random=3320263647&rmt_tld=0&ipr=y"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://www.google.co.in/pagead/1p-user-list/1009500818/?random=1792388440453&cv=11&fst=1792386000000&bg=ffffff&guid=ON&async=1&gtm=45be6ae1v895342649z8571582za20gzb571582zd571582xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~117776795~118897920~118897930~119317810~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.myntra.com%2F&rcb=15&label=qsPNCJ-RzWsQkoWv4QM&frm=0&tiba=Online%20Shopping%20for%20Women%2C%20Men%2C%20Kids%20Fashion%20%26%20Lifestyle%20-%20Myntra&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1152967328.1792388440&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAQM4h3Cq-niIESlbmh2SKwxfUUmC8zN5XJzfsVaSYDCtdyYWyDH5m86dlIjE8P2iNlM5ay8ENhDzJjgY3_hRHdzqWO13lxpOqRuU8G9tCbm6B1HrOpdHkjhfEPTyHSM-t-2yjVBMVhtoEPsxfi3rQxKcCHZXcKYzp0E4J5-_FCHnHwaDYSz83uT2mnKo2Ky_ooaLYUgzD8sCyBpGeuCyXiKfLeBQ9ukUxE9P0pRrrn5T5GLUEjlePb-XfvZLh6rfu8J5MRCjMVMPPmO09tLPabzvF&random=3320263647&rmt_tld=1&ipr=y"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://tr.snapchat.com/cm/i?pid=13993d96-230f-4fda-bc2b-143b954e81b7&u_scsid=e46e1dd2-c8e2-46db-8312-fa104118e32f&u_sclid=e28467f0-dfeb-4e46-82b9-459174fefe12"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://tr.snapchat.com/config/com/13993d96-230f-4fda-bc2b-143b954e81b7.js?v=3.60.2-2610161747"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://tr.snapchat.com/p?pid=13993d96-230f-4fda-bc2b-143b954e81b7&ev=PAGE_VIEW&intg=gtm&pids=13993d96-230f-4fda-bc2b-143b954e81b7&u_c1=d8188c69-c64f-45f6-baea-e5cb41061ee5&cdid=%40-4cf9c86a-7bdd-43d0-8760-c87992083832&u_sclid=e28467f0-dfeb-4e46-82b9-459174fefe12&u_scsid=e46e1dd2-c8e2-46db-8312-fa104118e32f&gat=GTM-H34B%2CDC-8758799&bg=false&bt=1d53c387&d_a=x86&d_bvs=%5B%2C%7B%22brand%22%3A%22Not%3AA-Brand%22%2C%22version%22%3A%228.0.0.0%22%7D%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22156.0.8078.4%22%7D%5D&d_ot=Linux&df=true&huah=true&m_dcl=2468&m_fcps=924&m_pi=2050&m_pl=0&m_pv=2&m_rd=4548&m_sh=768&m_sl=4517&m_sw=1366&pl=https%3A%2F%2Fwww.myntra.com%2F&trackId=ec6cfd7d-879c-4051-ba7a-762aec7f70da&ts=1792388440957&v=3.60.2-2610161747"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://mpc2-prod-24-is5qnl632q-uw.a.run.app/events?cee=no"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://connect.facebook.net/signals/config/1386389041670159?v=2.9.419&r=stable&domain=www.myntra.com&hme=7459fa3e38c2784dbaf309537bed5fa7e8560fab51fb61e53e5ffafeb46a02a9&ex_m=118%2C241%2C171%2C27%2C82%2C83%2C162%2C78%2C77%2C11%2C181%2C102%2C20%2C153%2C141%2C46%2C85%2C90%2C149%2C176%2C183%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C115%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C163%2C87%2C126%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C124%2C160%2C164%2C53%2C125%2C29%2C26%2C133%2C79%2C43%2C166%2C165%2C167%2C157%2C155%2C30%2C42%2C66%2C123%2C178%2C80%2C21%2C128%2C93%2C76%2C23%2C97%2C98%2C130%2C96%2C151%2C150%2C154%2C109%2C177%2C180%2C41%2C56%2C127%2C54%2C161%2C72%2C185%2C110%2C184%2C210%2C255%2C84%2C274%2C273%2C272%2C14%2C25%2C28%2C40%2C62%2C117%2C68%2C10%2C73%2C111%2C112%2C113%2C119%2C144%2C38%2C36%2C146%2C147%2C148%2C143%2C142%2C172%2C86%2C175%2C173%2C174%2C57%2C69%2C67%2C137%2C19%2C179%2C52%2C324%2C325%2C326%2C323%2C339%2C361%2C248%2C237%2C70%2C238%2C236%2C364%2C355%2C59%2C249%2C121%2C145%2C92%2C135%2C61%2C134%2C140%2C139%2C65%2C74%2C168%2C88%2C89%2C129%2C44%2C39%2C60%2C63%2C114%2C182%2C1%2C138%2C16%2C136%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C132%2C101%2C100%2C187%2C188%2C106%2C107%2C9%2C116%2C186%2C58%2C158%2C99%2C91%2C81%2C131%2C120%2C169%2C50%2C159%2C0%2C94%2C152%2C156%2C170%2C45%2C122%2C13%2C189%2C268%2C266%2C261%2C263%2C264%2C265%2C262%2C260%2C247%2C267%2C269%2C259%2C217%2C218%2C270%2C271%2C258%2C257%2C353%2C354%2C200%2C202%2C203%2C207%2C206%2C208%2C204%2C205%2C201%2C199%2C198%2C230%2C225%2C228%2C229%2C223%2C389%2C304%2C308%2C312%2C313%2C314%2C309%2C315%2C307%2C302%2C317%2C318%2C306%2C316%2C320%2C310%2C305%2C311%2C319%2C321%2C303%2C240%2C301%2C226%2C227%2C251%2C224%2C222%2C380%2C278%2C242%2C215%2C216%2C212%2C213%2C214%2C211%2C209%2C220%2C221%2C219%2C327%2C382%2C347%2C348%2C350%2C351%2C349%2C346%2C345%2C231%2C281%2C288%2C289%2C282%2C284%2C287%2C285%2C286%2C283%2C280%2C299%2C293%2C296%2C292%2C300%2C297%2C291%2C295%2C298%2C294%2C290%2C341%2C358"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://www.facebook.com/tr/"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://t.contentsquare.net/releases/15.266.3/es2019/1f00004-eca139f2.js"
+      ],
+      [
+        "https://sc-static.net/scevent.min.js",
+        "https://tr6.snapchat.com/p"
+      ],
+      [
+        "https://sc-static.net/scevent.min.js",
+        "https://tr.snapchat.com/p"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://js-agent.newrelic.com/nr-spa-1.291.1.min.js"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://bam.nr-data.net/1/NRJS-49cfe53b70c6eb15d1e?a=718407643&sa=1&v=1.291.1&t=Unnamed%20Transaction&rst=6901&ck=0&s=75d51cb4e0c08508&ref=https://www.myntra.com/&ptid=9279eda396bcabe3&af=err,spa,xhr,stn,ins&be=705&fe=5132&dc=1764&fsh=1&perf=%7B%22timing%22:%7B%22of%22:1792388436409,%22n%22:0,%22f%22:4,%22dn%22:7,%22dne%22:209,%22c%22:209,%22s%22:296,%22ce%22:408,%22rq%22:408,%22rp%22:706,%22rpe%22:923,%22di%22:2051,%22ds%22:2467,%22de%22:2469,%22dc%22:5820,%22l%22:5820,%22le%22:5837%7D,%22navigation%22:%7B%7D%7D&fp=924&fcp=924"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://bam.nr-data.net/events/1/NRJS-49cfe53b70c6eb15d1e?a=718407643&sa=1&v=1.291.1&t=Unnamed%20Transaction&rst=7942&ck=0&s=75d51cb4e0c08508&ref=https://www.myntra.com/&ptid=9279eda396bcabe3"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://bam.nr-data.net/events/1/NRJS-49cfe53b70c6eb15d1e?a=718407643&sa=1&v=1.291.1&t=Unnamed%20Transaction&rst=37922&ck=0&s=75d51cb4e0c08508&ref=https://www.myntra.com/&ptid=9279eda396bcabe3"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://bam.nr-data.net/jserrors/1/NRJS-49cfe53b70c6eb15d1e?a=718407643&sa=1&v=1.291.1&t=Unnamed%20Transaction&rst=37928&ck=0&s=75d51cb4e0c08508&ref=https://www.myntra.com/&ptid=9279eda396bcabe3"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://tr.snapchat.com/cm/s?bt=1d53c387&pnid=140&cb=1792388442226&u_scsid=15a1af60-a992-4eb3-beb6-cf9c256a41d8&u_sclid=cf774821-b657-4709-b357-6bfe8d105db0"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://pixel.tapad.com/idsync/ex/push?partner_id=2884&partner_url=https%3A%2F%2Ftr.snapchat.com%2Fcm%2Fp%3Frand%3D1792316297619%26pnid%3D140%26pcid%3D%24%7BTA_DEVICE_ID%7D"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://pixel.tapad.com/idsync/ex/push/check?partner_id=2884&partner_url=https%3A%2F%2Ftr.snapchat.com%2Fcm%2Fp%3Frand%3D1792316297619%26pnid%3D140%26pcid%3D%24%7BTA_DEVICE_ID%7D"
+      ],
+      [
+        "https://www.myntra.com/",
+        "https://tr.snapchat.com/cm/p?rand=1792316297619&pnid=140&pcid=74c19707-4438-4449-bae2-5d9b55cc99d6"
+      ]
+    ]
+  },
+  "resources": {
+    "https://www.myntra.com/": {
+      "url": "https://www.myntra.com/",
+      "resource_type": "Document",
+      "initiator_type": "other",
+      "parent": null,
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 1,
+      "depth": 0,
+      "host": "www.myntra.com",
+      "origin": "https://www.myntra.com:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://constant.myntassets.com/web/assets/js/main.6cc9bb9a5db318337f7a.js": {
+      "url": "https://constant.myntassets.com/web/assets/js/main.6cc9bb9a5db318337f7a.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 1,
+      "depth": 1,
+      "host": "constant.myntassets.com",
+      "origin": "https://constant.myntassets.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://constant.myntassets.com/web/assets/js/vendor.4cffa7290299098b2d9b.js": {
+      "url": "https://constant.myntassets.com/web/assets/js/vendor.4cffa7290299098b2d9b.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 1,
+      "depth": 1,
+      "host": "constant.myntassets.com",
+      "origin": "https://constant.myntassets.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://constant.myntassets.com/web/assets/js/d-shop.03b41f96d82f58ea9ad8.js": {
+      "url": "https://constant.myntassets.com/web/assets/js/d-shop.03b41f96d82f58ea9ad8.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 1,
+      "depth": 1,
+      "host": "constant.myntassets.com",
+      "origin": "https://constant.myntassets.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://constant.myntassets.com/web/assets/css/d-shop.3e75489907d13f32c87e.css": {
+      "url": "https://constant.myntassets.com/web/assets/css/d-shop.3e75489907d13f32c87e.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 1,
+      "depth": 1,
+      "host": "constant.myntassets.com",
+      "origin": "https://constant.myntassets.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://constant.myntassets.com/web/assets/img/MyntraWebSprite_27_01_2021.png": {
+      "url": "https://constant.myntassets.com/web/assets/img/MyntraWebSprite_27_01_2021.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 1,
+      "depth": 1,
+      "host": "constant.myntassets.com",
+      "origin": "https://constant.myntassets.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://s.go-mpulse.net/boomerang/5HGF9-8HWNR-5RKQC-BB2LE-73DQ7": {
+      "url": "https://s.go-mpulse.net/boomerang/5HGF9-8HWNR-5RKQC-BB2LE-73DQ7",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.45.184.165",
+      "count": 1,
+      "depth": 1,
+      "host": "s.go-mpulse.net",
+      "origin": "https://s.go-mpulse.net:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.myntra.com/akam/13/781ce191": {
+      "url": "https://www.myntra.com/akam/13/781ce191",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 1,
+      "depth": 1,
+      "host": "www.myntra.com",
+      "origin": "https://www.myntra.com:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://constant.myntassets.com/checkout/fonts/Figtree-Bold.woff": {
+      "url": "https://constant.myntassets.com/checkout/fonts/Figtree-Bold.woff",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 1,
+      "depth": 1,
+      "host": "constant.myntassets.com",
+      "origin": "https://constant.myntassets.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://constant.myntassets.com/checkout/fonts/Figtree-Regular.woff": {
+      "url": "https://constant.myntassets.com/checkout/fonts/Figtree-Regular.woff",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 1,
+      "depth": 1,
+      "host": "constant.myntassets.com",
+      "origin": "https://constant.myntassets.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://constant.myntassets.com/web/assets/img/studio-logo-new.svg": {
+      "url": "https://constant.myntassets.com/web/assets/img/studio-logo-new.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 1,
+      "depth": 1,
+      "host": "constant.myntassets.com",
+      "origin": "https://constant.myntassets.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://constant.myntassets.com/web/assets/img/sudio-nav-banner.png": {
+      "url": "https://constant.myntassets.com/web/assets/img/sudio-nav-banner.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 1,
+      "depth": 1,
+      "host": "constant.myntassets.com",
+      "origin": "https://constant.myntassets.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://constant.myntassets.com/web/assets/img/chevron-right.svg": {
+      "url": "https://constant.myntassets.com/web/assets/img/chevron-right.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 1,
+      "depth": 1,
+      "host": "constant.myntassets.com",
+      "origin": "https://constant.myntassets.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.google-analytics.com/analytics.js": {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "216.239.38.178",
+      "count": 1,
+      "depth": 1,
+      "host": "www.google-analytics.com",
+      "origin": "https://www.google-analytics.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.myntra.com/faTPfzsZdAJJ16JLKw/S57hXpXtXNSbXzuw/T3VIcjEB/KTl9OzE/SVmg": {
+      "url": "https://www.myntra.com/faTPfzsZdAJJ16JLKw/S57hXpXtXNSbXzuw/T3VIcjEB/KTl9OzE/SVmg",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 3,
+      "depth": 1,
+      "host": "www.myntra.com",
+      "origin": "https://www.myntra.com:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.myntra.com/faTPfzsZdAJJ16JLKw/cL7h/SFoxcjEB/cwU0b2U/nEwJY": {
+      "url": "https://www.myntra.com/faTPfzsZdAJJ16JLKw/cL7h/SFoxcjEB/cwU0b2U/nEwJY",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 1,
+      "depth": 1,
+      "host": "www.myntra.com",
+      "origin": "https://www.myntra.com:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.myntra.com/faTPfzsZdAJJ16JLKw/cL7h/SFoxcjEB/J0AwREA/tPnIo": {
+      "url": "https://www.myntra.com/faTPfzsZdAJJ16JLKw/cL7h/SFoxcjEB/J0AwREA/tPnIo",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 1,
+      "depth": 1,
+      "host": "www.myntra.com",
+      "origin": "https://www.myntra.com:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.google-analytics.com/plugins/ua/ec.js": {
+      "url": "https://www.google-analytics.com/plugins/ua/ec.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "216.239.38.178",
+      "count": 1,
+      "depth": 1,
+      "host": "www.google-analytics.com",
+      "origin": "https://www.google-analytics.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.myntra.com/web/v1/context": {
+      "url": "https://www.myntra.com/web/v1/context",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 1,
+      "depth": 1,
+      "host": "www.myntra.com",
+      "origin": "https://www.myntra.com:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.myntra.com/gateway/v1/user/locationContext": {
+      "url": "https://www.myntra.com/gateway/v1/user/locationContext",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 1,
+      "depth": 1,
+      "host": "www.myntra.com",
+      "origin": "https://www.myntra.com:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.googletagmanager.com/gtm.js?id=GTM-H34B": {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-H34B",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "142.251.220.104",
+      "count": 1,
+      "depth": 1,
+      "host": "www.googletagmanager.com",
+      "origin": "https://www.googletagmanager.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/7/335962a86c7e49aebb0db6bce64a6eab.jpg": {
+      "url": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/7/335962a86c7e49aebb0db6bce64a6eab.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 1,
+      "depth": 1,
+      "host": "assets.myntassets.com",
+      "origin": "https://assets.myntassets.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://assets.myntassets.com/f_webp,w_490,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/7/6ba17125083649a880f6c46ec40f0b98.jpg": {
+      "url": "https://assets.myntassets.com/f_webp,w_490,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/7/6ba17125083649a880f6c46ec40f0b98.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 1,
+      "depth": 1,
+      "host": "assets.myntassets.com",
+      "origin": "https://assets.myntassets.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://assets.myntassets.com/f_webp,w_490,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/7/2630882880a24ac99365a5e357665f56.jpg": {
+      "url": "https://assets.myntassets.com/f_webp,w_490,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/7/2630882880a24ac99365a5e357665f56.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 1,
+      "depth": 1,
+      "host": "assets.myntassets.com",
+      "origin": "https://assets.myntassets.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://assets.myntassets.com/f_webp,w_326,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/6/1d6c32c369094eb5b69bbdbc647d888c.jpg": {
+      "url": "https://assets.myntassets.com/f_webp,w_326,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/6/1d6c32c369094eb5b69bbdbc647d888c.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 1,
+      "depth": 1,
+      "host": "assets.myntassets.com",
+      "origin": "https://assets.myntassets.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://assets.myntassets.com/f_webp,w_326,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/6/f6f16ae52106439b9b27e9e459b94a6e.jpg": {
+      "url": "https://assets.myntassets.com/f_webp,w_326,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/6/f6f16ae52106439b9b27e9e459b94a6e.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 1,
+      "depth": 1,
+      "host": "assets.myntassets.com",
+      "origin": "https://assets.myntassets.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://assets.myntassets.com/f_webp,w_326,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/6/4de46bfe4e574e0587f0e20bed34e2fc.jpg": {
+      "url": "https://assets.myntassets.com/f_webp,w_326,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/6/4de46bfe4e574e0587f0e20bed34e2fc.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 1,
+      "depth": 1,
+      "host": "assets.myntassets.com",
+      "origin": "https://assets.myntassets.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://assets.myntassets.com/f_webp,w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/6/87ee4885a2804d9aa29fae5d2e826ce4.jpg": {
+      "url": "https://assets.myntassets.com/f_webp,w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/6/87ee4885a2804d9aa29fae5d2e826ce4.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 1,
+      "depth": 1,
+      "host": "assets.myntassets.com",
+      "origin": "https://assets.myntassets.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://assets.myntassets.com/f_webp,w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/6/32e02d125c3143118fb922a8eae35f56.jpg": {
+      "url": "https://assets.myntassets.com/f_webp,w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/6/32e02d125c3143118fb922a8eae35f56.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 1,
+      "depth": 1,
+      "host": "assets.myntassets.com",
+      "origin": "https://assets.myntassets.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://assets.myntassets.com/f_webp,w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/6/2697096bba524d7eaff418bb2f5651c6.jpg": {
+      "url": "https://assets.myntassets.com/f_webp,w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/6/2697096bba524d7eaff418bb2f5651c6.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 1,
+      "depth": 1,
+      "host": "assets.myntassets.com",
+      "origin": "https://assets.myntassets.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://assets.myntassets.com/f_webp,w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/6/258dd3c2a329432fa1b7a1c41f7a3ada.jpg": {
+      "url": "https://assets.myntassets.com/f_webp,w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/6/258dd3c2a329432fa1b7a1c41f7a3ada.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 1,
+      "depth": 1,
+      "host": "assets.myntassets.com",
+      "origin": "https://assets.myntassets.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/6/66e76e2f18ae4a88ac668d763981077f.gif": {
+      "url": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/6/66e76e2f18ae4a88ac668d763981077f.gif",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 1,
+      "depth": 1,
+      "host": "assets.myntassets.com",
+      "origin": "https://assets.myntassets.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.myntra.com/gateway/v1/getContextAttrs": {
+      "url": "https://www.myntra.com/gateway/v1/getContextAttrs",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 1,
+      "depth": 1,
+      "host": "www.myntra.com",
+      "origin": "https://www.myntra.com:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.myntra.com/akam/13/pixel_781ce191": {
+      "url": "https://www.myntra.com/akam/13/pixel_781ce191",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 1,
+      "depth": 1,
+      "host": "www.myntra.com",
+      "origin": "https://www.myntra.com:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.myntra.com/gateway/v1/cart/default/summary": {
+      "url": "https://www.myntra.com/gateway/v1/cart/default/summary",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 1,
+      "depth": 1,
+      "host": "www.myntra.com",
+      "origin": "https://www.myntra.com:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://c.go-mpulse.net/api/config.json?key=5HGF9-8HWNR-5RKQC-BB2LE-73DQ7&d=www.myntra.com&t=5974628&v=1.720.0&sl=0&si=fad6957c-05c7-4580-99e6-210690be1ecb-tn53ro&plugins=AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,LOGN&acao=&ak.ai=281519": {
+      "url": "https://c.go-mpulse.net/api/config.json?key=5HGF9-8HWNR-5RKQC-BB2LE-73DQ7&d=www.myntra.com&t=5974628&v=1.720.0&sl=0&si=fad6957c-05c7-4580-99e6-210690be1ecb-tn53ro&plugins=AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,LOGN&acao=&ak.ai=281519",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.204.252.168",
+      "count": 1,
+      "depth": 1,
+      "host": "c.go-mpulse.net",
+      "origin": "https://c.go-mpulse.net:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://touch.myntra.com/track-web": {
+      "url": "https://touch.myntra.com/track-web",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.197.217.78",
+      "count": 2,
+      "depth": 1,
+      "host": "touch.myntra.com",
+      "origin": "https://touch.myntra.com:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.googletagmanager.com/gtag/destination?id=AW-1009500818&cx=c&gtm=4e6ae1": {
+      "url": "https://www.googletagmanager.com/gtag/destination?id=AW-1009500818&cx=c&gtm=4e6ae1",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "142.251.220.104",
+      "count": 1,
+      "depth": 1,
+      "host": "www.googletagmanager.com",
+      "origin": "https://www.googletagmanager.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://sc-static.net/scevent.min.js": {
+      "url": "https://sc-static.net/scevent.min.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "3.163.248.4",
+      "count": 1,
+      "depth": 1,
+      "host": "sc-static.net",
+      "origin": "https://sc-static.net:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://connect.facebook.net/en_US/fbevents.js": {
+      "url": "https://connect.facebook.net/en_US/fbevents.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "163.70.140.20",
+      "count": 1,
+      "depth": 1,
+      "host": "connect.facebook.net",
+      "origin": "https://connect.facebook.net:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.googletagmanager.com/gtag/js?id=DC-8758799": {
+      "url": "https://www.googletagmanager.com/gtag/js?id=DC-8758799",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "142.251.220.104",
+      "count": 1,
+      "depth": 1,
+      "host": "www.googletagmanager.com",
+      "origin": "https://www.googletagmanager.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.google.com/ccm/collect?rcb=15&frm=0&apvc=1&ae=g&auid=1152967328.1792388440&dt=Online%20Shopping%20for%20Women%2C%20Men%2C%20Kids%20Fashion%20%26%20Lifestyle%20-%20Myntra&en=page_view&dl=https%3A%2F%2Fwww.myntra.com%2F&scrsrc=www.googletagmanager.com&rnd=254016615.1792388440&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6ae1v571582za200zd571582xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~117776795~118897920~118897930~119317810~120385422~120469145~120469153~121246026~121246034&tft=1792388439860&tfd=3452&_gsid=bL1Gvh_cUfsVhajwUnQBdFZKnWTYLquMcQ&fmt=8": {
+      "url": "https://www.google.com/ccm/collect?rcb=15&frm=0&apvc=1&ae=g&auid=1152967328.1792388440&dt=Online%20Shopping%20for%20Women%2C%20Men%2C%20Kids%20Fashion%20%26%20Lifestyle%20-%20Myntra&en=page_view&dl=https%3A%2F%2Fwww.myntra.com%2F&scrsrc=www.googletagmanager.com&rnd=254016615.1792388440&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6ae1v571582za200zd571582xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~117776795~118897920~118897930~119317810~120385422~120469145~120469153~121246026~121246034&tft=1792388439860&tfd=3452&_gsid=bL1Gvh_cUfsVhajwUnQBdFZKnWTYLquMcQ&fmt=8",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": "net::ERR_ABORTED",
+      "remote_ip": "142.251.152.119",
+      "count": 1,
+      "depth": 1,
+      "host": "www.google.com",
+      "origin": "https://www.google.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://ad.doubleclick.net/ccm/s/collect?_gsid=bL1Gvh_cUfsVhajwUnQBdFZKnWTYLquMcQ&auid=1152967328.1792388440&gtm=45He6ae1v571582za200zd571582xeaxf1&fmt=8": {
+      "url": "https://ad.doubleclick.net/ccm/s/collect?_gsid=bL1Gvh_cUfsVhajwUnQBdFZKnWTYLquMcQ&auid=1152967328.1792388440&gtm=45He6ae1v571582za200zd571582xeaxf1&fmt=8",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 204,
+      "browser_error": "net::ERR_ABORTED",
+      "remote_ip": "142.250.182.70",
+      "count": 1,
+      "depth": 1,
+      "host": "ad.doubleclick.net",
+      "origin": "https://ad.doubleclick.net:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://t.contentsquare.net/uxa/217fb7aef6a6c.js": {
+      "url": "https://t.contentsquare.net/uxa/217fb7aef6a6c.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "52.84.205.123",
+      "count": 1,
+      "depth": 1,
+      "host": "t.contentsquare.net",
+      "origin": "https://t.contentsquare.net:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.google.com/ccm/collect?rcb=5&frm=0&apvc=0&auid=1152967328.1792388440&dt=Online%20Shopping%20for%20Women%2C%20Men%2C%20Kids%20Fashion%20%26%20Lifestyle%20-%20Myntra&tid=DC-8758799&en=page_view&dl=https%3A%2F%2Fwww.myntra.com%2F&scrsrc=www.googletagmanager.com&rnd=254016615.1792388440&navt=n&npa=0&gtm=45fe6ae1v9181624917za208zd9181624917xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938469~117776795~118897920~118897930~119317810~120213116~120385422~120469145~120469153~121246026~121246034&tft=1792388440339&tfd=3930&_gsid=bL1Gvh_cUfsVhajwUnQBdFZKnWTYLquMcQ&tids=DC-8758799&fmt=8": {
+      "url": "https://www.google.com/ccm/collect?rcb=5&frm=0&apvc=0&auid=1152967328.1792388440&dt=Online%20Shopping%20for%20Women%2C%20Men%2C%20Kids%20Fashion%20%26%20Lifestyle%20-%20Myntra&tid=DC-8758799&en=page_view&dl=https%3A%2F%2Fwww.myntra.com%2F&scrsrc=www.googletagmanager.com&rnd=254016615.1792388440&navt=n&npa=0&gtm=45fe6ae1v9181624917za208zd9181624917xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938469~117776795~118897920~118897930~119317810~120213116~120385422~120469145~120469153~121246026~121246034&tft=1792388440339&tfd=3930&_gsid=bL1Gvh_cUfsVhajwUnQBdFZKnWTYLquMcQ&tids=DC-8758799&fmt=8",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": "net::ERR_ABORTED",
+      "remote_ip": "142.251.152.119",
+      "count": 1,
+      "depth": 1,
+      "host": "www.google.com",
+      "origin": "https://www.google.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1009500818/?random=1792388440453&cv=11&fst=1792388440453&bg=ffffff&guid=ON&async=1&gtm=45be6ae1v895342649z8571582za20gzb571582zd571582xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~117776795~118897920~118897930~119317810~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.myntra.com%2F&rcb=15&label=qsPNCJ-RzWsQkoWv4QM&frm=0&tiba=Online%20Shopping%20for%20Women%2C%20Men%2C%20Kids%20Fashion%20%26%20Lifestyle%20-%20Myntra&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1152967328.1792388440&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=4": {
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1009500818/?random=1792388440453&cv=11&fst=1792388440453&bg=ffffff&guid=ON&async=1&gtm=45be6ae1v895342649z8571582za20gzb571582zd571582xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~117776795~118897920~118897930~119317810~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.myntra.com%2F&rcb=15&label=qsPNCJ-RzWsQkoWv4QM&frm=0&tiba=Online%20Shopping%20for%20Women%2C%20Men%2C%20Kids%20Fashion%20%26%20Lifestyle%20-%20Myntra&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1152967328.1792388440&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=4",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "142.251.43.66",
+      "count": 1,
+      "depth": 1,
+      "host": "googleads.g.doubleclick.net",
+      "origin": "https://googleads.g.doubleclick.net:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.google.com/rmkt/collect/1009500818/?random=1792388440453&cv=11&fst=1792388440453&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6ae1v895342649z8571582za20gzb571582zd571582xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~117776795~118897920~118897930~119317810~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.myntra.com%2F&rcb=15&label=qsPNCJ-RzWsQkoWv4QM&frm=0&tiba=Online%20Shopping%20for%20Women%2C%20Men%2C%20Kids%20Fashion%20%26%20Lifestyle%20-%20Myntra&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1152967328.1792388440&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=CA&ept=68&gcp=5": {
+      "url": "https://www.google.com/rmkt/collect/1009500818/?random=1792388440453&cv=11&fst=1792388440453&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6ae1v895342649z8571582za20gzb571582zd571582xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~117776795~118897920~118897930~119317810~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.myntra.com%2F&rcb=15&label=qsPNCJ-RzWsQkoWv4QM&frm=0&tiba=Online%20Shopping%20for%20Women%2C%20Men%2C%20Kids%20Fashion%20%26%20Lifestyle%20-%20Myntra&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1152967328.1792388440&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=CA&ept=68&gcp=5",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": "net::ERR_ABORTED",
+      "remote_ip": "142.251.152.119",
+      "count": 1,
+      "depth": 1,
+      "host": "www.google.com",
+      "origin": "https://www.google.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.google.com/ccm/collect?rcb=15&frm=0&apvc=0&ae=g&auid=1152967328.1792388440&dt=Online%20Shopping%20for%20Women%2C%20Men%2C%20Kids%20Fashion%20%26%20Lifestyle%20-%20Myntra&tid=AW-1009500818&dl=https%3A%2F%2Fwww.myntra.com%2F&scrsrc=www.googletagmanager.com&rnd=254016615.1792388440&navt=n&npa=0&_tu=CA&gtm=45be6ae1v895342649z8571582za20gzb571582zd571582xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~117776795~118897920~118897930~119317810~120213116~120385422~120469145~120469153~121246026~121246034&tft=1792388440499&tfd=4091&_gsid=bL1Gvh_cUfsVhajwUnQBdFZKnWTYLquMcQ&tids=AW-1009500818&fmt=8": {
+      "url": "https://www.google.com/ccm/collect?rcb=15&frm=0&apvc=0&ae=g&auid=1152967328.1792388440&dt=Online%20Shopping%20for%20Women%2C%20Men%2C%20Kids%20Fashion%20%26%20Lifestyle%20-%20Myntra&tid=AW-1009500818&dl=https%3A%2F%2Fwww.myntra.com%2F&scrsrc=www.googletagmanager.com&rnd=254016615.1792388440&navt=n&npa=0&_tu=CA&gtm=45be6ae1v895342649z8571582za20gzb571582zd571582xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~117776795~118897920~118897930~119317810~120213116~120385422~120469145~120469153~121246026~121246034&tft=1792388440499&tfd=4091&_gsid=bL1Gvh_cUfsVhajwUnQBdFZKnWTYLquMcQ&tids=AW-1009500818&fmt=8",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": "net::ERR_ABORTED",
+      "remote_ip": "142.251.152.119",
+      "count": 1,
+      "depth": 1,
+      "host": "www.google.com",
+      "origin": "https://www.google.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://connect.facebook.net/signals/config/1535206906706865?v=2.9.419&r=stable&domain=www.myntra.com&hme=7459fa3e38c2784dbaf309537bed5fa7e8560fab51fb61e53e5ffafeb46a02a9&ex_m=118%2C241%2C171%2C27%2C82%2C83%2C162%2C78%2C77%2C11%2C181%2C102%2C20%2C153%2C141%2C46%2C85%2C90%2C149%2C176%2C183%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C115%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C163%2C87%2C126%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C124%2C160%2C164%2C53%2C125%2C29%2C26%2C133%2C79%2C43%2C166%2C165%2C167%2C157%2C155%2C30%2C42%2C66%2C123%2C178%2C80%2C21%2C128%2C93%2C76%2C23%2C97%2C98%2C130%2C96%2C151%2C150%2C154%2C109%2C177%2C180%2C41%2C56%2C127%2C54%2C161%2C72%2C185%2C110%2C184%2C210%2C255%2C84%2C274%2C273%2C272%2C14%2C25%2C28%2C40%2C62%2C117%2C68%2C10%2C73%2C111%2C112%2C113%2C119%2C144%2C38%2C36%2C146%2C147%2C148%2C143%2C142%2C172%2C86%2C175%2C173%2C174%2C57%2C69%2C67%2C137%2C19%2C179%2C52%2C324%2C325%2C326%2C323%2C339%2C361%2C248%2C237%2C70%2C238%2C236%2C364%2C355%2C59%2C249%2C121%2C145%2C92%2C135%2C61%2C134%2C140%2C139%2C65%2C74%2C168%2C88%2C89%2C129%2C44%2C39%2C60%2C63%2C114%2C182%2C1%2C138%2C16%2C136%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C132%2C101%2C100%2C187%2C188%2C106%2C107%2C9%2C116%2C186%2C58%2C158%2C99%2C91%2C81%2C131%2C120%2C169%2C50%2C159%2C0%2C94%2C152%2C156%2C170%2C45%2C122%2C13%2C189": {
+      "url": "https://connect.facebook.net/signals/config/1535206906706865?v=2.9.419&r=stable&domain=www.myntra.com&hme=7459fa3e38c2784dbaf309537bed5fa7e8560fab51fb61e53e5ffafeb46a02a9&ex_m=118%2C241%2C171%2C27%2C82%2C83%2C162%2C78%2C77%2C11%2C181%2C102%2C20%2C153%2C141%2C46%2C85%2C90%2C149%2C176%2C183%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C115%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C163%2C87%2C126%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C124%2C160%2C164%2C53%2C125%2C29%2C26%2C133%2C79%2C43%2C166%2C165%2C167%2C157%2C155%2C30%2C42%2C66%2C123%2C178%2C80%2C21%2C128%2C93%2C76%2C23%2C97%2C98%2C130%2C96%2C151%2C150%2C154%2C109%2C177%2C180%2C41%2C56%2C127%2C54%2C161%2C72%2C185%2C110%2C184%2C210%2C255%2C84%2C274%2C273%2C272%2C14%2C25%2C28%2C40%2C62%2C117%2C68%2C10%2C73%2C111%2C112%2C113%2C119%2C144%2C38%2C36%2C146%2C147%2C148%2C143%2C142%2C172%2C86%2C175%2C173%2C174%2C57%2C69%2C67%2C137%2C19%2C179%2C52%2C324%2C325%2C326%2C323%2C339%2C361%2C248%2C237%2C70%2C238%2C236%2C364%2C355%2C59%2C249%2C121%2C145%2C92%2C135%2C61%2C134%2C140%2C139%2C65%2C74%2C168%2C88%2C89%2C129%2C44%2C39%2C60%2C63%2C114%2C182%2C1%2C138%2C16%2C136%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C132%2C101%2C100%2C187%2C188%2C106%2C107%2C9%2C116%2C186%2C58%2C158%2C99%2C91%2C81%2C131%2C120%2C169%2C50%2C159%2C0%2C94%2C152%2C156%2C170%2C45%2C122%2C13%2C189",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "163.70.140.20",
+      "count": 1,
+      "depth": 1,
+      "host": "connect.facebook.net",
+      "origin": "https://connect.facebook.net:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.google.com/pagead/1p-user-list/1009500818/?random=1792388440453&cv=11&fst=1792386000000&bg=ffffff&guid=ON&async=1&gtm=45be6ae1v895342649z8571582za20gzb571582zd571582xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~117776795~118897920~118897930~119317810~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.myntra.com%2F&rcb=15&label=qsPNCJ-RzWsQkoWv4QM&frm=0&tiba=Online%20Shopping%20for%20Women%2C%20Men%2C%20Kids%20Fashion%20%26%20Lifestyle%20-%20Myntra&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1152967328.1792388440&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAQM4h3Cq-niIESlbmh2SKwxfUUmC8zN5XJzfsVaSYDCtdyYWyDH5m86dlIjE8P2iNlM5ay8ENhDzJjgY3_hRHdzqWO13lxpOqRuU8G9tCbm6B1HrOpdHkjhfEPTyHSM-t-2yjVBMVhtoEPsxfi3rQxKcCHZXcKYzp0E4J5-_FCHnHwaDYSz83uT2mnKo2Ky_ooaLYUgzD8sCyBpGeuCyXiKfLeBQ9ukUxE9P0pRrrn5T5GLUEjlePb-XfvZLh6rfu8J5MRCjMVMPPmO09tLPabzvF&random=3320263647&rmt_tld=0&ipr=y": {
+      "url": "https://www.google.com/pagead/1p-user-list/1009500818/?random=1792388440453&cv=11&fst=1792386000000&bg=ffffff&guid=ON&async=1&gtm=45be6ae1v895342649z8571582za20gzb571582zd571582xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~117776795~118897920~118897930~119317810~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.myntra.com%2F&rcb=15&label=qsPNCJ-RzWsQkoWv4QM&frm=0&tiba=Online%20Shopping%20for%20Women%2C%20Men%2C%20Kids%20Fashion%20%26%20Lifestyle%20-%20Myntra&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1152967328.1792388440&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAQM4h3Cq-niIESlbmh2SKwxfUUmC8zN5XJzfsVaSYDCtdyYWyDH5m86dlIjE8P2iNlM5ay8ENhDzJjgY3_hRHdzqWO13lxpOqRuU8G9tCbm6B1HrOpdHkjhfEPTyHSM-t-2yjVBMVhtoEPsxfi3rQxKcCHZXcKYzp0E4J5-_FCHnHwaDYSz83uT2mnKo2Ky_ooaLYUgzD8sCyBpGeuCyXiKfLeBQ9ukUxE9P0pRrrn5T5GLUEjlePb-XfvZLh6rfu8J5MRCjMVMPPmO09tLPabzvF&random=3320263647&rmt_tld=0&ipr=y",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "142.251.152.119",
+      "count": 1,
+      "depth": 1,
+      "host": "www.google.com",
+      "origin": "https://www.google.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.google.co.in/pagead/1p-user-list/1009500818/?random=1792388440453&cv=11&fst=1792386000000&bg=ffffff&guid=ON&async=1&gtm=45be6ae1v895342649z8571582za20gzb571582zd571582xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~117776795~118897920~118897930~119317810~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.myntra.com%2F&rcb=15&label=qsPNCJ-RzWsQkoWv4QM&frm=0&tiba=Online%20Shopping%20for%20Women%2C%20Men%2C%20Kids%20Fashion%20%26%20Lifestyle%20-%20Myntra&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1152967328.1792388440&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAQM4h3Cq-niIESlbmh2SKwxfUUmC8zN5XJzfsVaSYDCtdyYWyDH5m86dlIjE8P2iNlM5ay8ENhDzJjgY3_hRHdzqWO13lxpOqRuU8G9tCbm6B1HrOpdHkjhfEPTyHSM-t-2yjVBMVhtoEPsxfi3rQxKcCHZXcKYzp0E4J5-_FCHnHwaDYSz83uT2mnKo2Ky_ooaLYUgzD8sCyBpGeuCyXiKfLeBQ9ukUxE9P0pRrrn5T5GLUEjlePb-XfvZLh6rfu8J5MRCjMVMPPmO09tLPabzvF&random=3320263647&rmt_tld=1&ipr=y": {
+      "url": "https://www.google.co.in/pagead/1p-user-list/1009500818/?random=1792388440453&cv=11&fst=1792386000000&bg=ffffff&guid=ON&async=1&gtm=45be6ae1v895342649z8571582za20gzb571582zd571582xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~117776795~118897920~118897930~119317810~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.myntra.com%2F&rcb=15&label=qsPNCJ-RzWsQkoWv4QM&frm=0&tiba=Online%20Shopping%20for%20Women%2C%20Men%2C%20Kids%20Fashion%20%26%20Lifestyle%20-%20Myntra&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1152967328.1792388440&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAQM4h3Cq-niIESlbmh2SKwxfUUmC8zN5XJzfsVaSYDCtdyYWyDH5m86dlIjE8P2iNlM5ay8ENhDzJjgY3_hRHdzqWO13lxpOqRuU8G9tCbm6B1HrOpdHkjhfEPTyHSM-t-2yjVBMVhtoEPsxfi3rQxKcCHZXcKYzp0E4J5-_FCHnHwaDYSz83uT2mnKo2Ky_ooaLYUgzD8sCyBpGeuCyXiKfLeBQ9ukUxE9P0pRrrn5T5GLUEjlePb-XfvZLh6rfu8J5MRCjMVMPPmO09tLPabzvF&random=3320263647&rmt_tld=1&ipr=y",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "142.250.67.35",
+      "count": 1,
+      "depth": 1,
+      "host": "www.google.co.in",
+      "origin": "https://www.google.co.in:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://tr.snapchat.com/cm/i?pid=13993d96-230f-4fda-bc2b-143b954e81b7&u_scsid=e46e1dd2-c8e2-46db-8312-fa104118e32f&u_sclid=e28467f0-dfeb-4e46-82b9-459174fefe12": {
+      "url": "https://tr.snapchat.com/cm/i?pid=13993d96-230f-4fda-bc2b-143b954e81b7&u_scsid=e46e1dd2-c8e2-46db-8312-fa104118e32f&u_sclid=e28467f0-dfeb-4e46-82b9-459174fefe12",
+      "resource_type": "Document",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "35.190.43.134",
+      "count": 1,
+      "depth": 1,
+      "host": "tr.snapchat.com",
+      "origin": "https://tr.snapchat.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://tr.snapchat.com/config/com/13993d96-230f-4fda-bc2b-143b954e81b7.js?v=3.60.2-2610161747": {
+      "url": "https://tr.snapchat.com/config/com/13993d96-230f-4fda-bc2b-143b954e81b7.js?v=3.60.2-2610161747",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "35.190.43.134",
+      "count": 1,
+      "depth": 1,
+      "host": "tr.snapchat.com",
+      "origin": "https://tr.snapchat.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://tr.snapchat.com/p?pid=13993d96-230f-4fda-bc2b-143b954e81b7&ev=PAGE_VIEW&intg=gtm&pids=13993d96-230f-4fda-bc2b-143b954e81b7&u_c1=d8188c69-c64f-45f6-baea-e5cb41061ee5&cdid=%40-4cf9c86a-7bdd-43d0-8760-c87992083832&u_sclid=e28467f0-dfeb-4e46-82b9-459174fefe12&u_scsid=e46e1dd2-c8e2-46db-8312-fa104118e32f&gat=GTM-H34B%2CDC-8758799&bg=false&bt=1d53c387&d_a=x86&d_bvs=%5B%2C%7B%22brand%22%3A%22Not%3AA-Brand%22%2C%22version%22%3A%228.0.0.0%22%7D%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22156.0.8078.4%22%7D%5D&d_ot=Linux&df=true&huah=true&m_dcl=2468&m_fcps=924&m_pi=2050&m_pl=0&m_pv=2&m_rd=4548&m_sh=768&m_sl=4517&m_sw=1366&pl=https%3A%2F%2Fwww.myntra.com%2F&trackId=ec6cfd7d-879c-4051-ba7a-762aec7f70da&ts=1792388440957&v=3.60.2-2610161747": {
+      "url": "https://tr.snapchat.com/p?pid=13993d96-230f-4fda-bc2b-143b954e81b7&ev=PAGE_VIEW&intg=gtm&pids=13993d96-230f-4fda-bc2b-143b954e81b7&u_c1=d8188c69-c64f-45f6-baea-e5cb41061ee5&cdid=%40-4cf9c86a-7bdd-43d0-8760-c87992083832&u_sclid=e28467f0-dfeb-4e46-82b9-459174fefe12&u_scsid=e46e1dd2-c8e2-46db-8312-fa104118e32f&gat=GTM-H34B%2CDC-8758799&bg=false&bt=1d53c387&d_a=x86&d_bvs=%5B%2C%7B%22brand%22%3A%22Not%3AA-Brand%22%2C%22version%22%3A%228.0.0.0%22%7D%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22156.0.8078.4%22%7D%5D&d_ot=Linux&df=true&huah=true&m_dcl=2468&m_fcps=924&m_pi=2050&m_pl=0&m_pv=2&m_rd=4548&m_sh=768&m_sl=4517&m_sw=1366&pl=https%3A%2F%2Fwww.myntra.com%2F&trackId=ec6cfd7d-879c-4051-ba7a-762aec7f70da&ts=1792388440957&v=3.60.2-2610161747",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "35.190.43.134",
+      "count": 1,
+      "depth": 1,
+      "host": "tr.snapchat.com",
+      "origin": "https://tr.snapchat.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://mpc2-prod-24-is5qnl632q-uw.a.run.app/events?cee=no": {
+      "url": "https://mpc2-prod-24-is5qnl632q-uw.a.run.app/events?cee=no",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": "net::ERR_ABORTED",
+      "remote_ip": "34.143.76.2",
+      "count": 1,
+      "depth": 1,
+      "host": "mpc2-prod-24-is5qnl632q-uw.a.run.app",
+      "origin": "https://mpc2-prod-24-is5qnl632q-uw.a.run.app:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://connect.facebook.net/signals/config/1386389041670159?v=2.9.419&r=stable&domain=www.myntra.com&hme=7459fa3e38c2784dbaf309537bed5fa7e8560fab51fb61e53e5ffafeb46a02a9&ex_m=118%2C241%2C171%2C27%2C82%2C83%2C162%2C78%2C77%2C11%2C181%2C102%2C20%2C153%2C141%2C46%2C85%2C90%2C149%2C176%2C183%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C115%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C163%2C87%2C126%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C124%2C160%2C164%2C53%2C125%2C29%2C26%2C133%2C79%2C43%2C166%2C165%2C167%2C157%2C155%2C30%2C42%2C66%2C123%2C178%2C80%2C21%2C128%2C93%2C76%2C23%2C97%2C98%2C130%2C96%2C151%2C150%2C154%2C109%2C177%2C180%2C41%2C56%2C127%2C54%2C161%2C72%2C185%2C110%2C184%2C210%2C255%2C84%2C274%2C273%2C272%2C14%2C25%2C28%2C40%2C62%2C117%2C68%2C10%2C73%2C111%2C112%2C113%2C119%2C144%2C38%2C36%2C146%2C147%2C148%2C143%2C142%2C172%2C86%2C175%2C173%2C174%2C57%2C69%2C67%2C137%2C19%2C179%2C52%2C324%2C325%2C326%2C323%2C339%2C361%2C248%2C237%2C70%2C238%2C236%2C364%2C355%2C59%2C249%2C121%2C145%2C92%2C135%2C61%2C134%2C140%2C139%2C65%2C74%2C168%2C88%2C89%2C129%2C44%2C39%2C60%2C63%2C114%2C182%2C1%2C138%2C16%2C136%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C132%2C101%2C100%2C187%2C188%2C106%2C107%2C9%2C116%2C186%2C58%2C158%2C99%2C91%2C81%2C131%2C120%2C169%2C50%2C159%2C0%2C94%2C152%2C156%2C170%2C45%2C122%2C13%2C189%2C268%2C266%2C261%2C263%2C264%2C265%2C262%2C260%2C247%2C267%2C269%2C259%2C217%2C218%2C270%2C271%2C258%2C257%2C353%2C354%2C200%2C202%2C203%2C207%2C206%2C208%2C204%2C205%2C201%2C199%2C198%2C230%2C225%2C228%2C229%2C223%2C389%2C304%2C308%2C312%2C313%2C314%2C309%2C315%2C307%2C302%2C317%2C318%2C306%2C316%2C320%2C310%2C305%2C311%2C319%2C321%2C303%2C240%2C301%2C226%2C227%2C251%2C224%2C222%2C380%2C278%2C242%2C215%2C216%2C212%2C213%2C214%2C211%2C209%2C220%2C221%2C219%2C327%2C382%2C347%2C348%2C350%2C351%2C349%2C346%2C345%2C231%2C281%2C288%2C289%2C282%2C284%2C287%2C285%2C286%2C283%2C280%2C299%2C293%2C296%2C292%2C300%2C297%2C291%2C295%2C298%2C294%2C290%2C341%2C358": {
+      "url": "https://connect.facebook.net/signals/config/1386389041670159?v=2.9.419&r=stable&domain=www.myntra.com&hme=7459fa3e38c2784dbaf309537bed5fa7e8560fab51fb61e53e5ffafeb46a02a9&ex_m=118%2C241%2C171%2C27%2C82%2C83%2C162%2C78%2C77%2C11%2C181%2C102%2C20%2C153%2C141%2C46%2C85%2C90%2C149%2C176%2C183%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C115%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C163%2C87%2C126%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C124%2C160%2C164%2C53%2C125%2C29%2C26%2C133%2C79%2C43%2C166%2C165%2C167%2C157%2C155%2C30%2C42%2C66%2C123%2C178%2C80%2C21%2C128%2C93%2C76%2C23%2C97%2C98%2C130%2C96%2C151%2C150%2C154%2C109%2C177%2C180%2C41%2C56%2C127%2C54%2C161%2C72%2C185%2C110%2C184%2C210%2C255%2C84%2C274%2C273%2C272%2C14%2C25%2C28%2C40%2C62%2C117%2C68%2C10%2C73%2C111%2C112%2C113%2C119%2C144%2C38%2C36%2C146%2C147%2C148%2C143%2C142%2C172%2C86%2C175%2C173%2C174%2C57%2C69%2C67%2C137%2C19%2C179%2C52%2C324%2C325%2C326%2C323%2C339%2C361%2C248%2C237%2C70%2C238%2C236%2C364%2C355%2C59%2C249%2C121%2C145%2C92%2C135%2C61%2C134%2C140%2C139%2C65%2C74%2C168%2C88%2C89%2C129%2C44%2C39%2C60%2C63%2C114%2C182%2C1%2C138%2C16%2C136%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C132%2C101%2C100%2C187%2C188%2C106%2C107%2C9%2C116%2C186%2C58%2C158%2C99%2C91%2C81%2C131%2C120%2C169%2C50%2C159%2C0%2C94%2C152%2C156%2C170%2C45%2C122%2C13%2C189%2C268%2C266%2C261%2C263%2C264%2C265%2C262%2C260%2C247%2C267%2C269%2C259%2C217%2C218%2C270%2C271%2C258%2C257%2C353%2C354%2C200%2C202%2C203%2C207%2C206%2C208%2C204%2C205%2C201%2C199%2C198%2C230%2C225%2C228%2C229%2C223%2C389%2C304%2C308%2C312%2C313%2C314%2C309%2C315%2C307%2C302%2C317%2C318%2C306%2C316%2C320%2C310%2C305%2C311%2C319%2C321%2C303%2C240%2C301%2C226%2C227%2C251%2C224%2C222%2C380%2C278%2C242%2C215%2C216%2C212%2C213%2C214%2C211%2C209%2C220%2C221%2C219%2C327%2C382%2C347%2C348%2C350%2C351%2C349%2C346%2C345%2C231%2C281%2C288%2C289%2C282%2C284%2C287%2C285%2C286%2C283%2C280%2C299%2C293%2C296%2C292%2C300%2C297%2C291%2C295%2C298%2C294%2C290%2C341%2C358",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "163.70.140.20",
+      "count": 1,
+      "depth": 1,
+      "host": "connect.facebook.net",
+      "origin": "https://connect.facebook.net:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.facebook.com/tr/": {
+      "url": "https://www.facebook.com/tr/",
+      "resource_type": "Document",
+      "initiator_type": "parser",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "163.70.140.35",
+      "count": 2,
+      "depth": 1,
+      "host": "www.facebook.com",
+      "origin": "https://www.facebook.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://t.contentsquare.net/releases/15.266.3/es2019/1f00004-eca139f2.js": {
+      "url": "https://t.contentsquare.net/releases/15.266.3/es2019/1f00004-eca139f2.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "52.84.205.123",
+      "count": 1,
+      "depth": 1,
+      "host": "t.contentsquare.net",
+      "origin": "https://t.contentsquare.net:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://tr6.snapchat.com/p": {
+      "url": "https://tr6.snapchat.com/p",
+      "resource_type": "Ping",
+      "initiator_type": "script",
+      "parent": "https://sc-static.net/scevent.min.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "35.190.43.134",
+      "count": 1,
+      "depth": 2,
+      "host": "tr6.snapchat.com",
+      "origin": "https://tr6.snapchat.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": "https://sc-static.net/scevent.min.js"
+    },
+    "https://tr.snapchat.com/p": {
+      "url": "https://tr.snapchat.com/p",
+      "resource_type": "Ping",
+      "initiator_type": "script",
+      "parent": "https://sc-static.net/scevent.min.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "35.190.43.134",
+      "count": 1,
+      "depth": 2,
+      "host": "tr.snapchat.com",
+      "origin": "https://tr.snapchat.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://sc-static.net/scevent.min.js"
+    },
+    "https://js-agent.newrelic.com/nr-spa-1.291.1.min.js": {
+      "url": "https://js-agent.newrelic.com/nr-spa-1.291.1.min.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "162.247.243.39",
+      "count": 1,
+      "depth": 1,
+      "host": "js-agent.newrelic.com",
+      "origin": "https://js-agent.newrelic.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://bam.nr-data.net/1/NRJS-49cfe53b70c6eb15d1e?a=718407643&sa=1&v=1.291.1&t=Unnamed%20Transaction&rst=6901&ck=0&s=75d51cb4e0c08508&ref=https://www.myntra.com/&ptid=9279eda396bcabe3&af=err,spa,xhr,stn,ins&be=705&fe=5132&dc=1764&fsh=1&perf=%7B%22timing%22:%7B%22of%22:1792388436409,%22n%22:0,%22f%22:4,%22dn%22:7,%22dne%22:209,%22c%22:209,%22s%22:296,%22ce%22:408,%22rq%22:408,%22rp%22:706,%22rpe%22:923,%22di%22:2051,%22ds%22:2467,%22de%22:2469,%22dc%22:5820,%22l%22:5820,%22le%22:5837%7D,%22navigation%22:%7B%7D%7D&fp=924&fcp=924": {
+      "url": "https://bam.nr-data.net/1/NRJS-49cfe53b70c6eb15d1e?a=718407643&sa=1&v=1.291.1&t=Unnamed%20Transaction&rst=6901&ck=0&s=75d51cb4e0c08508&ref=https://www.myntra.com/&ptid=9279eda396bcabe3&af=err,spa,xhr,stn,ins&be=705&fe=5132&dc=1764&fsh=1&perf=%7B%22timing%22:%7B%22of%22:1792388436409,%22n%22:0,%22f%22:4,%22dn%22:7,%22dne%22:209,%22c%22:209,%22s%22:296,%22ce%22:408,%22rq%22:408,%22rp%22:706,%22rpe%22:923,%22di%22:2051,%22ds%22:2467,%22de%22:2469,%22dc%22:5820,%22l%22:5820,%22le%22:5837%7D,%22navigation%22:%7B%7D%7D&fp=924&fcp=924",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "162.247.243.29",
+      "count": 1,
+      "depth": 1,
+      "host": "bam.nr-data.net",
+      "origin": "https://bam.nr-data.net:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://bam.nr-data.net/events/1/NRJS-49cfe53b70c6eb15d1e?a=718407643&sa=1&v=1.291.1&t=Unnamed%20Transaction&rst=7942&ck=0&s=75d51cb4e0c08508&ref=https://www.myntra.com/&ptid=9279eda396bcabe3": {
+      "url": "https://bam.nr-data.net/events/1/NRJS-49cfe53b70c6eb15d1e?a=718407643&sa=1&v=1.291.1&t=Unnamed%20Transaction&rst=7942&ck=0&s=75d51cb4e0c08508&ref=https://www.myntra.com/&ptid=9279eda396bcabe3",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "162.247.243.29",
+      "count": 1,
+      "depth": 1,
+      "host": "bam.nr-data.net",
+      "origin": "https://bam.nr-data.net:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://bam.nr-data.net/events/1/NRJS-49cfe53b70c6eb15d1e?a=718407643&sa=1&v=1.291.1&t=Unnamed%20Transaction&rst=37922&ck=0&s=75d51cb4e0c08508&ref=https://www.myntra.com/&ptid=9279eda396bcabe3": {
+      "url": "https://bam.nr-data.net/events/1/NRJS-49cfe53b70c6eb15d1e?a=718407643&sa=1&v=1.291.1&t=Unnamed%20Transaction&rst=37922&ck=0&s=75d51cb4e0c08508&ref=https://www.myntra.com/&ptid=9279eda396bcabe3",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "162.247.243.29",
+      "count": 1,
+      "depth": 1,
+      "host": "bam.nr-data.net",
+      "origin": "https://bam.nr-data.net:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://bam.nr-data.net/jserrors/1/NRJS-49cfe53b70c6eb15d1e?a=718407643&sa=1&v=1.291.1&t=Unnamed%20Transaction&rst=37928&ck=0&s=75d51cb4e0c08508&ref=https://www.myntra.com/&ptid=9279eda396bcabe3": {
+      "url": "https://bam.nr-data.net/jserrors/1/NRJS-49cfe53b70c6eb15d1e?a=718407643&sa=1&v=1.291.1&t=Unnamed%20Transaction&rst=37928&ck=0&s=75d51cb4e0c08508&ref=https://www.myntra.com/&ptid=9279eda396bcabe3",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.myntra.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "162.247.243.29",
+      "count": 1,
+      "depth": 1,
+      "host": "bam.nr-data.net",
+      "origin": "https://bam.nr-data.net:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://tr.snapchat.com/cm/s?bt=1d53c387&pnid=140&cb=1792388442226&u_scsid=15a1af60-a992-4eb3-beb6-cf9c256a41d8&u_sclid=cf774821-b657-4709-b357-6bfe8d105db0": {
+      "url": "https://tr.snapchat.com/cm/s?bt=1d53c387&pnid=140&cb=1792388442226&u_scsid=15a1af60-a992-4eb3-beb6-cf9c256a41d8&u_sclid=cf774821-b657-4709-b357-6bfe8d105db0",
+      "resource_type": "document",
+      "initiator_type": "frame",
+      "parent": "https://www.myntra.com/",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 1,
+      "host": "tr.snapchat.com",
+      "origin": "https://tr.snapchat.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://pixel.tapad.com/idsync/ex/push?partner_id=2884&partner_url=https%3A%2F%2Ftr.snapchat.com%2Fcm%2Fp%3Frand%3D1792316297619%26pnid%3D140%26pcid%3D%24%7BTA_DEVICE_ID%7D": {
+      "url": "https://pixel.tapad.com/idsync/ex/push?partner_id=2884&partner_url=https%3A%2F%2Ftr.snapchat.com%2Fcm%2Fp%3Frand%3D1792316297619%26pnid%3D140%26pcid%3D%24%7BTA_DEVICE_ID%7D",
+      "resource_type": "document",
+      "initiator_type": "frame",
+      "parent": "https://www.myntra.com/",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 1,
+      "host": "pixel.tapad.com",
+      "origin": "https://pixel.tapad.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://pixel.tapad.com/idsync/ex/push/check?partner_id=2884&partner_url=https%3A%2F%2Ftr.snapchat.com%2Fcm%2Fp%3Frand%3D1792316297619%26pnid%3D140%26pcid%3D%24%7BTA_DEVICE_ID%7D": {
+      "url": "https://pixel.tapad.com/idsync/ex/push/check?partner_id=2884&partner_url=https%3A%2F%2Ftr.snapchat.com%2Fcm%2Fp%3Frand%3D1792316297619%26pnid%3D140%26pcid%3D%24%7BTA_DEVICE_ID%7D",
+      "resource_type": "document",
+      "initiator_type": "frame",
+      "parent": "https://www.myntra.com/",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 1,
+      "host": "pixel.tapad.com",
+      "origin": "https://pixel.tapad.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://tr.snapchat.com/cm/p?rand=1792316297619&pnid=140&pcid=74c19707-4438-4449-bae2-5d9b55cc99d6": {
+      "url": "https://tr.snapchat.com/cm/p?rand=1792316297619&pnid=140&pcid=74c19707-4438-4449-bae2-5d9b55cc99d6",
+      "resource_type": "document",
+      "initiator_type": "frame",
+      "parent": "https://www.myntra.com/",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 1,
+      "host": "tr.snapchat.com",
+      "origin": "https://tr.snapchat.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    }
+  },
+  "origins": {
+    "https://www.myntra.com:443": {
+      "origin": "https://www.myntra.com:443",
+      "host": "www.myntra.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.myntra.com/",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2600:140f:2e00:1ac::1cff",
+            "2600:140f:2e00:1b2::1cff",
+            "2600:140f:2e00:199::1cff",
+            "2600:140f:2e00:180::1cff",
+            "2600:140f:2e00:1a4::1cff"
+          ],
+          "cname_chain": [
+            "www.myntra.com.secure.edgekey.net",
+            "e7423.dscb.akamaiedge.net"
+          ],
+          "ttl": 20,
+          "ms": 181.6,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2600:140f:2e00:1ac::1cff",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.1
+            },
+            {
+              "addr": "2600:140f:2e00:1b2::1cff",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.0
+            },
+            {
+              "addr": "2600:140f:2e00:199::1cff",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.0
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "23.197.217.78"
+          ],
+          "cname_chain": [
+            "www.myntra.com.secure.edgekey.net",
+            "e7423.dscb.akamaiedge.net"
+          ],
+          "ttl": 20,
+          "ms": 94.0
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "23.197.217.78",
+              "ok": true,
+              "ms": 97.1
+            }
+          ],
+          "shim": false,
+          "addr": "23.197.217.78"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.myntra.com",
+          "cert_not_after": "Dec 26 07:21:10 2026 GMT",
+          "ms": 323.4
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 498.1,
+          "ok": true
+        }
+      }
+    },
+    "https://constant.myntassets.com:443": {
+      "origin": "https://constant.myntassets.com:443",
+      "host": "constant.myntassets.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://constant.myntassets.com/web/assets/js/main.6cc9bb9a5db318337f7a.js",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2600:140f:2e00:199::1cff",
+            "2600:140f:2e00:1ac::1cff",
+            "2600:140f:2e00:1a4::1cff",
+            "2600:140f:2e00:1b2::1cff",
+            "2600:140f:2e00:180::1cff"
+          ],
+          "cname_chain": [
+            "constant.myntassets.com-v1.edgekey.net",
+            "e7423.dscb.akamaiedge.net"
+          ],
+          "ttl": 20,
+          "ms": 184.5,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2600:140f:2e00:199::1cff",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.1
+            },
+            {
+              "addr": "2600:140f:2e00:1ac::1cff",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.0
+            },
+            {
+              "addr": "2600:140f:2e00:1a4::1cff",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.0
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "23.197.217.78"
+          ],
+          "cname_chain": [
+            "constant.myntassets.com-v1.edgekey.net",
+            "e7423.dscb.akamaiedge.net"
+          ],
+          "ttl": 20,
+          "ms": 86.6
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "23.197.217.78",
+              "ok": true,
+              "ms": 107.3
+            }
+          ],
+          "shim": false,
+          "addr": "23.197.217.78"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.myntra.com",
+          "cert_not_after": "Dec 26 07:21:10 2026 GMT",
+          "ms": 325.7
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0",
+          "ms": 389.4,
+          "ok": true
+        }
+      }
+    },
+    "https://s.go-mpulse.net:443": {
+      "origin": "https://s.go-mpulse.net:443",
+      "host": "s.go-mpulse.net",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://s.go-mpulse.net/boomerang/5HGF9-8HWNR-5RKQC-BB2LE-73DQ7",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2600:140f:2e00:98c::11a6",
+            "2600:140f:2e00:988::11a6"
+          ],
+          "cname_chain": [
+            "ip46.go-mpulse.net.edgekey.net",
+            "e4518.dscx.akamaiedge.net"
+          ],
+          "ttl": 20,
+          "ms": 174.1,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2600:140f:2e00:98c::11a6",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.1
+            },
+            {
+              "addr": "2600:140f:2e00:988::11a6",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.0
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "23.45.184.165"
+          ],
+          "cname_chain": [
+            "ip46.go-mpulse.net.edgekey.net",
+            "e4518.dscx.akamaiedge.net"
+          ],
+          "ttl": 8,
+          "ms": 21.2
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "23.45.184.165",
+              "ok": true,
+              "ms": 172.5
+            }
+          ],
+          "shim": false,
+          "addr": "23.45.184.165"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "akstat.io",
+          "cert_not_after": "Apr  2 23:59:59 2027 GMT",
+          "ms": 321.4
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 198.8,
+          "ok": true
+        }
+      }
+    },
+    "https://www.google-analytics.com:443": {
+      "origin": "https://www.google-analytics.com:443",
+      "host": "www.google-analytics.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.google-analytics.com/analytics.js",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4007:805::200e"
+          ],
+          "cname_chain": [],
+          "ttl": 300,
+          "ms": 174.1,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2404:6800:4007:805::200e",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.0
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.250.67.46"
+          ],
+          "cname_chain": [],
+          "ttl": 268,
+          "ms": 17.8
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.250.67.46",
+              "ok": true,
+              "ms": 174.6
+            }
+          ],
+          "shim": false,
+          "addr": "142.250.67.46"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google-analytics.com",
+          "cert_not_after": "Dec 21 18:38:19 2026 GMT",
+          "ms": 318.8
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "Golfe2",
+          "ms": 194.3,
+          "ok": true
+        }
+      }
+    },
+    "https://www.googletagmanager.com:443": {
+      "origin": "https://www.googletagmanager.com:443",
+      "host": "www.googletagmanager.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.googletagmanager.com/gtm.js?id=GTM-H34B",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4007:82f::2008"
+          ],
+          "cname_chain": [],
+          "ttl": 241,
+          "ms": 64.2,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2404:6800:4007:82f::2008",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.1
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.251.220.104"
+          ],
+          "cname_chain": [],
+          "ttl": 82,
+          "ms": 4.1
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.251.220.104",
+              "ok": true,
+              "ms": 95.1
+            }
+          ],
+          "shim": false,
+          "addr": "142.251.220.104"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google-analytics.com",
+          "cert_not_after": "Dec 21 18:38:19 2026 GMT",
+          "ms": 324.9
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "Google Tag Manager",
+          "ms": 191.2,
+          "ok": true
+        }
+      }
+    },
+    "https://assets.myntassets.com:443": {
+      "origin": "https://assets.myntassets.com:443",
+      "host": "assets.myntassets.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2026/OCTOBER/7/335962a86c7e49aebb0db6bce64a6eab.jpg",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2600:140f:2e00:1ac::1cff",
+            "2600:140f:2e00:199::1cff",
+            "2600:140f:2e00:1b2::1cff",
+            "2600:140f:2e00:1a4::1cff",
+            "2600:140f:2e00:180::1cff"
+          ],
+          "cname_chain": [
+            "assets2.myntassets.com.edgekey.net",
+            "e7423.dscb.akamaiedge.net"
+          ],
+          "ttl": 20,
+          "ms": 174.5,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2600:140f:2e00:1ac::1cff",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.1
+            },
+            {
+              "addr": "2600:140f:2e00:199::1cff",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.0
+            },
+            {
+              "addr": "2600:140f:2e00:1b2::1cff",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.0
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "23.197.217.78"
+          ],
+          "cname_chain": [
+            "assets2.myntassets.com.edgekey.net",
+            "e7423.dscb.akamaiedge.net"
+          ],
+          "ttl": 20,
+          "ms": 93.6
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "23.197.217.78",
+              "ok": true,
+              "ms": 100.7
+            }
+          ],
+          "shim": false,
+          "addr": "23.197.217.78"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.myntra.com",
+          "cert_not_after": "Dec 26 07:21:10 2026 GMT",
+          "ms": 326.0
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 188.3,
+          "ok": true
+        }
+      }
+    },
+    "https://c.go-mpulse.net:443": {
+      "origin": "https://c.go-mpulse.net:443",
+      "host": "c.go-mpulse.net",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://c.go-mpulse.net/api/config.json?key=5HGF9-8HWNR-5RKQC-BB2LE-73DQ7&d=www.myntra.com&t=5974628&v=1.720.0&sl=0&si=fad6957c-05c7-4580-99e6-210690be1ecb-tn53ro&plugins=AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,LOGN&acao=&ak.ai=281519",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2600:140f:2e00:2b4::11a6",
+            "2600:140f:2e00:2b3::11a6"
+          ],
+          "cname_chain": [
+            "wildcard46.go-mpulse.net.edgekey.net",
+            "e4518.dscapi7.akamaiedge.net"
+          ],
+          "ttl": 12,
+          "ms": 64.9,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2600:140f:2e00:2b4::11a6",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.1
+            },
+            {
+              "addr": "2600:140f:2e00:2b3::11a6",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 2.1
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "23.204.252.168"
+          ],
+          "cname_chain": [
+            "wildcard46.go-mpulse.net.edgekey.net",
+            "e4518.dscapi7.akamaiedge.net"
+          ],
+          "ttl": 12,
+          "ms": 3.6
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "23.204.252.168",
+              "ok": true,
+              "ms": 105.7
+            }
+          ],
+          "shim": false,
+          "addr": "23.204.252.168"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "akstat.io",
+          "cert_not_after": "Apr  2 23:59:59 2027 GMT",
+          "ms": 326.1
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 796.9,
+          "ok": true
+        }
+      }
+    },
+    "https://touch.myntra.com:443": {
+      "origin": "https://touch.myntra.com:443",
+      "host": "touch.myntra.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://touch.myntra.com/track-web",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2600:140f:2e00:893::1cff",
+            "2600:140f:2e00:884::1cff",
+            "2600:140f:2e00:888::1cff",
+            "2600:140f:2e00:886::1cff",
+            "2600:140f:2e00:88d::1cff"
+          ],
+          "cname_chain": [
+            "touch.myntra.com.akadns.net",
+            "touch.myntra.com-dscapi14.edgekey.net",
+            "e7423.dscapi14.akamaiedge.net"
+          ],
+          "ttl": 20,
+          "ms": 267.4,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2600:140f:2e00:893::1cff",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.1
+            },
+            {
+              "addr": "2600:140f:2e00:884::1cff",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.0
+            },
+            {
+              "addr": "2600:140f:2e00:888::1cff",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.0
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "23.8.249.111"
+          ],
+          "cname_chain": [
+            "touch.myntra.com.akadns.net",
+            "touch.myntra.com-dscapi14.edgekey.net",
+            "e7423.dscapi14.akamaiedge.net"
+          ],
+          "ttl": 20,
+          "ms": 95.6
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "23.8.249.111",
+              "ok": true,
+              "ms": 109.5
+            }
+          ],
+          "shim": false,
+          "addr": "23.8.249.111"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.myntra.com",
+          "cert_not_after": "Dec 26 07:21:10 2026 GMT",
+          "ms": 225.6
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 384.5,
+          "ok": true
+        }
+      }
+    },
+    "https://sc-static.net:443": {
+      "origin": "https://sc-static.net:443",
+      "host": "sc-static.net",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://sc-static.net/scevent.min.js",
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "dns",
+        "failure_code": "DNS_NO_AAAA",
+        "dns": {
+          "ok": false,
+          "rcode": "NOERROR",
+          "addresses": [],
+          "cname_chain": [],
+          "ttl": null,
+          "ms": 63.9
+        },
+        "tcp": {},
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "3.163.248.4"
+          ],
+          "cname_chain": [],
+          "ttl": 60,
+          "ms": 102.5
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "3.163.248.4",
+              "ok": true,
+              "ms": 198.4
+            }
+          ],
+          "shim": false,
+          "addr": "3.163.248.4"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "sc-static.net",
+          "cert_not_after": "Apr  7 23:59:59 2027 GMT",
+          "ms": 412.6
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "CloudFront",
+          "ms": 417.3,
+          "ok": true
+        }
+      }
+    },
+    "https://connect.facebook.net:443": {
+      "origin": "https://connect.facebook.net:443",
+      "host": "connect.facebook.net",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://connect.facebook.net/en_US/fbevents.js",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2a03:2880:f09e:15:face:b00c:0:3"
+          ],
+          "cname_chain": [
+            "scontent.xx.fbcdn.net"
+          ],
+          "ttl": 1,
+          "ms": 62.3,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2a03:2880:f09e:15:face:b00c:0:3",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 3.2
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "163.70.140.20"
+          ],
+          "cname_chain": [
+            "scontent.xx.fbcdn.net"
+          ],
+          "ttl": 7,
+          "ms": 2.1
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "163.70.140.20",
+              "ok": true,
+              "ms": 89.8
+            }
+          ],
+          "shim": false,
+          "addr": "163.70.140.20"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_CHACHA20_POLY1305_SHA256",
+          "cert_cn": "*.facebook.com",
+          "cert_not_after": "Oct 26 23:59:59 2026 GMT",
+          "ms": 225.6
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 182.7,
+          "ok": true
+        }
+      }
+    },
+    "https://www.google.com:443": {
+      "origin": "https://www.google.com:443",
+      "host": "www.google.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.google.com/ccm/collect?rcb=15&frm=0&apvc=1&ae=g&auid=1152967328.1792388440&dt=Online%20Shopping%20for%20Women%2C%20Men%2C%20Kids%20Fashion%20%26%20Lifestyle%20-%20Myntra&en=page_view&dl=https%3A%2F%2Fwww.myntra.com%2F&scrsrc=www.googletagmanager.com&rnd=254016615.1792388440&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6ae1v571582za200zd571582xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~117776795~118897920~118897930~119317810~120385422~120469145~120469153~121246026~121246034&tft=1792388439860&tfd=3452&_gsid=bL1Gvh_cUfsVhajwUnQBdFZKnWTYLquMcQ&fmt=8",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2001:4860:482a:7700::",
+            "2001:4860:4826:7700::",
+            "2001:4860:482d:7700::",
+            "2001:4860:482c:7700::",
+            "2001:4860:482b:7700::",
+            "2001:4860:4829:7700::",
+            "2001:4860:4828:7700::",
+            "2001:4860:4827:7700::"
+          ],
+          "cname_chain": [],
+          "ttl": 8,
+          "ms": 3.8,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2001:4860:482a:7700::",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.1
+            },
+            {
+              "addr": "2001:4860:4826:7700::",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.0
+            },
+            {
+              "addr": "2001:4860:482d:7700::",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.0
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.251.157.119",
+            "142.251.155.119",
+            "142.251.154.119",
+            "142.251.150.119",
+            "142.251.153.119",
+            "142.251.152.119",
+            "142.251.156.119",
+            "142.251.151.119"
+          ],
+          "cname_chain": [],
+          "ttl": 216,
+          "ms": 3.2
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.251.157.119",
+              "ok": true,
+              "ms": 150.5
+            }
+          ],
+          "shim": false,
+          "addr": "142.251.157.119"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "www.google.com",
+          "cert_not_after": "Dec 21 18:41:20 2026 GMT",
+          "ms": 229.2
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "scaffolding on HTTPServer2",
+          "ms": 303.1,
+          "ok": true
+        }
+      }
+    },
+    "https://ad.doubleclick.net:443": {
+      "origin": "https://ad.doubleclick.net:443",
+      "host": "ad.doubleclick.net",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://ad.doubleclick.net/ccm/s/collect?_gsid=bL1Gvh_cUfsVhajwUnQBdFZKnWTYLquMcQ&auid=1152967328.1792388440&gtm=45He6ae1v571582za200zd571582xeaxf1&fmt=8",
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "dns",
+        "failure_code": "DNS_NO_AAAA",
+        "dns": {
+          "ok": false,
+          "rcode": "NOERROR",
+          "addresses": [],
+          "cname_chain": [],
+          "ttl": null,
+          "ms": 59.5
+        },
+        "tcp": {},
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": "http",
+        "failure_code": "HTTP_405",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.250.182.70"
+          ],
+          "cname_chain": [],
+          "ttl": 232,
+          "ms": 1.3
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.250.182.70",
+              "ok": true,
+              "ms": 96.9
+            }
+          ],
+          "shim": false,
+          "addr": "142.250.182.70"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.doubleclick.net",
+          "cert_not_after": "Dec 21 18:38:02 2026 GMT",
+          "ms": 334.5
+        },
+        "http": {
+          "status": 405,
+          "reason": "Method Not Allowed",
+          "location": null,
+          "server": "scaffolding on HTTPServer2",
+          "ms": 193.0,
+          "ok": false
+        }
+      }
+    },
+    "https://t.contentsquare.net:443": {
+      "origin": "https://t.contentsquare.net:443",
+      "host": "t.contentsquare.net",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://t.contentsquare.net/uxa/217fb7aef6a6c.js",
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "dns",
+        "failure_code": "DNS_NO_AAAA",
+        "dns": {
+          "ok": false,
+          "rcode": "NOERROR",
+          "addresses": [],
+          "cname_chain": [],
+          "ttl": null,
+          "ms": 57.0
+        },
+        "tcp": {},
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "52.84.205.88",
+            "52.84.205.83",
+            "52.84.205.122",
+            "52.84.205.123"
+          ],
+          "cname_chain": [],
+          "ttl": 16,
+          "ms": 1.2
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "52.84.205.88",
+              "ok": true,
+              "ms": 91.9
+            }
+          ],
+          "shim": false,
+          "addr": "52.84.205.88"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "t.contentsquare.net",
+          "cert_not_after": "Jan  7 23:59:59 2027 GMT",
+          "ms": 315.8
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 203.9,
+          "ok": true
+        }
+      }
+    },
+    "https://googleads.g.doubleclick.net:443": {
+      "origin": "https://googleads.g.doubleclick.net:443",
+      "host": "googleads.g.doubleclick.net",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1009500818/?random=1792388440453&cv=11&fst=1792388440453&bg=ffffff&guid=ON&async=1&gtm=45be6ae1v895342649z8571582za20gzb571582zd571582xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~117776795~118897920~118897930~119317810~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.myntra.com%2F&rcb=15&label=qsPNCJ-RzWsQkoWv4QM&frm=0&tiba=Online%20Shopping%20for%20Women%2C%20Men%2C%20Kids%20Fashion%20%26%20Lifestyle%20-%20Myntra&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1152967328.1792388440&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=4",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4007:82f::2002"
+          ],
+          "cname_chain": [],
+          "ttl": 39,
+          "ms": 54.2,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2404:6800:4007:82f::2002",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.1
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.251.43.66"
+          ],
+          "cname_chain": [],
+          "ttl": 255,
+          "ms": 0.8
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.251.43.66",
+              "ok": true,
+              "ms": 95.7
+            }
+          ],
+          "shim": false,
+          "addr": "142.251.43.66"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.g.doubleclick.net",
+          "cert_not_after": "Dec 21 18:38:12 2026 GMT",
+          "ms": 341.4
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "cafe",
+          "ms": 271.7,
+          "ok": true
+        }
+      }
+    },
+    "https://www.google.co.in:443": {
+      "origin": "https://www.google.co.in:443",
+      "host": "www.google.co.in",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.google.co.in/pagead/1p-user-list/1009500818/?random=1792388440453&cv=11&fst=1792386000000&bg=ffffff&guid=ON&async=1&gtm=45be6ae1v895342649z8571582za20gzb571582zd571582xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~117776795~118897920~118897930~119317810~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.myntra.com%2F&rcb=15&label=qsPNCJ-RzWsQkoWv4QM&frm=0&tiba=Online%20Shopping%20for%20Women%2C%20Men%2C%20Kids%20Fashion%20%26%20Lifestyle%20-%20Myntra&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1152967328.1792388440&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAQM4h3Cq-niIESlbmh2SKwxfUUmC8zN5XJzfsVaSYDCtdyYWyDH5m86dlIjE8P2iNlM5ay8ENhDzJjgY3_hRHdzqWO13lxpOqRuU8G9tCbm6B1HrOpdHkjhfEPTyHSM-t-2yjVBMVhtoEPsxfi3rQxKcCHZXcKYzp0E4J5-_FCHnHwaDYSz83uT2mnKo2Ky_ooaLYUgzD8sCyBpGeuCyXiKfLeBQ9ukUxE9P0pRrrn5T5GLUEjlePb-XfvZLh6rfu8J5MRCjMVMPPmO09tLPabzvF&random=3320263647&rmt_tld=1&ipr=y",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4007:805::2003"
+          ],
+          "cname_chain": [],
+          "ttl": 86,
+          "ms": 1.4,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2404:6800:4007:805::2003",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.1
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.250.67.35"
+          ],
+          "cname_chain": [],
+          "ttl": 86,
+          "ms": 0.6
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.250.67.35",
+              "ok": true,
+              "ms": 144.2
+            }
+          ],
+          "shim": false,
+          "addr": "142.250.67.35"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google.co.in",
+          "cert_not_after": "Dec 21 18:41:46 2026 GMT",
+          "ms": 339.9
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "cafe",
+          "ms": 171.8,
+          "ok": true
+        }
+      }
+    },
+    "https://tr.snapchat.com:443": {
+      "origin": "https://tr.snapchat.com:443",
+      "host": "tr.snapchat.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://tr.snapchat.com/cm/i?pid=13993d96-230f-4fda-bc2b-143b954e81b7&u_scsid=e46e1dd2-c8e2-46db-8312-fa104118e32f&u_sclid=e28467f0-dfeb-4e46-82b9-459174fefe12",
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "dns",
+        "failure_code": "DNS_NO_AAAA",
+        "dns": {
+          "ok": false,
+          "rcode": "NOERROR",
+          "addresses": [],
+          "cname_chain": [
+            "gcp.api.snapchat.com",
+            "gcp.api.sc-gw.com"
+          ],
+          "ttl": null,
+          "ms": 248.9
+        },
+        "tcp": {},
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "35.190.43.134"
+          ],
+          "cname_chain": [
+            "gcp.api.snapchat.com",
+            "gcp.api.sc-gw.com"
+          ],
+          "ttl": 112,
+          "ms": 0.4
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "35.190.43.134",
+              "ok": true,
+              "ms": 103.2
+            }
+          ],
+          "shim": false,
+          "addr": "35.190.43.134"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.snap.com",
+          "cert_not_after": "Apr 11 23:59:59 2027 GMT",
+          "ms": 319.6
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "API Gateway",
+          "ms": 292.5,
+          "ok": true
+        }
+      }
+    },
+    "https://mpc2-prod-24-is5qnl632q-uw.a.run.app:443": {
+      "origin": "https://mpc2-prod-24-is5qnl632q-uw.a.run.app:443",
+      "host": "mpc2-prod-24-is5qnl632q-uw.a.run.app",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://mpc2-prod-24-is5qnl632q-uw.a.run.app/events?cee=no",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2600:1901:81d4:200::",
+            "2600:1900:4245:200::",
+            "2600:1901:81d5:200::",
+            "2600:1900:4243:200::",
+            "2600:1900:4244:200::",
+            "2600:1900:4242:200::",
+            "2600:1900:4241:200::",
+            "2600:1900:4240:200::"
+          ],
+          "cname_chain": [],
+          "ttl": 300,
+          "ms": 114.8,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2600:1901:81d4:200::",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.0
+            },
+            {
+              "addr": "2600:1900:4245:200::",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.0
+            },
+            {
+              "addr": "2600:1901:81d5:200::",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.1
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": "http",
+        "failure_code": "HTTP_404",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "34.143.79.2",
+            "34.143.78.2",
+            "34.143.72.2",
+            "34.143.76.2",
+            "34.143.74.2",
+            "34.143.75.2",
+            "34.143.73.2",
+            "34.143.77.2"
+          ],
+          "cname_chain": [],
+          "ttl": 255,
+          "ms": 2.1
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "34.143.79.2",
+              "ok": true,
+              "ms": 90.9
+            }
+          ],
+          "shim": false,
+          "addr": "34.143.79.2"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.a.run.app",
+          "cert_not_after": "Dec 21 18:38:26 2026 GMT",
+          "ms": 208.6
+        },
+        "http": {
+          "status": 404,
+          "reason": "Not Found",
+          "location": null,
+          "server": "Google Frontend",
+          "ms": 402.1,
+          "ok": false
+        }
+      }
+    },
+    "https://www.facebook.com:443": {
+      "origin": "https://www.facebook.com:443",
+      "host": "www.facebook.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.facebook.com/tr/",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2a03:2880:f185:85:face:b00c:0:25de"
+          ],
+          "cname_chain": [
+            "star-mini.c10r.facebook.com"
+          ],
+          "ttl": 59,
+          "ms": 21.4,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2a03:2880:f185:85:face:b00c:0:25de",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.2
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "163.70.140.35"
+          ],
+          "cname_chain": [
+            "star-mini.c10r.facebook.com"
+          ],
+          "ttl": 21,
+          "ms": 81.0
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "163.70.140.35",
+              "ok": true,
+              "ms": 100.4
+            }
+          ],
+          "shim": false,
+          "addr": "163.70.140.35"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_CHACHA20_POLY1305_SHA256",
+          "cert_cn": "*.facebook.com",
+          "cert_not_after": "Oct 26 23:59:59 2026 GMT",
+          "ms": 211.9
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "proxygen-bolt",
+          "ms": 195.1,
+          "ok": true
+        }
+      }
+    },
+    "https://tr6.snapchat.com:443": {
+      "origin": "https://tr6.snapchat.com:443",
+      "host": "tr6.snapchat.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://tr6.snapchat.com/p",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2600:1901:0:7628::"
+          ],
+          "cname_chain": [
+            "usc1-gcp-v61.api.sc-gw.com"
+          ],
+          "ttl": 51,
+          "ms": 101.5,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2600:1901:0:7628::",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.1
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "35.190.43.134"
+          ],
+          "cname_chain": [
+            "usc1-gcp-v61.api.sc-gw.com"
+          ],
+          "ttl": 140,
+          "ms": 6.2
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "35.190.43.134",
+              "ok": true,
+              "ms": 98.3
+            }
+          ],
+          "shim": false,
+          "addr": "35.190.43.134"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.snap.com",
+          "cert_not_after": "Apr 11 23:59:59 2027 GMT",
+          "ms": 205.0
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "API Gateway",
+          "ms": 301.1,
+          "ok": true
+        }
+      }
+    },
+    "https://js-agent.newrelic.com:443": {
+      "origin": "https://js-agent.newrelic.com:443",
+      "host": "js-agent.newrelic.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://js-agent.newrelic.com/nr-spa-1.291.1.min.js",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2602:816:5001::39"
+          ],
+          "cname_chain": [],
+          "ttl": 154,
+          "ms": 2.4,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2602:816:5001::39",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 2.2
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "162.247.243.39"
+          ],
+          "cname_chain": [],
+          "ttl": 1809,
+          "ms": 1.0
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "162.247.243.39",
+              "ok": true,
+              "ms": 293.7
+            }
+          ],
+          "shim": false,
+          "addr": "162.247.243.39"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "js-agent.newrelic.com",
+          "cert_not_after": "Dec 27 19:58:07 2026 GMT",
+          "ms": 414.5
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 608.7,
+          "ok": true
+        }
+      }
+    },
+    "https://bam.nr-data.net:443": {
+      "origin": "https://bam.nr-data.net:443",
+      "host": "bam.nr-data.net",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://bam.nr-data.net/1/NRJS-49cfe53b70c6eb15d1e?a=718407643&sa=1&v=1.291.1&t=Unnamed%20Transaction&rst=6901&ck=0&s=75d51cb4e0c08508&ref=https://www.myntra.com/&ptid=9279eda396bcabe3&af=err,spa,xhr,stn,ins&be=705&fe=5132&dc=1764&fsh=1&perf=%7B%22timing%22:%7B%22of%22:1792388436409,%22n%22:0,%22f%22:4,%22dn%22:7,%22dne%22:209,%22c%22:209,%22s%22:296,%22ce%22:408,%22rq%22:408,%22rp%22:706,%22rpe%22:923,%22di%22:2051,%22ds%22:2467,%22de%22:2469,%22dc%22:5820,%22l%22:5820,%22le%22:5837%7D,%22navigation%22:%7B%7D%7D&fp=924&fcp=924",
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "dns",
+        "failure_code": "DNS_NO_AAAA",
+        "dns": {
+          "ok": false,
+          "rcode": "NOERROR",
+          "addresses": [],
+          "cname_chain": [
+            "bam.cell.nr-data.net",
+            "bam.nr-data.net.cdn.cloudflare.net"
+          ],
+          "ttl": null,
+          "ms": 92.1
+        },
+        "tcp": {},
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "162.247.241.14"
+          ],
+          "cname_chain": [
+            "bam.cell.nr-data.net",
+            "bam.nr-data.net.cdn.cloudflare.net"
+          ],
+          "ttl": 248,
+          "ms": 4.1
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "162.247.241.14",
+              "ok": true,
+              "ms": 89.9
+            }
+          ],
+          "shim": false,
+          "addr": "162.247.241.14"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.nr-data.net",
+          "cert_not_after": "Jan 20 23:59:59 2027 GMT",
+          "ms": 210.5
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "cloudflare",
+          "ms": 412.3,
+          "ok": true
+        }
+      }
+    },
+    "https://pixel.tapad.com:443": {
+      "origin": "https://pixel.tapad.com:443",
+      "host": "pixel.tapad.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://pixel.tapad.com/idsync/ex/push?partner_id=2884&partner_url=https%3A%2F%2Ftr.snapchat.com%2Fcm%2Fp%3Frand%3D1792316297619%26pnid%3D140%26pcid%3D%24%7BTA_DEVICE_ID%7D",
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "dns",
+        "failure_code": "DNS_NO_AAAA",
+        "dns": {
+          "ok": false,
+          "rcode": "NOERROR",
+          "addresses": [],
+          "cname_chain": [],
+          "ttl": null,
+          "ms": 83.6
+        },
+        "tcp": {},
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "34.111.113.62"
+          ],
+          "cname_chain": [],
+          "ttl": 300,
+          "ms": 103.7
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "34.111.113.62",
+              "ok": true,
+              "ms": 95.9
+            }
+          ],
+          "shim": false,
+          "addr": "34.111.113.62"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "analytics.tapad.com",
+          "cert_not_after": "Nov 25 13:55:51 2026 GMT",
+          "ms": 209.4
+        },
+        "http": {
+          "status": 302,
+          "reason": "Found",
+          "location": "https://pixel.tapad.com/idsync/ex/push/check?partner_id=2884&partner_url=https%3A%2F%2Ftr.snapchat.com%2Fcm%2Fp%3Frand%3D1792316297619%26pnid%3D140%26pcid%3D%24%7BTA_DEVICE_ID%7D",
+          "server": null,
+          "ms": 303.6,
+          "ok": true
+        }
+      }
+    }
+  },
+  "site": {
+    "category": "E-commerce",
+    "name": "Myntra",
+    "url": "https://www.myntra.com/"
+  }
+}

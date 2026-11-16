@@ -1,0 +1,21 @@
+{
+  "label": "hostel",
+  "vantage": {
+    "nat64_prefixes": [],
+    "ipv6_stack": true,
+    "ipv6_default_route": false,
+    "ipv4_default_route": true,
+    "lab_v6_shim": false,
+    "pathway": "ipv4-only"
+  },
+  "resolvers": [
+    [
+      "127.0.0.53",
+      53
+    ]
+  ],
+  "started_utc": "2026-10-19T05:33:23+00:00",
+  "platform": "linux",
+  "python": "3.12.3",
+  "finished_utc": "2026-10-19T05:46:15+00:00"
+}

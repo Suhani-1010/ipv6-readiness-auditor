@@ -1,0 +1,4 @@
+page,origin,host,verdict,failed_stage,failure_code,v6_dns_rcode,v6_addresses,v6_synthesized,v6_tcp,v6_tls,v6_http_status,v6_failure_code,v4_addresses,v4_failure_code,v4_http_status,probe_url
+https://www.onlinesbi.sbi/,https://www.onlinesbi.sbi:443,www.onlinesbi.sbi,READY,,,NOERROR,2405:a700:14:17b::14,False,ok,ok,307,,103.209.97.9,,307,https://www.onlinesbi.sbi/
+https://www.onlinesbi.sbi/,https://onlinesbi.sbi.bank.in:443,onlinesbi.sbi.bank.in,READY,,,NOERROR,2405:a700:14:17b::14,False,ok,ok,200,,103.209.97.9,,200,https://onlinesbi.sbi.bank.in/
+https://www.onlinesbi.sbi/,https://cdn.page-source.com:443,cdn.page-source.com,IPV4_ONLY_NAT64,dns,DNS_ONLY_SYNTHESIZED_AAAA,NOERROR,64:ff9b::3359:ea86,True,ok,ok,200,,51.89.234.134,,200,https://cdn.page-source.com/resizeimage.ashx?ig=onlinesbi.sbi.bank.in&sz=105405

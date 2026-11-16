@@ -1,0 +1,275 @@
+{
+  "schema": "ipv6-readiness-audit/1",
+  "page": "https://www.wikipedia.org/",
+  "final_url": "https://www.wikipedia.org/",
+  "started_utc": "2026-10-19T05:33:47+00:00",
+  "load_seconds": 5.33,
+  "vantage": {
+    "nat64_prefixes": [],
+    "ipv6_stack": true,
+    "ipv6_default_route": false,
+    "ipv4_default_route": true,
+    "lab_v6_shim": false,
+    "pathway": "ipv4-only"
+  },
+  "capture_errors": [],
+  "summary": {
+    "page_verdict": "INCONCLUSIVE_NO_IPV6",
+    "root_verdict": "INCONCLUSIVE_NO_IPV6",
+    "root_has_aaaa": true,
+    "resources_total": 6,
+    "origins_total": 1,
+    "resources_by_verdict": {
+      "INCONCLUSIVE_NO_IPV6": 6
+    },
+    "origins_by_verdict": {
+      "INCONCLUSIVE_NO_IPV6": 1
+    },
+    "ipv6_failures_by_stage": {},
+    "ipv6_failing_resources": 0,
+    "inconclusive_resources": 6,
+    "ipv6_failing_critical": 0,
+    "ipv6_failing_third_party": 0,
+    "resource_ipv6_ready_pct": 0.0,
+    "ipv4_only_hosts": [],
+    "aaaa_but_broken_hosts": [],
+    "root_host": "www.wikipedia.org"
+  },
+  "tree": {
+    "root": "https://www.wikipedia.org/",
+    "edges": [
+      [
+        "https://www.wikipedia.org/",
+        "https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png"
+      ],
+      [
+        "https://www.wikipedia.org/",
+        "https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-e49fbf32.svg"
+      ],
+      [
+        "https://www.wikipedia.org/",
+        "https://www.wikipedia.org/portal/wikipedia.org/assets/js/index-43aa8c7b47.js"
+      ],
+      [
+        "https://www.wikipedia.org/",
+        "https://www.wikipedia.org/portal/wikipedia.org/assets/js/gt-ie9-507b16b6be.js"
+      ],
+      [
+        "https://www.wikipedia.org/",
+        "https://www.wikipedia.org/static/favicon/wikipedia.ico"
+      ]
+    ]
+  },
+  "resources": {
+    "https://www.wikipedia.org/": {
+      "url": "https://www.wikipedia.org/",
+      "resource_type": "Document",
+      "initiator_type": "other",
+      "parent": null,
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.102.166.224",
+      "count": 1,
+      "depth": 0,
+      "host": "www.wikipedia.org",
+      "origin": "https://www.wikipedia.org:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png": {
+      "url": "https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.wikipedia.org/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.102.166.224",
+      "count": 1,
+      "depth": 1,
+      "host": "www.wikipedia.org",
+      "origin": "https://www.wikipedia.org:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-e49fbf32.svg": {
+      "url": "https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-e49fbf32.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.wikipedia.org/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.102.166.224",
+      "count": 1,
+      "depth": 1,
+      "host": "www.wikipedia.org",
+      "origin": "https://www.wikipedia.org:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.wikipedia.org/portal/wikipedia.org/assets/js/index-43aa8c7b47.js": {
+      "url": "https://www.wikipedia.org/portal/wikipedia.org/assets/js/index-43aa8c7b47.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.wikipedia.org/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.102.166.224",
+      "count": 1,
+      "depth": 1,
+      "host": "www.wikipedia.org",
+      "origin": "https://www.wikipedia.org:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.wikipedia.org/portal/wikipedia.org/assets/js/gt-ie9-507b16b6be.js": {
+      "url": "https://www.wikipedia.org/portal/wikipedia.org/assets/js/gt-ie9-507b16b6be.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.wikipedia.org/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.102.166.224",
+      "count": 1,
+      "depth": 1,
+      "host": "www.wikipedia.org",
+      "origin": "https://www.wikipedia.org:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.wikipedia.org/static/favicon/wikipedia.ico": {
+      "url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+      "resource_type": "Other",
+      "initiator_type": "other",
+      "parent": "https://www.wikipedia.org/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.102.166.224",
+      "count": 1,
+      "depth": 1,
+      "host": "www.wikipedia.org",
+      "origin": "https://www.wikipedia.org:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    }
+  },
+  "origins": {
+    "https://www.wikipedia.org:443": {
+      "origin": "https://www.wikipedia.org:443",
+      "host": "www.wikipedia.org",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.wikipedia.org/",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2001:df2:e500:ed1a::1"
+          ],
+          "cname_chain": [
+            "dyna.wikimedia.org"
+          ],
+          "ttl": 180,
+          "ms": 125.0,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2001:df2:e500:ed1a::1",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.1
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "103.102.166.224"
+          ],
+          "cname_chain": [
+            "dyna.wikimedia.org"
+          ],
+          "ttl": 124,
+          "ms": 0.8
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "103.102.166.224",
+              "ok": true,
+              "ms": 96.7
+            }
+          ],
+          "shim": false,
+          "addr": "103.102.166.224"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "*.wikipedia.org",
+          "cert_not_after": "Jan  2 18:34:50 2027 GMT",
+          "ms": 138.5
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "ATS/9.2.15",
+          "ms": 269.7,
+          "ok": true
+        }
+      }
+    }
+  },
+  "site": {
+    "category": "Global tech",
+    "name": "Wikipedia",
+    "url": "https://www.wikipedia.org/"
+  }
+}

@@ -1,0 +1,3681 @@
+{
+  "schema": "ipv6-readiness-audit/1",
+  "page": "https://www.swiggy.com/",
+  "final_url": "https://www.swiggy.com/restaurants",
+  "started_utc": "2026-10-24T09:51:02+00:00",
+  "load_seconds": 12.79,
+  "vantage": {
+    "nat64_prefixes": [
+      "64:ff9b::/96"
+    ],
+    "ipv6_stack": true,
+    "ipv6_default_route": true,
+    "ipv4_default_route": true,
+    "lab_v6_shim": false,
+    "pathway": "dual-stack + DNS64/NAT64"
+  },
+  "capture_errors": [],
+  "summary": {
+    "page_verdict": "NOT_READY",
+    "root_verdict": "IPV4_ONLY_NAT64",
+    "root_has_aaaa": false,
+    "resources_total": 91,
+    "origins_total": 15,
+    "resources_by_verdict": {
+      "IPV4_ONLY_NAT64": 51,
+      "READY": 37,
+      "BROKEN_BOTH": 3
+    },
+    "origins_by_verdict": {
+      "IPV4_ONLY_NAT64": 5,
+      "READY": 7,
+      "BROKEN_BOTH": 3
+    },
+    "ipv6_failures_by_stage": {
+      "dns": 5
+    },
+    "ipv6_failing_resources": 51,
+    "inconclusive_resources": 0,
+    "ipv6_failing_critical": 32,
+    "ipv6_failing_third_party": 6,
+    "resource_ipv6_ready_pct": 40.7,
+    "ipv4_only_hosts": [
+      "b67f7794189c.edge.sdk.awswaf.com",
+      "b67f7794189c.f957f42c.ap-south-1.token.awswaf.com",
+      "bam.nr-data.net",
+      "media-assets.swiggy.com",
+      "www.swiggy.com"
+    ],
+    "aaaa_but_broken_hosts": [],
+    "root_host": "www.swiggy.com",
+    "root_http_parity": false
+  },
+  "tree": {
+    "root": "https://www.swiggy.com/",
+    "edges": [
+      [
+        "https://www.swiggy.com/",
+        "https://b67f7794189c.f957f42c.ap-south-1.token.awswaf.com/b67f7794189c/5504ea1b6187/219ce11e78c5/challenge.js"
+      ],
+      [
+        "https://b67f7794189c.f957f42c.ap-south-1.token.awswaf.com/b67f7794189c/5504ea1b6187/219ce11e78c5/challenge.js",
+        "https://b67f7794189c.f957f42c.ap-south-1.token.awswaf.com/b67f7794189c/5504ea1b6187/219ce11e78c5/inputs?client=browser"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://www.swiggy.com/favicon.ico"
+      ],
+      [
+        "https://b67f7794189c.f957f42c.ap-south-1.token.awswaf.com/b67f7794189c/5504ea1b6187/219ce11e78c5/challenge.js",
+        "https://b67f7794189c.f957f42c.ap-south-1.token.awswaf.com/b67f7794189c/5504ea1b6187/219ce11e78c5/verify?region=ap-south-1"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://media-assets.swiggy.com/dweb/js/vendor.15706fae1d55634.js"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://media-assets.swiggy.com/dweb/js/app.15706fae1d55634.js"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://media-assets.swiggy.com/dls-web-assets/dls/fonts/Gilroy-ExtraBold.woff2"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://media-assets.swiggy.com/dls-web-assets/dls/fonts/Gilroy-Bold.woff2"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://media-assets.swiggy.com/dls-web-assets/dls/fonts/Gilroy-Medium.woff2"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://media-assets.swiggy.com/dls-web-assets/dls/fonts/Gilroy-SemiBold.woff2"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://www.googletagmanager.com/gtm.js?id=GTM-MJV7Q8Q"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://b67f7794189c.edge.sdk.awswaf.com/b67f7794189c/3dddb029b68f/challenge.js"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://media-assets.swiggy.com/portal/static-assets/js/nr-mini-v1.js?v=10"
+      ],
+      [
+        "https://www.googletagmanager.com/gtm.js?id=GTM-MJV7Q8Q",
+        "https://www.googletagmanager.com/gtag/js?id=G-YE38MFJRBZ&cx=c&gtm=4e6al1"
+      ],
+      [
+        "https://www.googletagmanager.com/gtm.js?id=GTM-MJV7Q8Q",
+        "https://www.googletagmanager.com/gtag/js?id=G-34JYJ0BCRN&cx=c&gtm=4e6al1"
+      ],
+      [
+        "https://www.googletagmanager.com/gtm.js?id=GTM-MJV7Q8Q",
+        "https://www.google-analytics.com/analytics.js"
+      ],
+      [
+        "https://www.googletagmanager.com/gtm.js?id=GTM-MJV7Q8Q",
+        "https://www.google.com/ccm/collect?rcb=9&frm=0&apvc=1&ae=g&auid=2065507836.1792835468&dt=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&en=page_view&dl=https%3A%2F%2Fwww.swiggy.com%2F&dr=https%3A%2F%2Fwww.swiggy.com%2F&scrsrc=www.googletagmanager.com&rnd=138723684.1792835468&navt=r&npa=0&ep.ads_data_redaction=0&gtm=45He6al1v78036788za200zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120385422~120469145~120469153~121246026~121246034&tft=1792835468104&tfd=1488&fmt=8"
+      ],
+      [
+        "https://www.googletagmanager.com/gtm.js?id=GTM-MJV7Q8Q",
+        "https://ad.doubleclick.net/ccm/s/collect?auid=2065507836.1792835468&gtm=45He6al1v78036788za200zd78036788xeaxf1&fmt=8"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://www.facebook.com/tr?id=1103929212960245&ev=PageView&noscript=1&gtmcb=946212667"
+      ],
+      [
+        "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+        "https://media-assets.swiggy.com/dweb/js/vendors-dls~web-core_-40ca3.15706fae1d55634.js"
+      ],
+      [
+        "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+        "https://media-assets.swiggy.com/dweb/js/vendors-dls~web-icons_-c7e7d.15706fae1d55634.js"
+      ],
+      [
+        "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+        "https://media-assets.swiggy.com/dweb/js/vendors-dls~web-recipe-food-web_-e82b2.15706fae1d55634.js"
+      ],
+      [
+        "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+        "https://media-assets.swiggy.com/dweb/js/vendors-dls~web-common_-1b505.15706fae1d55634.js"
+      ],
+      [
+        "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+        "https://media-assets.swiggy.com/dweb/js/vendors-dls~web-recipe-common-web_-83414.15706fae1d55634.js"
+      ],
+      [
+        "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+        "https://media-assets.swiggy.com/dweb/js/vendors-dls~web-theme_-953e5.15706fae1d55634.js"
+      ],
+      [
+        "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+        "https://media-assets.swiggy.com/dweb/js/vendors-dls~web-food-icons_-7268f.15706fae1d55634.js"
+      ],
+      [
+        "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+        "https://media-assets.swiggy.com/dweb/js/vendors-dls-mxn.15706fae1d55634.js"
+      ],
+      [
+        "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+        "https://media-assets.swiggy.com/dweb/js/vendors-dls~web-recipe-do-web_-741d4.15706fae1d55634.js"
+      ],
+      [
+        "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+        "https://media-assets.swiggy.com/dweb/js/vendors-homeSeo.15706fae1d55634.js"
+      ],
+      [
+        "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+        "https://media-assets.swiggy.com/dweb/js/home.15706fae1d55634.js"
+      ],
+      [
+        "https://www.googletagmanager.com/gtag/js?id=G-YE38MFJRBZ&cx=c&gtm=4e6al1",
+        "https://www.google-analytics.com/g/collect?v=2&tid=G-YE38MFJRBZ&gtm=45je6al1v9217332845za20ozb78036788zd78036788xf1&_p=1792835467116&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=958671354.1792835469&frm=0&ngs=1&pscdl=noapi&rcb=7&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~121284210&sid=1792835468&sct=1&seg=0&dl=https%3A%2F%2Fwww.swiggy.com%2F&dt=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=2137"
+      ],
+      [
+        "https://www.googletagmanager.com/gtag/js?id=G-YE38MFJRBZ&cx=c&gtm=4e6al1",
+        "https://www.google-analytics.com/g/collect?v=2&tid=G-YE38MFJRBZ&gtm=45je6al1v9217332845z878036788za20gzb78036788zd78036788xf1&_p=1792835467116&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=958671354.1792835469&frm=0&ngs=1&pscdl=noapi&rcb=7&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&_s=2&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~121284210&sid=1792835468&sct=1&seg=0&dl=https%3A%2F%2Fwww.swiggy.com%2F&dt=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&en=pahttps%3A%2F%2Fwww.swiggy.com%2F&_et=10&tfd=2170"
+      ],
+      [
+        "https://www.googletagmanager.com/gtag/js?id=G-34JYJ0BCRN&cx=c&gtm=4e6al1",
+        "https://www.googletagmanager.com/gtag/destination?id=AW-815667960&cx=c&gtm=4e6al1"
+      ],
+      [
+        "https://www.googletagmanager.com/gtag/js?id=G-34JYJ0BCRN&cx=c&gtm=4e6al1",
+        "https://www.googletagmanager.com/gtag/destination?id=AW-959564654&cx=c&gtm=4e6al1"
+      ],
+      [
+        "https://www.googletagmanager.com/gtag/js?id=G-34JYJ0BCRN&cx=c&gtm=4e6al1",
+        "https://www.googletagmanager.com/gtag/destination?id=AW-739530825&cx=c&gtm=4e6al1"
+      ],
+      [
+        "https://www.googletagmanager.com/gtag/js?id=G-34JYJ0BCRN&cx=c&gtm=4e6al1",
+        "https://www.googletagmanager.com/gtag/destination?id=AW-769796681&cx=c&gtm=4e6al1"
+      ],
+      [
+        "https://www.googletagmanager.com/gtag/js?id=G-34JYJ0BCRN&cx=c&gtm=4e6al1",
+        "https://www.google-analytics.com/g/collect?v=2&tid=G-34JYJ0BCRN&gtm=45je6al1v899483351za20ozb78036788zd78036788xf1&_p=1792835467116&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=958671354.1792835469&frm=0&ngs=1&pscdl=noapi&rcb=17&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&_s=1&tag_exp=115616985~115938465~115938469~118012007~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&sid=1792835468&sct=1&seg=0&dl=https%3A%2F%2Fwww.swiggy.com%2F&dt=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&en=page_view&_fv=1&_ss=1&tfd=2313"
+      ],
+      [
+        "https://media-assets.swiggy.com/dweb/js/app.15706fae1d55634.js",
+        "https://analytics.swiggy.com/message-set"
+      ],
+      [
+        "https://media-assets.swiggy.com/dweb/js/app.15706fae1d55634.js",
+        "https://insights-collector.newrelic.com/v1/accounts/737486/events"
+      ],
+      [
+        "https://b67f7794189c.edge.sdk.awswaf.com/b67f7794189c/3dddb029b68f/challenge.js",
+        "https://b67f7794189c.edge.sdk.awswaf.com/b67f7794189c/3dddb029b68f/telemetry"
+      ],
+      [
+        "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+        "https://media-assets.swiggy.com/dweb/js/searchLocation.15706fae1d55634.js"
+      ],
+      [
+        "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+        "https://media-assets.swiggy.com/dweb/js/auth.15706fae1d55634.js"
+      ],
+      [
+        "https://media-assets.swiggy.com/dweb/js/home.15706fae1d55634.js",
+        "https://media-assets.swiggy.com/portal/testing/seo-home/Pull%20to%20refresh.json"
+      ],
+      [
+        "https://b67f7794189c.edge.sdk.awswaf.com/b67f7794189c/3dddb029b68f/challenge.js",
+        "https://www.swiggy.com/dapi/homepagev2/getCards?lat=26.18850&lng=91.73920&pageLimit=15"
+      ],
+      [
+        "https://www.googletagmanager.com/gtag/destination?id=AW-815667960&cx=c&gtm=4e6al1",
+        "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/815667960/?random=1792835470265&cv=11&fst=1792835470265&bg=ffffff&guid=ON&async=1&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=13&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=4"
+      ],
+      [
+        "https://www.googletagmanager.com/gtag/destination?id=AW-815667960&cx=c&gtm=4e6al1",
+        "https://www.google.com/rmkt/collect/815667960/?random=1792835470265&cv=11&fst=1792835470265&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=13&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=68&gcp=5"
+      ],
+      [
+        "https://www.googletagmanager.com/gtag/destination?id=AW-815667960&cx=c&gtm=4e6al1",
+        "https://www.google.com/ccm/collect?rcb=13&frm=0&apvc=0&ae=g&auid=2065507836.1792835468&dt=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&tid=AW-815667960&dl=https%3A%2F%2Fwww.swiggy.com%2F&scrsrc=www.googletagmanager.com&rnd=138723684.1792835468&navt=r&npa=0&_tu=CA&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120385422~120469145~120469153~121246026~121246034&tft=1792835470297&tfd=3681&tids=AW-815667960&fmt=8"
+      ],
+      [
+        "https://www.googletagmanager.com/gtag/destination?id=AW-959564654&cx=c&gtm=4e6al1",
+        "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/959564654/?random=1792835470380&cv=11&fst=1792835470380&bg=ffffff&guid=ON&async=1&gtm=45be6al1v9248611475z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=18&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=4"
+      ],
+      [
+        "https://www.googletagmanager.com/gtag/destination?id=AW-959564654&cx=c&gtm=4e6al1",
+        "https://www.google.com/rmkt/collect/959564654/?random=1792835470380&cv=11&fst=1792835470380&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6al1v9248611475z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=18&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=68&gcp=5"
+      ],
+      [
+        "https://www.googletagmanager.com/gtag/destination?id=AW-959564654&cx=c&gtm=4e6al1",
+        "https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=0&ae=g&auid=2065507836.1792835468&dt=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&tid=AW-959564654&dl=https%3A%2F%2Fwww.swiggy.com%2F&scrsrc=www.googletagmanager.com&rnd=138723684.1792835468&navt=r&npa=0&_tu=CA&gtm=45be6al1v9248611475z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792835470412&tfd=3796&tids=AW-959564654&fmt=8"
+      ],
+      [
+        "https://www.googletagmanager.com/gtag/destination?id=AW-739530825&cx=c&gtm=4e6al1",
+        "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/739530825/?random=1792835470504&cv=11&fst=1792835470504&bg=ffffff&guid=ON&async=1&gtm=45be6al1v9135916950z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=17&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=4"
+      ],
+      [
+        "https://www.googletagmanager.com/gtag/destination?id=AW-739530825&cx=c&gtm=4e6al1",
+        "https://www.google.com/rmkt/collect/739530825/?random=1792835470504&cv=11&fst=1792835470504&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6al1v9135916950z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=17&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=68&gcp=5"
+      ],
+      [
+        "https://www.googletagmanager.com/gtag/destination?id=AW-739530825&cx=c&gtm=4e6al1",
+        "https://www.google.com/ccm/collect?rcb=17&frm=0&apvc=0&ae=g&auid=2065507836.1792835468&dt=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&tid=AW-739530825&dl=https%3A%2F%2Fwww.swiggy.com%2F&scrsrc=www.googletagmanager.com&rnd=138723684.1792835468&navt=r&npa=0&_tu=CA&gtm=45be6al1v9135916950z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792835470539&tfd=3923&tids=AW-739530825&fmt=8"
+      ],
+      [
+        "https://www.googletagmanager.com/gtag/destination?id=AW-769796681&cx=c&gtm=4e6al1",
+        "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/769796681/?random=1792835470619&cv=11&fst=1792835470619&bg=ffffff&guid=ON&async=1&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=10&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=4"
+      ],
+      [
+        "https://www.googletagmanager.com/gtag/destination?id=AW-769796681&cx=c&gtm=4e6al1",
+        "https://www.google.com/rmkt/collect/769796681/?random=1792835470619&cv=11&fst=1792835470619&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=10&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=68&gcp=5"
+      ],
+      [
+        "https://www.googletagmanager.com/gtag/destination?id=AW-769796681&cx=c&gtm=4e6al1",
+        "https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=0&ae=g&auid=2065507836.1792835468&dt=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&tid=AW-769796681&dl=https%3A%2F%2Fwww.swiggy.com%2F&scrsrc=www.googletagmanager.com&rnd=138723684.1792835468&navt=r&npa=0&_tu=CA&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&tft=1792835470652&tfd=4036&tids=AW-769796681&fmt=8"
+      ],
+      [
+        "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+        "https://media-assets.swiggy.com/dweb/js/vendors-ui~github.com.15706fae1d55634.js"
+      ],
+      [
+        "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+        "https://media-assets.swiggy.com/dweb/js/listing.15706fae1d55634.js"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://www.facebook.com/tr?id=1103929212960245&ev=PageView&noscript=1&gtmcb=1953355690"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://www.google.com/pagead/1p-user-list/815667960/?random=1792835470265&cv=11&fst=1792832400000&bg=ffffff&guid=ON&async=1&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=13&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS7AEAQM4h3HccfrkpaEKk8V0YkmPvabgSbuyOzGyg6anFOn6_F1NyqamoO0wpBiJwLPYuhL858VLP-CboKxFPA57-lqHaqtQH-GDGyXFDPYeiCR9iZqPUgeC7kwZhpQ_29EFBJYonpUaQiyXW80-IPxS2hS0MOSX3OTEHx1VCb1A_2FpoVpN93_WoBMNn7eM9vt8gYBj9Je7PDIwe5m6v23pX6fa86Ov0-QOOZ_AEvWmA9V7bRlO_hg7Zsn9lJymnU5YathstGhxIV0A3gCKZ5xSZQGT62HftjIFtV-eb7hqPMsNL0mrf12Bi49StXA&random=1625220810&rmt_tld=0&ipr=y"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://www.google.co.in/pagead/1p-user-list/815667960/?random=1792835470265&cv=11&fst=1792832400000&bg=ffffff&guid=ON&async=1&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=13&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS7AEAQM4h3HccfrkpaEKk8V0YkmPvabgSbuyOzGyg6anFOn6_F1NyqamoO0wpBiJwLPYuhL858VLP-CboKxFPA57-lqHaqtQH-GDGyXFDPYeiCR9iZqPUgeC7kwZhpQ_29EFBJYonpUaQiyXW80-IPxS2hS0MOSX3OTEHx1VCb1A_2FpoVpN93_WoBMNn7eM9vt8gYBj9Je7PDIwe5m6v23pX6fa86Ov0-QOOZ_AEvWmA9V7bRlO_hg7Zsn9lJymnU5YathstGhxIV0A3gCKZ5xSZQGT62HftjIFtV-eb7hqPMsNL0mrf12Bi49StXA&random=1625220810&rmt_tld=1&ipr=y"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://www.google.com/pagead/1p-user-list/959564654/?random=1792835470380&cv=11&fst=1792832400000&bg=ffffff&guid=ON&async=1&gtm=45be6al1v9248611475z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=18&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS7AEAQM4h3F6wSE4PICCvvcRI_KMBhVnRkzh5-Lyh8TIYHQeBnZWppuZSMo38VC3i2EFKKVnQKeRutRylVNRV4DTawRspJ6yiLJcI0JveJ4f4W4bCf14jcezWguEU9DKjn05F2VkIJ5JqZ3NQlge9XWRkVIp44iQHFJ-GXK9zdZI7USMpXVQHkdoj-_qmvAN-TfNZPMeoO9x0t9DSUmbYQoNfMiZsWWiHytYud8Br9rZmWL8vLtP7j8JKTzBaAdoFnwjNWwCTMelzV2o19cZr7HDfKWmOY0ac709ssxA1IveI2uXCieXON7voji3lAA&random=3545705439&rmt_tld=0&ipr=y"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://www.google.co.in/pagead/1p-user-list/959564654/?random=1792835470380&cv=11&fst=1792832400000&bg=ffffff&guid=ON&async=1&gtm=45be6al1v9248611475z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=18&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS7AEAQM4h3F6wSE4PICCvvcRI_KMBhVnRkzh5-Lyh8TIYHQeBnZWppuZSMo38VC3i2EFKKVnQKeRutRylVNRV4DTawRspJ6yiLJcI0JveJ4f4W4bCf14jcezWguEU9DKjn05F2VkIJ5JqZ3NQlge9XWRkVIp44iQHFJ-GXK9zdZI7USMpXVQHkdoj-_qmvAN-TfNZPMeoO9x0t9DSUmbYQoNfMiZsWWiHytYud8Br9rZmWL8vLtP7j8JKTzBaAdoFnwjNWwCTMelzV2o19cZr7HDfKWmOY0ac709ssxA1IveI2uXCieXON7voji3lAA&random=3545705439&rmt_tld=1&ipr=y"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://www.google.com/pagead/1p-user-list/739530825/?random=1792835470504&cv=11&fst=1792832400000&bg=ffffff&guid=ON&async=1&gtm=45be6al1v9135916950z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=17&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS7AEAQM4h3JlieBnjdFNynN7yojwn4gJgPzVkkwHx552-b4ZE3KNQtO2VsShutk7ISqAzMp3hJ2Y3s2HL431h1Q6hmLd3j7_4RVFCjuj13pRZKY4OlUqiHK122wCOD0mWYkTJJOzwYd0B1ByUFjgFJVLbkKjV80Gs7MFGeQQSVJXmNKxTAvrZ2Y9O-YnUQ9lNtAqurVNLCdiOkV9IeHDTNKCTQQlc4U-eMiHfsJFrMCF7D-3Tafq82MkpqKQGErt3iJpVCObltM1bVgRQZwbxm11UPFtYZwU0C2tAjfva-kNwAkpjHMpzNOtqWZn3-w&random=159727951&rmt_tld=0&ipr=y"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://www.google.co.in/pagead/1p-user-list/739530825/?random=1792835470504&cv=11&fst=1792832400000&bg=ffffff&guid=ON&async=1&gtm=45be6al1v9135916950z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=17&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS7AEAQM4h3JlieBnjdFNynN7yojwn4gJgPzVkkwHx552-b4ZE3KNQtO2VsShutk7ISqAzMp3hJ2Y3s2HL431h1Q6hmLd3j7_4RVFCjuj13pRZKY4OlUqiHK122wCOD0mWYkTJJOzwYd0B1ByUFjgFJVLbkKjV80Gs7MFGeQQSVJXmNKxTAvrZ2Y9O-YnUQ9lNtAqurVNLCdiOkV9IeHDTNKCTQQlc4U-eMiHfsJFrMCF7D-3Tafq82MkpqKQGErt3iJpVCObltM1bVgRQZwbxm11UPFtYZwU0C2tAjfva-kNwAkpjHMpzNOtqWZn3-w&random=159727951&rmt_tld=1&ipr=y"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://www.google.com/pagead/1p-user-list/769796681/?random=1792835470619&cv=11&fst=1792832400000&bg=ffffff&guid=ON&async=1&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=10&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS7AEAQM4h3IKUDhyXGfKchyPn3fB0w2tNBmajtPWq7zOZzWLYVwaXMcAPeMMPtm9DhR8g_yFRpRYSlpfimORLleYXGOL8q34adQw_S4vpeVpB3Q28G8pS7HMb58vyPfYXGHs1DdkOevfg0nJaEJ0PCF1Vh6tQUTWUbf9cPu_OrGqIYy58tEnxXuN_s2XrUFgMSW99preVSojNvxagpW6u_VqySnZwFJgMT-LUSHrOCJf9tBXVvxPgTeZ_P50I9JUjO8gA80Mhhh_Bgb1PmSUV3QsP-I-PcdqqtkN9BLCJhKqsj9zYbCN4mf0Z7B3r3w&random=635248454&rmt_tld=0&ipr=y"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://www.google.co.in/pagead/1p-user-list/769796681/?random=1792835470619&cv=11&fst=1792832400000&bg=ffffff&guid=ON&async=1&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=10&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS7AEAQM4h3IKUDhyXGfKchyPn3fB0w2tNBmajtPWq7zOZzWLYVwaXMcAPeMMPtm9DhR8g_yFRpRYSlpfimORLleYXGOL8q34adQw_S4vpeVpB3Q28G8pS7HMb58vyPfYXGHs1DdkOevfg0nJaEJ0PCF1Vh6tQUTWUbf9cPu_OrGqIYy58tEnxXuN_s2XrUFgMSW99preVSojNvxagpW6u_VqySnZwFJgMT-LUSHrOCJf9tBXVvxPgTeZ_P50I9JUjO8gA80Mhhh_Bgb1PmSUV3QsP-I-PcdqqtkN9BLCJhKqsj9zYbCN4mf0Z7B3r3w&random=635248454&rmt_tld=1&ipr=y"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://media-assets.swiggy.com/swiggy/raw/upload/v1/portal/dweb/icomoon.ttf?eojet8"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/icecream_wwomsa"
+      ],
+      [
+        "https://b67f7794189c.edge.sdk.awswaf.com/b67f7794189c/3dddb029b68f/challenge.js",
+        "https://www.swiggy.com/dapi/restaurants/list/v5?lat=26.18850&lng=91.73920&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
+      ],
+      [
+        "https://media-assets.swiggy.com/portal/static-assets/js/nr-mini-v1.js?v=10",
+        "https://js-agent.newrelic.com/nr-full-1.288.1.min.js"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://media-assets.swiggy.com/fl_lossy,f_auto,q_auto,w_96,h_96/portal/m/logo_192x192.png"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://media-assets.swiggy.com/portal/m/logo_32x32.ico"
+      ],
+      [
+        "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+        "https://media-assets.swiggy.com/dweb/js/vendors-seo.15706fae1d55634.js"
+      ],
+      [
+        "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+        "https://media-assets.swiggy.com/dweb/js/seoHome.15706fae1d55634.js"
+      ],
+      [
+        "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+        "https://media-assets.swiggy.com/dweb/js/trackingNudge.15706fae1d55634.js"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/frappe_zmntd7"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://media-assets.swiggy.com/portal/m/logo_16x16.ico"
+      ],
+      [
+        "https://media-assets.swiggy.com/dweb/js/vendor.15706fae1d55634.js",
+        "https://www.swiggy.com/core/sprite-pjeYbFTQ.svg"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/play_store.png"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/app_store.png"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://media-assets.swiggy.com/h_32/portal/m/seo/icon-linkedin.png"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://media-assets.swiggy.com/h_32/portal/m/seo/icon-instagram.png"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://media-assets.swiggy.com/h_32/portal/m/seo/icon-facebook.png"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://media-assets.swiggy.com/h_32/portal/m/seo/icon-pinterest.png"
+      ],
+      [
+        "https://www.swiggy.com/",
+        "https://media-assets.swiggy.com/h_32/portal/m/seo/icon-twitter.png"
+      ],
+      [
+        "https://js-agent.newrelic.com/nr-full-1.288.1.min.js",
+        "https://bam.nr-data.net/1/a9dd66e24a?a=601569167&sa=1&v=1.288.1&t=Unnamed%20Transaction&rst=5296&ck=0&s=da2662bc1774f017&ref=https://www.swiggy.com/restaurants&ptid=fa1986e4f9730c11&af=err,ins&be=455&fe=4209&dc=1517&fsh=1&perf=%7B%22timing%22:%7B%22of%22:1792835466617,%22n%22:0,%22u%22:469,%22ue%22:469,%22f%22:8,%22dn%22:8,%22dne%22:8,%22c%22:8,%22s%22:8,%22ce%22:8,%22rq%22:11,%22rp%22:455,%22rpe%22:519,%22di%22:1826,%22ds%22:1967,%22de%22:1972,%22dc%22:4662,%22l%22:4662,%22le%22:4664%7D,%22navigation%22:%7B%22ty%22:1%7D%7D&fp=660&fcp=660"
+      ],
+      [
+        "https://www.googletagmanager.com/gtag/js?id=G-YE38MFJRBZ&cx=c&gtm=4e6al1",
+        "https://www.google-analytics.com/g/collect?v=2&tid=G-YE38MFJRBZ&gtm=45je6al1v9217332845za20gzb78036788zd78036788xf1&_p=1792835467116&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&cid=958671354.1792835469&frm=0&ngs=1&pscdl=noapi&rcb=7&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~121284210&sid=1792835468&sct=1&seg=0&dl=https%3A%2F%2Fwww.swiggy.com%2F&dt=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&_s=3&tfd=7173"
+      ],
+      [
+        "https://www.googletagmanager.com/gtag/js?id=G-34JYJ0BCRN&cx=c&gtm=4e6al1",
+        "https://www.google-analytics.com/g/collect?v=2&tid=G-34JYJ0BCRN&gtm=45je6al1v899483351za20gzb78036788zd78036788xf1&_p=1792835467116&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&cid=958671354.1792835469&frm=0&ngs=1&pscdl=noapi&rcb=17&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&tag_exp=115616985~115938465~115938469~118012007~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&sid=1792835468&sct=1&seg=0&dl=https%3A%2F%2Fwww.swiggy.com%2F&dt=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&_s=2&tfd=7342"
+      ]
+    ]
+  },
+  "resources": {
+    "https://www.swiggy.com/": {
+      "url": "https://www.swiggy.com/",
+      "resource_type": "Document",
+      "initiator_type": "other",
+      "parent": null,
+      "status": 202,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::36c0:973b]",
+      "count": 2,
+      "depth": 0,
+      "host": "www.swiggy.com",
+      "origin": "https://www.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://b67f7794189c.f957f42c.ap-south-1.token.awswaf.com/b67f7794189c/5504ea1b6187/219ce11e78c5/challenge.js": {
+      "url": "https://b67f7794189c.f957f42c.ap-south-1.token.awswaf.com/b67f7794189c/5504ea1b6187/219ce11e78c5/challenge.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a45]",
+      "count": 1,
+      "depth": 1,
+      "host": "b67f7794189c.f957f42c.ap-south-1.token.awswaf.com",
+      "origin": "https://b67f7794189c.f957f42c.ap-south-1.token.awswaf.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://b67f7794189c.f957f42c.ap-south-1.token.awswaf.com/b67f7794189c/5504ea1b6187/219ce11e78c5/inputs?client=browser": {
+      "url": "https://b67f7794189c.f957f42c.ap-south-1.token.awswaf.com/b67f7794189c/5504ea1b6187/219ce11e78c5/inputs?client=browser",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://b67f7794189c.f957f42c.ap-south-1.token.awswaf.com/b67f7794189c/5504ea1b6187/219ce11e78c5/challenge.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a45]",
+      "count": 1,
+      "depth": 2,
+      "host": "b67f7794189c.f957f42c.ap-south-1.token.awswaf.com",
+      "origin": "https://b67f7794189c.f957f42c.ap-south-1.token.awswaf.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.swiggy.com/favicon.ico": {
+      "url": "https://www.swiggy.com/favicon.ico",
+      "resource_type": "Other",
+      "initiator_type": "other",
+      "parent": "https://www.swiggy.com/",
+      "status": 404,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::36c0:973b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.swiggy.com",
+      "origin": "https://www.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://b67f7794189c.f957f42c.ap-south-1.token.awswaf.com/b67f7794189c/5504ea1b6187/219ce11e78c5/verify?region=ap-south-1": {
+      "url": "https://b67f7794189c.f957f42c.ap-south-1.token.awswaf.com/b67f7794189c/5504ea1b6187/219ce11e78c5/verify?region=ap-south-1",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://b67f7794189c.f957f42c.ap-south-1.token.awswaf.com/b67f7794189c/5504ea1b6187/219ce11e78c5/challenge.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a45]",
+      "count": 1,
+      "depth": 2,
+      "host": "b67f7794189c.f957f42c.ap-south-1.token.awswaf.com",
+      "origin": "https://b67f7794189c.f957f42c.ap-south-1.token.awswaf.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js": {
+      "url": "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 1,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/dweb/js/vendor.15706fae1d55634.js": {
+      "url": "https://media-assets.swiggy.com/dweb/js/vendor.15706fae1d55634.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 1,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/dweb/js/app.15706fae1d55634.js": {
+      "url": "https://media-assets.swiggy.com/dweb/js/app.15706fae1d55634.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 1,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/dls-web-assets/dls/fonts/Gilroy-ExtraBold.woff2": {
+      "url": "https://media-assets.swiggy.com/dls-web-assets/dls/fonts/Gilroy-ExtraBold.woff2",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 1,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/dls-web-assets/dls/fonts/Gilroy-Bold.woff2": {
+      "url": "https://media-assets.swiggy.com/dls-web-assets/dls/fonts/Gilroy-Bold.woff2",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 1,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/dls-web-assets/dls/fonts/Gilroy-Medium.woff2": {
+      "url": "https://media-assets.swiggy.com/dls-web-assets/dls/fonts/Gilroy-Medium.woff2",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 1,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/dls-web-assets/dls/fonts/Gilroy-SemiBold.woff2": {
+      "url": "https://media-assets.swiggy.com/dls-web-assets/dls/fonts/Gilroy-SemiBold.woff2",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 1,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.googletagmanager.com/gtm.js?id=GTM-MJV7Q8Q": {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MJV7Q8Q",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4013:802::61]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.googletagmanager.com",
+      "origin": "https://www.googletagmanager.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://b67f7794189c.edge.sdk.awswaf.com/b67f7794189c/3dddb029b68f/challenge.js": {
+      "url": "https://b67f7794189c.edge.sdk.awswaf.com/b67f7794189c/3dddb029b68f/challenge.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::36c0:973c]",
+      "count": 1,
+      "depth": 1,
+      "host": "b67f7794189c.edge.sdk.awswaf.com",
+      "origin": "https://b67f7794189c.edge.sdk.awswaf.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/portal/static-assets/js/nr-mini-v1.js?v=10": {
+      "url": "https://media-assets.swiggy.com/portal/static-assets/js/nr-mini-v1.js?v=10",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 1,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.googletagmanager.com/gtag/js?id=G-YE38MFJRBZ&cx=c&gtm=4e6al1": {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-YE38MFJRBZ&cx=c&gtm=4e6al1",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtm.js?id=GTM-MJV7Q8Q",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4013:802::61]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.googletagmanager.com",
+      "origin": "https://www.googletagmanager.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.googletagmanager.com/gtag/js?id=G-34JYJ0BCRN&cx=c&gtm=4e6al1": {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-34JYJ0BCRN&cx=c&gtm=4e6al1",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtm.js?id=GTM-MJV7Q8Q",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4013:802::61]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.googletagmanager.com",
+      "origin": "https://www.googletagmanager.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.google-analytics.com/analytics.js": {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtm.js?id=GTM-MJV7Q8Q",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4007:838::200e]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.google-analytics.com",
+      "origin": "https://www.google-analytics.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.google.com/ccm/collect?rcb=9&frm=0&apvc=1&ae=g&auid=2065507836.1792835468&dt=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&en=page_view&dl=https%3A%2F%2Fwww.swiggy.com%2F&dr=https%3A%2F%2Fwww.swiggy.com%2F&scrsrc=www.googletagmanager.com&rnd=138723684.1792835468&navt=r&npa=0&ep.ads_data_redaction=0&gtm=45He6al1v78036788za200zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120385422~120469145~120469153~121246026~121246034&tft=1792835468104&tfd=1488&fmt=8": {
+      "url": "https://www.google.com/ccm/collect?rcb=9&frm=0&apvc=1&ae=g&auid=2065507836.1792835468&dt=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&en=page_view&dl=https%3A%2F%2Fwww.swiggy.com%2F&dr=https%3A%2F%2Fwww.swiggy.com%2F&scrsrc=www.googletagmanager.com&rnd=138723684.1792835468&navt=r&npa=0&ep.ads_data_redaction=0&gtm=45He6al1v78036788za200zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120385422~120469145~120469153~121246026~121246034&tft=1792835468104&tfd=1488&fmt=8",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtm.js?id=GTM-MJV7Q8Q",
+      "status": 200,
+      "browser_error": "net::ERR_ABORTED",
+      "remote_ip": "[2001:4860:4829:7700::]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.google.com",
+      "origin": "https://www.google.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://ad.doubleclick.net/ccm/s/collect?auid=2065507836.1792835468&gtm=45He6al1v78036788za200zd78036788xeaxf1&fmt=8": {
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=2065507836.1792835468&gtm=45He6al1v78036788za200zd78036788xeaxf1&fmt=8",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtm.js?id=GTM-MJV7Q8Q",
+      "status": 204,
+      "browser_error": "net::ERR_ABORTED",
+      "remote_ip": "[64:ff9b::8efa:1d95]",
+      "count": 1,
+      "depth": 2,
+      "host": "ad.doubleclick.net",
+      "origin": "https://ad.doubleclick.net:443",
+      "third_party": true,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_405",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.facebook.com/tr?id=1103929212960245&ev=PageView&noscript=1&gtmcb=946212667": {
+      "url": "https://www.facebook.com/tr?id=1103929212960245&ev=PageView&noscript=1&gtmcb=946212667",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2a03:2880:f347:1:face:b00c:0:25de]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.facebook.com",
+      "origin": "https://www.facebook.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/dweb/js/vendors-dls~web-core_-40ca3.15706fae1d55634.js": {
+      "url": "https://media-assets.swiggy.com/dweb/js/vendors-dls~web-core_-40ca3.15706fae1d55634.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 2,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/dweb/js/vendors-dls~web-icons_-c7e7d.15706fae1d55634.js": {
+      "url": "https://media-assets.swiggy.com/dweb/js/vendors-dls~web-icons_-c7e7d.15706fae1d55634.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 2,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/dweb/js/vendors-dls~web-recipe-food-web_-e82b2.15706fae1d55634.js": {
+      "url": "https://media-assets.swiggy.com/dweb/js/vendors-dls~web-recipe-food-web_-e82b2.15706fae1d55634.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 2,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/dweb/js/vendors-dls~web-common_-1b505.15706fae1d55634.js": {
+      "url": "https://media-assets.swiggy.com/dweb/js/vendors-dls~web-common_-1b505.15706fae1d55634.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 2,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/dweb/js/vendors-dls~web-recipe-common-web_-83414.15706fae1d55634.js": {
+      "url": "https://media-assets.swiggy.com/dweb/js/vendors-dls~web-recipe-common-web_-83414.15706fae1d55634.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 2,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/dweb/js/vendors-dls~web-theme_-953e5.15706fae1d55634.js": {
+      "url": "https://media-assets.swiggy.com/dweb/js/vendors-dls~web-theme_-953e5.15706fae1d55634.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 2,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/dweb/js/vendors-dls~web-food-icons_-7268f.15706fae1d55634.js": {
+      "url": "https://media-assets.swiggy.com/dweb/js/vendors-dls~web-food-icons_-7268f.15706fae1d55634.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 2,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/dweb/js/vendors-dls-mxn.15706fae1d55634.js": {
+      "url": "https://media-assets.swiggy.com/dweb/js/vendors-dls-mxn.15706fae1d55634.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 2,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/dweb/js/vendors-dls~web-recipe-do-web_-741d4.15706fae1d55634.js": {
+      "url": "https://media-assets.swiggy.com/dweb/js/vendors-dls~web-recipe-do-web_-741d4.15706fae1d55634.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 2,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/dweb/js/vendors-homeSeo.15706fae1d55634.js": {
+      "url": "https://media-assets.swiggy.com/dweb/js/vendors-homeSeo.15706fae1d55634.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 2,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/dweb/js/home.15706fae1d55634.js": {
+      "url": "https://media-assets.swiggy.com/dweb/js/home.15706fae1d55634.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 2,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.google-analytics.com/g/collect?v=2&tid=G-YE38MFJRBZ&gtm=45je6al1v9217332845za20ozb78036788zd78036788xf1&_p=1792835467116&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=958671354.1792835469&frm=0&ngs=1&pscdl=noapi&rcb=7&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~121284210&sid=1792835468&sct=1&seg=0&dl=https%3A%2F%2Fwww.swiggy.com%2F&dt=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=2137": {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-YE38MFJRBZ&gtm=45je6al1v9217332845za20ozb78036788zd78036788xf1&_p=1792835467116&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=958671354.1792835469&frm=0&ngs=1&pscdl=noapi&rcb=7&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~121284210&sid=1792835468&sct=1&seg=0&dl=https%3A%2F%2Fwww.swiggy.com%2F&dt=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=2137",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtag/js?id=G-YE38MFJRBZ&cx=c&gtm=4e6al1",
+      "status": 204,
+      "browser_error": "net::ERR_ABORTED",
+      "remote_ip": "[2404:6800:4007:838::200e]",
+      "count": 1,
+      "depth": 3,
+      "host": "www.google-analytics.com",
+      "origin": "https://www.google-analytics.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.google-analytics.com/g/collect?v=2&tid=G-YE38MFJRBZ&gtm=45je6al1v9217332845z878036788za20gzb78036788zd78036788xf1&_p=1792835467116&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=958671354.1792835469&frm=0&ngs=1&pscdl=noapi&rcb=7&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&_s=2&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~121284210&sid=1792835468&sct=1&seg=0&dl=https%3A%2F%2Fwww.swiggy.com%2F&dt=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&en=pahttps%3A%2F%2Fwww.swiggy.com%2F&_et=10&tfd=2170": {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-YE38MFJRBZ&gtm=45je6al1v9217332845z878036788za20gzb78036788zd78036788xf1&_p=1792835467116&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=958671354.1792835469&frm=0&ngs=1&pscdl=noapi&rcb=7&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&_s=2&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~121284210&sid=1792835468&sct=1&seg=0&dl=https%3A%2F%2Fwww.swiggy.com%2F&dt=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&en=pahttps%3A%2F%2Fwww.swiggy.com%2F&_et=10&tfd=2170",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtag/js?id=G-YE38MFJRBZ&cx=c&gtm=4e6al1",
+      "status": 204,
+      "browser_error": "net::ERR_ABORTED",
+      "remote_ip": "[2404:6800:4007:838::200e]",
+      "count": 1,
+      "depth": 3,
+      "host": "www.google-analytics.com",
+      "origin": "https://www.google-analytics.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.googletagmanager.com/gtag/destination?id=AW-815667960&cx=c&gtm=4e6al1": {
+      "url": "https://www.googletagmanager.com/gtag/destination?id=AW-815667960&cx=c&gtm=4e6al1",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtag/js?id=G-34JYJ0BCRN&cx=c&gtm=4e6al1",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4013:802::61]",
+      "count": 1,
+      "depth": 3,
+      "host": "www.googletagmanager.com",
+      "origin": "https://www.googletagmanager.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.googletagmanager.com/gtag/destination?id=AW-959564654&cx=c&gtm=4e6al1": {
+      "url": "https://www.googletagmanager.com/gtag/destination?id=AW-959564654&cx=c&gtm=4e6al1",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtag/js?id=G-34JYJ0BCRN&cx=c&gtm=4e6al1",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4013:802::61]",
+      "count": 1,
+      "depth": 3,
+      "host": "www.googletagmanager.com",
+      "origin": "https://www.googletagmanager.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.googletagmanager.com/gtag/destination?id=AW-739530825&cx=c&gtm=4e6al1": {
+      "url": "https://www.googletagmanager.com/gtag/destination?id=AW-739530825&cx=c&gtm=4e6al1",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtag/js?id=G-34JYJ0BCRN&cx=c&gtm=4e6al1",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4013:802::61]",
+      "count": 1,
+      "depth": 3,
+      "host": "www.googletagmanager.com",
+      "origin": "https://www.googletagmanager.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.googletagmanager.com/gtag/destination?id=AW-769796681&cx=c&gtm=4e6al1": {
+      "url": "https://www.googletagmanager.com/gtag/destination?id=AW-769796681&cx=c&gtm=4e6al1",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtag/js?id=G-34JYJ0BCRN&cx=c&gtm=4e6al1",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4013:802::61]",
+      "count": 1,
+      "depth": 3,
+      "host": "www.googletagmanager.com",
+      "origin": "https://www.googletagmanager.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.google-analytics.com/g/collect?v=2&tid=G-34JYJ0BCRN&gtm=45je6al1v899483351za20ozb78036788zd78036788xf1&_p=1792835467116&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=958671354.1792835469&frm=0&ngs=1&pscdl=noapi&rcb=17&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&_s=1&tag_exp=115616985~115938465~115938469~118012007~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&sid=1792835468&sct=1&seg=0&dl=https%3A%2F%2Fwww.swiggy.com%2F&dt=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&en=page_view&_fv=1&_ss=1&tfd=2313": {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-34JYJ0BCRN&gtm=45je6al1v899483351za20ozb78036788zd78036788xf1&_p=1792835467116&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=958671354.1792835469&frm=0&ngs=1&pscdl=noapi&rcb=17&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&_s=1&tag_exp=115616985~115938465~115938469~118012007~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&sid=1792835468&sct=1&seg=0&dl=https%3A%2F%2Fwww.swiggy.com%2F&dt=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&en=page_view&_fv=1&_ss=1&tfd=2313",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtag/js?id=G-34JYJ0BCRN&cx=c&gtm=4e6al1",
+      "status": 204,
+      "browser_error": "net::ERR_ABORTED",
+      "remote_ip": "[2404:6800:4007:838::200e]",
+      "count": 1,
+      "depth": 3,
+      "host": "www.google-analytics.com",
+      "origin": "https://www.google-analytics.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://analytics.swiggy.com/message-set": {
+      "url": "https://analytics.swiggy.com/message-set",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://media-assets.swiggy.com/dweb/js/app.15706fae1d55634.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::dce:a8e8]",
+      "count": 4,
+      "depth": 2,
+      "host": "analytics.swiggy.com",
+      "origin": "https://analytics.swiggy.com:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_405",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://insights-collector.newrelic.com/v1/accounts/737486/events": {
+      "url": "https://insights-collector.newrelic.com/v1/accounts/737486/events",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://media-assets.swiggy.com/dweb/js/app.15706fae1d55634.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::a2f7:f102]",
+      "count": 5,
+      "depth": 2,
+      "host": "insights-collector.newrelic.com",
+      "origin": "https://insights-collector.newrelic.com:443",
+      "third_party": true,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_401",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://b67f7794189c.edge.sdk.awswaf.com/b67f7794189c/3dddb029b68f/telemetry": {
+      "url": "https://b67f7794189c.edge.sdk.awswaf.com/b67f7794189c/3dddb029b68f/telemetry",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://b67f7794189c.edge.sdk.awswaf.com/b67f7794189c/3dddb029b68f/challenge.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::36c0:973c]",
+      "count": 2,
+      "depth": 2,
+      "host": "b67f7794189c.edge.sdk.awswaf.com",
+      "origin": "https://b67f7794189c.edge.sdk.awswaf.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/dweb/js/searchLocation.15706fae1d55634.js": {
+      "url": "https://media-assets.swiggy.com/dweb/js/searchLocation.15706fae1d55634.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 2,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/dweb/js/auth.15706fae1d55634.js": {
+      "url": "https://media-assets.swiggy.com/dweb/js/auth.15706fae1d55634.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 2,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/portal/testing/seo-home/Pull%20to%20refresh.json": {
+      "url": "https://media-assets.swiggy.com/portal/testing/seo-home/Pull%20to%20refresh.json",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://media-assets.swiggy.com/dweb/js/home.15706fae1d55634.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 3,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.swiggy.com/dapi/homepagev2/getCards?lat=26.18850&lng=91.73920&pageLimit=15": {
+      "url": "https://www.swiggy.com/dapi/homepagev2/getCards?lat=26.18850&lng=91.73920&pageLimit=15",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://b67f7794189c.edge.sdk.awswaf.com/b67f7794189c/3dddb029b68f/challenge.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::36c0:973b]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.swiggy.com",
+      "origin": "https://www.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/815667960/?random=1792835470265&cv=11&fst=1792835470265&bg=ffffff&guid=ON&async=1&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=13&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=4": {
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/815667960/?random=1792835470265&cv=11&fst=1792835470265&bg=ffffff&guid=ON&async=1&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=13&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=4",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtag/destination?id=AW-815667960&cx=c&gtm=4e6al1",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4002:827::2002]",
+      "count": 1,
+      "depth": 4,
+      "host": "googleads.g.doubleclick.net",
+      "origin": "https://googleads.g.doubleclick.net:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.google.com/rmkt/collect/815667960/?random=1792835470265&cv=11&fst=1792835470265&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=13&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=68&gcp=5": {
+      "url": "https://www.google.com/rmkt/collect/815667960/?random=1792835470265&cv=11&fst=1792835470265&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=13&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=68&gcp=5",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtag/destination?id=AW-815667960&cx=c&gtm=4e6al1",
+      "status": 200,
+      "browser_error": "net::ERR_ABORTED",
+      "remote_ip": "[2001:4860:4829:7700::]",
+      "count": 1,
+      "depth": 4,
+      "host": "www.google.com",
+      "origin": "https://www.google.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.google.com/ccm/collect?rcb=13&frm=0&apvc=0&ae=g&auid=2065507836.1792835468&dt=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&tid=AW-815667960&dl=https%3A%2F%2Fwww.swiggy.com%2F&scrsrc=www.googletagmanager.com&rnd=138723684.1792835468&navt=r&npa=0&_tu=CA&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120385422~120469145~120469153~121246026~121246034&tft=1792835470297&tfd=3681&tids=AW-815667960&fmt=8": {
+      "url": "https://www.google.com/ccm/collect?rcb=13&frm=0&apvc=0&ae=g&auid=2065507836.1792835468&dt=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&tid=AW-815667960&dl=https%3A%2F%2Fwww.swiggy.com%2F&scrsrc=www.googletagmanager.com&rnd=138723684.1792835468&navt=r&npa=0&_tu=CA&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120385422~120469145~120469153~121246026~121246034&tft=1792835470297&tfd=3681&tids=AW-815667960&fmt=8",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtag/destination?id=AW-815667960&cx=c&gtm=4e6al1",
+      "status": 200,
+      "browser_error": "net::ERR_ABORTED",
+      "remote_ip": "[2001:4860:4829:7700::]",
+      "count": 1,
+      "depth": 4,
+      "host": "www.google.com",
+      "origin": "https://www.google.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/959564654/?random=1792835470380&cv=11&fst=1792835470380&bg=ffffff&guid=ON&async=1&gtm=45be6al1v9248611475z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=18&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=4": {
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/959564654/?random=1792835470380&cv=11&fst=1792835470380&bg=ffffff&guid=ON&async=1&gtm=45be6al1v9248611475z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=18&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=4",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtag/destination?id=AW-959564654&cx=c&gtm=4e6al1",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4002:827::2002]",
+      "count": 1,
+      "depth": 4,
+      "host": "googleads.g.doubleclick.net",
+      "origin": "https://googleads.g.doubleclick.net:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.google.com/rmkt/collect/959564654/?random=1792835470380&cv=11&fst=1792835470380&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6al1v9248611475z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=18&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=68&gcp=5": {
+      "url": "https://www.google.com/rmkt/collect/959564654/?random=1792835470380&cv=11&fst=1792835470380&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6al1v9248611475z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=18&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=68&gcp=5",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtag/destination?id=AW-959564654&cx=c&gtm=4e6al1",
+      "status": 200,
+      "browser_error": "net::ERR_ABORTED",
+      "remote_ip": "[2001:4860:4829:7700::]",
+      "count": 1,
+      "depth": 4,
+      "host": "www.google.com",
+      "origin": "https://www.google.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=0&ae=g&auid=2065507836.1792835468&dt=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&tid=AW-959564654&dl=https%3A%2F%2Fwww.swiggy.com%2F&scrsrc=www.googletagmanager.com&rnd=138723684.1792835468&navt=r&npa=0&_tu=CA&gtm=45be6al1v9248611475z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792835470412&tfd=3796&tids=AW-959564654&fmt=8": {
+      "url": "https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=0&ae=g&auid=2065507836.1792835468&dt=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&tid=AW-959564654&dl=https%3A%2F%2Fwww.swiggy.com%2F&scrsrc=www.googletagmanager.com&rnd=138723684.1792835468&navt=r&npa=0&_tu=CA&gtm=45be6al1v9248611475z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792835470412&tfd=3796&tids=AW-959564654&fmt=8",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtag/destination?id=AW-959564654&cx=c&gtm=4e6al1",
+      "status": 200,
+      "browser_error": "net::ERR_ABORTED",
+      "remote_ip": "[2001:4860:4829:7700::]",
+      "count": 1,
+      "depth": 4,
+      "host": "www.google.com",
+      "origin": "https://www.google.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/739530825/?random=1792835470504&cv=11&fst=1792835470504&bg=ffffff&guid=ON&async=1&gtm=45be6al1v9135916950z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=17&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=4": {
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/739530825/?random=1792835470504&cv=11&fst=1792835470504&bg=ffffff&guid=ON&async=1&gtm=45be6al1v9135916950z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=17&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=4",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtag/destination?id=AW-739530825&cx=c&gtm=4e6al1",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4002:827::2002]",
+      "count": 1,
+      "depth": 4,
+      "host": "googleads.g.doubleclick.net",
+      "origin": "https://googleads.g.doubleclick.net:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.google.com/rmkt/collect/739530825/?random=1792835470504&cv=11&fst=1792835470504&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6al1v9135916950z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=17&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=68&gcp=5": {
+      "url": "https://www.google.com/rmkt/collect/739530825/?random=1792835470504&cv=11&fst=1792835470504&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6al1v9135916950z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=17&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=68&gcp=5",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtag/destination?id=AW-739530825&cx=c&gtm=4e6al1",
+      "status": 200,
+      "browser_error": "net::ERR_ABORTED",
+      "remote_ip": "[2001:4860:4829:7700::]",
+      "count": 1,
+      "depth": 4,
+      "host": "www.google.com",
+      "origin": "https://www.google.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.google.com/ccm/collect?rcb=17&frm=0&apvc=0&ae=g&auid=2065507836.1792835468&dt=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&tid=AW-739530825&dl=https%3A%2F%2Fwww.swiggy.com%2F&scrsrc=www.googletagmanager.com&rnd=138723684.1792835468&navt=r&npa=0&_tu=CA&gtm=45be6al1v9135916950z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792835470539&tfd=3923&tids=AW-739530825&fmt=8": {
+      "url": "https://www.google.com/ccm/collect?rcb=17&frm=0&apvc=0&ae=g&auid=2065507836.1792835468&dt=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&tid=AW-739530825&dl=https%3A%2F%2Fwww.swiggy.com%2F&scrsrc=www.googletagmanager.com&rnd=138723684.1792835468&navt=r&npa=0&_tu=CA&gtm=45be6al1v9135916950z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792835470539&tfd=3923&tids=AW-739530825&fmt=8",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtag/destination?id=AW-739530825&cx=c&gtm=4e6al1",
+      "status": 200,
+      "browser_error": "net::ERR_ABORTED",
+      "remote_ip": "[2001:4860:4829:7700::]",
+      "count": 1,
+      "depth": 4,
+      "host": "www.google.com",
+      "origin": "https://www.google.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/769796681/?random=1792835470619&cv=11&fst=1792835470619&bg=ffffff&guid=ON&async=1&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=10&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=4": {
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/769796681/?random=1792835470619&cv=11&fst=1792835470619&bg=ffffff&guid=ON&async=1&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=10&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=4",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtag/destination?id=AW-769796681&cx=c&gtm=4e6al1",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4002:827::2002]",
+      "count": 1,
+      "depth": 4,
+      "host": "googleads.g.doubleclick.net",
+      "origin": "https://googleads.g.doubleclick.net:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.google.com/rmkt/collect/769796681/?random=1792835470619&cv=11&fst=1792835470619&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=10&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=68&gcp=5": {
+      "url": "https://www.google.com/rmkt/collect/769796681/?random=1792835470619&cv=11&fst=1792835470619&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=10&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=68&gcp=5",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtag/destination?id=AW-769796681&cx=c&gtm=4e6al1",
+      "status": 200,
+      "browser_error": "net::ERR_ABORTED",
+      "remote_ip": "[2001:4860:4829:7700::]",
+      "count": 1,
+      "depth": 4,
+      "host": "www.google.com",
+      "origin": "https://www.google.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=0&ae=g&auid=2065507836.1792835468&dt=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&tid=AW-769796681&dl=https%3A%2F%2Fwww.swiggy.com%2F&scrsrc=www.googletagmanager.com&rnd=138723684.1792835468&navt=r&npa=0&_tu=CA&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&tft=1792835470652&tfd=4036&tids=AW-769796681&fmt=8": {
+      "url": "https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=0&ae=g&auid=2065507836.1792835468&dt=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&tid=AW-769796681&dl=https%3A%2F%2Fwww.swiggy.com%2F&scrsrc=www.googletagmanager.com&rnd=138723684.1792835468&navt=r&npa=0&_tu=CA&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&tft=1792835470652&tfd=4036&tids=AW-769796681&fmt=8",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtag/destination?id=AW-769796681&cx=c&gtm=4e6al1",
+      "status": 200,
+      "browser_error": "net::ERR_ABORTED",
+      "remote_ip": "[2001:4860:4829:7700::]",
+      "count": 1,
+      "depth": 4,
+      "host": "www.google.com",
+      "origin": "https://www.google.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/dweb/js/vendors-ui~github.com.15706fae1d55634.js": {
+      "url": "https://media-assets.swiggy.com/dweb/js/vendors-ui~github.com.15706fae1d55634.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 2,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/dweb/js/listing.15706fae1d55634.js": {
+      "url": "https://media-assets.swiggy.com/dweb/js/listing.15706fae1d55634.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 2,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.facebook.com/tr?id=1103929212960245&ev=PageView&noscript=1&gtmcb=1953355690": {
+      "url": "https://www.facebook.com/tr?id=1103929212960245&ev=PageView&noscript=1&gtmcb=1953355690",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2a03:2880:f347:1:face:b00c:0:25de]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.facebook.com",
+      "origin": "https://www.facebook.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.google.com/pagead/1p-user-list/815667960/?random=1792835470265&cv=11&fst=1792832400000&bg=ffffff&guid=ON&async=1&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=13&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS7AEAQM4h3HccfrkpaEKk8V0YkmPvabgSbuyOzGyg6anFOn6_F1NyqamoO0wpBiJwLPYuhL858VLP-CboKxFPA57-lqHaqtQH-GDGyXFDPYeiCR9iZqPUgeC7kwZhpQ_29EFBJYonpUaQiyXW80-IPxS2hS0MOSX3OTEHx1VCb1A_2FpoVpN93_WoBMNn7eM9vt8gYBj9Je7PDIwe5m6v23pX6fa86Ov0-QOOZ_AEvWmA9V7bRlO_hg7Zsn9lJymnU5YathstGhxIV0A3gCKZ5xSZQGT62HftjIFtV-eb7hqPMsNL0mrf12Bi49StXA&random=1625220810&rmt_tld=0&ipr=y": {
+      "url": "https://www.google.com/pagead/1p-user-list/815667960/?random=1792835470265&cv=11&fst=1792832400000&bg=ffffff&guid=ON&async=1&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=13&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS7AEAQM4h3HccfrkpaEKk8V0YkmPvabgSbuyOzGyg6anFOn6_F1NyqamoO0wpBiJwLPYuhL858VLP-CboKxFPA57-lqHaqtQH-GDGyXFDPYeiCR9iZqPUgeC7kwZhpQ_29EFBJYonpUaQiyXW80-IPxS2hS0MOSX3OTEHx1VCb1A_2FpoVpN93_WoBMNn7eM9vt8gYBj9Je7PDIwe5m6v23pX6fa86Ov0-QOOZ_AEvWmA9V7bRlO_hg7Zsn9lJymnU5YathstGhxIV0A3gCKZ5xSZQGT62HftjIFtV-eb7hqPMsNL0mrf12Bi49StXA&random=1625220810&rmt_tld=0&ipr=y",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2001:4860:4829:7700::]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.google.com",
+      "origin": "https://www.google.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.google.co.in/pagead/1p-user-list/815667960/?random=1792835470265&cv=11&fst=1792832400000&bg=ffffff&guid=ON&async=1&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=13&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS7AEAQM4h3HccfrkpaEKk8V0YkmPvabgSbuyOzGyg6anFOn6_F1NyqamoO0wpBiJwLPYuhL858VLP-CboKxFPA57-lqHaqtQH-GDGyXFDPYeiCR9iZqPUgeC7kwZhpQ_29EFBJYonpUaQiyXW80-IPxS2hS0MOSX3OTEHx1VCb1A_2FpoVpN93_WoBMNn7eM9vt8gYBj9Je7PDIwe5m6v23pX6fa86Ov0-QOOZ_AEvWmA9V7bRlO_hg7Zsn9lJymnU5YathstGhxIV0A3gCKZ5xSZQGT62HftjIFtV-eb7hqPMsNL0mrf12Bi49StXA&random=1625220810&rmt_tld=1&ipr=y": {
+      "url": "https://www.google.co.in/pagead/1p-user-list/815667960/?random=1792835470265&cv=11&fst=1792832400000&bg=ffffff&guid=ON&async=1&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=13&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS7AEAQM4h3HccfrkpaEKk8V0YkmPvabgSbuyOzGyg6anFOn6_F1NyqamoO0wpBiJwLPYuhL858VLP-CboKxFPA57-lqHaqtQH-GDGyXFDPYeiCR9iZqPUgeC7kwZhpQ_29EFBJYonpUaQiyXW80-IPxS2hS0MOSX3OTEHx1VCb1A_2FpoVpN93_WoBMNn7eM9vt8gYBj9Je7PDIwe5m6v23pX6fa86Ov0-QOOZ_AEvWmA9V7bRlO_hg7Zsn9lJymnU5YathstGhxIV0A3gCKZ5xSZQGT62HftjIFtV-eb7hqPMsNL0mrf12Bi49StXA&random=1625220810&rmt_tld=1&ipr=y",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4013:813::5e]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.google.co.in",
+      "origin": "https://www.google.co.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.google.com/pagead/1p-user-list/959564654/?random=1792835470380&cv=11&fst=1792832400000&bg=ffffff&guid=ON&async=1&gtm=45be6al1v9248611475z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=18&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS7AEAQM4h3F6wSE4PICCvvcRI_KMBhVnRkzh5-Lyh8TIYHQeBnZWppuZSMo38VC3i2EFKKVnQKeRutRylVNRV4DTawRspJ6yiLJcI0JveJ4f4W4bCf14jcezWguEU9DKjn05F2VkIJ5JqZ3NQlge9XWRkVIp44iQHFJ-GXK9zdZI7USMpXVQHkdoj-_qmvAN-TfNZPMeoO9x0t9DSUmbYQoNfMiZsWWiHytYud8Br9rZmWL8vLtP7j8JKTzBaAdoFnwjNWwCTMelzV2o19cZr7HDfKWmOY0ac709ssxA1IveI2uXCieXON7voji3lAA&random=3545705439&rmt_tld=0&ipr=y": {
+      "url": "https://www.google.com/pagead/1p-user-list/959564654/?random=1792835470380&cv=11&fst=1792832400000&bg=ffffff&guid=ON&async=1&gtm=45be6al1v9248611475z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=18&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS7AEAQM4h3F6wSE4PICCvvcRI_KMBhVnRkzh5-Lyh8TIYHQeBnZWppuZSMo38VC3i2EFKKVnQKeRutRylVNRV4DTawRspJ6yiLJcI0JveJ4f4W4bCf14jcezWguEU9DKjn05F2VkIJ5JqZ3NQlge9XWRkVIp44iQHFJ-GXK9zdZI7USMpXVQHkdoj-_qmvAN-TfNZPMeoO9x0t9DSUmbYQoNfMiZsWWiHytYud8Br9rZmWL8vLtP7j8JKTzBaAdoFnwjNWwCTMelzV2o19cZr7HDfKWmOY0ac709ssxA1IveI2uXCieXON7voji3lAA&random=3545705439&rmt_tld=0&ipr=y",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2001:4860:4829:7700::]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.google.com",
+      "origin": "https://www.google.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.google.co.in/pagead/1p-user-list/959564654/?random=1792835470380&cv=11&fst=1792832400000&bg=ffffff&guid=ON&async=1&gtm=45be6al1v9248611475z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=18&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS7AEAQM4h3F6wSE4PICCvvcRI_KMBhVnRkzh5-Lyh8TIYHQeBnZWppuZSMo38VC3i2EFKKVnQKeRutRylVNRV4DTawRspJ6yiLJcI0JveJ4f4W4bCf14jcezWguEU9DKjn05F2VkIJ5JqZ3NQlge9XWRkVIp44iQHFJ-GXK9zdZI7USMpXVQHkdoj-_qmvAN-TfNZPMeoO9x0t9DSUmbYQoNfMiZsWWiHytYud8Br9rZmWL8vLtP7j8JKTzBaAdoFnwjNWwCTMelzV2o19cZr7HDfKWmOY0ac709ssxA1IveI2uXCieXON7voji3lAA&random=3545705439&rmt_tld=1&ipr=y": {
+      "url": "https://www.google.co.in/pagead/1p-user-list/959564654/?random=1792835470380&cv=11&fst=1792832400000&bg=ffffff&guid=ON&async=1&gtm=45be6al1v9248611475z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=18&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS7AEAQM4h3F6wSE4PICCvvcRI_KMBhVnRkzh5-Lyh8TIYHQeBnZWppuZSMo38VC3i2EFKKVnQKeRutRylVNRV4DTawRspJ6yiLJcI0JveJ4f4W4bCf14jcezWguEU9DKjn05F2VkIJ5JqZ3NQlge9XWRkVIp44iQHFJ-GXK9zdZI7USMpXVQHkdoj-_qmvAN-TfNZPMeoO9x0t9DSUmbYQoNfMiZsWWiHytYud8Br9rZmWL8vLtP7j8JKTzBaAdoFnwjNWwCTMelzV2o19cZr7HDfKWmOY0ac709ssxA1IveI2uXCieXON7voji3lAA&random=3545705439&rmt_tld=1&ipr=y",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4013:813::5e]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.google.co.in",
+      "origin": "https://www.google.co.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.google.com/pagead/1p-user-list/739530825/?random=1792835470504&cv=11&fst=1792832400000&bg=ffffff&guid=ON&async=1&gtm=45be6al1v9135916950z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=17&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS7AEAQM4h3JlieBnjdFNynN7yojwn4gJgPzVkkwHx552-b4ZE3KNQtO2VsShutk7ISqAzMp3hJ2Y3s2HL431h1Q6hmLd3j7_4RVFCjuj13pRZKY4OlUqiHK122wCOD0mWYkTJJOzwYd0B1ByUFjgFJVLbkKjV80Gs7MFGeQQSVJXmNKxTAvrZ2Y9O-YnUQ9lNtAqurVNLCdiOkV9IeHDTNKCTQQlc4U-eMiHfsJFrMCF7D-3Tafq82MkpqKQGErt3iJpVCObltM1bVgRQZwbxm11UPFtYZwU0C2tAjfva-kNwAkpjHMpzNOtqWZn3-w&random=159727951&rmt_tld=0&ipr=y": {
+      "url": "https://www.google.com/pagead/1p-user-list/739530825/?random=1792835470504&cv=11&fst=1792832400000&bg=ffffff&guid=ON&async=1&gtm=45be6al1v9135916950z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=17&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS7AEAQM4h3JlieBnjdFNynN7yojwn4gJgPzVkkwHx552-b4ZE3KNQtO2VsShutk7ISqAzMp3hJ2Y3s2HL431h1Q6hmLd3j7_4RVFCjuj13pRZKY4OlUqiHK122wCOD0mWYkTJJOzwYd0B1ByUFjgFJVLbkKjV80Gs7MFGeQQSVJXmNKxTAvrZ2Y9O-YnUQ9lNtAqurVNLCdiOkV9IeHDTNKCTQQlc4U-eMiHfsJFrMCF7D-3Tafq82MkpqKQGErt3iJpVCObltM1bVgRQZwbxm11UPFtYZwU0C2tAjfva-kNwAkpjHMpzNOtqWZn3-w&random=159727951&rmt_tld=0&ipr=y",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2001:4860:4829:7700::]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.google.com",
+      "origin": "https://www.google.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.google.co.in/pagead/1p-user-list/739530825/?random=1792835470504&cv=11&fst=1792832400000&bg=ffffff&guid=ON&async=1&gtm=45be6al1v9135916950z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=17&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS7AEAQM4h3JlieBnjdFNynN7yojwn4gJgPzVkkwHx552-b4ZE3KNQtO2VsShutk7ISqAzMp3hJ2Y3s2HL431h1Q6hmLd3j7_4RVFCjuj13pRZKY4OlUqiHK122wCOD0mWYkTJJOzwYd0B1ByUFjgFJVLbkKjV80Gs7MFGeQQSVJXmNKxTAvrZ2Y9O-YnUQ9lNtAqurVNLCdiOkV9IeHDTNKCTQQlc4U-eMiHfsJFrMCF7D-3Tafq82MkpqKQGErt3iJpVCObltM1bVgRQZwbxm11UPFtYZwU0C2tAjfva-kNwAkpjHMpzNOtqWZn3-w&random=159727951&rmt_tld=1&ipr=y": {
+      "url": "https://www.google.co.in/pagead/1p-user-list/739530825/?random=1792835470504&cv=11&fst=1792832400000&bg=ffffff&guid=ON&async=1&gtm=45be6al1v9135916950z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=17&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS7AEAQM4h3JlieBnjdFNynN7yojwn4gJgPzVkkwHx552-b4ZE3KNQtO2VsShutk7ISqAzMp3hJ2Y3s2HL431h1Q6hmLd3j7_4RVFCjuj13pRZKY4OlUqiHK122wCOD0mWYkTJJOzwYd0B1ByUFjgFJVLbkKjV80Gs7MFGeQQSVJXmNKxTAvrZ2Y9O-YnUQ9lNtAqurVNLCdiOkV9IeHDTNKCTQQlc4U-eMiHfsJFrMCF7D-3Tafq82MkpqKQGErt3iJpVCObltM1bVgRQZwbxm11UPFtYZwU0C2tAjfva-kNwAkpjHMpzNOtqWZn3-w&random=159727951&rmt_tld=1&ipr=y",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4013:813::5e]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.google.co.in",
+      "origin": "https://www.google.co.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.google.com/pagead/1p-user-list/769796681/?random=1792835470619&cv=11&fst=1792832400000&bg=ffffff&guid=ON&async=1&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=10&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS7AEAQM4h3IKUDhyXGfKchyPn3fB0w2tNBmajtPWq7zOZzWLYVwaXMcAPeMMPtm9DhR8g_yFRpRYSlpfimORLleYXGOL8q34adQw_S4vpeVpB3Q28G8pS7HMb58vyPfYXGHs1DdkOevfg0nJaEJ0PCF1Vh6tQUTWUbf9cPu_OrGqIYy58tEnxXuN_s2XrUFgMSW99preVSojNvxagpW6u_VqySnZwFJgMT-LUSHrOCJf9tBXVvxPgTeZ_P50I9JUjO8gA80Mhhh_Bgb1PmSUV3QsP-I-PcdqqtkN9BLCJhKqsj9zYbCN4mf0Z7B3r3w&random=635248454&rmt_tld=0&ipr=y": {
+      "url": "https://www.google.com/pagead/1p-user-list/769796681/?random=1792835470619&cv=11&fst=1792832400000&bg=ffffff&guid=ON&async=1&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=10&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS7AEAQM4h3IKUDhyXGfKchyPn3fB0w2tNBmajtPWq7zOZzWLYVwaXMcAPeMMPtm9DhR8g_yFRpRYSlpfimORLleYXGOL8q34adQw_S4vpeVpB3Q28G8pS7HMb58vyPfYXGHs1DdkOevfg0nJaEJ0PCF1Vh6tQUTWUbf9cPu_OrGqIYy58tEnxXuN_s2XrUFgMSW99preVSojNvxagpW6u_VqySnZwFJgMT-LUSHrOCJf9tBXVvxPgTeZ_P50I9JUjO8gA80Mhhh_Bgb1PmSUV3QsP-I-PcdqqtkN9BLCJhKqsj9zYbCN4mf0Z7B3r3w&random=635248454&rmt_tld=0&ipr=y",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2001:4860:4829:7700::]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.google.com",
+      "origin": "https://www.google.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.google.co.in/pagead/1p-user-list/769796681/?random=1792835470619&cv=11&fst=1792832400000&bg=ffffff&guid=ON&async=1&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=10&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS7AEAQM4h3IKUDhyXGfKchyPn3fB0w2tNBmajtPWq7zOZzWLYVwaXMcAPeMMPtm9DhR8g_yFRpRYSlpfimORLleYXGOL8q34adQw_S4vpeVpB3Q28G8pS7HMb58vyPfYXGHs1DdkOevfg0nJaEJ0PCF1Vh6tQUTWUbf9cPu_OrGqIYy58tEnxXuN_s2XrUFgMSW99preVSojNvxagpW6u_VqySnZwFJgMT-LUSHrOCJf9tBXVvxPgTeZ_P50I9JUjO8gA80Mhhh_Bgb1PmSUV3QsP-I-PcdqqtkN9BLCJhKqsj9zYbCN4mf0Z7B3r3w&random=635248454&rmt_tld=1&ipr=y": {
+      "url": "https://www.google.co.in/pagead/1p-user-list/769796681/?random=1792835470619&cv=11&fst=1792832400000&bg=ffffff&guid=ON&async=1&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=10&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS7AEAQM4h3IKUDhyXGfKchyPn3fB0w2tNBmajtPWq7zOZzWLYVwaXMcAPeMMPtm9DhR8g_yFRpRYSlpfimORLleYXGOL8q34adQw_S4vpeVpB3Q28G8pS7HMb58vyPfYXGHs1DdkOevfg0nJaEJ0PCF1Vh6tQUTWUbf9cPu_OrGqIYy58tEnxXuN_s2XrUFgMSW99preVSojNvxagpW6u_VqySnZwFJgMT-LUSHrOCJf9tBXVvxPgTeZ_P50I9JUjO8gA80Mhhh_Bgb1PmSUV3QsP-I-PcdqqtkN9BLCJhKqsj9zYbCN4mf0Z7B3r3w&random=635248454&rmt_tld=1&ipr=y",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4013:813::5e]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.google.co.in",
+      "origin": "https://www.google.co.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/swiggy/raw/upload/v1/portal/dweb/icomoon.ttf?eojet8": {
+      "url": "https://media-assets.swiggy.com/swiggy/raw/upload/v1/portal/dweb/icomoon.ttf?eojet8",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 1,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/icecream_wwomsa": {
+      "url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/icecream_wwomsa",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 1,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.swiggy.com/dapi/restaurants/list/v5?lat=26.18850&lng=91.73920&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING": {
+      "url": "https://www.swiggy.com/dapi/restaurants/list/v5?lat=26.18850&lng=91.73920&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://b67f7794189c.edge.sdk.awswaf.com/b67f7794189c/3dddb029b68f/challenge.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::36c0:973b]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.swiggy.com",
+      "origin": "https://www.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://js-agent.newrelic.com/nr-full-1.288.1.min.js": {
+      "url": "https://js-agent.newrelic.com/nr-full-1.288.1.min.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://media-assets.swiggy.com/portal/static-assets/js/nr-mini-v1.js?v=10",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2602:816:5001::39]",
+      "count": 1,
+      "depth": 2,
+      "host": "js-agent.newrelic.com",
+      "origin": "https://js-agent.newrelic.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/fl_lossy,f_auto,q_auto,w_96,h_96/portal/m/logo_192x192.png": {
+      "url": "https://media-assets.swiggy.com/fl_lossy,f_auto,q_auto,w_96,h_96/portal/m/logo_192x192.png",
+      "resource_type": "Other",
+      "initiator_type": "other",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 1,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/portal/m/logo_32x32.ico": {
+      "url": "https://media-assets.swiggy.com/portal/m/logo_32x32.ico",
+      "resource_type": "Other",
+      "initiator_type": "other",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 1,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/dweb/js/vendors-seo.15706fae1d55634.js": {
+      "url": "https://media-assets.swiggy.com/dweb/js/vendors-seo.15706fae1d55634.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 2,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/dweb/js/seoHome.15706fae1d55634.js": {
+      "url": "https://media-assets.swiggy.com/dweb/js/seoHome.15706fae1d55634.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 2,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/dweb/js/trackingNudge.15706fae1d55634.js": {
+      "url": "https://media-assets.swiggy.com/dweb/js/trackingNudge.15706fae1d55634.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 2,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/frappe_zmntd7": {
+      "url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/frappe_zmntd7",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.swiggy.com/",
+      "status": null,
+      "browser_error": "net::ERR_ABORTED",
+      "remote_ip": null,
+      "count": 1,
+      "depth": 1,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/portal/m/logo_16x16.ico": {
+      "url": "https://media-assets.swiggy.com/portal/m/logo_16x16.ico",
+      "resource_type": "Other",
+      "initiator_type": "other",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 1,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.swiggy.com/core/sprite-pjeYbFTQ.svg": {
+      "url": "https://www.swiggy.com/core/sprite-pjeYbFTQ.svg",
+      "resource_type": "Other",
+      "initiator_type": "script",
+      "parent": "https://media-assets.swiggy.com/dweb/js/vendor.15706fae1d55634.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::36c0:973b]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.swiggy.com",
+      "origin": "https://www.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/play_store.png": {
+      "url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/play_store.png",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 1,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/app_store.png": {
+      "url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/app_store.png",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 1,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/h_32/portal/m/seo/icon-linkedin.png": {
+      "url": "https://media-assets.swiggy.com/h_32/portal/m/seo/icon-linkedin.png",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 1,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/h_32/portal/m/seo/icon-instagram.png": {
+      "url": "https://media-assets.swiggy.com/h_32/portal/m/seo/icon-instagram.png",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 1,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/h_32/portal/m/seo/icon-facebook.png": {
+      "url": "https://media-assets.swiggy.com/h_32/portal/m/seo/icon-facebook.png",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 1,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/h_32/portal/m/seo/icon-pinterest.png": {
+      "url": "https://media-assets.swiggy.com/h_32/portal/m/seo/icon-pinterest.png",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 1,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://media-assets.swiggy.com/h_32/portal/m/seo/icon-twitter.png": {
+      "url": "https://media-assets.swiggy.com/h_32/portal/m/seo/icon-twitter.png",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.swiggy.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::129b:6a60]",
+      "count": 1,
+      "depth": 1,
+      "host": "media-assets.swiggy.com",
+      "origin": "https://media-assets.swiggy.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://bam.nr-data.net/1/a9dd66e24a?a=601569167&sa=1&v=1.288.1&t=Unnamed%20Transaction&rst=5296&ck=0&s=da2662bc1774f017&ref=https://www.swiggy.com/restaurants&ptid=fa1986e4f9730c11&af=err,ins&be=455&fe=4209&dc=1517&fsh=1&perf=%7B%22timing%22:%7B%22of%22:1792835466617,%22n%22:0,%22u%22:469,%22ue%22:469,%22f%22:8,%22dn%22:8,%22dne%22:8,%22c%22:8,%22s%22:8,%22ce%22:8,%22rq%22:11,%22rp%22:455,%22rpe%22:519,%22di%22:1826,%22ds%22:1967,%22de%22:1972,%22dc%22:4662,%22l%22:4662,%22le%22:4664%7D,%22navigation%22:%7B%22ty%22:1%7D%7D&fp=660&fcp=660": {
+      "url": "https://bam.nr-data.net/1/a9dd66e24a?a=601569167&sa=1&v=1.288.1&t=Unnamed%20Transaction&rst=5296&ck=0&s=da2662bc1774f017&ref=https://www.swiggy.com/restaurants&ptid=fa1986e4f9730c11&af=err,ins&be=455&fe=4209&dc=1517&fsh=1&perf=%7B%22timing%22:%7B%22of%22:1792835466617,%22n%22:0,%22u%22:469,%22ue%22:469,%22f%22:8,%22dn%22:8,%22dne%22:8,%22c%22:8,%22s%22:8,%22ce%22:8,%22rq%22:11,%22rp%22:455,%22rpe%22:519,%22di%22:1826,%22ds%22:1967,%22de%22:1972,%22dc%22:4662,%22l%22:4662,%22le%22:4664%7D,%22navigation%22:%7B%22ty%22:1%7D%7D&fp=660&fcp=660",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://js-agent.newrelic.com/nr-full-1.288.1.min.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::a2f7:f10e]",
+      "count": 1,
+      "depth": 3,
+      "host": "bam.nr-data.net",
+      "origin": "https://bam.nr-data.net:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.google-analytics.com/g/collect?v=2&tid=G-YE38MFJRBZ&gtm=45je6al1v9217332845za20gzb78036788zd78036788xf1&_p=1792835467116&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&cid=958671354.1792835469&frm=0&ngs=1&pscdl=noapi&rcb=7&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~121284210&sid=1792835468&sct=1&seg=0&dl=https%3A%2F%2Fwww.swiggy.com%2F&dt=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&_s=3&tfd=7173": {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-YE38MFJRBZ&gtm=45je6al1v9217332845za20gzb78036788zd78036788xf1&_p=1792835467116&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&cid=958671354.1792835469&frm=0&ngs=1&pscdl=noapi&rcb=7&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~121284210&sid=1792835468&sct=1&seg=0&dl=https%3A%2F%2Fwww.swiggy.com%2F&dt=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&_s=3&tfd=7173",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtag/js?id=G-YE38MFJRBZ&cx=c&gtm=4e6al1",
+      "status": 204,
+      "browser_error": "net::ERR_ABORTED",
+      "remote_ip": "[2404:6800:4007:838::200e]",
+      "count": 1,
+      "depth": 3,
+      "host": "www.google-analytics.com",
+      "origin": "https://www.google-analytics.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    },
+    "https://www.google-analytics.com/g/collect?v=2&tid=G-34JYJ0BCRN&gtm=45je6al1v899483351za20gzb78036788zd78036788xf1&_p=1792835467116&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&cid=958671354.1792835469&frm=0&ngs=1&pscdl=noapi&rcb=17&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&tag_exp=115616985~115938465~115938469~118012007~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&sid=1792835468&sct=1&seg=0&dl=https%3A%2F%2Fwww.swiggy.com%2F&dt=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&_s=2&tfd=7342": {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-34JYJ0BCRN&gtm=45je6al1v899483351za20gzb78036788zd78036788xf1&_p=1792835467116&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&cid=958671354.1792835469&frm=0&ngs=1&pscdl=noapi&rcb=17&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&tag_exp=115616985~115938465~115938469~118012007~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&sid=1792835468&sct=1&seg=0&dl=https%3A%2F%2Fwww.swiggy.com%2F&dt=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&_s=2&tfd=7342",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtag/js?id=G-34JYJ0BCRN&cx=c&gtm=4e6al1",
+      "status": 204,
+      "browser_error": "net::ERR_ABORTED",
+      "remote_ip": "[2404:6800:4007:838::200e]",
+      "count": 1,
+      "depth": 3,
+      "host": "www.google-analytics.com",
+      "origin": "https://www.google-analytics.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.swiggy.com/"
+    }
+  },
+  "origins": {
+    "https://www.swiggy.com:443": {
+      "origin": "https://www.swiggy.com:443",
+      "host": "www.swiggy.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.swiggy.com/",
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "64:ff9b::36c0:977a",
+            "64:ff9b::36c0:973d",
+            "64:ff9b::36c0:973b",
+            "64:ff9b::36c0:971a"
+          ],
+          "cname_chain": [],
+          "ttl": 48,
+          "ms": 52.4,
+          "synthesized": true
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "64:ff9b::36c0:977a",
+              "ok": true,
+              "ms": 66.7
+            }
+          ],
+          "shim": false,
+          "addr": "64:ff9b::36c0:977a"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "*.swiggy.com",
+          "cert_not_after": "Apr 10 03:08:13 2027 GMT",
+          "ms": 169.8
+        },
+        "http": {
+          "status": 202,
+          "reason": "Accepted",
+          "location": null,
+          "server": "CloudFront",
+          "ms": 236.1,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "54.192.151.59",
+            "54.192.151.61",
+            "54.192.151.26",
+            "54.192.151.122"
+          ],
+          "cname_chain": [],
+          "ttl": 37,
+          "ms": 97.1
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "54.192.151.59",
+              "ok": true,
+              "ms": 64.1
+            }
+          ],
+          "shim": false,
+          "addr": "54.192.151.59"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "*.swiggy.com",
+          "cert_not_after": "Apr 10 03:08:13 2027 GMT",
+          "ms": 143.3
+        },
+        "http": {
+          "status": 202,
+          "reason": "Accepted",
+          "location": null,
+          "server": "CloudFront",
+          "ms": 230.2,
+          "ok": true
+        }
+      }
+    },
+    "https://b67f7794189c.f957f42c.ap-south-1.token.awswaf.com:443": {
+      "origin": "https://b67f7794189c.f957f42c.ap-south-1.token.awswaf.com:443",
+      "host": "b67f7794189c.f957f42c.ap-south-1.token.awswaf.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://b67f7794189c.f957f42c.ap-south-1.token.awswaf.com/b67f7794189c/5504ea1b6187/219ce11e78c5/challenge.js",
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "64:ff9b::129b:6a6b",
+            "64:ff9b::129b:6a80",
+            "64:ff9b::129b:6a45",
+            "64:ff9b::129b:6a7b"
+          ],
+          "cname_chain": [],
+          "ttl": 35,
+          "ms": 51.9,
+          "synthesized": true
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "64:ff9b::129b:6a6b",
+              "ok": true,
+              "ms": 66.2
+            }
+          ],
+          "shim": false,
+          "addr": "64:ff9b::129b:6a6b"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "*.f957f42c.ap-south-1.token.awswaf.com",
+          "cert_not_after": "May  8 04:20:44 2027 GMT",
+          "ms": 168.6
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 265.8,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "18.155.106.107",
+            "18.155.106.123",
+            "18.155.106.69",
+            "18.155.106.128"
+          ],
+          "cname_chain": [],
+          "ttl": 34,
+          "ms": 5.7
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "18.155.106.107",
+              "ok": true,
+              "ms": 74.1
+            }
+          ],
+          "shim": false,
+          "addr": "18.155.106.107"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "*.f957f42c.ap-south-1.token.awswaf.com",
+          "cert_not_after": "May  8 04:20:44 2027 GMT",
+          "ms": 126.3
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 204.1,
+          "ok": true
+        }
+      }
+    },
+    "https://media-assets.swiggy.com:443": {
+      "origin": "https://media-assets.swiggy.com:443",
+      "host": "media-assets.swiggy.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://media-assets.swiggy.com/dweb/js/manifest.15706fae1d55634.js",
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "64:ff9b::129b:6a03",
+            "64:ff9b::129b:6a4a",
+            "64:ff9b::129b:6a52",
+            "64:ff9b::129b:6a60"
+          ],
+          "cname_chain": [
+            "swiggy.imgkit.net",
+            "d1ty6p8f4zl0y7.cloudfront.net"
+          ],
+          "ttl": 48,
+          "ms": 5.1,
+          "synthesized": true
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "64:ff9b::129b:6a03",
+              "ok": true,
+              "ms": 70.1
+            }
+          ],
+          "shim": false,
+          "addr": "64:ff9b::129b:6a03"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "*.swiggy.com",
+          "cert_not_after": "Jan 26 23:59:59 2027 GMT",
+          "ms": 166.3
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 188.9,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "18.155.106.96",
+            "18.155.106.3",
+            "18.155.106.74",
+            "18.155.106.82"
+          ],
+          "cname_chain": [
+            "swiggy.imgkit.net",
+            "d1ty6p8f4zl0y7.cloudfront.net"
+          ],
+          "ttl": 48,
+          "ms": 18.8
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "18.155.106.96",
+              "ok": true,
+              "ms": 75.8
+            }
+          ],
+          "shim": false,
+          "addr": "18.155.106.96"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "*.swiggy.com",
+          "cert_not_after": "Jan 26 23:59:59 2027 GMT",
+          "ms": 120.7
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 193.8,
+          "ok": true
+        }
+      }
+    },
+    "https://www.googletagmanager.com:443": {
+      "origin": "https://www.googletagmanager.com:443",
+      "host": "www.googletagmanager.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.googletagmanager.com/gtm.js?id=GTM-MJV7Q8Q",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4013:802::61"
+          ],
+          "cname_chain": [],
+          "ttl": 241,
+          "ms": 11.2,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2404:6800:4013:802::61",
+              "ok": true,
+              "ms": 104.4
+            }
+          ],
+          "shim": false,
+          "addr": "2404:6800:4013:802::61"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google-analytics.com",
+          "cert_not_after": "Dec 21 18:38:19 2026 GMT",
+          "ms": 203.5
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "Google Tag Manager",
+          "ms": 299.8,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.250.122.97"
+          ],
+          "cname_chain": [],
+          "ttl": 67,
+          "ms": 3.9
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.250.122.97",
+              "ok": true,
+              "ms": 78.4
+            }
+          ],
+          "shim": false,
+          "addr": "142.250.122.97"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google-analytics.com",
+          "cert_not_after": "Dec 21 18:38:19 2026 GMT",
+          "ms": 186.2
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "Google Tag Manager",
+          "ms": 349.6,
+          "ok": true
+        }
+      }
+    },
+    "https://b67f7794189c.edge.sdk.awswaf.com:443": {
+      "origin": "https://b67f7794189c.edge.sdk.awswaf.com:443",
+      "host": "b67f7794189c.edge.sdk.awswaf.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://b67f7794189c.edge.sdk.awswaf.com/b67f7794189c/3dddb029b68f/challenge.js",
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "64:ff9b::36c0:974f",
+            "64:ff9b::36c0:9776",
+            "64:ff9b::36c0:9741",
+            "64:ff9b::36c0:973c"
+          ],
+          "cname_chain": [],
+          "ttl": 6,
+          "ms": 11.5,
+          "synthesized": true
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "64:ff9b::36c0:974f",
+              "ok": true,
+              "ms": 89.7
+            }
+          ],
+          "shim": false,
+          "addr": "64:ff9b::36c0:974f"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "*.edge.sdk.awswaf.com",
+          "cert_not_after": "Apr 17 12:43:35 2027 GMT",
+          "ms": 139.4
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 282.7,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "54.192.151.79",
+            "54.192.151.65",
+            "54.192.151.118",
+            "54.192.151.60"
+          ],
+          "cname_chain": [],
+          "ttl": 22,
+          "ms": 11.8
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "54.192.151.79",
+              "ok": true,
+              "ms": 68.4
+            }
+          ],
+          "shim": false,
+          "addr": "54.192.151.79"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "*.edge.sdk.awswaf.com",
+          "cert_not_after": "Apr 17 12:43:35 2027 GMT",
+          "ms": 152.7
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 422.2,
+          "ok": true
+        }
+      }
+    },
+    "https://www.google-analytics.com:443": {
+      "origin": "https://www.google-analytics.com:443",
+      "host": "www.google-analytics.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.google-analytics.com/analytics.js",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4007:838::200e"
+          ],
+          "cname_chain": [],
+          "ttl": 20,
+          "ms": 11.0,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2404:6800:4007:838::200e",
+              "ok": true,
+              "ms": 139.6
+            }
+          ],
+          "shim": false,
+          "addr": "2404:6800:4007:838::200e"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google-analytics.com",
+          "cert_not_after": "Dec 21 18:38:19 2026 GMT",
+          "ms": 255.2
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "Golfe2",
+          "ms": 277.6,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.251.222.174"
+          ],
+          "cname_chain": [],
+          "ttl": 69,
+          "ms": 18.2
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.251.222.174",
+              "ok": true,
+              "ms": 125.3
+            }
+          ],
+          "shim": false,
+          "addr": "142.251.222.174"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google-analytics.com",
+          "cert_not_after": "Dec 21 18:38:19 2026 GMT",
+          "ms": 211.8
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "Golfe2",
+          "ms": 246.2,
+          "ok": true
+        }
+      }
+    },
+    "https://www.google.com:443": {
+      "origin": "https://www.google.com:443",
+      "host": "www.google.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.google.com/ccm/collect?rcb=9&frm=0&apvc=1&ae=g&auid=2065507836.1792835468&dt=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&en=page_view&dl=https%3A%2F%2Fwww.swiggy.com%2F&dr=https%3A%2F%2Fwww.swiggy.com%2F&scrsrc=www.googletagmanager.com&rnd=138723684.1792835468&navt=r&npa=0&ep.ads_data_redaction=0&gtm=45He6al1v78036788za200zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120385422~120469145~120469153~121246026~121246034&tft=1792835468104&tfd=1488&fmt=8",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2001:4860:482b:7700::",
+            "2001:4860:4829:7700::",
+            "2001:4860:482c:7700::",
+            "2001:4860:4827:7700::",
+            "2001:4860:4826:7700::",
+            "2001:4860:482d:7700::",
+            "2001:4860:482a:7700::",
+            "2001:4860:4828:7700::"
+          ],
+          "cname_chain": [],
+          "ttl": 65,
+          "ms": 11.6,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2001:4860:482b:7700::",
+              "ok": true,
+              "ms": 102.4
+            }
+          ],
+          "shim": false,
+          "addr": "2001:4860:482b:7700::"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "www.google.com",
+          "cert_not_after": "Dec 21 18:41:20 2026 GMT",
+          "ms": 211.9
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "scaffolding on HTTPServer2",
+          "ms": 303.4,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.251.151.119",
+            "142.251.153.119",
+            "142.251.152.119",
+            "142.251.157.119",
+            "142.251.155.119",
+            "142.251.154.119",
+            "142.251.150.119",
+            "142.251.156.119"
+          ],
+          "cname_chain": [],
+          "ttl": 163,
+          "ms": 37.3
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.251.151.119",
+              "ok": true,
+              "ms": 72.0
+            }
+          ],
+          "shim": false,
+          "addr": "142.251.151.119"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "www.google.com",
+          "cert_not_after": "Dec 21 18:41:20 2026 GMT",
+          "ms": 146.6
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "scaffolding on HTTPServer2",
+          "ms": 353.0,
+          "ok": true
+        }
+      }
+    },
+    "https://ad.doubleclick.net:443": {
+      "origin": "https://ad.doubleclick.net:443",
+      "host": "ad.doubleclick.net",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://ad.doubleclick.net/ccm/s/collect?auid=2065507836.1792835468&gtm=45He6al1v78036788za200zd78036788xeaxf1&fmt=8",
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_405",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "http",
+        "failure_code": "HTTP_405",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "64:ff9b::8efa:1d94",
+            "64:ff9b::8efa:1d95"
+          ],
+          "cname_chain": [],
+          "ttl": 68,
+          "ms": 8.9,
+          "synthesized": true
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "64:ff9b::8efa:1d94",
+              "ok": true,
+              "ms": 160.4
+            }
+          ],
+          "shim": false,
+          "addr": "64:ff9b::8efa:1d94"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.doubleclick.net",
+          "cert_not_after": "Dec 21 18:38:02 2026 GMT",
+          "ms": 239.1
+        },
+        "http": {
+          "status": 405,
+          "reason": "Method Not Allowed",
+          "location": null,
+          "server": "scaffolding on HTTPServer2",
+          "ms": 319.3,
+          "ok": false
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": "http",
+        "failure_code": "HTTP_405",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "192.178.134.149",
+            "192.178.134.148"
+          ],
+          "cname_chain": [],
+          "ttl": 241,
+          "ms": 10.0
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "192.178.134.149",
+              "ok": true,
+              "ms": 72.3
+            }
+          ],
+          "shim": false,
+          "addr": "192.178.134.149"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.doubleclick.net",
+          "cert_not_after": "Dec 21 18:38:02 2026 GMT",
+          "ms": 121.7
+        },
+        "http": {
+          "status": 405,
+          "reason": "Method Not Allowed",
+          "location": null,
+          "server": "scaffolding on HTTPServer2",
+          "ms": 287.0,
+          "ok": false
+        }
+      }
+    },
+    "https://www.facebook.com:443": {
+      "origin": "https://www.facebook.com:443",
+      "host": "www.facebook.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.facebook.com/tr?id=1103929212960245&ev=PageView&noscript=1&gtmcb=946212667",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2a03:2880:f347:1:face:b00c:0:25de"
+          ],
+          "cname_chain": [
+            "star-mini.c10r.facebook.com"
+          ],
+          "ttl": 44,
+          "ms": 9.3,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2a03:2880:f347:1:face:b00c:0:25de",
+              "ok": true,
+              "ms": 62.0
+            }
+          ],
+          "shim": false,
+          "addr": "2a03:2880:f347:1:face:b00c:0:25de"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_CHACHA20_POLY1305_SHA256",
+          "cert_cn": "*.facebook.com",
+          "cert_not_after": "Oct 31 23:59:59 2026 GMT",
+          "ms": 184.4
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "proxygen-bolt",
+          "ms": 232.3,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "57.144.142.1"
+          ],
+          "cname_chain": [
+            "star-mini.c10r.facebook.com"
+          ],
+          "ttl": 57,
+          "ms": 112.9
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "57.144.142.1",
+              "ok": true,
+              "ms": 64.6
+            }
+          ],
+          "shim": false,
+          "addr": "57.144.142.1"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_CHACHA20_POLY1305_SHA256",
+          "cert_cn": "*.facebook.com",
+          "cert_not_after": "Oct 31 23:59:59 2026 GMT",
+          "ms": 144.6
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "proxygen-bolt",
+          "ms": 243.5,
+          "ok": true
+        }
+      }
+    },
+    "https://analytics.swiggy.com:443": {
+      "origin": "https://analytics.swiggy.com:443",
+      "host": "analytics.swiggy.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://analytics.swiggy.com/message-set",
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_405",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "http",
+        "failure_code": "HTTP_405",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "64:ff9b::d7f:2e29",
+            "64:ff9b::36c:7e3d"
+          ],
+          "cname_chain": [
+            "analytics-new-mumbai.o.prod.swig.gy",
+            "k8s-producti-eventsin-829d6a972a-1052010764.ap-south-1.elb.amazonaws.com"
+          ],
+          "ttl": 13,
+          "ms": 70.3,
+          "synthesized": true
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "64:ff9b::d7f:2e29",
+              "ok": true,
+              "ms": 141.3
+            }
+          ],
+          "shim": false,
+          "addr": "64:ff9b::d7f:2e29"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.2",
+          "cipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "cert_cn": "*.swiggy.com",
+          "cert_not_after": "Apr 10 03:08:13 2027 GMT",
+          "ms": 264.6
+        },
+        "http": {
+          "status": 405,
+          "reason": "Method Not Allowed",
+          "location": null,
+          "server": null,
+          "ms": 124.0,
+          "ok": false
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": "http",
+        "failure_code": "HTTP_405",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "13.127.46.41",
+            "3.108.126.61"
+          ],
+          "cname_chain": [
+            "analytics-new-mumbai.o.prod.swig.gy",
+            "k8s-producti-eventsin-829d6a972a-1052010764.ap-south-1.elb.amazonaws.com"
+          ],
+          "ttl": 13,
+          "ms": 78.7
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "13.127.46.41",
+              "ok": true,
+              "ms": 73.2
+            }
+          ],
+          "shim": false,
+          "addr": "13.127.46.41"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.2",
+          "cipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "cert_cn": "*.swiggy.com",
+          "cert_not_after": "Apr 10 03:08:13 2027 GMT",
+          "ms": 270.1
+        },
+        "http": {
+          "status": 405,
+          "reason": "Method Not Allowed",
+          "location": null,
+          "server": null,
+          "ms": 123.9,
+          "ok": false
+        }
+      }
+    },
+    "https://insights-collector.newrelic.com:443": {
+      "origin": "https://insights-collector.newrelic.com:443",
+      "host": "insights-collector.newrelic.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://insights-collector.newrelic.com/v1/accounts/737486/events",
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_401",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "http",
+        "failure_code": "HTTP_401",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "64:ff9b::a2f7:f102"
+          ],
+          "cname_chain": [
+            "insights-collector.cell.nr-data.net",
+            "tls12.newrelic.com.cdn.cloudflare.net"
+          ],
+          "ttl": 274,
+          "ms": 26.0,
+          "synthesized": true
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "64:ff9b::a2f7:f102",
+              "ok": true,
+              "ms": 130.2
+            }
+          ],
+          "shim": false,
+          "addr": "64:ff9b::a2f7:f102"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.newrelic.com",
+          "cert_not_after": "Feb  8 23:59:59 2027 GMT",
+          "ms": 252.0
+        },
+        "http": {
+          "status": 401,
+          "reason": "Unauthorized",
+          "location": null,
+          "server": "cloudflare",
+          "ms": 553.0,
+          "ok": false
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": "http",
+        "failure_code": "HTTP_401",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "162.247.241.2"
+          ],
+          "cname_chain": [
+            "insights-collector.cell.nr-data.net",
+            "tls12.newrelic.com.cdn.cloudflare.net"
+          ],
+          "ttl": 273,
+          "ms": 7.6
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "162.247.241.2",
+              "ok": true,
+              "ms": 81.1
+            }
+          ],
+          "shim": false,
+          "addr": "162.247.241.2"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.newrelic.com",
+          "cert_not_after": "Feb  8 23:59:59 2027 GMT",
+          "ms": 98.4
+        },
+        "http": {
+          "status": 401,
+          "reason": "Unauthorized",
+          "location": null,
+          "server": "cloudflare",
+          "ms": 239.5,
+          "ok": false
+        }
+      }
+    },
+    "https://googleads.g.doubleclick.net:443": {
+      "origin": "https://googleads.g.doubleclick.net:443",
+      "host": "googleads.g.doubleclick.net",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/815667960/?random=1792835470265&cv=11&fst=1792835470265&bg=ffffff&guid=ON&async=1&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=13&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=4",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4002:827::2002"
+          ],
+          "cname_chain": [],
+          "ttl": 70,
+          "ms": 24.9,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2404:6800:4002:827::2002",
+              "ok": true,
+              "ms": 130.5
+            }
+          ],
+          "shim": false,
+          "addr": "2404:6800:4002:827::2002"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.g.doubleclick.net",
+          "cert_not_after": "Dec 21 18:38:12 2026 GMT",
+          "ms": 247.2
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "cafe",
+          "ms": 321.3,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "172.217.26.2"
+          ],
+          "cname_chain": [],
+          "ttl": 71,
+          "ms": 26.8
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "172.217.26.2",
+              "ok": true,
+              "ms": 111.4
+            }
+          ],
+          "shim": false,
+          "addr": "172.217.26.2"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.g.doubleclick.net",
+          "cert_not_after": "Dec 21 18:38:12 2026 GMT",
+          "ms": 162.8
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "cafe",
+          "ms": 315.9,
+          "ok": true
+        }
+      }
+    },
+    "https://www.google.co.in:443": {
+      "origin": "https://www.google.co.in:443",
+      "host": "www.google.co.in",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.google.co.in/pagead/1p-user-list/815667960/?random=1792835470265&cv=11&fst=1792832400000&bg=ffffff&guid=ON&async=1&gtm=45be6al1z878036788za20gzb78036788zd78036788xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120385422~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.swiggy.com%2F&rcb=13&frm=0&tiba=Order%20Food%20%26%20Groceries.%20Discover%20the%20best%20restaurants.%20Swiggy%20it!&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2065507836.1792835468&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS7AEAQM4h3HccfrkpaEKk8V0YkmPvabgSbuyOzGyg6anFOn6_F1NyqamoO0wpBiJwLPYuhL858VLP-CboKxFPA57-lqHaqtQH-GDGyXFDPYeiCR9iZqPUgeC7kwZhpQ_29EFBJYonpUaQiyXW80-IPxS2hS0MOSX3OTEHx1VCb1A_2FpoVpN93_WoBMNn7eM9vt8gYBj9Je7PDIwe5m6v23pX6fa86Ov0-QOOZ_AEvWmA9V7bRlO_hg7Zsn9lJymnU5YathstGhxIV0A3gCKZ5xSZQGT62HftjIFtV-eb7hqPMsNL0mrf12Bi49StXA&random=1625220810&rmt_tld=1&ipr=y",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4013:813::5e"
+          ],
+          "cname_chain": [],
+          "ttl": 61,
+          "ms": 25.1,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2404:6800:4013:813::5e",
+              "ok": true,
+              "ms": 140.1
+            }
+          ],
+          "shim": false,
+          "addr": "2404:6800:4013:813::5e"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google.co.in",
+          "cert_not_after": "Dec 21 18:41:46 2026 GMT",
+          "ms": 236.1
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "cafe",
+          "ms": 292.2,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.250.77.99"
+          ],
+          "cname_chain": [],
+          "ttl": 214,
+          "ms": 40.1
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.250.77.99",
+              "ok": true,
+              "ms": 97.6
+            }
+          ],
+          "shim": false,
+          "addr": "142.250.77.99"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google.co.in",
+          "cert_not_after": "Dec 21 18:41:46 2026 GMT",
+          "ms": 193.8
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "cafe",
+          "ms": 315.0,
+          "ok": true
+        }
+      }
+    },
+    "https://js-agent.newrelic.com:443": {
+      "origin": "https://js-agent.newrelic.com:443",
+      "host": "js-agent.newrelic.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://js-agent.newrelic.com/nr-full-1.288.1.min.js",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2602:816:5001::39"
+          ],
+          "cname_chain": [],
+          "ttl": 1348,
+          "ms": 21.9,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2602:816:5001::39",
+              "ok": true,
+              "ms": 306.6
+            }
+          ],
+          "shim": false,
+          "addr": "2602:816:5001::39"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "js-agent.newrelic.com",
+          "cert_not_after": "Dec 27 19:58:07 2026 GMT",
+          "ms": 363.9
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 930.4,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "162.247.243.39"
+          ],
+          "cname_chain": [],
+          "ttl": 1456,
+          "ms": 5.1
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "162.247.243.39",
+              "ok": true,
+              "ms": 313.6
+            }
+          ],
+          "shim": false,
+          "addr": "162.247.243.39"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "js-agent.newrelic.com",
+          "cert_not_after": "Dec 27 19:58:07 2026 GMT",
+          "ms": 654.0
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 636.6,
+          "ok": true
+        }
+      }
+    },
+    "https://bam.nr-data.net:443": {
+      "origin": "https://bam.nr-data.net:443",
+      "host": "bam.nr-data.net",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://bam.nr-data.net/1/a9dd66e24a?a=601569167&sa=1&v=1.288.1&t=Unnamed%20Transaction&rst=5296&ck=0&s=da2662bc1774f017&ref=https://www.swiggy.com/restaurants&ptid=fa1986e4f9730c11&af=err,ins&be=455&fe=4209&dc=1517&fsh=1&perf=%7B%22timing%22:%7B%22of%22:1792835466617,%22n%22:0,%22u%22:469,%22ue%22:469,%22f%22:8,%22dn%22:8,%22dne%22:8,%22c%22:8,%22s%22:8,%22ce%22:8,%22rq%22:11,%22rp%22:455,%22rpe%22:519,%22di%22:1826,%22ds%22:1967,%22de%22:1972,%22dc%22:4662,%22l%22:4662,%22le%22:4664%7D,%22navigation%22:%7B%22ty%22:1%7D%7D&fp=660&fcp=660",
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "64:ff9b::a2f7:f10e"
+          ],
+          "cname_chain": [
+            "bam.cell.nr-data.net",
+            "bam.nr-data.net.cdn.cloudflare.net"
+          ],
+          "ttl": 179,
+          "ms": 34.9,
+          "synthesized": true
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "64:ff9b::a2f7:f10e",
+              "ok": true,
+              "ms": 102.8
+            }
+          ],
+          "shim": false,
+          "addr": "64:ff9b::a2f7:f10e"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.nr-data.net",
+          "cert_not_after": "Jan 20 23:59:59 2027 GMT",
+          "ms": 262.2
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "cloudflare",
+          "ms": 559.4,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "162.247.241.14"
+          ],
+          "cname_chain": [
+            "bam.cell.nr-data.net",
+            "bam.nr-data.net.cdn.cloudflare.net"
+          ],
+          "ttl": 178,
+          "ms": 7.9
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "162.247.241.14",
+              "ok": true,
+              "ms": 154.1
+            }
+          ],
+          "shim": false,
+          "addr": "162.247.241.14"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.nr-data.net",
+          "cert_not_after": "Jan 20 23:59:59 2027 GMT",
+          "ms": 117.7
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "cloudflare",
+          "ms": 517.3,
+          "ok": true
+        }
+      }
+    }
+  },
+  "site": {
+    "category": "E-commerce",
+    "name": "Swiggy",
+    "url": "https://www.swiggy.com/"
+  }
+}

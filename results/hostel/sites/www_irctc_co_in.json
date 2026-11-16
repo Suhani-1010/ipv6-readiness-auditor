@@ -1,0 +1,2611 @@
+{
+  "schema": "ipv6-readiness-audit/1",
+  "page": "https://www.irctc.co.in/",
+  "final_url": "https://www.irctc.co.in/nget/train-search",
+  "started_utc": "2026-10-24T09:46:16+00:00",
+  "load_seconds": 48.58,
+  "vantage": {
+    "nat64_prefixes": [
+      "64:ff9b::/96"
+    ],
+    "ipv6_stack": true,
+    "ipv6_default_route": true,
+    "ipv4_default_route": true,
+    "lab_v6_shim": false,
+    "pathway": "dual-stack + DNS64/NAT64"
+  },
+  "capture_errors": [],
+  "summary": {
+    "page_verdict": "BROKEN_ON_IPV6",
+    "root_verdict": "READY",
+    "root_has_aaaa": true,
+    "resources_total": 53,
+    "origins_total": 13,
+    "resources_by_verdict": {
+      "BROKEN_BOTH": 28,
+      "READY": 24,
+      "IPV4_ONLY_NAT64": 1
+    },
+    "origins_by_verdict": {
+      "BROKEN_BOTH": 1,
+      "READY": 11,
+      "IPV4_ONLY_NAT64": 1
+    },
+    "ipv6_failures_by_stage": {
+      "dns": 1
+    },
+    "ipv6_failing_resources": 1,
+    "inconclusive_resources": 0,
+    "ipv6_failing_critical": 1,
+    "ipv6_failing_third_party": 1,
+    "resource_ipv6_ready_pct": 45.3,
+    "ipv4_only_hosts": [
+      "ddei5-0-ctp.trendmicro.com"
+    ],
+    "aaaa_but_broken_hosts": [],
+    "root_host": "www.irctc.co.in",
+    "root_http_parity": true
+  },
+  "tree": {
+    "root": "https://www.irctc.co.in/",
+    "edges": [
+      [
+        "https://www.irctc.co.in/",
+        "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18"
+      ],
+      [
+        "https://www.irctc.co.in/",
+        "https://www.irctc.co.in/2Q3swmPNuqaG/avzcjB/jy-ONa/7tO9bLVuiLu9khYp/D1JWNg/OlsXN2kA/fAo"
+      ],
+      [
+        "https://www.irctc.co.in/",
+        "https://www.irctc.co.in/2Q3swmPNuqaG/avzcjB/jy-ONa/cbO9bLVuiL/Y2NaNg/E2B7FRE_/FEYY?v=b4bc3b56-5cda-2833-a2f6-554b744117d5"
+      ],
+      [
+        "https://www.irctc.co.in/",
+        "https://s.go-mpulse.net/boomerang/UVZSJ-KU924-2H9DH-RYWGJ-FPEZN"
+      ],
+      [
+        "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+        "https://p11.techlab-cdn.com/e/65319_1825172608.js"
+      ],
+      [
+        "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+        "https://p11.techlab-cdn.com/e/65257_1825202461.js"
+      ],
+      [
+        "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+        "https://p11.techlab-cdn.com/e/64885_1825202492.js"
+      ],
+      [
+        "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+        "https://p11.techlab-cdn.com/e/65226_747628124.js"
+      ],
+      [
+        "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+        "https://p11.techlab-cdn.com/e/64854_1825202523.js"
+      ],
+      [
+        "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+        "https://c.go-mpulse.net/api/config.json?key=UVZSJ-KU924-2H9DH-RYWGJ-FPEZN&d=www.irctc.co.in&t=5976117&v=1.815.0&sl=0&si=9ffd8a53-e798-44b4-a321-e3be104ecc0d-tneoh6&plugins=AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,BFCache,LOGN&acao=&ak.ai=822482"
+      ],
+      [
+        "https://www.irctc.co.in/",
+        "https://www.irctc.co.in/nget/"
+      ],
+      [
+        "https://www.irctc.co.in/",
+        "https://www.irctc.co.in/favicon.ico"
+      ],
+      [
+        "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+        "https://www.irctc.co.in/2Q3swmPNuqaG/avzcjB/jy-ONa/cbO9bLVuiL/Y2NaNg/E2B7FRE_/FEYY"
+      ],
+      [
+        "https://www.irctc.co.in/nget/",
+        "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      ],
+      [
+        "https://www.irctc.co.in/nget/",
+        "https://www.irctc.co.in/nget/styles.560ea2fbac474419de08.css"
+      ],
+      [
+        "https://www.irctc.co.in/nget/",
+        "https://www.googletagmanager.com/gtag/js?id=G-8PFRHJTYEY"
+      ],
+      [
+        "https://www.irctc.co.in/nget/",
+        "https://www.irctc.co.in/nget/runtime-es2015.52abd64b804524563b43.js"
+      ],
+      [
+        "https://www.irctc.co.in/nget/",
+        "https://www.irctc.co.in/nget/polyfills-es2015.354e6cbf2a79641df6ef.js"
+      ],
+      [
+        "https://www.irctc.co.in/nget/",
+        "https://www.irctc.co.in/nget/main-es2015.6ad7857dae6815bc7d3b.js"
+      ],
+      [
+        "https://www.irctc.co.in/nget/styles.560ea2fbac474419de08.css",
+        "https://fonts.gstatic.com/s/quicksand/v7/6xKtdSZaM9iE8KbpRA_hJVQNcOM.woff2"
+      ],
+      [
+        "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+        "https://www.irctc.co.in/nget/assets/json/labels_en.json"
+      ],
+      [
+        "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+        "https://www.irctc.co.in/nget/assets/json/errorMessage_en.json"
+      ],
+      [
+        "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+        "https://www.irctc.co.in/eticketing/protected/mapps1/stationData"
+      ],
+      [
+        "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+        "https://ddei5-0-ctp.trendmicro.com/wis/clicktime/v1/query?url=https%3a%2f%2f1437953666.rsc.cdn77.org%2fpublisher%2f0142010a%2d8400%2d1b01%2d7a75%2ddd766800000d%2ftruereachAdRender.js&umid=9140C6E9-42FD-F706-B8D0-53389D228580&auth=78b4c8832c0ede0c89ea14d0eef11aed05693f81-4158416b55de1499de216cf41a59c47596352f58"
+      ],
+      [
+        "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+        "https://sdk.irctc.corover.ai/askdisha-bucket/chatbotlib.min.js?1792835198443"
+      ],
+      [
+        "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+        "https://www.irctc.co.in/eticketing/protected/mapps1/newandalerts"
+      ],
+      [
+        "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+        "https://www.irctc.co.in/eticketing/protected/mapps1/country"
+      ],
+      [
+        "https://www.irctc.co.in/",
+        "https://www.irctc.co.in/nget/assets/images/irctc-whatsapp.png"
+      ],
+      [
+        "https://www.irctc.co.in/",
+        "https://www.irctc.co.in/nget/assets/images/Koo.png"
+      ],
+      [
+        "https://www.irctc.co.in/",
+        "https://contents.irctc.co.in/en/GPT_NWEB_HOME_TOP1.jpeg"
+      ],
+      [
+        "https://www.irctc.co.in/",
+        "https://contents.irctc.co.in/en/GPT_NWEB_HOME_TOP.jpeg"
+      ],
+      [
+        "https://www.irctc.co.in/",
+        "https://contents.irctc.co.in/en/GPT_NWEB_HOME_CENTER.jpeg"
+      ],
+      [
+        "https://www.irctc.co.in/",
+        "https://contents.irctc.co.in/en/HOME_BOTTOM_RIGHT.jpeg"
+      ],
+      [
+        "https://www.irctc.co.in/",
+        "https://contents.irctc.co.in/en/Web_alerts_700x90.jpeg"
+      ],
+      [
+        "https://www.irctc.co.in/nget/styles.560ea2fbac474419de08.css",
+        "https://www.irctc.co.in/nget/checkBox.8cf423073e71167979b5.jpg"
+      ],
+      [
+        "https://www.irctc.co.in/nget/styles.560ea2fbac474419de08.css",
+        "https://www.irctc.co.in/nget/home_page_banner2.e6749c3d9698d1ac7608.jpg"
+      ],
+      [
+        "https://www.irctc.co.in/nget/styles.560ea2fbac474419de08.css",
+        "https://www.irctc.co.in/nget/css-sprite-combined1.11356089c173c53adec9.png"
+      ],
+      [
+        "https://www.irctc.co.in/nget/styles.560ea2fbac474419de08.css",
+        "https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0"
+      ],
+      [
+        "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
+        "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/fonts/glyphicons-halflings-regular.woff2"
+      ],
+      [
+        "https://www.irctc.co.in/nget/styles.560ea2fbac474419de08.css",
+        "https://www.irctc.co.in/nget/primeicons.04701ca33ce96d325419.ttf"
+      ],
+      [
+        "https://www.irctc.co.in/",
+        "https://www.irctc.co.in/nget/assets/images/icons/chart.png"
+      ],
+      [
+        "https://www.irctc.co.in/",
+        "https://www.irctc.co.in/nget/assets/images/logo.png"
+      ],
+      [
+        "https://www.irctc.co.in/",
+        "https://www.irctc.co.in/nget/assets/images/secondry-logo.png"
+      ],
+      [
+        "https://www.irctc.co.in/",
+        "https://www.irctc.co.in/nget/assets/images/new-banner-beta.png"
+      ],
+      [
+        "https://www.irctc.co.in/",
+        "https://www.irctc.co.in/nget/assets/images/icons/pnr.png"
+      ],
+      [
+        "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+        "https://www.google-analytics.com/g/collect?v=2&tid=G-8PFRHJTYEY&gtm=45je6al1v9229529203za208zd9229529203xf1&_p=1792835188632&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=567075928.1792835199&frm=0&ngs=1&pscdl=noapi&rcb=16&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~121284208&sid=1792835198&sct=1&seg=0&dl=https%3A%2F%2Fwww.irctc.co.in%2Fnget%2Ftrain-search&dr=https%3A%2F%2Fwww.irctc.co.in%2F&dt=IRCTC%20%E2%80%93%20Official%20Indian%20Railway%20Catering%20%26%20Tourism%20Corporation%20Portal&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=17321"
+      ],
+      [
+        "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+        "https://www.irctc.co.in/eticketing/protected/profile/textToNumber/1792835198330"
+      ],
+      [
+        "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+        "https://www.googletagmanager.com/gtag/js?id=UA-122267849-1"
+      ],
+      [
+        "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+        "https://www.googletagmanager.com/gtag/js?id=UA-122267849-1&cx=c&gtm=4e6al1"
+      ],
+      [
+        "https://ddei5-0-ctp.trendmicro.com/wis/clicktime/v1/query?url=https%3a%2f%2f1437953666.rsc.cdn77.org%2fpublisher%2f0142010a%2d8400%2d1b01%2d7a75%2ddd766800000d%2ftruereachAdRender.js&umid=9140C6E9-42FD-F706-B8D0-53389D228580&auth=78b4c8832c0ede0c89ea14d0eef11aed05693f81-4158416b55de1499de216cf41a59c47596352f58",
+        "https://1437953666.rsc.cdn77.org/publisher/0142010a-8400-1b01-7a75-dd766800000d/truereachAdRender.js"
+      ],
+      [
+        "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+        "https://www.googletagmanager.com/gtag/js?id=G-7K0RMWL72E&cx=c&gtm=4e6al1"
+      ],
+      [
+        "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+        "https://www.google-analytics.com/g/collect?v=2&tid=G-7K0RMWL72E&gtm=45je6al1v9116751228za20ozd9229529203xf1&_p=1792835188632&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAI&cid=567075928.1792835199&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&sid=1792835215&sct=1&seg=0&dl=https%3A%2F%2Fwww.irctc.co.in%2Fnget%2Ftrain-search&dr=https%3A%2F%2Fwww.irctc.co.in%2F&dt=IRCTC%20%E2%80%93%20Official%20Indian%20Railway%20Catering%20%26%20Tourism%20Corporation%20Portal&en=page_view&_fv=1&_ss=1&tfd=33545"
+      ]
+    ]
+  },
+  "resources": {
+    "https://www.irctc.co.in/": {
+      "url": "https://www.irctc.co.in/",
+      "resource_type": "Document",
+      "initiator_type": "other",
+      "parent": null,
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:c89]",
+      "count": 1,
+      "depth": 0,
+      "host": "www.irctc.co.in",
+      "origin": "https://www.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_TIMEOUT",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18": {
+      "url": "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.irctc.co.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:c89]",
+      "count": 2,
+      "depth": 1,
+      "host": "www.irctc.co.in",
+      "origin": "https://www.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_TIMEOUT",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.irctc.co.in/2Q3swmPNuqaG/avzcjB/jy-ONa/7tO9bLVuiLu9khYp/D1JWNg/OlsXN2kA/fAo": {
+      "url": "https://www.irctc.co.in/2Q3swmPNuqaG/avzcjB/jy-ONa/7tO9bLVuiLu9khYp/D1JWNg/OlsXN2kA/fAo",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.irctc.co.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:c89]",
+      "count": 9,
+      "depth": 1,
+      "host": "www.irctc.co.in",
+      "origin": "https://www.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_TIMEOUT",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.irctc.co.in/2Q3swmPNuqaG/avzcjB/jy-ONa/cbO9bLVuiL/Y2NaNg/E2B7FRE_/FEYY?v=b4bc3b56-5cda-2833-a2f6-554b744117d5": {
+      "url": "https://www.irctc.co.in/2Q3swmPNuqaG/avzcjB/jy-ONa/cbO9bLVuiL/Y2NaNg/E2B7FRE_/FEYY?v=b4bc3b56-5cda-2833-a2f6-554b744117d5",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.irctc.co.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:c89]",
+      "count": 2,
+      "depth": 1,
+      "host": "www.irctc.co.in",
+      "origin": "https://www.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_TIMEOUT",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://s.go-mpulse.net/boomerang/UVZSJ-KU924-2H9DH-RYWGJ-FPEZN": {
+      "url": "https://s.go-mpulse.net/boomerang/UVZSJ-KU924-2H9DH-RYWGJ-FPEZN",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.irctc.co.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:600:1b9::11a6]",
+      "count": 2,
+      "depth": 1,
+      "host": "s.go-mpulse.net",
+      "origin": "https://s.go-mpulse.net:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://p11.techlab-cdn.com/e/65319_1825172608.js": {
+      "url": "https://p11.techlab-cdn.com/e/65319_1825172608.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:cea]",
+      "count": 2,
+      "depth": 2,
+      "host": "p11.techlab-cdn.com",
+      "origin": "https://p11.techlab-cdn.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://p11.techlab-cdn.com/e/65257_1825202461.js": {
+      "url": "https://p11.techlab-cdn.com/e/65257_1825202461.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:cea]",
+      "count": 2,
+      "depth": 2,
+      "host": "p11.techlab-cdn.com",
+      "origin": "https://p11.techlab-cdn.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://p11.techlab-cdn.com/e/64885_1825202492.js": {
+      "url": "https://p11.techlab-cdn.com/e/64885_1825202492.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:cea]",
+      "count": 2,
+      "depth": 2,
+      "host": "p11.techlab-cdn.com",
+      "origin": "https://p11.techlab-cdn.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://p11.techlab-cdn.com/e/65226_747628124.js": {
+      "url": "https://p11.techlab-cdn.com/e/65226_747628124.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:cea]",
+      "count": 2,
+      "depth": 2,
+      "host": "p11.techlab-cdn.com",
+      "origin": "https://p11.techlab-cdn.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://p11.techlab-cdn.com/e/64854_1825202523.js": {
+      "url": "https://p11.techlab-cdn.com/e/64854_1825202523.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:cea]",
+      "count": 2,
+      "depth": 2,
+      "host": "p11.techlab-cdn.com",
+      "origin": "https://p11.techlab-cdn.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://c.go-mpulse.net/api/config.json?key=UVZSJ-KU924-2H9DH-RYWGJ-FPEZN&d=www.irctc.co.in&t=5976117&v=1.815.0&sl=0&si=9ffd8a53-e798-44b4-a321-e3be104ecc0d-tneoh6&plugins=AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,BFCache,LOGN&acao=&ak.ai=822482": {
+      "url": "https://c.go-mpulse.net/api/config.json?key=UVZSJ-KU924-2H9DH-RYWGJ-FPEZN&d=www.irctc.co.in&t=5976117&v=1.815.0&sl=0&si=9ffd8a53-e798-44b4-a321-e3be104ecc0d-tneoh6&plugins=AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,BFCache,LOGN&acao=&ak.ai=822482",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:600:19b::11a6]",
+      "count": 1,
+      "depth": 2,
+      "host": "c.go-mpulse.net",
+      "origin": "https://c.go-mpulse.net:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.irctc.co.in/nget/": {
+      "url": "https://www.irctc.co.in/nget/",
+      "resource_type": "Document",
+      "initiator_type": "other",
+      "parent": "https://www.irctc.co.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:c89]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.irctc.co.in",
+      "origin": "https://www.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_TIMEOUT",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.irctc.co.in/favicon.ico": {
+      "url": "https://www.irctc.co.in/favicon.ico",
+      "resource_type": "Other",
+      "initiator_type": "other",
+      "parent": "https://www.irctc.co.in/",
+      "status": 403,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:c89]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.irctc.co.in",
+      "origin": "https://www.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_TIMEOUT",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.irctc.co.in/2Q3swmPNuqaG/avzcjB/jy-ONa/cbO9bLVuiL/Y2NaNg/E2B7FRE_/FEYY": {
+      "url": "https://www.irctc.co.in/2Q3swmPNuqaG/avzcjB/jy-ONa/cbO9bLVuiL/Y2NaNg/E2B7FRE_/FEYY",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 4,
+      "depth": 2,
+      "host": "www.irctc.co.in",
+      "origin": "https://www.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_TIMEOUT",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css": {
+      "url": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.irctc.co.in/nget/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2606:4700:8d92:98e3:bd64:57e:895:a7f2]",
+      "count": 1,
+      "depth": 2,
+      "host": "maxcdn.bootstrapcdn.com",
+      "origin": "https://maxcdn.bootstrapcdn.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.irctc.co.in/nget/styles.560ea2fbac474419de08.css": {
+      "url": "https://www.irctc.co.in/nget/styles.560ea2fbac474419de08.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.irctc.co.in/nget/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:c89]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.irctc.co.in",
+      "origin": "https://www.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_TIMEOUT",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.googletagmanager.com/gtag/js?id=G-8PFRHJTYEY": {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-8PFRHJTYEY",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.irctc.co.in/nget/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4013:804::61]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.googletagmanager.com",
+      "origin": "https://www.googletagmanager.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.irctc.co.in/nget/runtime-es2015.52abd64b804524563b43.js": {
+      "url": "https://www.irctc.co.in/nget/runtime-es2015.52abd64b804524563b43.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.irctc.co.in/nget/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:c89]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.irctc.co.in",
+      "origin": "https://www.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_TIMEOUT",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.irctc.co.in/nget/polyfills-es2015.354e6cbf2a79641df6ef.js": {
+      "url": "https://www.irctc.co.in/nget/polyfills-es2015.354e6cbf2a79641df6ef.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.irctc.co.in/nget/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:c89]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.irctc.co.in",
+      "origin": "https://www.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_TIMEOUT",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.irctc.co.in/nget/main-es2015.6ad7857dae6815bc7d3b.js": {
+      "url": "https://www.irctc.co.in/nget/main-es2015.6ad7857dae6815bc7d3b.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.irctc.co.in/nget/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:c89]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.irctc.co.in",
+      "origin": "https://www.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_TIMEOUT",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://fonts.gstatic.com/s/quicksand/v7/6xKtdSZaM9iE8KbpRA_hJVQNcOM.woff2": {
+      "url": "https://fonts.gstatic.com/s/quicksand/v7/6xKtdSZaM9iE8KbpRA_hJVQNcOM.woff2",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://www.irctc.co.in/nget/styles.560ea2fbac474419de08.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4013:807::5e]",
+      "count": 1,
+      "depth": 3,
+      "host": "fonts.gstatic.com",
+      "origin": "https://fonts.gstatic.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.irctc.co.in/nget/assets/json/labels_en.json": {
+      "url": "https://www.irctc.co.in/nget/assets/json/labels_en.json",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:c89]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.irctc.co.in",
+      "origin": "https://www.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_TIMEOUT",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.irctc.co.in/nget/assets/json/errorMessage_en.json": {
+      "url": "https://www.irctc.co.in/nget/assets/json/errorMessage_en.json",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:c89]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.irctc.co.in",
+      "origin": "https://www.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_TIMEOUT",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.irctc.co.in/eticketing/protected/mapps1/stationData": {
+      "url": "https://www.irctc.co.in/eticketing/protected/mapps1/stationData",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:c89]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.irctc.co.in",
+      "origin": "https://www.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_TIMEOUT",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://ddei5-0-ctp.trendmicro.com/wis/clicktime/v1/query?url=https%3a%2f%2f1437953666.rsc.cdn77.org%2fpublisher%2f0142010a%2d8400%2d1b01%2d7a75%2ddd766800000d%2ftruereachAdRender.js&umid=9140C6E9-42FD-F706-B8D0-53389D228580&auth=78b4c8832c0ede0c89ea14d0eef11aed05693f81-4158416b55de1499de216cf41a59c47596352f58": {
+      "url": "https://ddei5-0-ctp.trendmicro.com/wis/clicktime/v1/query?url=https%3a%2f%2f1437953666.rsc.cdn77.org%2fpublisher%2f0142010a%2d8400%2d1b01%2d7a75%2ddd766800000d%2ftruereachAdRender.js&umid=9140C6E9-42FD-F706-B8D0-53389D228580&auth=78b4c8832c0ede0c89ea14d0eef11aed05693f81-4158416b55de1499de216cf41a59c47596352f58",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+      "status": 302,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "ddei5-0-ctp.trendmicro.com",
+      "origin": "https://ddei5-0-ctp.trendmicro.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://sdk.irctc.corover.ai/askdisha-bucket/chatbotlib.min.js?1792835198443": {
+      "url": "https://sdk.irctc.corover.ai/askdisha-bucket/chatbotlib.min.js?1792835198443",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2606:4700:8d99:c8e8:dfa8:57f:d251:cd6e]",
+      "count": 1,
+      "depth": 2,
+      "host": "sdk.irctc.corover.ai",
+      "origin": "https://sdk.irctc.corover.ai:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.irctc.co.in/eticketing/protected/mapps1/newandalerts": {
+      "url": "https://www.irctc.co.in/eticketing/protected/mapps1/newandalerts",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:c89]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.irctc.co.in",
+      "origin": "https://www.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_TIMEOUT",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.irctc.co.in/eticketing/protected/mapps1/country": {
+      "url": "https://www.irctc.co.in/eticketing/protected/mapps1/country",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:c89]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.irctc.co.in",
+      "origin": "https://www.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_TIMEOUT",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.irctc.co.in/nget/assets/images/irctc-whatsapp.png": {
+      "url": "https://www.irctc.co.in/nget/assets/images/irctc-whatsapp.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.irctc.co.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:c89]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.irctc.co.in",
+      "origin": "https://www.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_TIMEOUT",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.irctc.co.in/nget/assets/images/Koo.png": {
+      "url": "https://www.irctc.co.in/nget/assets/images/Koo.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.irctc.co.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:c89]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.irctc.co.in",
+      "origin": "https://www.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_TIMEOUT",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://contents.irctc.co.in/en/GPT_NWEB_HOME_TOP1.jpeg": {
+      "url": "https://contents.irctc.co.in/en/GPT_NWEB_HOME_TOP1.jpeg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.irctc.co.in/",
+      "status": null,
+      "browser_error": "net::ERR_BLOCKED_BY_ORB",
+      "remote_ip": null,
+      "count": 1,
+      "depth": 1,
+      "host": "contents.irctc.co.in",
+      "origin": "https://contents.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://contents.irctc.co.in/en/GPT_NWEB_HOME_TOP.jpeg": {
+      "url": "https://contents.irctc.co.in/en/GPT_NWEB_HOME_TOP.jpeg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.irctc.co.in/",
+      "status": null,
+      "browser_error": "net::ERR_BLOCKED_BY_ORB",
+      "remote_ip": null,
+      "count": 1,
+      "depth": 1,
+      "host": "contents.irctc.co.in",
+      "origin": "https://contents.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://contents.irctc.co.in/en/GPT_NWEB_HOME_CENTER.jpeg": {
+      "url": "https://contents.irctc.co.in/en/GPT_NWEB_HOME_CENTER.jpeg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.irctc.co.in/",
+      "status": null,
+      "browser_error": "net::ERR_BLOCKED_BY_ORB",
+      "remote_ip": null,
+      "count": 1,
+      "depth": 1,
+      "host": "contents.irctc.co.in",
+      "origin": "https://contents.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://contents.irctc.co.in/en/HOME_BOTTOM_RIGHT.jpeg": {
+      "url": "https://contents.irctc.co.in/en/HOME_BOTTOM_RIGHT.jpeg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.irctc.co.in/",
+      "status": null,
+      "browser_error": "net::ERR_BLOCKED_BY_ORB",
+      "remote_ip": null,
+      "count": 1,
+      "depth": 1,
+      "host": "contents.irctc.co.in",
+      "origin": "https://contents.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://contents.irctc.co.in/en/Web_alerts_700x90.jpeg": {
+      "url": "https://contents.irctc.co.in/en/Web_alerts_700x90.jpeg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.irctc.co.in/",
+      "status": null,
+      "browser_error": "net::ERR_BLOCKED_BY_ORB",
+      "remote_ip": null,
+      "count": 1,
+      "depth": 1,
+      "host": "contents.irctc.co.in",
+      "origin": "https://contents.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.irctc.co.in/nget/checkBox.8cf423073e71167979b5.jpg": {
+      "url": "https://www.irctc.co.in/nget/checkBox.8cf423073e71167979b5.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.irctc.co.in/nget/styles.560ea2fbac474419de08.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:c89]",
+      "count": 1,
+      "depth": 3,
+      "host": "www.irctc.co.in",
+      "origin": "https://www.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_TIMEOUT",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.irctc.co.in/nget/home_page_banner2.e6749c3d9698d1ac7608.jpg": {
+      "url": "https://www.irctc.co.in/nget/home_page_banner2.e6749c3d9698d1ac7608.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.irctc.co.in/nget/styles.560ea2fbac474419de08.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:c89]",
+      "count": 1,
+      "depth": 3,
+      "host": "www.irctc.co.in",
+      "origin": "https://www.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_TIMEOUT",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.irctc.co.in/nget/css-sprite-combined1.11356089c173c53adec9.png": {
+      "url": "https://www.irctc.co.in/nget/css-sprite-combined1.11356089c173c53adec9.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.irctc.co.in/nget/styles.560ea2fbac474419de08.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:c89]",
+      "count": 1,
+      "depth": 3,
+      "host": "www.irctc.co.in",
+      "origin": "https://www.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_TIMEOUT",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0": {
+      "url": "https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://www.irctc.co.in/nget/styles.560ea2fbac474419de08.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2a04:4e42:400::485]",
+      "count": 1,
+      "depth": 3,
+      "host": "cdn.jsdelivr.net",
+      "origin": "https://cdn.jsdelivr.net:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/fonts/glyphicons-halflings-regular.woff2": {
+      "url": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/fonts/glyphicons-halflings-regular.woff2",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2606:4700:8d92:98e3:bd64:57e:895:a7f2]",
+      "count": 1,
+      "depth": 3,
+      "host": "maxcdn.bootstrapcdn.com",
+      "origin": "https://maxcdn.bootstrapcdn.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.irctc.co.in/nget/primeicons.04701ca33ce96d325419.ttf": {
+      "url": "https://www.irctc.co.in/nget/primeicons.04701ca33ce96d325419.ttf",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://www.irctc.co.in/nget/styles.560ea2fbac474419de08.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:c89]",
+      "count": 1,
+      "depth": 3,
+      "host": "www.irctc.co.in",
+      "origin": "https://www.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_TIMEOUT",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.irctc.co.in/nget/assets/images/icons/chart.png": {
+      "url": "https://www.irctc.co.in/nget/assets/images/icons/chart.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.irctc.co.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:c89]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.irctc.co.in",
+      "origin": "https://www.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_TIMEOUT",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.irctc.co.in/nget/assets/images/logo.png": {
+      "url": "https://www.irctc.co.in/nget/assets/images/logo.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.irctc.co.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:c89]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.irctc.co.in",
+      "origin": "https://www.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_TIMEOUT",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.irctc.co.in/nget/assets/images/secondry-logo.png": {
+      "url": "https://www.irctc.co.in/nget/assets/images/secondry-logo.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.irctc.co.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:c89]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.irctc.co.in",
+      "origin": "https://www.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_TIMEOUT",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.irctc.co.in/nget/assets/images/new-banner-beta.png": {
+      "url": "https://www.irctc.co.in/nget/assets/images/new-banner-beta.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.irctc.co.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:c89]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.irctc.co.in",
+      "origin": "https://www.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_TIMEOUT",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.irctc.co.in/nget/assets/images/icons/pnr.png": {
+      "url": "https://www.irctc.co.in/nget/assets/images/icons/pnr.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.irctc.co.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:c89]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.irctc.co.in",
+      "origin": "https://www.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_TIMEOUT",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.google-analytics.com/g/collect?v=2&tid=G-8PFRHJTYEY&gtm=45je6al1v9229529203za208zd9229529203xf1&_p=1792835188632&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=567075928.1792835199&frm=0&ngs=1&pscdl=noapi&rcb=16&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~121284208&sid=1792835198&sct=1&seg=0&dl=https%3A%2F%2Fwww.irctc.co.in%2Fnget%2Ftrain-search&dr=https%3A%2F%2Fwww.irctc.co.in%2F&dt=IRCTC%20%E2%80%93%20Official%20Indian%20Railway%20Catering%20%26%20Tourism%20Corporation%20Portal&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=17321": {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-8PFRHJTYEY&gtm=45je6al1v9229529203za208zd9229529203xf1&_p=1792835188632&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=567075928.1792835199&frm=0&ngs=1&pscdl=noapi&rcb=16&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~121284208&sid=1792835198&sct=1&seg=0&dl=https%3A%2F%2Fwww.irctc.co.in%2Fnget%2Ftrain-search&dr=https%3A%2F%2Fwww.irctc.co.in%2F&dt=IRCTC%20%E2%80%93%20Official%20Indian%20Railway%20Catering%20%26%20Tourism%20Corporation%20Portal&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=17321",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+      "status": 204,
+      "browser_error": "net::ERR_ABORTED",
+      "remote_ip": "[2404:6800:4013:802::71]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.google-analytics.com",
+      "origin": "https://www.google-analytics.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.irctc.co.in/eticketing/protected/profile/textToNumber/1792835198330": {
+      "url": "https://www.irctc.co.in/eticketing/protected/profile/textToNumber/1792835198330",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::17d5:c89]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.irctc.co.in",
+      "origin": "https://www.irctc.co.in:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_TIMEOUT",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.googletagmanager.com/gtag/js?id=UA-122267849-1": {
+      "url": "https://www.googletagmanager.com/gtag/js?id=UA-122267849-1",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4013:804::61]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.googletagmanager.com",
+      "origin": "https://www.googletagmanager.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.googletagmanager.com/gtag/js?id=UA-122267849-1&cx=c&gtm=4e6al1": {
+      "url": "https://www.googletagmanager.com/gtag/js?id=UA-122267849-1&cx=c&gtm=4e6al1",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4013:804::61]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.googletagmanager.com",
+      "origin": "https://www.googletagmanager.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://1437953666.rsc.cdn77.org/publisher/0142010a-8400-1b01-7a75-dd766800000d/truereachAdRender.js": {
+      "url": "https://1437953666.rsc.cdn77.org/publisher/0142010a-8400-1b01-7a75-dd766800000d/truereachAdRender.js",
+      "resource_type": "Script",
+      "initiator_type": "redirect",
+      "parent": "https://ddei5-0-ctp.trendmicro.com/wis/clicktime/v1/query?url=https%3a%2f%2f1437953666.rsc.cdn77.org%2fpublisher%2f0142010a%2d8400%2d1b01%2d7a75%2ddd766800000d%2ftruereachAdRender.js&umid=9140C6E9-42FD-F706-B8D0-53389D228580&auth=78b4c8832c0ede0c89ea14d0eef11aed05693f81-4158416b55de1499de216cf41a59c47596352f58",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2a02:6ea0:2cab::84]",
+      "count": 1,
+      "depth": 3,
+      "host": "1437953666.rsc.cdn77.org",
+      "origin": "https://1437953666.rsc.cdn77.org:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://ddei5-0-ctp.trendmicro.com/wis/clicktime/v1/query?url=https%3a%2f%2f1437953666.rsc.cdn77.org%2fpublisher%2f0142010a%2d8400%2d1b01%2d7a75%2ddd766800000d%2ftruereachAdRender.js&umid=9140C6E9-42FD-F706-B8D0-53389D228580&auth=78b4c8832c0ede0c89ea14d0eef11aed05693f81-4158416b55de1499de216cf41a59c47596352f58"
+    },
+    "https://www.googletagmanager.com/gtag/js?id=G-7K0RMWL72E&cx=c&gtm=4e6al1": {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-7K0RMWL72E&cx=c&gtm=4e6al1",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4013:804::61]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.googletagmanager.com",
+      "origin": "https://www.googletagmanager.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.google-analytics.com/g/collect?v=2&tid=G-7K0RMWL72E&gtm=45je6al1v9116751228za20ozd9229529203xf1&_p=1792835188632&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAI&cid=567075928.1792835199&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&sid=1792835215&sct=1&seg=0&dl=https%3A%2F%2Fwww.irctc.co.in%2Fnget%2Ftrain-search&dr=https%3A%2F%2Fwww.irctc.co.in%2F&dt=IRCTC%20%E2%80%93%20Official%20Indian%20Railway%20Catering%20%26%20Tourism%20Corporation%20Portal&en=page_view&_fv=1&_ss=1&tfd=33545": {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-7K0RMWL72E&gtm=45je6al1v9116751228za20ozd9229529203xf1&_p=1792835188632&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAI&cid=567075928.1792835199&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&sid=1792835215&sct=1&seg=0&dl=https%3A%2F%2Fwww.irctc.co.in%2Fnget%2Ftrain-search&dr=https%3A%2F%2Fwww.irctc.co.in%2F&dt=IRCTC%20%E2%80%93%20Official%20Indian%20Railway%20Catering%20%26%20Tourism%20Corporation%20Portal&en=page_view&_fv=1&_ss=1&tfd=33545",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.irctc.co.in/public/f3dba886c30d81dc2b55688c61470d13f0308b726f18",
+      "status": 204,
+      "browser_error": "net::ERR_ABORTED",
+      "remote_ip": "[2404:6800:4013:802::71]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.google-analytics.com",
+      "origin": "https://www.google-analytics.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    }
+  },
+  "origins": {
+    "https://www.irctc.co.in:443": {
+      "origin": "https://www.irctc.co.in:443",
+      "host": "www.irctc.co.in",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.irctc.co.in/",
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_TIMEOUT",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "http",
+        "failure_code": "HTTP_TIMEOUT",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2405:200:1630:1300::17d5:cc3",
+            "2405:200:1630:1300::17d5:cca"
+          ],
+          "cname_chain": [
+            "www.irctc.co.in-new.edgekey.net",
+            "e10002901.dsct.akamaiedge.net"
+          ],
+          "ttl": 18,
+          "ms": 42.7,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2405:200:1630:1300::17d5:cc3",
+              "ok": true,
+              "ms": 68.3
+            }
+          ],
+          "shim": false,
+          "addr": "2405:200:1630:1300::17d5:cc3"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "www.irctc.co.in",
+          "cert_not_after": "Jan 20 23:59:59 2027 GMT",
+          "ms": 116.9
+        },
+        "http": {
+          "ms": 5001.5,
+          "ok": false,
+          "error": "TimeoutError: The read operation timed out"
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": "http",
+        "failure_code": "HTTP_TIMEOUT",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "23.213.12.137",
+            "23.213.12.163",
+            "23.213.12.242",
+            "23.213.12.144",
+            "23.213.12.153",
+            "23.213.12.195",
+            "23.213.12.202"
+          ],
+          "cname_chain": [
+            "www.irctc.co.in-new.edgekey.net",
+            "e10002901.dsct.akamaiedge.net"
+          ],
+          "ttl": 19,
+          "ms": 81.1
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "23.213.12.137",
+              "ok": true,
+              "ms": 54.6
+            }
+          ],
+          "shim": false,
+          "addr": "23.213.12.137"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "www.irctc.co.in",
+          "cert_not_after": "Jan 20 23:59:59 2027 GMT",
+          "ms": 96.7
+        },
+        "http": {
+          "ms": 5000.5,
+          "ok": false,
+          "error": "TimeoutError: The read operation timed out"
+        }
+      }
+    },
+    "https://s.go-mpulse.net:443": {
+      "origin": "https://s.go-mpulse.net:443",
+      "host": "s.go-mpulse.net",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://s.go-mpulse.net/boomerang/UVZSJ-KU924-2H9DH-RYWGJ-FPEZN",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2600:140f:600:199::11a6",
+            "2600:140f:600:19b::11a6",
+            "2600:140f:600:1b9::11a6"
+          ],
+          "cname_chain": [
+            "ip46.go-mpulse.net.edgekey.net",
+            "e4518.dscx.akamaiedge.net"
+          ],
+          "ttl": 20,
+          "ms": 73.8,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2600:140f:600:199::11a6",
+              "ok": true,
+              "ms": 59.4
+            }
+          ],
+          "shim": false,
+          "addr": "2600:140f:600:199::11a6"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "akstat.io",
+          "cert_not_after": "Apr  2 23:59:59 2027 GMT",
+          "ms": 220.4
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 141.8,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "23.45.184.165"
+          ],
+          "cname_chain": [
+            "ip46.go-mpulse.net.edgekey.net",
+            "e4518.dscx.akamaiedge.net"
+          ],
+          "ttl": 18,
+          "ms": 269.9
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "23.45.184.165",
+              "ok": true,
+              "ms": 416.9
+            }
+          ],
+          "shim": false,
+          "addr": "23.45.184.165"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "akstat.io",
+          "cert_not_after": "Apr  2 23:59:59 2027 GMT",
+          "ms": 127.5
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 690.8,
+          "ok": true
+        }
+      }
+    },
+    "https://p11.techlab-cdn.com:443": {
+      "origin": "https://p11.techlab-cdn.com:443",
+      "host": "p11.techlab-cdn.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://p11.techlab-cdn.com/e/65319_1825172608.js",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2405:200:1630:1300::17d5:cea",
+            "2405:200:1630:1300::17d5:cd2"
+          ],
+          "cname_chain": [
+            "p11.techlab-cdn.com.edgekey.net",
+            "e27553.dsca.akamaiedge.net"
+          ],
+          "ttl": 17,
+          "ms": 74.0,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2405:200:1630:1300::17d5:cea",
+              "ok": true,
+              "ms": 58.9
+            }
+          ],
+          "shim": false,
+          "addr": "2405:200:1630:1300::17d5:cea"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "p11.techlab-cdn.com",
+          "cert_not_after": "Jan 12 13:38:23 2027 GMT",
+          "ms": 261.1
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 207.8,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "23.213.12.234",
+            "23.213.12.210"
+          ],
+          "cname_chain": [
+            "p11.techlab-cdn.com.edgekey.net",
+            "e27553.dsca.akamaiedge.net"
+          ],
+          "ttl": 1,
+          "ms": 313.4
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "23.213.12.234",
+              "ok": true,
+              "ms": 346.7
+            }
+          ],
+          "shim": false,
+          "addr": "23.213.12.234"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "p11.techlab-cdn.com",
+          "cert_not_after": "Jan 12 13:38:23 2027 GMT",
+          "ms": 156.7
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 203.9,
+          "ok": true
+        }
+      }
+    },
+    "https://c.go-mpulse.net:443": {
+      "origin": "https://c.go-mpulse.net:443",
+      "host": "c.go-mpulse.net",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://c.go-mpulse.net/api/config.json?key=UVZSJ-KU924-2H9DH-RYWGJ-FPEZN&d=www.irctc.co.in&t=5976117&v=1.815.0&sl=0&si=9ffd8a53-e798-44b4-a321-e3be104ecc0d-tneoh6&plugins=AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,BFCache,LOGN&acao=&ak.ai=822482",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2600:140f:600:1b9::11a6",
+            "2600:140f:600:185::11a6"
+          ],
+          "cname_chain": [
+            "wildcard46.go-mpulse.net.edgekey.net",
+            "e4518.dscapi7.akamaiedge.net"
+          ],
+          "ttl": 6,
+          "ms": 74.5,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2600:140f:600:1b9::11a6",
+              "ok": true,
+              "ms": 57.4
+            }
+          ],
+          "shim": false,
+          "addr": "2600:140f:600:1b9::11a6"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "akstat.io",
+          "cert_not_after": "Apr  2 23:59:59 2027 GMT",
+          "ms": 188.0
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 980.7,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "23.204.252.168"
+          ],
+          "cname_chain": [
+            "wildcard46.go-mpulse.net.edgekey.net",
+            "e4518.dscapi7.akamaiedge.net"
+          ],
+          "ttl": 14,
+          "ms": 60.8
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "23.204.252.168",
+              "ok": true,
+              "ms": 56.3
+            }
+          ],
+          "shim": false,
+          "addr": "23.204.252.168"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "akstat.io",
+          "cert_not_after": "Apr  2 23:59:59 2027 GMT",
+          "ms": 159.7
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 1276.1,
+          "ok": true
+        }
+      }
+    },
+    "https://maxcdn.bootstrapcdn.com:443": {
+      "origin": "https://maxcdn.bootstrapcdn.com:443",
+      "host": "maxcdn.bootstrapcdn.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2606:4700:8d92:98e3:bd64:5ab:895:a7f2"
+          ],
+          "cname_chain": [],
+          "ttl": 39,
+          "ms": 72.3,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2606:4700:8d92:98e3:bd64:5ab:895:a7f2",
+              "ok": true,
+              "ms": 112.6
+            }
+          ],
+          "shim": false,
+          "addr": "2606:4700:8d92:98e3:bd64:5ab:895:a7f2"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "bootstrapcdn.com",
+          "cert_not_after": "Nov 27 07:52:32 2026 GMT",
+          "ms": 209.7
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "cloudflare",
+          "ms": 519.8,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "104.18.11.207",
+            "104.18.10.207"
+          ],
+          "cname_chain": [],
+          "ttl": 90,
+          "ms": 4.8
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "104.18.11.207",
+              "ok": true,
+              "ms": 307.2
+            }
+          ],
+          "shim": false,
+          "addr": "104.18.11.207"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "bootstrapcdn.com",
+          "cert_not_after": "Nov 27 07:52:32 2026 GMT",
+          "ms": 137.2
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "cloudflare",
+          "ms": 500.0,
+          "ok": true
+        }
+      }
+    },
+    "https://www.googletagmanager.com:443": {
+      "origin": "https://www.googletagmanager.com:443",
+      "host": "www.googletagmanager.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.googletagmanager.com/gtag/js?id=G-8PFRHJTYEY",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4013:804::61"
+          ],
+          "cname_chain": [],
+          "ttl": 53,
+          "ms": 24.3,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2404:6800:4013:804::61",
+              "ok": true,
+              "ms": 54.8
+            }
+          ],
+          "shim": false,
+          "addr": "2404:6800:4013:804::61"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google-analytics.com",
+          "cert_not_after": "Dec 21 18:38:19 2026 GMT",
+          "ms": 165.9
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "Google Tag Manager",
+          "ms": 398.9,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.250.122.97"
+          ],
+          "cname_chain": [],
+          "ttl": 48,
+          "ms": 5.9
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.250.122.97",
+              "ok": true,
+              "ms": 503.5
+            }
+          ],
+          "shim": false,
+          "addr": "142.250.122.97"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google-analytics.com",
+          "cert_not_after": "Dec 21 18:38:19 2026 GMT",
+          "ms": 151.9
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "Google Tag Manager",
+          "ms": 334.8,
+          "ok": true
+        }
+      }
+    },
+    "https://fonts.gstatic.com:443": {
+      "origin": "https://fonts.gstatic.com:443",
+      "host": "fonts.gstatic.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://fonts.gstatic.com/s/quicksand/v7/6xKtdSZaM9iE8KbpRA_hJVQNcOM.woff2",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4013:813::5e"
+          ],
+          "cname_chain": [],
+          "ttl": 224,
+          "ms": 72.3,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2404:6800:4013:813::5e",
+              "ok": true,
+              "ms": 111.5
+            }
+          ],
+          "shim": false,
+          "addr": "2404:6800:4013:813::5e"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.gstatic.com",
+          "cert_not_after": "Dec 21 18:40:05 2026 GMT",
+          "ms": 177.2
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "sffe",
+          "ms": 382.9,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "192.178.158.94"
+          ],
+          "cname_chain": [],
+          "ttl": 224,
+          "ms": 431.0
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "192.178.158.94",
+              "ok": true,
+              "ms": 71.5
+            }
+          ],
+          "shim": false,
+          "addr": "192.178.158.94"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.gstatic.com",
+          "cert_not_after": "Dec 21 18:40:05 2026 GMT",
+          "ms": 122.9
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "sffe",
+          "ms": 632.0,
+          "ok": true
+        }
+      }
+    },
+    "https://ddei5-0-ctp.trendmicro.com:443": {
+      "origin": "https://ddei5-0-ctp.trendmicro.com:443",
+      "host": "ddei5-0-ctp.trendmicro.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://ddei5-0-ctp.trendmicro.com/wis/clicktime/v1/query?url=https%3a%2f%2f1437953666.rsc.cdn77.org%2fpublisher%2f0142010a%2d8400%2d1b01%2d7a75%2ddd766800000d%2ftruereachAdRender.js&umid=9140C6E9-42FD-F706-B8D0-53389D228580&auth=78b4c8832c0ede0c89ea14d0eef11aed05693f81-4158416b55de1499de216cf41a59c47596352f58",
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "64:ff9b::239b:f932",
+            "64:ff9b::2ce8:6fc5",
+            "64:ff9b::36d5:a8b3"
+          ],
+          "cname_chain": [
+            "ctp.wtp.trendmicro.com",
+            "ctp-proxy.prod.wrs.trendmicro.com"
+          ],
+          "ttl": 20,
+          "ms": 23.7,
+          "synthesized": true
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "64:ff9b::239b:f932",
+              "ok": true,
+              "ms": 309.8
+            }
+          ],
+          "shim": false,
+          "addr": "64:ff9b::239b:f932"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "*.trendmicro.com",
+          "cert_not_after": "Mar  2 23:59:59 2027 GMT",
+          "ms": 844.6
+        },
+        "http": {
+          "status": 302,
+          "reason": "Found",
+          "location": "https://1437953666.rsc.cdn77.org/publisher/0142010a-8400-1b01-7a75-dd766800000d/truereachAdRender.js",
+          "server": null,
+          "ms": 1654.8,
+          "ok": true,
+          "redirect_host": "1437953666.rsc.cdn77.org",
+          "redirect_host_has_aaaa": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "54.213.168.179",
+            "35.155.249.50",
+            "44.232.111.197"
+          ],
+          "cname_chain": [
+            "ctp.wtp.trendmicro.com",
+            "ctp-proxy.prod.wrs.trendmicro.com"
+          ],
+          "ttl": 36,
+          "ms": 5.8
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "54.213.168.179",
+              "ok": true,
+              "ms": 309.9
+            }
+          ],
+          "shim": false,
+          "addr": "54.213.168.179"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "*.trendmicro.com",
+          "cert_not_after": "Mar  2 23:59:59 2027 GMT",
+          "ms": 395.3
+        },
+        "http": {
+          "status": 302,
+          "reason": "Found",
+          "location": "https://1437953666.rsc.cdn77.org/publisher/0142010a-8400-1b01-7a75-dd766800000d/truereachAdRender.js",
+          "server": null,
+          "ms": 661.9,
+          "ok": true
+        }
+      }
+    },
+    "https://sdk.irctc.corover.ai:443": {
+      "origin": "https://sdk.irctc.corover.ai:443",
+      "host": "sdk.irctc.corover.ai",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://sdk.irctc.corover.ai/askdisha-bucket/chatbotlib.min.js?1792835198443",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2606:4700:8d99:c8e8:dfa8:57f:d251:cd6e"
+          ],
+          "cname_chain": [],
+          "ttl": 12,
+          "ms": 25.0,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2606:4700:8d99:c8e8:dfa8:57f:d251:cd6e",
+              "ok": true,
+              "ms": 122.6
+            }
+          ],
+          "shim": false,
+          "addr": "2606:4700:8d99:c8e8:dfa8:57f:d251:cd6e"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "sdk.irctc.corover.ai",
+          "cert_not_after": "Dec 30 10:10:41 2026 GMT",
+          "ms": 275.7
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "cloudflare",
+          "ms": 797.6,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "104.26.4.2",
+            "104.26.5.2",
+            "172.67.70.249"
+          ],
+          "cname_chain": [],
+          "ttl": 137,
+          "ms": 17.5
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "104.26.4.2",
+              "ok": true,
+              "ms": 83.3
+            }
+          ],
+          "shim": false,
+          "addr": "104.26.4.2"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "sdk.irctc.corover.ai",
+          "cert_not_after": "Dec 30 10:10:41 2026 GMT",
+          "ms": 245.6
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "cloudflare",
+          "ms": 1265.9,
+          "ok": true
+        }
+      }
+    },
+    "https://contents.irctc.co.in:443": {
+      "origin": "https://contents.irctc.co.in:443",
+      "host": "contents.irctc.co.in",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://contents.irctc.co.in/en/GPT_NWEB_HOME_TOP1.jpeg",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2405:200:1630:1300::17d5:cfb",
+            "2405:200:1630:1300::17d5:cfa"
+          ],
+          "cname_chain": [
+            "contents.irctc.co.in-new.edgekey.net",
+            "e10002909.dsct.akamaiedge.net"
+          ],
+          "ttl": 8,
+          "ms": 70.5,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2405:200:1630:1300::17d5:cfb",
+              "ok": true,
+              "ms": 57.9
+            }
+          ],
+          "shim": false,
+          "addr": "2405:200:1630:1300::17d5:cfb"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "www.irctc.co.in",
+          "cert_not_after": "Jan 20 23:59:59 2027 GMT",
+          "ms": 188.1
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 174.3,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "23.213.12.251",
+            "23.213.12.250"
+          ],
+          "cname_chain": [
+            "contents.irctc.co.in-new.edgekey.net",
+            "e10002909.dsct.akamaiedge.net"
+          ],
+          "ttl": 5,
+          "ms": 337.4
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "23.213.12.251",
+              "ok": true,
+              "ms": 349.0
+            }
+          ],
+          "shim": false,
+          "addr": "23.213.12.251"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "www.irctc.co.in",
+          "cert_not_after": "Jan 20 23:59:59 2027 GMT",
+          "ms": 126.6
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 200.7,
+          "ok": true
+        }
+      }
+    },
+    "https://cdn.jsdelivr.net:443": {
+      "origin": "https://cdn.jsdelivr.net:443",
+      "host": "cdn.jsdelivr.net",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2a04:4e42:200::485",
+            "2a04:4e42::485",
+            "2a04:4e42:600::485",
+            "2a04:4e42:400::485"
+          ],
+          "cname_chain": [
+            "jsdelivr.map.fastly.net"
+          ],
+          "ttl": 20,
+          "ms": 23.8,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2a04:4e42:200::485",
+              "ok": true,
+              "ms": 81.2
+            }
+          ],
+          "shim": false,
+          "addr": "2a04:4e42:200::485"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "jsdelivr.net",
+          "cert_not_after": "May  8 13:50:25 2027 GMT",
+          "ms": 102.6
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 199.9,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "151.101.193.229",
+            "151.101.129.229",
+            "151.101.65.229",
+            "151.101.1.229"
+          ],
+          "cname_chain": [
+            "jsdelivr.map.fastly.net"
+          ],
+          "ttl": 16,
+          "ms": 9.4
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "151.101.193.229",
+              "ok": true,
+              "ms": 58.1
+            }
+          ],
+          "shim": false,
+          "addr": "151.101.193.229"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "jsdelivr.net",
+          "cert_not_after": "May  8 13:50:25 2027 GMT",
+          "ms": 328.9
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 432.9,
+          "ok": true
+        }
+      }
+    },
+    "https://www.google-analytics.com:443": {
+      "origin": "https://www.google-analytics.com:443",
+      "host": "www.google-analytics.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.google-analytics.com/g/collect?v=2&tid=G-8PFRHJTYEY&gtm=45je6al1v9229529203za208zd9229529203xf1&_p=1792835188632&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=567075928.1792835199&frm=0&ngs=1&pscdl=noapi&rcb=16&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~121284208&sid=1792835198&sct=1&seg=0&dl=https%3A%2F%2Fwww.irctc.co.in%2Fnget%2Ftrain-search&dr=https%3A%2F%2Fwww.irctc.co.in%2F&dt=IRCTC%20%E2%80%93%20Official%20Indian%20Railway%20Catering%20%26%20Tourism%20Corporation%20Portal&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=17321",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4013:802::65",
+            "2404:6800:4013:802::71",
+            "2404:6800:4013:802::66",
+            "2404:6800:4013:802::8b"
+          ],
+          "cname_chain": [],
+          "ttl": 1,
+          "ms": 22.3,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2404:6800:4013:802::65",
+              "ok": true,
+              "ms": 54.1
+            }
+          ],
+          "shim": false,
+          "addr": "2404:6800:4013:802::65"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google-analytics.com",
+          "cert_not_after": "Dec 21 18:38:19 2026 GMT",
+          "ms": 239.5
+        },
+        "http": {
+          "status": 204,
+          "reason": "No Content",
+          "location": null,
+          "server": "Golfe2",
+          "ms": 282.8,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.251.43.206"
+          ],
+          "cname_chain": [],
+          "ttl": 231,
+          "ms": 5.0
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.251.43.206",
+              "ok": true,
+              "ms": 504.2
+            }
+          ],
+          "shim": false,
+          "addr": "142.251.43.206"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google-analytics.com",
+          "cert_not_after": "Dec 21 18:38:19 2026 GMT",
+          "ms": 231.9
+        },
+        "http": {
+          "status": 204,
+          "reason": "No Content",
+          "location": null,
+          "server": "Golfe2",
+          "ms": 597.4,
+          "ok": true
+        }
+      }
+    },
+    "https://1437953666.rsc.cdn77.org:443": {
+      "origin": "https://1437953666.rsc.cdn77.org:443",
+      "host": "1437953666.rsc.cdn77.org",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://1437953666.rsc.cdn77.org/publisher/0142010a-8400-1b01-7a75-dd766800000d/truereachAdRender.js",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2a02:6ea0:2cab::83",
+            "2a02:6ea0:2cab::81",
+            "2a02:6ea0:2cab::82",
+            "2a02:6ea0:2cab::84"
+          ],
+          "cname_chain": [],
+          "ttl": 1,
+          "ms": 71.8,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2a02:6ea0:2cab::83",
+              "ok": true,
+              "ms": 218.0
+            }
+          ],
+          "shim": false,
+          "addr": "2a02:6ea0:2cab::83"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "1437953666.rsc.cdn77.org",
+          "cert_not_after": "Nov 21 10:38:51 2026 GMT",
+          "ms": 315.2
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "CDN77-Turbo",
+          "ms": 840.8,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "79.127.138.18",
+            "79.127.138.21",
+            "79.127.138.15",
+            "79.127.138.30"
+          ],
+          "cname_chain": [],
+          "ttl": 12,
+          "ms": 72.6
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "79.127.138.18",
+              "ok": true,
+              "ms": 1106.2
+            }
+          ],
+          "shim": false,
+          "addr": "79.127.138.18"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "1437953666.rsc.cdn77.org",
+          "cert_not_after": "Nov 21 10:38:51 2026 GMT",
+          "ms": 333.0
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "CDN77-Turbo",
+          "ms": 485.2,
+          "ok": true
+        }
+      }
+    }
+  },
+  "site": {
+    "category": "Government",
+    "name": "IRCTC",
+    "url": "https://www.irctc.co.in/"
+  }
+}

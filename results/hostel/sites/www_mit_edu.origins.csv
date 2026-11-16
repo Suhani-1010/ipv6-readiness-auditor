@@ -1,0 +1,5 @@
+page,origin,host,verdict,failed_stage,failure_code,v6_dns_rcode,v6_addresses,v6_synthesized,v6_tcp,v6_tls,v6_http_status,v6_failure_code,v4_addresses,v4_failure_code,v4_http_status,probe_url
+https://www.mit.edu/,https://www.mit.edu:443,www.mit.edu,READY,,,NOERROR,2600:140f:201:68e::255e 2600:140f:201:688::255e,False,ok,ok,200,,2.23.33.163,,200,https://www.mit.edu/
+https://www.mit.edu/,https://use.typekit.net:443,use.typekit.net,READY,,,NOERROR,2405:200:1630:1300::b854:dd48 2405:200:1630:1300::b854:dd4a,False,ok,ok,200,,184.84.221.72 184.84.221.74,,200,https://use.typekit.net/uby1wjv.css
+https://www.mit.edu/,https://p.typekit.net:443,p.typekit.net,READY,,,NOERROR,2405:200:1630:1300::b854:dd59 2405:200:1630:1300::b854:dd58,False,ok,ok,200,,184.84.221.88 184.84.221.89,,200,https://p.typekit.net/p.css?s=1&k=uby1wjv&ht=tk&f=39496.39497.39498.39499.39500.39501.39502.39503.39504.39505.39506.39507.39508.39509&a=53548716&app=typekit&e=css
+https://www.mit.edu/,https://www.googletagmanager.com:443,www.googletagmanager.com,READY,,,NOERROR,2404:6800:4013:804::61,False,ok,ok,200,,142.250.122.97,,200,https://www.googletagmanager.com/gtm.js?id=GTM-M8MGV4P

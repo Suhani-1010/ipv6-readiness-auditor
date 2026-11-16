@@ -1,0 +1,6 @@
+page,origin,host,verdict,failed_stage,failure_code,v6_dns_rcode,v6_addresses,v6_synthesized,v6_tcp,v6_tls,v6_http_status,v6_failure_code,v4_addresses,v4_failure_code,v4_http_status,probe_url
+https://www.incometax.gov.in/,https://www.incometax.gov.in:443,www.incometax.gov.in,READY,,,NOERROR,2600:140f:7::1739:4c3d 2600:140f:7::1739:4c16,False,ok,ok,301,,23.57.76.44 23.57.76.62 23.57.76.22 23.57.76.61,,301,https://www.incometax.gov.in/
+https://www.incometax.gov.in/,https://cdn.jsdelivr.net:443,cdn.jsdelivr.net,READY,,,NOERROR,2606:4700:8d93:9436:47a8:57e:6811:cf05,False,ok,ok,200,,104.17.208.5 104.17.207.5,,200,https://cdn.jsdelivr.net/npm/starry-rating@5.1.0/dist/starry.min.css
+https://www.incometax.gov.in/,https://cdnjs.cloudflare.com:443,cdnjs.cloudflare.com,READY,,,NOERROR,2606:4700:8d92:e632:f40c:5a0:6811:180e,False,ok,ok,200,,104.17.25.14 104.17.24.14,,200,https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.css
+https://www.incometax.gov.in/,https://vjs.zencdn.net:443,vjs.zencdn.net,READY,,,NOERROR,2a04:4e42:59::729,False,ok,ok,200,,199.232.102.217,,200,https://vjs.zencdn.net/7.6.6/video-js.min.css
+https://www.incometax.gov.in/,https://static.addtoany.com:443,static.addtoany.com,READY,,,NOERROR,2606:4700:8d94:da79:cb64:57a:9fbb:557c,False,ok,ok,200,,172.66.171.172 104.20.20.192,,200,https://static.addtoany.com/menu/page.js

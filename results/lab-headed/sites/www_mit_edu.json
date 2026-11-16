@@ -1,0 +1,1007 @@
+{
+  "schema": "ipv6-readiness-audit/1",
+  "page": "https://www.mit.edu/",
+  "final_url": "https://www.mit.edu/",
+  "started_utc": "2026-10-19T05:36:05+00:00",
+  "load_seconds": 6.49,
+  "vantage": {
+    "nat64_prefixes": [],
+    "ipv6_stack": true,
+    "ipv6_default_route": false,
+    "ipv4_default_route": true,
+    "lab_v6_shim": false,
+    "pathway": "ipv4-only"
+  },
+  "capture_errors": [],
+  "summary": {
+    "page_verdict": "INCONCLUSIVE_NO_IPV6",
+    "root_verdict": "INCONCLUSIVE_NO_IPV6",
+    "root_has_aaaa": true,
+    "resources_total": 25,
+    "origins_total": 4,
+    "resources_by_verdict": {
+      "INCONCLUSIVE_NO_IPV6": 25
+    },
+    "origins_by_verdict": {
+      "INCONCLUSIVE_NO_IPV6": 4
+    },
+    "ipv6_failures_by_stage": {},
+    "ipv6_failing_resources": 0,
+    "inconclusive_resources": 25,
+    "ipv6_failing_critical": 0,
+    "ipv6_failing_third_party": 0,
+    "resource_ipv6_ready_pct": 0.0,
+    "ipv4_only_hosts": [],
+    "aaaa_but_broken_hosts": [],
+    "root_host": "www.mit.edu"
+  },
+  "tree": {
+    "root": "https://www.mit.edu/",
+    "edges": [
+      [
+        "https://www.mit.edu/",
+        "https://www.mit.edu/themes/mit/assets/css/main.css?tf13vj"
+      ],
+      [
+        "https://www.mit.edu/",
+        "https://www.mit.edu/files/images/202610/MIT-Synthetic-Narratives-SL.jpg"
+      ],
+      [
+        "https://www.mit.edu/",
+        "https://www.mit.edu/themes/mit/assets/js/modernizr.js?tf13vj"
+      ],
+      [
+        "https://www.mit.edu/",
+        "https://www.mit.edu/themes/mit/assets/js/main.js?tf13vj"
+      ],
+      [
+        "https://www.mit.edu/themes/mit/assets/css/main.css?tf13vj",
+        "https://use.typekit.net/uby1wjv.css"
+      ],
+      [
+        "https://use.typekit.net/uby1wjv.css",
+        "https://p.typekit.net/p.css?s=1&k=uby1wjv&ht=tk&f=39496.39497.39498.39499.39500.39501.39502.39503.39504.39505.39506.39507.39508.39509&a=53548716&app=typekit&e=css"
+      ],
+      [
+        "https://www.mit.edu/",
+        "https://www.googletagmanager.com/gtm.js?id=GTM-M8MGV4P"
+      ],
+      [
+        "https://use.typekit.net/uby1wjv.css",
+        "https://use.typekit.net/af/912d1e/00000000000000007735bb33/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3"
+      ],
+      [
+        "https://use.typekit.net/uby1wjv.css",
+        "https://use.typekit.net/af/2288cb/00000000000000007735bb39/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3"
+      ],
+      [
+        "https://use.typekit.net/uby1wjv.css",
+        "https://use.typekit.net/af/c002e2/00000000000000007735bb32/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3"
+      ],
+      [
+        "https://use.typekit.net/uby1wjv.css",
+        "https://use.typekit.net/af/216c2e/00000000000000007735bb6a/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3"
+      ],
+      [
+        "https://use.typekit.net/uby1wjv.css",
+        "https://use.typekit.net/af/174ae3/00000000000000007735bb5a/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3"
+      ],
+      [
+        "https://www.mit.edu/",
+        "https://www.mit.edu/files/images/202610/MIT-Weather-Forecasting.jpg"
+      ],
+      [
+        "https://www.mit.edu/",
+        "https://www.mit.edu/files/images/202610/MIT_Nobel-Economics-home.jpg"
+      ],
+      [
+        "https://www.mit.edu/",
+        "https://www.mit.edu/files/images/202610/MIT_America-dw_0.jpg"
+      ],
+      [
+        "https://www.mit.edu/",
+        "https://www.mit.edu/files/images/202610/MIT-Encora-Therapeutics-dw.jpg"
+      ],
+      [
+        "https://www.mit.edu/themes/mit/assets/js/main.js?tf13vj",
+        "https://www.mit.edu/spotlights-export/suggested-links/?_format=json"
+      ],
+      [
+        "https://www.mit.edu/themes/mit/assets/js/main.js?tf13vj",
+        "https://www.mit.edu/themes/mit/assets/js/SpotlightsExploreMoreLink.24ae33fb185156d3181a.js"
+      ],
+      [
+        "https://www.mit.edu/themes/mit/assets/js/main.js?tf13vj",
+        "https://www.mit.edu/themes/mit/assets/js/SpotlightsRecent.d6a3aa4b97b1659f1bbb.js"
+      ],
+      [
+        "https://www.mit.edu/themes/mit/assets/js/main.js?tf13vj",
+        "https://www.mit.edu/themes/mit/assets/js/Notification.11fc703b491d61aecf97.js"
+      ],
+      [
+        "https://www.mit.edu/themes/mit/assets/js/main.js?tf13vj",
+        "https://www.mit.edu/spotlights-export/recent/?_format=json"
+      ],
+      [
+        "https://www.mit.edu/themes/mit/assets/js/main.js?tf13vj",
+        "https://www.mit.edu/spotlights-export/announcements/?_format=json"
+      ],
+      [
+        "https://www.mit.edu/",
+        "https://www.googletagmanager.com/a?v=3&t=l&pid=413479330&rv=6ae1&tag_exp=115616985~115938466~115938469~118897920~118897930~120385422~120469145~120469153~121246026~121246034&h=Ag&gtm=45He6ae1v842122546za200zd842122546xf1&ccid=42122546&cid=GTM-M8MGV4P&l=L1752.S12.Y35.B32.E70.I2009.TC12.HTC0.F1900.C1~gtm.init_consent.S14.V13.E49~gtm.init.S4.V4.E34~gtm.js.S3.V3.E42.TS6paused.TI8.TE0.TS6paused.TI9.TE0.TS6paused.TI14.TE0.TS5lcl.TI37.TE0.TS5lcl.TI38.TE0.TS5lcl.TI40.TE0.TS5lcl.TI41.TE0.TS5lcl.TI42.TE0.TS5lcl.TI43.TE0.TS5lcl.TI45.TE0.TS5lcl.TI39.TE24.TS5lcl.TI44.TE23~gtm.dom.S1.V1.E22~gtm.load.S3.V2.E5"
+      ],
+      [
+        "https://www.mit.edu/",
+        "https://www.mit.edu/themes/mit/assets/favicon/favicon.svg"
+      ]
+    ]
+  },
+  "resources": {
+    "https://www.mit.edu/": {
+      "url": "https://www.mit.edu/",
+      "resource_type": "Document",
+      "initiator_type": "other",
+      "parent": null,
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "2.23.33.163",
+      "count": 1,
+      "depth": 0,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.mit.edu/themes/mit/assets/css/main.css?tf13vj": {
+      "url": "https://www.mit.edu/themes/mit/assets/css/main.css?tf13vj",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.mit.edu/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "2.23.33.163",
+      "count": 1,
+      "depth": 1,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.mit.edu/files/images/202610/MIT-Synthetic-Narratives-SL.jpg": {
+      "url": "https://www.mit.edu/files/images/202610/MIT-Synthetic-Narratives-SL.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.mit.edu/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "2.23.33.163",
+      "count": 1,
+      "depth": 1,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.mit.edu/themes/mit/assets/js/modernizr.js?tf13vj": {
+      "url": "https://www.mit.edu/themes/mit/assets/js/modernizr.js?tf13vj",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.mit.edu/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "2.23.33.163",
+      "count": 1,
+      "depth": 1,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.mit.edu/themes/mit/assets/js/main.js?tf13vj": {
+      "url": "https://www.mit.edu/themes/mit/assets/js/main.js?tf13vj",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.mit.edu/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "2.23.33.163",
+      "count": 1,
+      "depth": 1,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://use.typekit.net/uby1wjv.css": {
+      "url": "https://use.typekit.net/uby1wjv.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.mit.edu/themes/mit/assets/css/main.css?tf13vj",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.36.177.152",
+      "count": 1,
+      "depth": 2,
+      "host": "use.typekit.net",
+      "origin": "https://use.typekit.net:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://p.typekit.net/p.css?s=1&k=uby1wjv&ht=tk&f=39496.39497.39498.39499.39500.39501.39502.39503.39504.39505.39506.39507.39508.39509&a=53548716&app=typekit&e=css": {
+      "url": "https://p.typekit.net/p.css?s=1&k=uby1wjv&ht=tk&f=39496.39497.39498.39499.39500.39501.39502.39503.39504.39505.39506.39507.39508.39509&a=53548716&app=typekit&e=css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://use.typekit.net/uby1wjv.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.36.177.152",
+      "count": 1,
+      "depth": 3,
+      "host": "p.typekit.net",
+      "origin": "https://p.typekit.net:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.googletagmanager.com/gtm.js?id=GTM-M8MGV4P": {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-M8MGV4P",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.mit.edu/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "142.251.220.104",
+      "count": 1,
+      "depth": 1,
+      "host": "www.googletagmanager.com",
+      "origin": "https://www.googletagmanager.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://use.typekit.net/af/912d1e/00000000000000007735bb33/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3": {
+      "url": "https://use.typekit.net/af/912d1e/00000000000000007735bb33/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://use.typekit.net/uby1wjv.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.36.177.152",
+      "count": 1,
+      "depth": 3,
+      "host": "use.typekit.net",
+      "origin": "https://use.typekit.net:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://use.typekit.net/af/2288cb/00000000000000007735bb39/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3": {
+      "url": "https://use.typekit.net/af/2288cb/00000000000000007735bb39/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://use.typekit.net/uby1wjv.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.36.177.152",
+      "count": 1,
+      "depth": 3,
+      "host": "use.typekit.net",
+      "origin": "https://use.typekit.net:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://use.typekit.net/af/c002e2/00000000000000007735bb32/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3": {
+      "url": "https://use.typekit.net/af/c002e2/00000000000000007735bb32/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://use.typekit.net/uby1wjv.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.36.177.152",
+      "count": 1,
+      "depth": 3,
+      "host": "use.typekit.net",
+      "origin": "https://use.typekit.net:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://use.typekit.net/af/216c2e/00000000000000007735bb6a/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3": {
+      "url": "https://use.typekit.net/af/216c2e/00000000000000007735bb6a/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://use.typekit.net/uby1wjv.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.36.177.152",
+      "count": 1,
+      "depth": 3,
+      "host": "use.typekit.net",
+      "origin": "https://use.typekit.net:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://use.typekit.net/af/174ae3/00000000000000007735bb5a/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3": {
+      "url": "https://use.typekit.net/af/174ae3/00000000000000007735bb5a/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://use.typekit.net/uby1wjv.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.36.177.152",
+      "count": 1,
+      "depth": 3,
+      "host": "use.typekit.net",
+      "origin": "https://use.typekit.net:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.mit.edu/files/images/202610/MIT-Weather-Forecasting.jpg": {
+      "url": "https://www.mit.edu/files/images/202610/MIT-Weather-Forecasting.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.mit.edu/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "2.23.33.163",
+      "count": 1,
+      "depth": 1,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.mit.edu/files/images/202610/MIT_Nobel-Economics-home.jpg": {
+      "url": "https://www.mit.edu/files/images/202610/MIT_Nobel-Economics-home.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.mit.edu/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "2.23.33.163",
+      "count": 1,
+      "depth": 1,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.mit.edu/files/images/202610/MIT_America-dw_0.jpg": {
+      "url": "https://www.mit.edu/files/images/202610/MIT_America-dw_0.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.mit.edu/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "2.23.33.163",
+      "count": 1,
+      "depth": 1,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.mit.edu/files/images/202610/MIT-Encora-Therapeutics-dw.jpg": {
+      "url": "https://www.mit.edu/files/images/202610/MIT-Encora-Therapeutics-dw.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.mit.edu/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "2.23.33.163",
+      "count": 1,
+      "depth": 1,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.mit.edu/spotlights-export/suggested-links/?_format=json": {
+      "url": "https://www.mit.edu/spotlights-export/suggested-links/?_format=json",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.mit.edu/themes/mit/assets/js/main.js?tf13vj",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "2.23.33.163",
+      "count": 1,
+      "depth": 2,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.mit.edu/themes/mit/assets/js/SpotlightsExploreMoreLink.24ae33fb185156d3181a.js": {
+      "url": "https://www.mit.edu/themes/mit/assets/js/SpotlightsExploreMoreLink.24ae33fb185156d3181a.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.mit.edu/themes/mit/assets/js/main.js?tf13vj",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "2.23.33.163",
+      "count": 1,
+      "depth": 2,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.mit.edu/themes/mit/assets/js/SpotlightsRecent.d6a3aa4b97b1659f1bbb.js": {
+      "url": "https://www.mit.edu/themes/mit/assets/js/SpotlightsRecent.d6a3aa4b97b1659f1bbb.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.mit.edu/themes/mit/assets/js/main.js?tf13vj",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "2.23.33.163",
+      "count": 1,
+      "depth": 2,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.mit.edu/themes/mit/assets/js/Notification.11fc703b491d61aecf97.js": {
+      "url": "https://www.mit.edu/themes/mit/assets/js/Notification.11fc703b491d61aecf97.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.mit.edu/themes/mit/assets/js/main.js?tf13vj",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "2.23.33.163",
+      "count": 1,
+      "depth": 2,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.mit.edu/spotlights-export/recent/?_format=json": {
+      "url": "https://www.mit.edu/spotlights-export/recent/?_format=json",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.mit.edu/themes/mit/assets/js/main.js?tf13vj",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "2.23.33.163",
+      "count": 2,
+      "depth": 2,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.mit.edu/spotlights-export/announcements/?_format=json": {
+      "url": "https://www.mit.edu/spotlights-export/announcements/?_format=json",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.mit.edu/themes/mit/assets/js/main.js?tf13vj",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "2.23.33.163",
+      "count": 1,
+      "depth": 2,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.googletagmanager.com/a?v=3&t=l&pid=413479330&rv=6ae1&tag_exp=115616985~115938466~115938469~118897920~118897930~120385422~120469145~120469153~121246026~121246034&h=Ag&gtm=45He6ae1v842122546za200zd842122546xf1&ccid=42122546&cid=GTM-M8MGV4P&l=L1752.S12.Y35.B32.E70.I2009.TC12.HTC0.F1900.C1~gtm.init_consent.S14.V13.E49~gtm.init.S4.V4.E34~gtm.js.S3.V3.E42.TS6paused.TI8.TE0.TS6paused.TI9.TE0.TS6paused.TI14.TE0.TS5lcl.TI37.TE0.TS5lcl.TI38.TE0.TS5lcl.TI40.TE0.TS5lcl.TI41.TE0.TS5lcl.TI42.TE0.TS5lcl.TI43.TE0.TS5lcl.TI45.TE0.TS5lcl.TI39.TE24.TS5lcl.TI44.TE23~gtm.dom.S1.V1.E22~gtm.load.S3.V2.E5": {
+      "url": "https://www.googletagmanager.com/a?v=3&t=l&pid=413479330&rv=6ae1&tag_exp=115616985~115938466~115938469~118897920~118897930~120385422~120469145~120469153~121246026~121246034&h=Ag&gtm=45He6ae1v842122546za200zd842122546xf1&ccid=42122546&cid=GTM-M8MGV4P&l=L1752.S12.Y35.B32.E70.I2009.TC12.HTC0.F1900.C1~gtm.init_consent.S14.V13.E49~gtm.init.S4.V4.E34~gtm.js.S3.V3.E42.TS6paused.TI8.TE0.TS6paused.TI9.TE0.TS6paused.TI14.TE0.TS5lcl.TI37.TE0.TS5lcl.TI38.TE0.TS5lcl.TI40.TE0.TS5lcl.TI41.TE0.TS5lcl.TI42.TE0.TS5lcl.TI43.TE0.TS5lcl.TI45.TE0.TS5lcl.TI39.TE24.TS5lcl.TI44.TE23~gtm.dom.S1.V1.E22~gtm.load.S3.V2.E5",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.mit.edu/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "142.251.220.104",
+      "count": 1,
+      "depth": 1,
+      "host": "www.googletagmanager.com",
+      "origin": "https://www.googletagmanager.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.mit.edu/themes/mit/assets/favicon/favicon.svg": {
+      "url": "https://www.mit.edu/themes/mit/assets/favicon/favicon.svg",
+      "resource_type": "Other",
+      "initiator_type": "other",
+      "parent": "https://www.mit.edu/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "2.23.33.163",
+      "count": 1,
+      "depth": 1,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    }
+  },
+  "origins": {
+    "https://www.mit.edu:443": {
+      "origin": "https://www.mit.edu:443",
+      "host": "www.mit.edu",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.mit.edu/",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2600:140f:2e00:1ad::255e",
+            "2600:140f:2e00:1b4::255e"
+          ],
+          "cname_chain": [
+            "www.mit.edu.edgekey.net",
+            "e9566.dscb.akamaiedge.net"
+          ],
+          "ttl": 20,
+          "ms": 95.8,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2600:140f:2e00:1ad::255e",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.1
+            },
+            {
+              "addr": "2600:140f:2e00:1b4::255e",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.0
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2.23.33.163"
+          ],
+          "cname_chain": [
+            "www.mit.edu.edgekey.net",
+            "e9566.dscb.akamaiedge.net"
+          ],
+          "ttl": 13,
+          "ms": 5.3
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2.23.33.163",
+              "ok": true,
+              "ms": 98.6
+            }
+          ],
+          "shim": false,
+          "addr": "2.23.33.163"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.2",
+          "cipher": "ECDHE-RSA-AES256-GCM-SHA384",
+          "cert_cn": "web.mit.edu",
+          "cert_not_after": "Nov 13 23:59:59 2026 GMT",
+          "ms": 212.2
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "Apache",
+          "ms": 95.1,
+          "ok": true
+        }
+      }
+    },
+    "https://use.typekit.net:443": {
+      "origin": "https://use.typekit.net:443",
+      "host": "use.typekit.net",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://use.typekit.net/uby1wjv.css",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2405:200:1604::312c:5f90",
+            "2405:200:1604::312c:5f98"
+          ],
+          "cname_chain": [
+            "use-stls.adobe.com.edgesuite.net",
+            "a1988.dscg1.akamai.net"
+          ],
+          "ttl": 20,
+          "ms": 97.1,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2405:200:1604::312c:5f90",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.1
+            },
+            {
+              "addr": "2405:200:1604::312c:5f98",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.0
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "23.36.177.137",
+            "23.36.177.152"
+          ],
+          "cname_chain": [
+            "use-stls.adobe.com.edgesuite.net",
+            "a1988.dscg1.akamai.net"
+          ],
+          "ttl": 20,
+          "ms": 101.7
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "23.36.177.137",
+              "ok": true,
+              "ms": 98.6
+            }
+          ],
+          "shim": false,
+          "addr": "23.36.177.137"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "use.typekit.net",
+          "cert_not_after": "Dec 13 23:59:59 2026 GMT",
+          "ms": 212.4
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "nginx",
+          "ms": 197.7,
+          "ok": true
+        }
+      }
+    },
+    "https://p.typekit.net:443": {
+      "origin": "https://p.typekit.net:443",
+      "host": "p.typekit.net",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://p.typekit.net/p.css?s=1&k=uby1wjv&ht=tk&f=39496.39497.39498.39499.39500.39501.39502.39503.39504.39505.39506.39507.39508.39509&a=53548716&app=typekit&e=css",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2405:200:1604::312c:5f91",
+            "2405:200:1604::312c:5f92"
+          ],
+          "cname_chain": [
+            "p.typekit.net-stls-v3.edgesuite.net",
+            "a1874.dscg1.akamai.net"
+          ],
+          "ttl": 20,
+          "ms": 97.8,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2405:200:1604::312c:5f91",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.1
+            },
+            {
+              "addr": "2405:200:1604::312c:5f92",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.0
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "23.36.177.152",
+            "23.36.177.144"
+          ],
+          "cname_chain": [
+            "p.typekit.net-stls-v3.edgesuite.net",
+            "a1874.dscg1.akamai.net"
+          ],
+          "ttl": 20,
+          "ms": 99.2
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "23.36.177.152",
+              "ok": true,
+              "ms": 104.3
+            }
+          ],
+          "shim": false,
+          "addr": "23.36.177.152"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "use.typekit.net",
+          "cert_not_after": "Dec 13 23:59:59 2026 GMT",
+          "ms": 223.5
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "nginx",
+          "ms": 209.0,
+          "ok": true
+        }
+      }
+    },
+    "https://www.googletagmanager.com:443": {
+      "origin": "https://www.googletagmanager.com:443",
+      "host": "www.googletagmanager.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.googletagmanager.com/gtm.js?id=GTM-M8MGV4P",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4007:82f::2008"
+          ],
+          "cname_chain": [],
+          "ttl": 246,
+          "ms": 1.8,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2404:6800:4007:82f::2008",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.1
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.251.220.104"
+          ],
+          "cname_chain": [],
+          "ttl": 86,
+          "ms": 0.5
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.251.220.104",
+              "ok": true,
+              "ms": 87.3
+            }
+          ],
+          "shim": false,
+          "addr": "142.251.220.104"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google-analytics.com",
+          "cert_not_after": "Dec 21 18:38:19 2026 GMT",
+          "ms": 108.3
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "Google Tag Manager",
+          "ms": 199.7,
+          "ok": true
+        }
+      }
+    }
+  },
+  "site": {
+    "category": "Education",
+    "name": "MIT",
+    "url": "https://www.mit.edu/"
+  }
+}

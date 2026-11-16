@@ -1,0 +1,3718 @@
+{
+  "schema": "ipv6-readiness-audit/1",
+  "page": "https://www.iitg.ac.in/",
+  "final_url": "https://www.iitg.ac.in/",
+  "started_utc": "2026-10-24T10:13:21+00:00",
+  "load_seconds": 48.55,
+  "vantage": {
+    "nat64_prefixes": [
+      "64:ff9b::/96"
+    ],
+    "ipv6_stack": true,
+    "ipv6_default_route": true,
+    "ipv4_default_route": true,
+    "lab_v6_shim": false,
+    "pathway": "dual-stack + DNS64/NAT64"
+  },
+  "capture_errors": [],
+  "summary": {
+    "page_verdict": "NOT_READY",
+    "root_verdict": "IPV4_ONLY_NAT64",
+    "root_has_aaaa": false,
+    "resources_total": 118,
+    "origins_total": 9,
+    "resources_by_verdict": {
+      "IPV4_ONLY_NAT64": 102,
+      "READY": 15,
+      "BROKEN_BOTH": 1
+    },
+    "origins_by_verdict": {
+      "IPV4_ONLY_NAT64": 1,
+      "READY": 7,
+      "BROKEN_BOTH": 1
+    },
+    "ipv6_failures_by_stage": {
+      "dns": 1
+    },
+    "ipv6_failing_resources": 102,
+    "inconclusive_resources": 0,
+    "ipv6_failing_critical": 37,
+    "ipv6_failing_third_party": 0,
+    "resource_ipv6_ready_pct": 12.7,
+    "ipv4_only_hosts": [
+      "www.iitg.ac.in"
+    ],
+    "aaaa_but_broken_hosts": [],
+    "root_host": "www.iitg.ac.in",
+    "root_http_parity": false,
+    "root_parity_code": null,
+    "retried_origins": [],
+    "retry_recovered": []
+  },
+  "tree": {
+    "root": "https://www.iitg.ac.in/",
+    "edges": [
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/core/css/bootstrap.min.css"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/core/css/css-plugin-collections.css"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/core/css/menuzord-skins/menuzord-rounded-boxed.css"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/core/css/menuzord-megamenu.css"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/core/css/style-main-new.css"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/core/css/colors/theme-skin-color-set1.css"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/core/css/preloader.css"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/core/css/custom-bootstrap-margin-padding.css"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/core/js/revolution-slider/css/settings.css"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/ticker/breakingNews.css"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/core/css/internal-main-new.css"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/core/js/jquery-2.2.4.min.js"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/core/js/jquery-ui.min.js"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/core/js/bootstrap.min.js"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/core/js/jquery-plugin-collection.js"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/core/js/revolution-slider/js/jquery.themepunch.tools.min.js"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/core/js/revolution-slider/js/jquery.themepunch.revolution.min.js"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/ticker/breakingNews.js"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/core/img/iitglogo.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/img/Untitled.png"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/homeimg/975nl.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/homeimg/donation.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/banner/0809d11a99da83248219900f813526c9.jpeg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/banner/7659f0962cf19a546bc129d771647432.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/banner/277471eb1e10e2da542cab76d4c02387.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/banner/ea07c25eb3c1f18d67293d8d4bf6555e.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/banner/50190a8399811ba2b1889568323c18e7.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/img/newsletters.png"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/homeimg/7799P1014458-1.JPG"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/homeimg/8971359675QS_World_University_Rankings_Logo.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/homeimg/5861658237nirf.png"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/homeimg/59675QS_World_University_Rankings_Logo.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/media/991f1f4238e2b5aa4065d98a6205a8d5.%20P"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/media/470c5c4ab0149687f8c49d32ed3069a0.Selvaraju%20Narayanasamy%20along%20with%20his%20Research%20Team"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/media/d47316f2b742ea1dae829fdf22e2e2a5.%20Bhaskar%20Jyoti%20Neog"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/media/a6f0751727a140082a42c781a3f701c9.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/media/50d619979d20f65762ce4163128c77bd.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/media/bc6024583605c66aa77e6fa675d87efb.%20Tapas%20K"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/media/64f70744cc02867e0b215dcf3d3e1897.%20Atanu%20Bhuyan"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/media/bcff924ba19aaa274489390d25357035.%20Debasish%20Das%20and%20Dr"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/media/acb15c2fc7f52e18c1f122deb52228d9.%20P"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/media/PerovskiteDevice.jpeg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/media/b2dba87a9e587d1b4d06e4d7faa0d757.%20Saikat%20Bhaumik%20and%20Prof"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/media/bee239c4267adf8968e114f76b2f9200.%20Uttam%20Manna,%20along%20with%20his%20research%20team"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/media/dfaa69d2e8b31cf9182b709d332c3850.%20Bitupan%20Das,%20Prof"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/media/0458e9c25fa106ee76d3c9f686907e50.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/media/f2319037bd302057604dc39a4e18dd6d.%20Amit%20Awekar,%20at%20Indian%20AI%20Impact%20Summit%202026"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/media/f18c9e9365f9c748a7087e401460525f.%20Mihir%20Purkait%20along%20with%20his%20research%20scholar%20Mr"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/media/58893232bddb478dbe765f2d36e1ecef.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/media/fde655433d2d40698a6dd13de3a41224.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/media/17d0430438ebe7bb4764fdba11fc2b38.%20Chandan%20Das,%20Dept,%20of%20Chemical%20Engineering,%20along%20with%20research%20scholar%20Dr"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/awards/77e98421401482d132f6e433e1945de1.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/awards/dcc67cb72f03ad6388b082dc1812364e.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/awards/a32645b0336873592b016b1620391f3f.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/awards/5df81e8ee6075f67827c5e959da0e3f6.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/awards/3de7c8694ef163f566aac8cdb6537db8.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/awards/8c38910cc09e88215c9cbf57ff267c90.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/awards/d4edddf9f39df2e60854be3db3af785e.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/awards/c4fa2ff551797524509cc875ca47687b.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/awards/7ff4d46d594ccff845fb1e4aa1862b2f.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/awards/186988ae1cfe077959fd1d5e33029c8b.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/awards/6de1c8f0562ac72e119b7824f3208f0d.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/awards/5cee99773980cb29e76740620e844f52.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/awards/309adec458c603a4dbc6a98a9ae5718c.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/awards/a06b7b4105eeefb871f3049413f9ee27.jpeg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage/awards/64745e305ba6568b125b68f97e0032f3.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/img/iitgfooter.png"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/core/js/custom.js"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/core/js/revolution-slider/js/extensions/revolution.extension.actions.min.js"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/core/js/revolution-slider/js/extensions/revolution.extension.carousel.min.js"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/core/js/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/core/js/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/core/js/revolution-slider/js/extensions/revolution.extension.migration.min.js"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/core/js/revolution-slider/js/extensions/revolution.extension.navigation.min.js"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/core/js/revolution-slider/js/extensions/revolution.extension.parallax.min.js"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/core/js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/core/js/revolution-slider/js/extensions/revolution.extension.video.min.js"
+      ],
+      [
+        "https://www.iitg.ac.in/core/css/menuzord-megamenu.css",
+        "https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      ],
+      [
+        "https://www.iitg.ac.in/core/css/style-main-new.css",
+        "https://www.iitg.ac.in/core/css/font-awesome.min.css"
+      ],
+      [
+        "https://www.iitg.ac.in/core/css/style-main-new.css",
+        "https://www.iitg.ac.in/core/css/font-awesome-animation.min.css"
+      ],
+      [
+        "https://www.iitg.ac.in/core/css/style-main-new.css",
+        "https://www.iitg.ac.in/core/css/pe-icon-7-stroke.css"
+      ],
+      [
+        "https://www.iitg.ac.in/core/css/style-main-new.css",
+        "https://www.iitg.ac.in/core/css/elegant-icons.css"
+      ],
+      [
+        "https://www.iitg.ac.in/core/css/style-main-new.css",
+        "https://www.iitg.ac.in/core/css/utility-classes.css"
+      ],
+      [
+        "https://www.iitg.ac.in/core/css/style-main-new.css",
+        "https://www.iitg.ac.in/core/css/latofont.css"
+      ],
+      [
+        "https://www.iitg.ac.in/core/css/latofont.css",
+        "https://www.iitg.ac.in/core/css/googlefont/S6uyw4BMUTPHjx4wXg.woff2"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0"
+      ],
+      [
+        "https://www.iitg.ac.in/ticker/breakingNews.css",
+        "https://www.iitg.ac.in/ticker/bn-arrows.png"
+      ],
+      [
+        "https://www.iitg.ac.in/core/css/latofont.css",
+        "https://www.iitg.ac.in/core/css/googlefont/S6u9w4BMUTPHh6UVSwiPGQ.woff2"
+      ],
+      [
+        "https://www.iitg.ac.in/core/css/font-awesome.min.css",
+        "https://www.iitg.ac.in/core/css/fonts/fontawesome-webfont.woff2"
+      ],
+      [
+        "https://www.iitg.ac.in/core/css/pe-icon-7-stroke.css",
+        "https://www.iitg.ac.in/core/css/fonts/Pe-icon-7-stroke.woff"
+      ],
+      [
+        "https://www.iitg.ac.in/core/css/style-main-new.css",
+        "https://www.iitg.ac.in/core/images/megamenu/megamenu-dropdown.png"
+      ],
+      [
+        "https://www.iitg.ac.in/core/js/revolution-slider/css/settings.css",
+        "https://www.iitg.ac.in/core/js/revolution-slider/fonts/revicons/revicons.woff@5510888"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage//banner/0809d11a99da83248219900f813526c9.jpeg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage//banner/7659f0962cf19a546bc129d771647432.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage//banner/277471eb1e10e2da542cab76d4c02387.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage//banner/ea07c25eb3c1f18d67293d8d4bf6555e.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/storage//banner/50190a8399811ba2b1889568323c18e7.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/core/js/jquery-2.2.4.min.js",
+        "https://www.iitg.ac.in/ajax-load/bootstrap-parent-modal.html"
+      ],
+      [
+        "https://www.iitg.ac.in/core/js/jquery-2.2.4.min.js",
+        "https://www.iitg.ac.in/color-switcher/style-switcher.html"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/img/back.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/core/img/bg.jpg"
+      ],
+      [
+        "https://www.iitg.ac.in/core/css/css-plugin-collections.css",
+        "https://www.iitg.ac.in/core/css/bxslider/images/bx_loader.gif"
+      ],
+      [
+        "https://www.iitg.ac.in/",
+        "https://www.iitg.ac.in/favicon/favicon-32x32.png"
+      ],
+      [
+        "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0",
+        "https://www.youtube.com/s/player/cbcfbf2f/www-player.css"
+      ],
+      [
+        "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0",
+        "https://www.youtube.com/s/_/ytembeds/_/ss/k=ytembeds.base.SKK5Z7LAK_Y.L.W.O/am=AAAAQA/d=1/br=1/rs=AGKMywE2gvDaiqpgAAck_AdbYTxiiYoLSQ/m=root,base"
+      ],
+      [
+        "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0",
+        "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2"
+      ],
+      [
+        "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0",
+        "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.IkWErumI3ck.2021.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywHKwBZQHZN85EdXcVlZmeF_dJDq7Q/m=root,base"
+      ],
+      [
+        "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0",
+        "https://www.youtube.com/s/player/cbcfbf2f/player_embed_es6.vflset/en_GB/base.js"
+      ],
+      [
+        "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0",
+        "https://googleads.g.doubleclick.net/pagead/id"
+      ],
+      [
+        "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0",
+        "https://static.doubleclick.net/instream/ad_status.js"
+      ],
+      [
+        "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0",
+        "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.IkWErumI3ck.2021.O/ck=ytembeds.base.SKK5Z7LAK_Y.L.W.O/am=AAAAQA/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywFLt1TGolnkeIGDW4a_JBsoaJYKKQ/m=r78Drb"
+      ],
+      [
+        "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0",
+        "https://www.google.com/js/th/pxwG18Euy-n6Uq6PY9vb4Ohp58yKH_56NpBvs6fBnH8.js"
+      ],
+      [
+        "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0",
+        "https://i.ytimg.com/vi/Rct2xyXtGmM/sddefault.jpg"
+      ],
+      [
+        "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0",
+        "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1"
+      ],
+      [
+        "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0",
+        "https://www.youtube.com/youtubei/v1/log_event?alt=json"
+      ],
+      [
+        "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0",
+        "https://www.youtube.com/generate_204?oLgbgQ"
+      ],
+      [
+        "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0",
+        "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+      ]
+    ]
+  },
+  "resources": {
+    "https://www.iitg.ac.in/": {
+      "url": "https://www.iitg.ac.in/",
+      "resource_type": "Document",
+      "initiator_type": "other",
+      "parent": null,
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 0,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.iitg.ac.in/core/css/bootstrap.min.css": {
+      "url": "https://www.iitg.ac.in/core/css/bootstrap.min.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/css/css-plugin-collections.css": {
+      "url": "https://www.iitg.ac.in/core/css/css-plugin-collections.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/css/menuzord-skins/menuzord-rounded-boxed.css": {
+      "url": "https://www.iitg.ac.in/core/css/menuzord-skins/menuzord-rounded-boxed.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/css/menuzord-megamenu.css": {
+      "url": "https://www.iitg.ac.in/core/css/menuzord-megamenu.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/css/style-main-new.css": {
+      "url": "https://www.iitg.ac.in/core/css/style-main-new.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/css/colors/theme-skin-color-set1.css": {
+      "url": "https://www.iitg.ac.in/core/css/colors/theme-skin-color-set1.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/css/preloader.css": {
+      "url": "https://www.iitg.ac.in/core/css/preloader.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/css/custom-bootstrap-margin-padding.css": {
+      "url": "https://www.iitg.ac.in/core/css/custom-bootstrap-margin-padding.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/js/revolution-slider/css/settings.css": {
+      "url": "https://www.iitg.ac.in/core/js/revolution-slider/css/settings.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/ticker/breakingNews.css": {
+      "url": "https://www.iitg.ac.in/ticker/breakingNews.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/css/internal-main-new.css": {
+      "url": "https://www.iitg.ac.in/core/css/internal-main-new.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/js/jquery-2.2.4.min.js": {
+      "url": "https://www.iitg.ac.in/core/js/jquery-2.2.4.min.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/js/jquery-ui.min.js": {
+      "url": "https://www.iitg.ac.in/core/js/jquery-ui.min.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/js/bootstrap.min.js": {
+      "url": "https://www.iitg.ac.in/core/js/bootstrap.min.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/js/jquery-plugin-collection.js": {
+      "url": "https://www.iitg.ac.in/core/js/jquery-plugin-collection.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/js/revolution-slider/js/jquery.themepunch.tools.min.js": {
+      "url": "https://www.iitg.ac.in/core/js/revolution-slider/js/jquery.themepunch.tools.min.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/js/revolution-slider/js/jquery.themepunch.revolution.min.js": {
+      "url": "https://www.iitg.ac.in/core/js/revolution-slider/js/jquery.themepunch.revolution.min.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/ticker/breakingNews.js": {
+      "url": "https://www.iitg.ac.in/ticker/breakingNews.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/img/iitglogo.jpg": {
+      "url": "https://www.iitg.ac.in/core/img/iitglogo.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/img/Untitled.png": {
+      "url": "https://www.iitg.ac.in/img/Untitled.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/homeimg/975nl.jpg": {
+      "url": "https://www.iitg.ac.in/storage/homeimg/975nl.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/homeimg/donation.jpg": {
+      "url": "https://www.iitg.ac.in/storage/homeimg/donation.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/banner/0809d11a99da83248219900f813526c9.jpeg": {
+      "url": "https://www.iitg.ac.in/storage/banner/0809d11a99da83248219900f813526c9.jpeg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/banner/7659f0962cf19a546bc129d771647432.jpg": {
+      "url": "https://www.iitg.ac.in/storage/banner/7659f0962cf19a546bc129d771647432.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/banner/277471eb1e10e2da542cab76d4c02387.jpg": {
+      "url": "https://www.iitg.ac.in/storage/banner/277471eb1e10e2da542cab76d4c02387.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/banner/ea07c25eb3c1f18d67293d8d4bf6555e.jpg": {
+      "url": "https://www.iitg.ac.in/storage/banner/ea07c25eb3c1f18d67293d8d4bf6555e.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/banner/50190a8399811ba2b1889568323c18e7.jpg": {
+      "url": "https://www.iitg.ac.in/storage/banner/50190a8399811ba2b1889568323c18e7.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/img/newsletters.png": {
+      "url": "https://www.iitg.ac.in/img/newsletters.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/homeimg/7799P1014458-1.JPG": {
+      "url": "https://www.iitg.ac.in/storage/homeimg/7799P1014458-1.JPG",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/homeimg/8971359675QS_World_University_Rankings_Logo.jpg": {
+      "url": "https://www.iitg.ac.in/storage/homeimg/8971359675QS_World_University_Rankings_Logo.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/homeimg/5861658237nirf.png": {
+      "url": "https://www.iitg.ac.in/storage/homeimg/5861658237nirf.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/homeimg/59675QS_World_University_Rankings_Logo.jpg": {
+      "url": "https://www.iitg.ac.in/storage/homeimg/59675QS_World_University_Rankings_Logo.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/media/991f1f4238e2b5aa4065d98a6205a8d5.%20P": {
+      "url": "https://www.iitg.ac.in/storage/media/991f1f4238e2b5aa4065d98a6205a8d5.%20P",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/media/470c5c4ab0149687f8c49d32ed3069a0.Selvaraju%20Narayanasamy%20along%20with%20his%20Research%20Team": {
+      "url": "https://www.iitg.ac.in/storage/media/470c5c4ab0149687f8c49d32ed3069a0.Selvaraju%20Narayanasamy%20along%20with%20his%20Research%20Team",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/media/d47316f2b742ea1dae829fdf22e2e2a5.%20Bhaskar%20Jyoti%20Neog": {
+      "url": "https://www.iitg.ac.in/storage/media/d47316f2b742ea1dae829fdf22e2e2a5.%20Bhaskar%20Jyoti%20Neog",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/media/a6f0751727a140082a42c781a3f701c9.jpg": {
+      "url": "https://www.iitg.ac.in/storage/media/a6f0751727a140082a42c781a3f701c9.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/media/50d619979d20f65762ce4163128c77bd.jpg": {
+      "url": "https://www.iitg.ac.in/storage/media/50d619979d20f65762ce4163128c77bd.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/media/bc6024583605c66aa77e6fa675d87efb.%20Tapas%20K": {
+      "url": "https://www.iitg.ac.in/storage/media/bc6024583605c66aa77e6fa675d87efb.%20Tapas%20K",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/media/64f70744cc02867e0b215dcf3d3e1897.%20Atanu%20Bhuyan": {
+      "url": "https://www.iitg.ac.in/storage/media/64f70744cc02867e0b215dcf3d3e1897.%20Atanu%20Bhuyan",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/media/bcff924ba19aaa274489390d25357035.%20Debasish%20Das%20and%20Dr": {
+      "url": "https://www.iitg.ac.in/storage/media/bcff924ba19aaa274489390d25357035.%20Debasish%20Das%20and%20Dr",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/media/acb15c2fc7f52e18c1f122deb52228d9.%20P": {
+      "url": "https://www.iitg.ac.in/storage/media/acb15c2fc7f52e18c1f122deb52228d9.%20P",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/media/PerovskiteDevice.jpeg": {
+      "url": "https://www.iitg.ac.in/storage/media/PerovskiteDevice.jpeg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/media/b2dba87a9e587d1b4d06e4d7faa0d757.%20Saikat%20Bhaumik%20and%20Prof": {
+      "url": "https://www.iitg.ac.in/storage/media/b2dba87a9e587d1b4d06e4d7faa0d757.%20Saikat%20Bhaumik%20and%20Prof",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/media/bee239c4267adf8968e114f76b2f9200.%20Uttam%20Manna,%20along%20with%20his%20research%20team": {
+      "url": "https://www.iitg.ac.in/storage/media/bee239c4267adf8968e114f76b2f9200.%20Uttam%20Manna,%20along%20with%20his%20research%20team",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/media/dfaa69d2e8b31cf9182b709d332c3850.%20Bitupan%20Das,%20Prof": {
+      "url": "https://www.iitg.ac.in/storage/media/dfaa69d2e8b31cf9182b709d332c3850.%20Bitupan%20Das,%20Prof",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/media/0458e9c25fa106ee76d3c9f686907e50.jpg": {
+      "url": "https://www.iitg.ac.in/storage/media/0458e9c25fa106ee76d3c9f686907e50.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/media/f2319037bd302057604dc39a4e18dd6d.%20Amit%20Awekar,%20at%20Indian%20AI%20Impact%20Summit%202026": {
+      "url": "https://www.iitg.ac.in/storage/media/f2319037bd302057604dc39a4e18dd6d.%20Amit%20Awekar,%20at%20Indian%20AI%20Impact%20Summit%202026",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/media/f18c9e9365f9c748a7087e401460525f.%20Mihir%20Purkait%20along%20with%20his%20research%20scholar%20Mr": {
+      "url": "https://www.iitg.ac.in/storage/media/f18c9e9365f9c748a7087e401460525f.%20Mihir%20Purkait%20along%20with%20his%20research%20scholar%20Mr",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/media/58893232bddb478dbe765f2d36e1ecef.jpg": {
+      "url": "https://www.iitg.ac.in/storage/media/58893232bddb478dbe765f2d36e1ecef.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/media/fde655433d2d40698a6dd13de3a41224.jpg": {
+      "url": "https://www.iitg.ac.in/storage/media/fde655433d2d40698a6dd13de3a41224.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/media/17d0430438ebe7bb4764fdba11fc2b38.%20Chandan%20Das,%20Dept,%20of%20Chemical%20Engineering,%20along%20with%20research%20scholar%20Dr": {
+      "url": "https://www.iitg.ac.in/storage/media/17d0430438ebe7bb4764fdba11fc2b38.%20Chandan%20Das,%20Dept,%20of%20Chemical%20Engineering,%20along%20with%20research%20scholar%20Dr",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/awards/77e98421401482d132f6e433e1945de1.jpg": {
+      "url": "https://www.iitg.ac.in/storage/awards/77e98421401482d132f6e433e1945de1.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/awards/dcc67cb72f03ad6388b082dc1812364e.jpg": {
+      "url": "https://www.iitg.ac.in/storage/awards/dcc67cb72f03ad6388b082dc1812364e.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/awards/a32645b0336873592b016b1620391f3f.jpg": {
+      "url": "https://www.iitg.ac.in/storage/awards/a32645b0336873592b016b1620391f3f.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/awards/5df81e8ee6075f67827c5e959da0e3f6.jpg": {
+      "url": "https://www.iitg.ac.in/storage/awards/5df81e8ee6075f67827c5e959da0e3f6.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/awards/3de7c8694ef163f566aac8cdb6537db8.jpg": {
+      "url": "https://www.iitg.ac.in/storage/awards/3de7c8694ef163f566aac8cdb6537db8.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/awards/8c38910cc09e88215c9cbf57ff267c90.jpg": {
+      "url": "https://www.iitg.ac.in/storage/awards/8c38910cc09e88215c9cbf57ff267c90.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/awards/d4edddf9f39df2e60854be3db3af785e.jpg": {
+      "url": "https://www.iitg.ac.in/storage/awards/d4edddf9f39df2e60854be3db3af785e.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/awards/c4fa2ff551797524509cc875ca47687b.jpg": {
+      "url": "https://www.iitg.ac.in/storage/awards/c4fa2ff551797524509cc875ca47687b.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/awards/7ff4d46d594ccff845fb1e4aa1862b2f.jpg": {
+      "url": "https://www.iitg.ac.in/storage/awards/7ff4d46d594ccff845fb1e4aa1862b2f.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/awards/186988ae1cfe077959fd1d5e33029c8b.jpg": {
+      "url": "https://www.iitg.ac.in/storage/awards/186988ae1cfe077959fd1d5e33029c8b.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/awards/6de1c8f0562ac72e119b7824f3208f0d.jpg": {
+      "url": "https://www.iitg.ac.in/storage/awards/6de1c8f0562ac72e119b7824f3208f0d.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/awards/5cee99773980cb29e76740620e844f52.jpg": {
+      "url": "https://www.iitg.ac.in/storage/awards/5cee99773980cb29e76740620e844f52.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/awards/309adec458c603a4dbc6a98a9ae5718c.jpg": {
+      "url": "https://www.iitg.ac.in/storage/awards/309adec458c603a4dbc6a98a9ae5718c.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/awards/a06b7b4105eeefb871f3049413f9ee27.jpeg": {
+      "url": "https://www.iitg.ac.in/storage/awards/a06b7b4105eeefb871f3049413f9ee27.jpeg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage/awards/64745e305ba6568b125b68f97e0032f3.jpg": {
+      "url": "https://www.iitg.ac.in/storage/awards/64745e305ba6568b125b68f97e0032f3.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/img/iitgfooter.png": {
+      "url": "https://www.iitg.ac.in/img/iitgfooter.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/js/custom.js": {
+      "url": "https://www.iitg.ac.in/core/js/custom.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/js/revolution-slider/js/extensions/revolution.extension.actions.min.js": {
+      "url": "https://www.iitg.ac.in/core/js/revolution-slider/js/extensions/revolution.extension.actions.min.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/js/revolution-slider/js/extensions/revolution.extension.carousel.min.js": {
+      "url": "https://www.iitg.ac.in/core/js/revolution-slider/js/extensions/revolution.extension.carousel.min.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/js/revolution-slider/js/extensions/revolution.extension.kenburn.min.js": {
+      "url": "https://www.iitg.ac.in/core/js/revolution-slider/js/extensions/revolution.extension.kenburn.min.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/js/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js": {
+      "url": "https://www.iitg.ac.in/core/js/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/js/revolution-slider/js/extensions/revolution.extension.migration.min.js": {
+      "url": "https://www.iitg.ac.in/core/js/revolution-slider/js/extensions/revolution.extension.migration.min.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/js/revolution-slider/js/extensions/revolution.extension.navigation.min.js": {
+      "url": "https://www.iitg.ac.in/core/js/revolution-slider/js/extensions/revolution.extension.navigation.min.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/js/revolution-slider/js/extensions/revolution.extension.parallax.min.js": {
+      "url": "https://www.iitg.ac.in/core/js/revolution-slider/js/extensions/revolution.extension.parallax.min.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js": {
+      "url": "https://www.iitg.ac.in/core/js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/js/revolution-slider/js/extensions/revolution.extension.video.min.js": {
+      "url": "https://www.iitg.ac.in/core/js/revolution-slider/js/extensions/revolution.extension.video.min.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap": {
+      "url": "https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/core/css/menuzord-megamenu.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4013:800::5f]",
+      "count": 1,
+      "depth": 2,
+      "host": "fonts.googleapis.com",
+      "origin": "https://fonts.googleapis.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/css/font-awesome.min.css": {
+      "url": "https://www.iitg.ac.in/core/css/font-awesome.min.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/core/css/style-main-new.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/css/font-awesome-animation.min.css": {
+      "url": "https://www.iitg.ac.in/core/css/font-awesome-animation.min.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/core/css/style-main-new.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/css/pe-icon-7-stroke.css": {
+      "url": "https://www.iitg.ac.in/core/css/pe-icon-7-stroke.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/core/css/style-main-new.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/css/elegant-icons.css": {
+      "url": "https://www.iitg.ac.in/core/css/elegant-icons.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/core/css/style-main-new.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/css/utility-classes.css": {
+      "url": "https://www.iitg.ac.in/core/css/utility-classes.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/core/css/style-main-new.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/css/latofont.css": {
+      "url": "https://www.iitg.ac.in/core/css/latofont.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/core/css/style-main-new.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/css/googlefont/S6uyw4BMUTPHjx4wXg.woff2": {
+      "url": "https://www.iitg.ac.in/core/css/googlefont/S6uyw4BMUTPHjx4wXg.woff2",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/core/css/latofont.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 3,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0": {
+      "url": "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0",
+      "resource_type": "Document",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2001:4860:482b:400::]",
+      "count": 2,
+      "depth": 1,
+      "host": "www.youtube.com",
+      "origin": "https://www.youtube.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/ticker/bn-arrows.png": {
+      "url": "https://www.iitg.ac.in/ticker/bn-arrows.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/ticker/breakingNews.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/css/googlefont/S6u9w4BMUTPHh6UVSwiPGQ.woff2": {
+      "url": "https://www.iitg.ac.in/core/css/googlefont/S6u9w4BMUTPHh6UVSwiPGQ.woff2",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/core/css/latofont.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 3,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/css/fonts/fontawesome-webfont.woff2": {
+      "url": "https://www.iitg.ac.in/core/css/fonts/fontawesome-webfont.woff2",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/core/css/font-awesome.min.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 3,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/css/fonts/Pe-icon-7-stroke.woff": {
+      "url": "https://www.iitg.ac.in/core/css/fonts/Pe-icon-7-stroke.woff",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/core/css/pe-icon-7-stroke.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 3,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/images/megamenu/megamenu-dropdown.png": {
+      "url": "https://www.iitg.ac.in/core/images/megamenu/megamenu-dropdown.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/core/css/style-main-new.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/js/revolution-slider/fonts/revicons/revicons.woff@5510888": {
+      "url": "https://www.iitg.ac.in/core/js/revolution-slider/fonts/revicons/revicons.woff@5510888",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/core/js/revolution-slider/css/settings.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage//banner/0809d11a99da83248219900f813526c9.jpeg": {
+      "url": "https://www.iitg.ac.in/storage//banner/0809d11a99da83248219900f813526c9.jpeg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage//banner/7659f0962cf19a546bc129d771647432.jpg": {
+      "url": "https://www.iitg.ac.in/storage//banner/7659f0962cf19a546bc129d771647432.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage//banner/277471eb1e10e2da542cab76d4c02387.jpg": {
+      "url": "https://www.iitg.ac.in/storage//banner/277471eb1e10e2da542cab76d4c02387.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage//banner/ea07c25eb3c1f18d67293d8d4bf6555e.jpg": {
+      "url": "https://www.iitg.ac.in/storage//banner/ea07c25eb3c1f18d67293d8d4bf6555e.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/storage//banner/50190a8399811ba2b1889568323c18e7.jpg": {
+      "url": "https://www.iitg.ac.in/storage//banner/50190a8399811ba2b1889568323c18e7.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/ajax-load/bootstrap-parent-modal.html": {
+      "url": "https://www.iitg.ac.in/ajax-load/bootstrap-parent-modal.html",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.iitg.ac.in/core/js/jquery-2.2.4.min.js",
+      "status": 404,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/color-switcher/style-switcher.html": {
+      "url": "https://www.iitg.ac.in/color-switcher/style-switcher.html",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.iitg.ac.in/core/js/jquery-2.2.4.min.js",
+      "status": 404,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/img/back.jpg": {
+      "url": "https://www.iitg.ac.in/img/back.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/img/bg.jpg": {
+      "url": "https://www.iitg.ac.in/core/img/bg.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/core/css/bxslider/images/bx_loader.gif": {
+      "url": "https://www.iitg.ac.in/core/css/bxslider/images/bx_loader.gif",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.iitg.ac.in/core/css/css-plugin-collections.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.iitg.ac.in/favicon/favicon-32x32.png": {
+      "url": "https://www.iitg.ac.in/favicon/favicon-32x32.png",
+      "resource_type": "Other",
+      "initiator_type": "other",
+      "parent": "https://www.iitg.ac.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::e8b:c44b]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.iitg.ac.in",
+      "origin": "https://www.iitg.ac.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.youtube.com/s/player/cbcfbf2f/www-player.css": {
+      "url": "https://www.youtube.com/s/player/cbcfbf2f/www-player.css",
+      "resource_type": "stylesheet",
+      "initiator_type": "frame",
+      "parent": "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "www.youtube.com",
+      "origin": "https://www.youtube.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.youtube.com/s/_/ytembeds/_/ss/k=ytembeds.base.SKK5Z7LAK_Y.L.W.O/am=AAAAQA/d=1/br=1/rs=AGKMywE2gvDaiqpgAAck_AdbYTxiiYoLSQ/m=root,base": {
+      "url": "https://www.youtube.com/s/_/ytembeds/_/ss/k=ytembeds.base.SKK5Z7LAK_Y.L.W.O/am=AAAAQA/d=1/br=1/rs=AGKMywE2gvDaiqpgAAck_AdbYTxiiYoLSQ/m=root,base",
+      "resource_type": "stylesheet",
+      "initiator_type": "frame",
+      "parent": "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "www.youtube.com",
+      "origin": "https://www.youtube.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2": {
+      "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+      "resource_type": "font",
+      "initiator_type": "frame",
+      "parent": "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "fonts.gstatic.com",
+      "origin": "https://fonts.gstatic.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.IkWErumI3ck.2021.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywHKwBZQHZN85EdXcVlZmeF_dJDq7Q/m=root,base": {
+      "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.IkWErumI3ck.2021.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywHKwBZQHZN85EdXcVlZmeF_dJDq7Q/m=root,base",
+      "resource_type": "script",
+      "initiator_type": "frame",
+      "parent": "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "www.youtube.com",
+      "origin": "https://www.youtube.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.youtube.com/s/player/cbcfbf2f/player_embed_es6.vflset/en_GB/base.js": {
+      "url": "https://www.youtube.com/s/player/cbcfbf2f/player_embed_es6.vflset/en_GB/base.js",
+      "resource_type": "script",
+      "initiator_type": "frame",
+      "parent": "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "www.youtube.com",
+      "origin": "https://www.youtube.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://googleads.g.doubleclick.net/pagead/id": {
+      "url": "https://googleads.g.doubleclick.net/pagead/id",
+      "resource_type": "xhr",
+      "initiator_type": "frame",
+      "parent": "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "googleads.g.doubleclick.net",
+      "origin": "https://googleads.g.doubleclick.net:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://static.doubleclick.net/instream/ad_status.js": {
+      "url": "https://static.doubleclick.net/instream/ad_status.js",
+      "resource_type": "script",
+      "initiator_type": "frame",
+      "parent": "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "static.doubleclick.net",
+      "origin": "https://static.doubleclick.net:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.IkWErumI3ck.2021.O/ck=ytembeds.base.SKK5Z7LAK_Y.L.W.O/am=AAAAQA/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywFLt1TGolnkeIGDW4a_JBsoaJYKKQ/m=r78Drb": {
+      "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.IkWErumI3ck.2021.O/ck=ytembeds.base.SKK5Z7LAK_Y.L.W.O/am=AAAAQA/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywFLt1TGolnkeIGDW4a_JBsoaJYKKQ/m=r78Drb",
+      "resource_type": "script",
+      "initiator_type": "frame",
+      "parent": "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "www.youtube.com",
+      "origin": "https://www.youtube.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.google.com/js/th/pxwG18Euy-n6Uq6PY9vb4Ohp58yKH_56NpBvs6fBnH8.js": {
+      "url": "https://www.google.com/js/th/pxwG18Euy-n6Uq6PY9vb4Ohp58yKH_56NpBvs6fBnH8.js",
+      "resource_type": "script",
+      "initiator_type": "frame",
+      "parent": "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "www.google.com",
+      "origin": "https://www.google.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://i.ytimg.com/vi/Rct2xyXtGmM/sddefault.jpg": {
+      "url": "https://i.ytimg.com/vi/Rct2xyXtGmM/sddefault.jpg",
+      "resource_type": "image",
+      "initiator_type": "frame",
+      "parent": "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "i.ytimg.com",
+      "origin": "https://i.ytimg.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1": {
+      "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
+      "resource_type": "xhr",
+      "initiator_type": "frame",
+      "parent": "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "googleads.g.doubleclick.net",
+      "origin": "https://googleads.g.doubleclick.net:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.youtube.com/youtubei/v1/log_event?alt=json": {
+      "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+      "resource_type": "xhr",
+      "initiator_type": "frame",
+      "parent": "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "www.youtube.com",
+      "origin": "https://www.youtube.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://www.youtube.com/generate_204?oLgbgQ": {
+      "url": "https://www.youtube.com/generate_204?oLgbgQ",
+      "resource_type": "image",
+      "initiator_type": "frame",
+      "parent": "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "www.youtube.com",
+      "origin": "https://www.youtube.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://www.iitg.ac.in/"
+    },
+    "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT": {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "resource_type": "xhr",
+      "initiator_type": "frame",
+      "parent": "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "jnn-pa.googleapis.com",
+      "origin": "https://jnn-pa.googleapis.com:443",
+      "third_party": true,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_404",
+      "critical": true,
+      "blocked_by": "https://www.iitg.ac.in/"
+    }
+  },
+  "origins": {
+    "https://www.iitg.ac.in:443": {
+      "origin": "https://www.iitg.ac.in:443",
+      "host": "www.iitg.ac.in",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.iitg.ac.in/",
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "64:ff9b::e8b:c44b"
+          ],
+          "cname_chain": [],
+          "ttl": 369,
+          "ms": 23.0,
+          "synthesized": true
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "64:ff9b::e8b:c44b",
+              "ok": true,
+              "ms": 172.4
+            }
+          ],
+          "shim": false,
+          "addr": "64:ff9b::e8b:c44b"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.iitg.ac.in",
+          "cert_not_after": "Mar 23 23:59:59 2027 GMT",
+          "ms": 244.1
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "IITGServer",
+          "ms": 534.3,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "14.139.196.75"
+          ],
+          "cname_chain": [],
+          "ttl": 368,
+          "ms": 7.4
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "14.139.196.75",
+              "ok": true,
+              "ms": 106.8
+            }
+          ],
+          "shim": false,
+          "addr": "14.139.196.75"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.iitg.ac.in",
+          "cert_not_after": "Mar 23 23:59:59 2027 GMT",
+          "ms": 163.4
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "IITGServer",
+          "ms": 579.0,
+          "ok": true
+        }
+      },
+      "retried": {}
+    },
+    "https://fonts.googleapis.com:443": {
+      "origin": "https://fonts.googleapis.com:443",
+      "host": "fonts.googleapis.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4013:800::5f"
+          ],
+          "cname_chain": [],
+          "ttl": 215,
+          "ms": 25.4,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2404:6800:4013:800::5f",
+              "ok": true,
+              "ms": 70.3
+            }
+          ],
+          "shim": false,
+          "addr": "2404:6800:4013:800::5f"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "upload.video.google.com",
+          "cert_not_after": "Dec 21 18:40:11 2026 GMT",
+          "ms": 325.9
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "ESF",
+          "ms": 294.4,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "192.178.158.95"
+          ],
+          "cname_chain": [],
+          "ttl": 230,
+          "ms": 11.1
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "192.178.158.95",
+              "ok": true,
+              "ms": 109.5
+            }
+          ],
+          "shim": false,
+          "addr": "192.178.158.95"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "upload.video.google.com",
+          "cert_not_after": "Dec 21 18:40:11 2026 GMT",
+          "ms": 212.9
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "ESF",
+          "ms": 249.4,
+          "ok": true
+        }
+      },
+      "retried": {}
+    },
+    "https://www.youtube.com:443": {
+      "origin": "https://www.youtube.com:443",
+      "host": "www.youtube.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.youtube.com/embed/Rct2xyXtGmM?&showinfo=0",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2001:4860:4826:400::",
+            "2001:4860:4827:400::",
+            "2001:4860:482a:400::",
+            "2001:4860:482d:400::",
+            "2001:4860:482c:400::",
+            "2001:4860:4828:400::",
+            "2001:4860:4829:400::",
+            "2001:4860:482b:400::"
+          ],
+          "cname_chain": [],
+          "ttl": 241,
+          "ms": 22.4,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2001:4860:4826:400::",
+              "ok": true,
+              "ms": 118.2
+            }
+          ],
+          "shim": false,
+          "addr": "2001:4860:4826:400::"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google.com",
+          "cert_not_after": "Dec 21 18:38:32 2026 GMT",
+          "ms": 233.1
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "ESF",
+          "ms": 526.4,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.251.152.4",
+            "142.251.150.4",
+            "142.251.157.4",
+            "142.251.151.4",
+            "142.251.153.4",
+            "142.251.154.4",
+            "142.251.155.4",
+            "142.251.156.4"
+          ],
+          "cname_chain": [],
+          "ttl": 225,
+          "ms": 66.8
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.251.152.4",
+              "ok": true,
+              "ms": 82.5
+            }
+          ],
+          "shim": false,
+          "addr": "142.251.152.4"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google.com",
+          "cert_not_after": "Dec 21 18:38:32 2026 GMT",
+          "ms": 153.9
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "ESF",
+          "ms": 439.5,
+          "ok": true
+        }
+      },
+      "retried": {}
+    },
+    "https://fonts.gstatic.com:443": {
+      "origin": "https://fonts.gstatic.com:443",
+      "host": "fonts.gstatic.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4013:813::5e"
+          ],
+          "cname_chain": [],
+          "ttl": 219,
+          "ms": 25.0,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2404:6800:4013:813::5e",
+              "ok": true,
+              "ms": 74.5
+            }
+          ],
+          "shim": false,
+          "addr": "2404:6800:4013:813::5e"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.gstatic.com",
+          "cert_not_after": "Dec 21 18:40:05 2026 GMT",
+          "ms": 287.9
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "sffe",
+          "ms": 333.5,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "192.178.158.94"
+          ],
+          "cname_chain": [],
+          "ttl": 219,
+          "ms": 7.1
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "192.178.158.94",
+              "ok": true,
+              "ms": 109.1
+            }
+          ],
+          "shim": false,
+          "addr": "192.178.158.94"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.gstatic.com",
+          "cert_not_after": "Dec 21 18:40:05 2026 GMT",
+          "ms": 228.7
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "sffe",
+          "ms": 182.3,
+          "ok": true
+        }
+      },
+      "retried": {}
+    },
+    "https://googleads.g.doubleclick.net:443": {
+      "origin": "https://googleads.g.doubleclick.net:443",
+      "host": "googleads.g.doubleclick.net",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://googleads.g.doubleclick.net/pagead/id",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4013:802::9a",
+            "2404:6800:4013:802::9b",
+            "2404:6800:4013:802::9c",
+            "2404:6800:4013:802::9d"
+          ],
+          "cname_chain": [],
+          "ttl": 215,
+          "ms": 22.9,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2404:6800:4013:802::9a",
+              "ok": true,
+              "ms": 70.8
+            }
+          ],
+          "shim": false,
+          "addr": "2404:6800:4013:802::9a"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.g.doubleclick.net",
+          "cert_not_after": "Dec 21 18:38:12 2026 GMT",
+          "ms": 271.1
+        },
+        "http": {
+          "status": 302,
+          "reason": "Found",
+          "location": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
+          "server": "cafe",
+          "ms": 312.9,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "192.178.158.154",
+            "192.178.158.155",
+            "192.178.158.157",
+            "192.178.158.156"
+          ],
+          "cname_chain": [],
+          "ttl": 213,
+          "ms": 9.4
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "192.178.158.154",
+              "ok": true,
+              "ms": 162.2
+            }
+          ],
+          "shim": false,
+          "addr": "192.178.158.154"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.g.doubleclick.net",
+          "cert_not_after": "Dec 21 18:38:12 2026 GMT",
+          "ms": 264.2
+        },
+        "http": {
+          "status": 302,
+          "reason": "Found",
+          "location": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
+          "server": "cafe",
+          "ms": 260.2,
+          "ok": true
+        }
+      },
+      "retried": {}
+    },
+    "https://static.doubleclick.net:443": {
+      "origin": "https://static.doubleclick.net:443",
+      "host": "static.doubleclick.net",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://static.doubleclick.net/instream/ad_status.js",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4013:800::94",
+            "2404:6800:4013:800::95"
+          ],
+          "cname_chain": [],
+          "ttl": 236,
+          "ms": 24.6,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2404:6800:4013:800::94",
+              "ok": true,
+              "ms": 68.6
+            }
+          ],
+          "shim": false,
+          "addr": "2404:6800:4013:800::94"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.doubleclick.net",
+          "cert_not_after": "Dec 21 18:38:02 2026 GMT",
+          "ms": 237.4
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "sffe",
+          "ms": 344.2,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.250.122.149",
+            "142.250.122.148"
+          ],
+          "cname_chain": [],
+          "ttl": 215,
+          "ms": 7.6
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.250.122.149",
+              "ok": true,
+              "ms": 165.4
+            }
+          ],
+          "shim": false,
+          "addr": "142.250.122.149"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.doubleclick.net",
+          "cert_not_after": "Dec 21 18:38:02 2026 GMT",
+          "ms": 263.6
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "sffe",
+          "ms": 324.3,
+          "ok": true
+        }
+      },
+      "retried": {}
+    },
+    "https://www.google.com:443": {
+      "origin": "https://www.google.com:443",
+      "host": "www.google.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.google.com/js/th/pxwG18Euy-n6Uq6PY9vb4Ohp58yKH_56NpBvs6fBnH8.js",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2001:4860:4826:7700::",
+            "2001:4860:482c:7700::",
+            "2001:4860:4828:7700::",
+            "2001:4860:482a:7700::",
+            "2001:4860:4827:7700::",
+            "2001:4860:482b:7700::",
+            "2001:4860:482d:7700::",
+            "2001:4860:4829:7700::"
+          ],
+          "cname_chain": [],
+          "ttl": 111,
+          "ms": 22.7,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2001:4860:4826:7700::",
+              "ok": true,
+              "ms": 69.5
+            }
+          ],
+          "shim": false,
+          "addr": "2001:4860:4826:7700::"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "www.google.com",
+          "cert_not_after": "Dec 21 18:41:20 2026 GMT",
+          "ms": 285.0
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "sffe",
+          "ms": 473.4,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.251.150.119",
+            "142.251.157.119",
+            "142.251.151.119",
+            "142.251.153.119",
+            "142.251.155.119",
+            "142.251.156.119",
+            "142.251.152.119",
+            "142.251.154.119"
+          ],
+          "cname_chain": [],
+          "ttl": 231,
+          "ms": 196.1
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.251.150.119",
+              "ok": true,
+              "ms": 87.0
+            }
+          ],
+          "shim": false,
+          "addr": "142.251.150.119"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "www.google.com",
+          "cert_not_after": "Dec 21 18:41:20 2026 GMT",
+          "ms": 125.2
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "sffe",
+          "ms": 250.9,
+          "ok": true
+        }
+      },
+      "retried": {}
+    },
+    "https://i.ytimg.com:443": {
+      "origin": "https://i.ytimg.com:443",
+      "host": "i.ytimg.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://i.ytimg.com/vi/Rct2xyXtGmM/sddefault.jpg",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4003:c01::77",
+            "2404:6800:4003:c00::77",
+            "2404:6800:4003:c1c::77",
+            "2404:6800:4003:c1a::77"
+          ],
+          "cname_chain": [],
+          "ttl": 120,
+          "ms": 23.1,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2404:6800:4003:c01::77",
+              "ok": true,
+              "ms": 157.4
+            }
+          ],
+          "shim": false,
+          "addr": "2404:6800:4003:c01::77"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "edgestatic.com",
+          "cert_not_after": "Dec 21 18:37:57 2026 GMT",
+          "ms": 234.4
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "sffe",
+          "ms": 472.8,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.251.144.6",
+            "192.178.40.6",
+            "142.251.146.6",
+            "192.178.41.6",
+            "142.251.147.6",
+            "142.251.149.6",
+            "142.251.145.6",
+            "142.251.148.6"
+          ],
+          "cname_chain": [],
+          "ttl": 90,
+          "ms": 48.5
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.251.144.6",
+              "ok": true,
+              "ms": 157.7
+            }
+          ],
+          "shim": false,
+          "addr": "142.251.144.6"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google.com",
+          "cert_not_after": "Dec 21 18:38:00 2026 GMT",
+          "ms": 198.7
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "sffe",
+          "ms": 553.0,
+          "ok": true
+        }
+      },
+      "retried": {}
+    },
+    "https://jnn-pa.googleapis.com:443": {
+      "origin": "https://jnn-pa.googleapis.com:443",
+      "host": "jnn-pa.googleapis.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_404",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "http",
+        "failure_code": "HTTP_404",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2001:4860:4845:400::",
+            "2001:4860:4841:400::",
+            "2001:4860:4846:400::",
+            "2001:4860:4847:400::",
+            "2001:4860:4842:400::",
+            "2001:4860:4840:400::",
+            "2001:4860:4843:400::",
+            "2001:4860:4844:400::"
+          ],
+          "cname_chain": [],
+          "ttl": 98,
+          "ms": 20.1,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2001:4860:4845:400::",
+              "ok": true,
+              "ms": 78.0
+            }
+          ],
+          "shim": false,
+          "addr": "2001:4860:4845:400::"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "upload.video.google.com",
+          "cert_not_after": "Dec 21 18:40:11 2026 GMT",
+          "ms": 271.5
+        },
+        "http": {
+          "status": 404,
+          "reason": "Not Found",
+          "location": null,
+          "server": "ESF",
+          "ms": 346.6,
+          "ok": false
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": "http",
+        "failure_code": "HTTP_404",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "172.217.116.4",
+            "172.217.117.4",
+            "172.217.113.4",
+            "172.217.114.4",
+            "172.217.119.4",
+            "172.217.112.4",
+            "172.217.118.4",
+            "172.217.115.4"
+          ],
+          "cname_chain": [],
+          "ttl": 207,
+          "ms": 9.0
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "172.217.116.4",
+              "ok": true,
+              "ms": 136.9
+            }
+          ],
+          "shim": false,
+          "addr": "172.217.116.4"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "upload.video.google.com",
+          "cert_not_after": "Dec 21 18:40:11 2026 GMT",
+          "ms": 246.0
+        },
+        "http": {
+          "status": 404,
+          "reason": "Not Found",
+          "location": null,
+          "server": "ESF",
+          "ms": 692.5,
+          "ok": false
+        }
+      },
+      "retried": {}
+    }
+  },
+  "site": {
+    "category": "Education",
+    "name": "IIT Guwahati",
+    "url": "https://www.iitg.ac.in/"
+  }
+}

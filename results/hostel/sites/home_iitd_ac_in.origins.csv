@@ -1,0 +1,4 @@
+page,origin,host,verdict,failed_stage,failure_code,v6_dns_rcode,v6_addresses,v6_synthesized,v6_tcp,v6_tls,v6_http_status,v6_failure_code,v4_addresses,v4_failure_code,v4_http_status,probe_url
+https://home.iitd.ac.in/,https://home.iitd.ac.in:443,home.iitd.ac.in,BROKEN_BOTH,tls,TLS_CERT_UNTRUSTED,NOERROR,2001:df4:e000:29::212,False,ok,FAIL,,TLS_CERT_UNTRUSTED,103.27.9.24,TLS_CERT_UNTRUSTED,,https://home.iitd.ac.in/
+https://home.iitd.ac.in/,https://fonts.googleapis.com:443,fonts.googleapis.com,READY,,,NOERROR,2404:6800:4013:800::5f,False,ok,ok,200,,192.178.158.95,,200,"https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:100,300,400,500,700,900"
+https://home.iitd.ac.in/,https://fonts.gstatic.com:443,fonts.gstatic.com,READY,,,NOERROR,2404:6800:4013:813::5e,False,ok,ok,200,,192.178.158.94,,200,https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2

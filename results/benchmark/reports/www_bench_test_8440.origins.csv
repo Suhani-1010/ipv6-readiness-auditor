@@ -1,0 +1,13 @@
+page,origin,host,verdict,failed_stage,failure_code,v6_dns_rcode,v6_addresses,v6_synthesized,v6_tcp,v6_tls,v6_http_status,v6_failure_code,v4_addresses,v4_failure_code,v4_http_status,probe_url
+https://www.bench.test:8440/,https://www.bench.test:8440,www.bench.test,READY,,,NOERROR,::1,False,ok,ok,200,,127.0.0.1,,200,https://www.bench.test:8440/
+https://www.bench.test:8440/,https://static.bench.test:8441,static.bench.test,READY,,,NOERROR,::1,False,ok,ok,200,,127.0.0.1,,200,https://static.bench.test:8441/style.css
+https://www.bench.test:8440/,https://tcpdrop.bench.test:8445,tcpdrop.bench.test,IPV6_TCP_FAIL,tcp,TCP_REFUSED,NOERROR,::1,False,FAIL,-,,TCP_REFUSED,127.0.0.1,,200,https://tcpdrop.bench.test:8445/broken.css
+https://www.bench.test:8440/,https://cdn.bench.test:8444,cdn.bench.test,IPV4_ONLY,dns,DNS_NO_AAAA,NOERROR,,,-,-,,DNS_NO_AAAA,127.0.0.1,,200,https://cdn.bench.test:8444/lib.js
+https://www.bench.test:8440/,https://tlsbad.bench.test:8446,tlsbad.bench.test,IPV6_TLS_FAIL,tls,TLS_CERT_NAME_MISMATCH,NOERROR,::1,False,ok,FAIL,,TLS_CERT_NAME_MISMATCH,127.0.0.1,,200,https://tlsbad.bench.test:8446/widget.js
+https://www.bench.test:8440/,https://v4only.bench.test:8443,v4only.bench.test,IPV4_ONLY,dns,DNS_NO_AAAA,NOERROR,,,-,-,,DNS_NO_AAAA,127.0.0.1,,200,https://v4only.bench.test:8443/logo.png
+https://www.bench.test:8440/,https://redir6.bench.test:8448,redir6.bench.test,IPV6_HTTP_FAIL,http,HTTP_REDIRECT_TO_IPV4_ONLY,NOERROR,::1,False,ok,ok,302,HTTP_REDIRECT_TO_IPV4_ONLY,127.0.0.1,,200,https://redir6.bench.test:8448/banner.png
+https://www.bench.test:8440/,https://synth.bench.test:8451,synth.bench.test,IPV4_ONLY_NAT64,dns,DNS_ONLY_SYNTHESIZED_AAAA,NOERROR,64:ff9b::7f00:1,True,FAIL,-,,TCP_UNREACHABLE,127.0.0.1,,200,https://synth.bench.test:8451/pixel.png
+https://www.bench.test:8440/,https://broken-both.bench.test:8450,broken-both.bench.test,BROKEN_BOTH,http,HTTP_500,NOERROR,::1,False,ok,ok,500,HTTP_500,127.0.0.1,HTTP_500,500,https://broken-both.bench.test:8450/missing.png
+https://www.bench.test:8440/,https://forbid6.bench.test:8447,forbid6.bench.test,IPV6_HTTP_FAIL,http,HTTP_403,NOERROR,::1,False,ok,ok,403,HTTP_403,127.0.0.1,,200,https://forbid6.bench.test:8447/api/data.json
+https://www.bench.test:8440/,https://api-v4.bench.test:8449,api-v4.bench.test,IPV4_ONLY,dns,DNS_NO_AAAA,NOERROR,,,-,-,,DNS_NO_AAAA,127.0.0.1,,200,https://api-v4.bench.test:8449/api/v.json
+https://www.bench.test:8440/,https://fonts.bench.test:8442,fonts.bench.test,READY,,,NOERROR,::1,False,ok,ok,200,,127.0.0.1,,200,https://fonts.bench.test:8442/bench.woff2

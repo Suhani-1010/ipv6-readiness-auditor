@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Benchmark runtime files (generated; certs contain private keys)
+/bench/
+
+# Scratch output of the single-page scripts
+/reports/
+
+# Large zips
+*.zip

@@ -1,0 +1,2815 @@
+{
+  "schema": "ipv6-readiness-audit/1",
+  "page": "https://www.flipkart.com/",
+  "final_url": "https://www.flipkart.com/",
+  "started_utc": "2026-10-19T05:40:17+00:00",
+  "load_seconds": 10.99,
+  "vantage": {
+    "nat64_prefixes": [],
+    "ipv6_stack": true,
+    "ipv6_default_route": false,
+    "ipv4_default_route": true,
+    "lab_v6_shim": false,
+    "pathway": "ipv4-only"
+  },
+  "capture_errors": [],
+  "summary": {
+    "page_verdict": "NOT_READY",
+    "root_verdict": "IPV4_ONLY",
+    "root_has_aaaa": false,
+    "resources_total": 92,
+    "origins_total": 8,
+    "resources_by_verdict": {
+      "IPV4_ONLY": 85,
+      "INCONCLUSIVE_NO_IPV6": 1,
+      "READY": 6
+    },
+    "origins_by_verdict": {
+      "IPV4_ONLY": 6,
+      "INCONCLUSIVE_NO_IPV6": 1,
+      "READY": 1
+    },
+    "ipv6_failures_by_stage": {
+      "dns": 6
+    },
+    "ipv6_failing_resources": 85,
+    "inconclusive_resources": 1,
+    "ipv6_failing_critical": 23,
+    "ipv6_failing_third_party": 80,
+    "resource_ipv6_ready_pct": 6.5,
+    "ipv4_only_hosts": [
+      "1.rome.api.flipkart.com",
+      "2.sonic.fdp.api.flipkart.com",
+      "rukminim2.flixcart.com",
+      "sonic.fdp.api.flipkart.com",
+      "static-assets-web.flixcart.com",
+      "www.flipkart.com"
+    ],
+    "aaaa_but_broken_hosts": [],
+    "root_host": "www.flipkart.com"
+  },
+  "tree": {
+    "root": "https://www.flipkart.com/",
+    "edges": [
+      [
+        "https://www.flipkart.com/",
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/DesktopComponents.css"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/fkvendor.js"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/CrossCommon.js"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/app.js"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/MultiWidgetpage.js"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/CrossPlatformModules.js"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/OVHomePageTS.js"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/DesktopComponents.js"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/Inter-SemiBold.woff2"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/Inter-Regular.woff2"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/Inter-Bold.woff2"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/fk-p-flap/26/22/image/d2ecfddf891a3922.png?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/fk-p-flap/46/18/image/31f7e3af490c225f.png?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/fk-p-flap/29/22/image/7ab4040af860941d.png?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/fk-p-flap/36/18/image/5a9ff48eef96b876.png?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-6bae67.svg"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart_v4-6ac9a8.svg"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/all.svg"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/fashion.svg"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/mobiles.svg"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/electronics.svg"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/beauty.svg"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/home-final.svg"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/tv.svg"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/toy.svg"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/food.svg"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/auto-acc.svg"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/sport.svg"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/furniture.svg"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/books.svg"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/auto-new.svg"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/fk-p-flap/1600/780/image/074ab553af735cdc.jpg?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/fk-p-flap/1600/780/image/9f3704955bdd427f.jpg?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/fk-p-flap/1600/780/image/63d90302c9353147.png?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/fk-p-flap/800/1070/image/99dd6f8681931883.png?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/fk-p-flap/800/1070/image/69d330db47107b27.png?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/fk-p-flap/800/1070/image/991b1ccdfd339403.png?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/image/140/187/xif0q/shoe/k/9/g/8-v-001-42-vechlo-black-original-imahbhyt8etwdpnc.jpeg?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/image/140/187/l432ikw0/shoe/r/a/x/-original-imagf255rjzc9xwh.jpeg?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/image/140/187/xif0q/watch/s/h/b/1-abx6700-br-mg-st-abrexo-men-original-imahhqjyryyz5vqq.jpeg?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/image/140/187/xif0q/bottle/f/p/3/875-brim-1000-stainless-steel-water-bottle-875-ml-light-green-1-original-imah923pzc2c5nmq.jpeg?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/www/1600/530/promos/10/06/2025/0761f406-0baa-4fad-94e9-7fb1b27e8ca7.jpg?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/image/140/187/xif0q/electric-bike-scooter/p/e/x/-original-imahq6prhhn5bsvh.jpeg?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/image/140/187/xif0q/shaver/8/x/n/gold-t9-cordless-trimmer-zero-gap-sharp-blade-vinatage-t9-original-imahrbwsx78hnjpv.jpeg?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/image/140/187/xif0q/trimmer/a/r/t/-original-imahrecuftwgsvrp.jpeg?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/image/140/187/xif0q/computer/f/5/j/-original-imahrz92h2zqqpgs.jpeg?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/75a341d6579bebf6.png?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/a37b2caa166685a6.png?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/bf7b9aa3963e8eb3.png?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/7e1573ff74023ec8.png?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/e95bd0554b797b3c.png?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/f546382f353aef70.jpg?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/f09f93eeb711050d.jpg?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/2146fd64b40ea493.jpg?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/be139300ea4da8c9.png?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/18b53b87c4f53646.png?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/419bb053c1657a2a.jpg?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/f17ba158f2573b9c.png?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/9f258df0c621a297.jpg?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/fk-p-flap/1600/640/image/6281a95d2d483065.jpg?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/fk-p-flap/790/1190/image/e49326a7d9d2358c.png?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/fk-p-flap/790/1190/image/0c88a8421c71e172.png?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/fk-p-flap/790/1190/image/1dab2c38b22cfe0b.png?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/fk-p-flap/790/1190/image/758461f9796648b4.jpg?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://sonic.fdp.api.flipkart.com/4/data/collector/business"
+      ],
+      [
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/app.js",
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/en-js.js"
+      ],
+      [
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/app.js",
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/commonLazyLoadChunk.css"
+      ],
+      [
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/app.js",
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/commonLazyLoadChunk.js"
+      ],
+      [
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/app.js",
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/lazyLoadChunk.css"
+      ],
+      [
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/app.js",
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/lazyLoadChunk.js"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://static-assets-web.flixcart.com/www/linchpin/batman-returns/codes.json"
+      ],
+      [
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/app.js",
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/StorePageTS.js"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://js-agent.newrelic.com/nr-spa-1.317.0.min.js"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://1.rome.api.flipkart.com/4/user/state"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://2.sonic.fdp.api.flipkart.com/4/data/collector/business"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/logo_lite-cbb357.png"
+      ],
+      [
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/app.js",
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/BaseActionNonCritical.js"
+      ],
+      [
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/app.js",
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/LoginBSRenderer.css"
+      ],
+      [
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/app.js",
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/LoginBSRenderer.js"
+      ],
+      [
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/DesktopComponents.css",
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/login_img-c4a81e.png"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/fk-p-flap/1600/780/image/62a454e4f135ebee.png?q=80"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://1.rome.api.flipkart.com/4/page/fetch?reqhash=1144769623"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://bam.nr-data.net/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.317.0&t=Unnamed%20Transaction&rst=5243&ck=0&s=1f8af2b549eec0a0&ref=https://www.flipkart.com/&ptid=52e730e73e9780b6&af=err,spa,xhr,stn,ins&be=1010&fe=3100&dc=2253&fsh=1&perf=%7B%22timing%22:%7B%22of%22:1792388418490,%22n%22:0,%22f%22:26,%22dn%22:30,%22dne%22:30,%22c%22:30,%22s%22:99,%22ce%22:218,%22rq%22:218,%22rp%22:1011,%22rpe%22:1425,%22di%22:1824,%22ds%22:3263,%22de%22:3263,%22dc%22:4106,%22l%22:4106,%22le%22:4110%7D,%22navigation%22:%7B%7D%7D&fp=1868&fcp=1868"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://bam.nr-data.net/events/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.317.0&t=Unnamed%20Transaction&rst=6253&ck=0&s=1f8af2b549eec0a0&ref=https://www.flipkart.com/&ptid=52e730e73e9780b6"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://bam.nr-data.net/jserrors/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.317.0&t=Unnamed%20Transaction&rst=6255&ck=0&s=1f8af2b549eec0a0&ref=https://www.flipkart.com/&ptid=52e730e73e9780b6&ri=%7B%22batman-returns%22:%2212.51.15%22%7D"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://bam.nr-data.net/events/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.317.0&t=Unnamed%20Transaction&rst=6259&ck=0&s=1f8af2b549eec0a0&ref=https://www.flipkart.com/&ptid=52e730e73e9780b6"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://bam.nr-data.net/events/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.317.0&t=Unnamed%20Transaction&rst=6263&ck=0&s=1f8af2b549eec0a0&ref=https://www.flipkart.com/&ptid=52e730e73e9780b6"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://bam.nr-data.net/ins/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.317.0&t=Unnamed%20Transaction&rst=6265&ck=0&s=1f8af2b549eec0a0&ref=https://www.flipkart.com/&ptid=52e730e73e9780b6"
+      ],
+      [
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/app.js",
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/OmnitureLazyChunk.js"
+      ],
+      [
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/app.js",
+        "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/MapiActionNonCriticalActions.js"
+      ],
+      [
+        "https://www.flipkart.com/",
+        "https://rukminim2.flixcart.com/fk-p-flap/1600/780/image/9085e73ddf7dc75e.png?q=80"
+      ]
+    ]
+  },
+  "resources": {
+    "https://www.flipkart.com/": {
+      "url": "https://www.flipkart.com/",
+      "resource_type": "Document",
+      "initiator_type": "other",
+      "parent": null,
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.213.12.233",
+      "count": 1,
+      "depth": 0,
+      "host": "www.flipkart.com",
+      "origin": "https://www.flipkart.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/DesktopComponents.css": {
+      "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/DesktopComponents.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/fkvendor.js": {
+      "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/fkvendor.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/CrossCommon.js": {
+      "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/CrossCommon.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/app.js": {
+      "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/app.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/MultiWidgetpage.js": {
+      "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/MultiWidgetpage.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/CrossPlatformModules.js": {
+      "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/CrossPlatformModules.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/OVHomePageTS.js": {
+      "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/OVHomePageTS.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/DesktopComponents.js": {
+      "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/DesktopComponents.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/Inter-SemiBold.woff2": {
+      "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/Inter-SemiBold.woff2",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/Inter-Regular.woff2": {
+      "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/Inter-Regular.woff2",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/Inter-Bold.woff2": {
+      "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/Inter-Bold.woff2",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/fk-p-flap/26/22/image/d2ecfddf891a3922.png?q=80": {
+      "url": "https://rukminim2.flixcart.com/fk-p-flap/26/22/image/d2ecfddf891a3922.png?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/fk-p-flap/46/18/image/31f7e3af490c225f.png?q=80": {
+      "url": "https://rukminim2.flixcart.com/fk-p-flap/46/18/image/31f7e3af490c225f.png?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/fk-p-flap/29/22/image/7ab4040af860941d.png?q=80": {
+      "url": "https://rukminim2.flixcart.com/fk-p-flap/29/22/image/7ab4040af860941d.png?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/fk-p-flap/36/18/image/5a9ff48eef96b876.png?q=80": {
+      "url": "https://rukminim2.flixcart.com/fk-p-flap/36/18/image/5a9ff48eef96b876.png?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-6bae67.svg": {
+      "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-6bae67.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart_v4-6ac9a8.svg": {
+      "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart_v4-6ac9a8.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/all.svg": {
+      "url": "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/all.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": "net::ERR_FAILED",
+      "remote_ip": "23.223.245.136",
+      "count": 3,
+      "depth": 1,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/fashion.svg": {
+      "url": "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/fashion.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": "net::ERR_FAILED",
+      "remote_ip": "23.223.245.136",
+      "count": 3,
+      "depth": 1,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/mobiles.svg": {
+      "url": "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/mobiles.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": "net::ERR_FAILED",
+      "remote_ip": "23.223.245.136",
+      "count": 3,
+      "depth": 1,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/electronics.svg": {
+      "url": "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/electronics.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": "net::ERR_FAILED",
+      "remote_ip": "23.223.245.136",
+      "count": 3,
+      "depth": 1,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/beauty.svg": {
+      "url": "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/beauty.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": "net::ERR_FAILED",
+      "remote_ip": "23.223.245.136",
+      "count": 3,
+      "depth": 1,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/home-final.svg": {
+      "url": "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/home-final.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": "net::ERR_FAILED",
+      "remote_ip": "23.223.245.136",
+      "count": 3,
+      "depth": 1,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/tv.svg": {
+      "url": "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/tv.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": "net::ERR_FAILED",
+      "remote_ip": "23.223.245.136",
+      "count": 3,
+      "depth": 1,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/toy.svg": {
+      "url": "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/toy.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": "net::ERR_FAILED",
+      "remote_ip": "23.223.245.136",
+      "count": 3,
+      "depth": 1,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/food.svg": {
+      "url": "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/food.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": "net::ERR_FAILED",
+      "remote_ip": "23.223.245.136",
+      "count": 3,
+      "depth": 1,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/auto-acc.svg": {
+      "url": "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/auto-acc.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": "net::ERR_FAILED",
+      "remote_ip": "23.223.245.136",
+      "count": 3,
+      "depth": 1,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/sport.svg": {
+      "url": "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/sport.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": "net::ERR_FAILED",
+      "remote_ip": "23.223.245.136",
+      "count": 3,
+      "depth": 1,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/furniture.svg": {
+      "url": "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/furniture.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": "net::ERR_FAILED",
+      "remote_ip": "23.223.245.136",
+      "count": 3,
+      "depth": 1,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/books.svg": {
+      "url": "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/books.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": "net::ERR_FAILED",
+      "remote_ip": "23.223.245.136",
+      "count": 3,
+      "depth": 1,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/auto-new.svg": {
+      "url": "https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/auto-new.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": "net::ERR_FAILED",
+      "remote_ip": "23.223.245.136",
+      "count": 3,
+      "depth": 1,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/fk-p-flap/1600/780/image/074ab553af735cdc.jpg?q=80": {
+      "url": "https://rukminim2.flixcart.com/fk-p-flap/1600/780/image/074ab553af735cdc.jpg?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/fk-p-flap/1600/780/image/9f3704955bdd427f.jpg?q=80": {
+      "url": "https://rukminim2.flixcart.com/fk-p-flap/1600/780/image/9f3704955bdd427f.jpg?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/fk-p-flap/1600/780/image/63d90302c9353147.png?q=80": {
+      "url": "https://rukminim2.flixcart.com/fk-p-flap/1600/780/image/63d90302c9353147.png?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/fk-p-flap/800/1070/image/99dd6f8681931883.png?q=80": {
+      "url": "https://rukminim2.flixcart.com/fk-p-flap/800/1070/image/99dd6f8681931883.png?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/fk-p-flap/800/1070/image/69d330db47107b27.png?q=80": {
+      "url": "https://rukminim2.flixcart.com/fk-p-flap/800/1070/image/69d330db47107b27.png?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/fk-p-flap/800/1070/image/991b1ccdfd339403.png?q=80": {
+      "url": "https://rukminim2.flixcart.com/fk-p-flap/800/1070/image/991b1ccdfd339403.png?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/image/140/187/xif0q/shoe/k/9/g/8-v-001-42-vechlo-black-original-imahbhyt8etwdpnc.jpeg?q=80": {
+      "url": "https://rukminim2.flixcart.com/image/140/187/xif0q/shoe/k/9/g/8-v-001-42-vechlo-black-original-imahbhyt8etwdpnc.jpeg?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/image/140/187/l432ikw0/shoe/r/a/x/-original-imagf255rjzc9xwh.jpeg?q=80": {
+      "url": "https://rukminim2.flixcart.com/image/140/187/l432ikw0/shoe/r/a/x/-original-imagf255rjzc9xwh.jpeg?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/image/140/187/xif0q/watch/s/h/b/1-abx6700-br-mg-st-abrexo-men-original-imahhqjyryyz5vqq.jpeg?q=80": {
+      "url": "https://rukminim2.flixcart.com/image/140/187/xif0q/watch/s/h/b/1-abx6700-br-mg-st-abrexo-men-original-imahhqjyryyz5vqq.jpeg?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/image/140/187/xif0q/bottle/f/p/3/875-brim-1000-stainless-steel-water-bottle-875-ml-light-green-1-original-imah923pzc2c5nmq.jpeg?q=80": {
+      "url": "https://rukminim2.flixcart.com/image/140/187/xif0q/bottle/f/p/3/875-brim-1000-stainless-steel-water-bottle-875-ml-light-green-1-original-imah923pzc2c5nmq.jpeg?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/www/1600/530/promos/10/06/2025/0761f406-0baa-4fad-94e9-7fb1b27e8ca7.jpg?q=80": {
+      "url": "https://rukminim2.flixcart.com/www/1600/530/promos/10/06/2025/0761f406-0baa-4fad-94e9-7fb1b27e8ca7.jpg?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/image/140/187/xif0q/electric-bike-scooter/p/e/x/-original-imahq6prhhn5bsvh.jpeg?q=80": {
+      "url": "https://rukminim2.flixcart.com/image/140/187/xif0q/electric-bike-scooter/p/e/x/-original-imahq6prhhn5bsvh.jpeg?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/image/140/187/xif0q/shaver/8/x/n/gold-t9-cordless-trimmer-zero-gap-sharp-blade-vinatage-t9-original-imahrbwsx78hnjpv.jpeg?q=80": {
+      "url": "https://rukminim2.flixcart.com/image/140/187/xif0q/shaver/8/x/n/gold-t9-cordless-trimmer-zero-gap-sharp-blade-vinatage-t9-original-imahrbwsx78hnjpv.jpeg?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/image/140/187/xif0q/trimmer/a/r/t/-original-imahrecuftwgsvrp.jpeg?q=80": {
+      "url": "https://rukminim2.flixcart.com/image/140/187/xif0q/trimmer/a/r/t/-original-imahrecuftwgsvrp.jpeg?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/image/140/187/xif0q/computer/f/5/j/-original-imahrz92h2zqqpgs.jpeg?q=80": {
+      "url": "https://rukminim2.flixcart.com/image/140/187/xif0q/computer/f/5/j/-original-imahrz92h2zqqpgs.jpeg?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/75a341d6579bebf6.png?q=80": {
+      "url": "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/75a341d6579bebf6.png?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/a37b2caa166685a6.png?q=80": {
+      "url": "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/a37b2caa166685a6.png?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/bf7b9aa3963e8eb3.png?q=80": {
+      "url": "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/bf7b9aa3963e8eb3.png?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/7e1573ff74023ec8.png?q=80": {
+      "url": "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/7e1573ff74023ec8.png?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/e95bd0554b797b3c.png?q=80": {
+      "url": "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/e95bd0554b797b3c.png?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/f546382f353aef70.jpg?q=80": {
+      "url": "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/f546382f353aef70.jpg?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/f09f93eeb711050d.jpg?q=80": {
+      "url": "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/f09f93eeb711050d.jpg?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/2146fd64b40ea493.jpg?q=80": {
+      "url": "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/2146fd64b40ea493.jpg?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/be139300ea4da8c9.png?q=80": {
+      "url": "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/be139300ea4da8c9.png?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/18b53b87c4f53646.png?q=80": {
+      "url": "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/18b53b87c4f53646.png?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/419bb053c1657a2a.jpg?q=80": {
+      "url": "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/419bb053c1657a2a.jpg?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/f17ba158f2573b9c.png?q=80": {
+      "url": "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/f17ba158f2573b9c.png?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/9f258df0c621a297.jpg?q=80": {
+      "url": "https://rukminim2.flixcart.com/fk-p-flap/68/68/image/9f258df0c621a297.jpg?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/fk-p-flap/1600/640/image/6281a95d2d483065.jpg?q=80": {
+      "url": "https://rukminim2.flixcart.com/fk-p-flap/1600/640/image/6281a95d2d483065.jpg?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/fk-p-flap/790/1190/image/e49326a7d9d2358c.png?q=80": {
+      "url": "https://rukminim2.flixcart.com/fk-p-flap/790/1190/image/e49326a7d9d2358c.png?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/fk-p-flap/790/1190/image/0c88a8421c71e172.png?q=80": {
+      "url": "https://rukminim2.flixcart.com/fk-p-flap/790/1190/image/0c88a8421c71e172.png?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/fk-p-flap/790/1190/image/1dab2c38b22cfe0b.png?q=80": {
+      "url": "https://rukminim2.flixcart.com/fk-p-flap/790/1190/image/1dab2c38b22cfe0b.png?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/fk-p-flap/790/1190/image/758461f9796648b4.jpg?q=80": {
+      "url": "https://rukminim2.flixcart.com/fk-p-flap/790/1190/image/758461f9796648b4.jpg?q=80",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://sonic.fdp.api.flipkart.com/4/data/collector/business": {
+      "url": "https://sonic.fdp.api.flipkart.com/4/data/collector/business",
+      "resource_type": "Other",
+      "initiator_type": "preflight",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "34.36.209.50",
+      "count": 4,
+      "depth": 1,
+      "host": "sonic.fdp.api.flipkart.com",
+      "origin": "https://sonic.fdp.api.flipkart.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/en-js.js": {
+      "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/en-js.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/app.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 2,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/commonLazyLoadChunk.css": {
+      "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/commonLazyLoadChunk.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "script",
+      "parent": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/app.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 2,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/commonLazyLoadChunk.js": {
+      "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/commonLazyLoadChunk.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/app.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 2,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/lazyLoadChunk.css": {
+      "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/lazyLoadChunk.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "script",
+      "parent": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/app.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 2,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/lazyLoadChunk.js": {
+      "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/lazyLoadChunk.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/app.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 2,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/www/linchpin/batman-returns/codes.json": {
+      "url": "https://static-assets-web.flixcart.com/www/linchpin/batman-returns/codes.json",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.flipkart.com/",
+      "status": 204,
+      "browser_error": "net::ERR_FAILED",
+      "remote_ip": null,
+      "count": 2,
+      "depth": 1,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/StorePageTS.js": {
+      "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/StorePageTS.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/app.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 2,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://js-agent.newrelic.com/nr-spa-1.317.0.min.js": {
+      "url": "https://js-agent.newrelic.com/nr-spa-1.317.0.min.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "162.247.243.39",
+      "count": 1,
+      "depth": 1,
+      "host": "js-agent.newrelic.com",
+      "origin": "https://js-agent.newrelic.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://1.rome.api.flipkart.com/4/user/state": {
+      "url": "https://1.rome.api.flipkart.com/4/user/state",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.243.33.5",
+      "count": 2,
+      "depth": 1,
+      "host": "1.rome.api.flipkart.com",
+      "origin": "https://1.rome.api.flipkart.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://2.sonic.fdp.api.flipkart.com/4/data/collector/business": {
+      "url": "https://2.sonic.fdp.api.flipkart.com/4/data/collector/business",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "34.36.209.50",
+      "count": 5,
+      "depth": 1,
+      "host": "2.sonic.fdp.api.flipkart.com",
+      "origin": "https://2.sonic.fdp.api.flipkart.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/logo_lite-cbb357.png": {
+      "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/logo_lite-cbb357.png",
+      "resource_type": "Other",
+      "initiator_type": "other",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/BaseActionNonCritical.js": {
+      "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/BaseActionNonCritical.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/app.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 2,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/LoginBSRenderer.css": {
+      "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/LoginBSRenderer.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "script",
+      "parent": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/app.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 2,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/LoginBSRenderer.js": {
+      "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/LoginBSRenderer.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/app.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 2,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/login_img-c4a81e.png": {
+      "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/login_img-c4a81e.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/DesktopComponents.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 2,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/fk-p-flap/1600/780/image/62a454e4f135ebee.png?q=80": {
+      "url": "https://rukminim2.flixcart.com/fk-p-flap/1600/780/image/62a454e4f135ebee.png?q=80",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://1.rome.api.flipkart.com/4/page/fetch?reqhash=1144769623": {
+      "url": "https://1.rome.api.flipkart.com/4/page/fetch?reqhash=1144769623",
+      "resource_type": "Other",
+      "initiator_type": "preflight",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.243.33.5",
+      "count": 2,
+      "depth": 1,
+      "host": "1.rome.api.flipkart.com",
+      "origin": "https://1.rome.api.flipkart.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://bam.nr-data.net/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.317.0&t=Unnamed%20Transaction&rst=5243&ck=0&s=1f8af2b549eec0a0&ref=https://www.flipkart.com/&ptid=52e730e73e9780b6&af=err,spa,xhr,stn,ins&be=1010&fe=3100&dc=2253&fsh=1&perf=%7B%22timing%22:%7B%22of%22:1792388418490,%22n%22:0,%22f%22:26,%22dn%22:30,%22dne%22:30,%22c%22:30,%22s%22:99,%22ce%22:218,%22rq%22:218,%22rp%22:1011,%22rpe%22:1425,%22di%22:1824,%22ds%22:3263,%22de%22:3263,%22dc%22:4106,%22l%22:4106,%22le%22:4110%7D,%22navigation%22:%7B%7D%7D&fp=1868&fcp=1868": {
+      "url": "https://bam.nr-data.net/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.317.0&t=Unnamed%20Transaction&rst=5243&ck=0&s=1f8af2b549eec0a0&ref=https://www.flipkart.com/&ptid=52e730e73e9780b6&af=err,spa,xhr,stn,ins&be=1010&fe=3100&dc=2253&fsh=1&perf=%7B%22timing%22:%7B%22of%22:1792388418490,%22n%22:0,%22f%22:26,%22dn%22:30,%22dne%22:30,%22c%22:30,%22s%22:99,%22ce%22:218,%22rq%22:218,%22rp%22:1011,%22rpe%22:1425,%22di%22:1824,%22ds%22:3263,%22de%22:3263,%22dc%22:4106,%22l%22:4106,%22le%22:4110%7D,%22navigation%22:%7B%7D%7D&fp=1868&fcp=1868",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "162.247.243.29",
+      "count": 1,
+      "depth": 1,
+      "host": "bam.nr-data.net",
+      "origin": "https://bam.nr-data.net:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://bam.nr-data.net/events/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.317.0&t=Unnamed%20Transaction&rst=6253&ck=0&s=1f8af2b549eec0a0&ref=https://www.flipkart.com/&ptid=52e730e73e9780b6": {
+      "url": "https://bam.nr-data.net/events/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.317.0&t=Unnamed%20Transaction&rst=6253&ck=0&s=1f8af2b549eec0a0&ref=https://www.flipkart.com/&ptid=52e730e73e9780b6",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "162.247.243.29",
+      "count": 1,
+      "depth": 1,
+      "host": "bam.nr-data.net",
+      "origin": "https://bam.nr-data.net:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://bam.nr-data.net/jserrors/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.317.0&t=Unnamed%20Transaction&rst=6255&ck=0&s=1f8af2b549eec0a0&ref=https://www.flipkart.com/&ptid=52e730e73e9780b6&ri=%7B%22batman-returns%22:%2212.51.15%22%7D": {
+      "url": "https://bam.nr-data.net/jserrors/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.317.0&t=Unnamed%20Transaction&rst=6255&ck=0&s=1f8af2b549eec0a0&ref=https://www.flipkart.com/&ptid=52e730e73e9780b6&ri=%7B%22batman-returns%22:%2212.51.15%22%7D",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "162.247.243.29",
+      "count": 1,
+      "depth": 1,
+      "host": "bam.nr-data.net",
+      "origin": "https://bam.nr-data.net:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://bam.nr-data.net/events/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.317.0&t=Unnamed%20Transaction&rst=6259&ck=0&s=1f8af2b549eec0a0&ref=https://www.flipkart.com/&ptid=52e730e73e9780b6": {
+      "url": "https://bam.nr-data.net/events/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.317.0&t=Unnamed%20Transaction&rst=6259&ck=0&s=1f8af2b549eec0a0&ref=https://www.flipkart.com/&ptid=52e730e73e9780b6",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "162.247.243.29",
+      "count": 1,
+      "depth": 1,
+      "host": "bam.nr-data.net",
+      "origin": "https://bam.nr-data.net:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://bam.nr-data.net/events/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.317.0&t=Unnamed%20Transaction&rst=6263&ck=0&s=1f8af2b549eec0a0&ref=https://www.flipkart.com/&ptid=52e730e73e9780b6": {
+      "url": "https://bam.nr-data.net/events/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.317.0&t=Unnamed%20Transaction&rst=6263&ck=0&s=1f8af2b549eec0a0&ref=https://www.flipkart.com/&ptid=52e730e73e9780b6",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "162.247.243.29",
+      "count": 1,
+      "depth": 1,
+      "host": "bam.nr-data.net",
+      "origin": "https://bam.nr-data.net:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://bam.nr-data.net/ins/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.317.0&t=Unnamed%20Transaction&rst=6265&ck=0&s=1f8af2b549eec0a0&ref=https://www.flipkart.com/&ptid=52e730e73e9780b6": {
+      "url": "https://bam.nr-data.net/ins/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.317.0&t=Unnamed%20Transaction&rst=6265&ck=0&s=1f8af2b549eec0a0&ref=https://www.flipkart.com/&ptid=52e730e73e9780b6",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.flipkart.com/",
+      "status": 204,
+      "browser_error": null,
+      "remote_ip": "162.247.243.29",
+      "count": 1,
+      "depth": 1,
+      "host": "bam.nr-data.net",
+      "origin": "https://bam.nr-data.net:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/OmnitureLazyChunk.js": {
+      "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/OmnitureLazyChunk.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/app.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 2,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/MapiActionNonCriticalActions.js": {
+      "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/MapiActionNonCriticalActions.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/app.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 2,
+      "host": "static-assets-web.flixcart.com",
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://www.flipkart.com/"
+    },
+    "https://rukminim2.flixcart.com/fk-p-flap/1600/780/image/9085e73ddf7dc75e.png?q=80": {
+      "url": "https://rukminim2.flixcart.com/fk-p-flap/1600/780/image/9085e73ddf7dc75e.png?q=80",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.flipkart.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.223.245.136",
+      "count": 1,
+      "depth": 1,
+      "host": "rukminim2.flixcart.com",
+      "origin": "https://rukminim2.flixcart.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": "https://www.flipkart.com/"
+    }
+  },
+  "origins": {
+    "https://www.flipkart.com:443": {
+      "origin": "https://www.flipkart.com:443",
+      "host": "www.flipkart.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.flipkart.com/",
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "dns",
+        "failure_code": "DNS_NO_AAAA",
+        "dns": {
+          "ok": false,
+          "rcode": "NOERROR",
+          "addresses": [],
+          "cname_chain": [],
+          "ttl": null,
+          "ms": 84.4
+        },
+        "tcp": {},
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "23.213.12.200",
+            "23.213.12.208",
+            "23.213.12.187",
+            "23.213.12.225",
+            "23.213.12.218",
+            "23.213.12.186",
+            "23.213.12.194",
+            "23.213.12.210",
+            "23.213.12.216"
+          ],
+          "cname_chain": [
+            "www.flipkart.com.edgekey.net",
+            "e348826.dsca.akamaiedge.net"
+          ],
+          "ttl": 15,
+          "ms": 102.8
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "23.213.12.200",
+              "ok": true,
+              "ms": 104.4
+            }
+          ],
+          "shim": false,
+          "addr": "23.213.12.200"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "flipkart.com",
+          "cert_not_after": "Dec 20 23:59:59 2026 GMT",
+          "ms": 207.5
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 714.1,
+          "ok": true
+        }
+      }
+    },
+    "https://static-assets-web.flixcart.com:443": {
+      "origin": "https://static-assets-web.flixcart.com:443",
+      "host": "static-assets-web.flixcart.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/61de2ce237c96f508f4c95152542be2f/DesktopComponents.css",
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "dns",
+        "failure_code": "DNS_NO_AAAA",
+        "dns": {
+          "ok": false,
+          "rcode": "NOERROR",
+          "addresses": [],
+          "cname_chain": [
+            "static-assets-web.flixcart.com-new.edgekey.net",
+            "e127545.b.akamaiedge.net"
+          ],
+          "ttl": null,
+          "ms": 87.5
+        },
+        "tcp": {},
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "23.223.245.147",
+            "23.223.245.148",
+            "23.223.245.150",
+            "23.223.245.136",
+            "23.223.245.140",
+            "23.223.245.132",
+            "23.223.245.151",
+            "23.223.245.141",
+            "23.223.245.133"
+          ],
+          "cname_chain": [
+            "static-assets-web.flixcart.com-new.edgekey.net",
+            "e127545.b.akamaiedge.net"
+          ],
+          "ttl": 7,
+          "ms": 1.5
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "23.223.245.147",
+              "ok": true,
+              "ms": 97.5
+            }
+          ],
+          "shim": false,
+          "addr": "23.223.245.147"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.flixcart.com",
+          "cert_not_after": "Jan 17 23:59:59 2027 GMT",
+          "ms": 210.9
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 199.6,
+          "ok": true
+        }
+      }
+    },
+    "https://rukminim2.flixcart.com:443": {
+      "origin": "https://rukminim2.flixcart.com:443",
+      "host": "rukminim2.flixcart.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://rukminim2.flixcart.com/fk-p-flap/26/22/image/d2ecfddf891a3922.png?q=80",
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "dns",
+        "failure_code": "DNS_NO_AAAA",
+        "dns": {
+          "ok": false,
+          "rcode": "NOERROR",
+          "addresses": [],
+          "cname_chain": [
+            "rukminim2.flixcart.com.edgekey.net",
+            "e127545.b.akamaiedge.net"
+          ],
+          "ttl": null,
+          "ms": 89.6
+        },
+        "tcp": {},
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "23.223.245.148",
+            "23.223.245.151",
+            "23.223.245.132",
+            "23.223.245.140",
+            "23.223.245.150",
+            "23.223.245.136",
+            "23.223.245.141",
+            "23.223.245.133",
+            "23.223.245.147"
+          ],
+          "cname_chain": [
+            "rukminim2.flixcart.com.edgekey.net",
+            "e127545.b.akamaiedge.net"
+          ],
+          "ttl": 6,
+          "ms": 3.3
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "23.223.245.148",
+              "ok": true,
+              "ms": 93.9
+            }
+          ],
+          "shim": false,
+          "addr": "23.223.245.148"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.flixcart.com",
+          "cert_not_after": "Jan 17 23:59:59 2027 GMT",
+          "ms": 211.8
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 194.1,
+          "ok": true
+        }
+      }
+    },
+    "https://sonic.fdp.api.flipkart.com:443": {
+      "origin": "https://sonic.fdp.api.flipkart.com:443",
+      "host": "sonic.fdp.api.flipkart.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://sonic.fdp.api.flipkart.com/4/data/collector/business",
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "dns",
+        "failure_code": "DNS_NO_AAAA",
+        "dns": {
+          "ok": false,
+          "rcode": "NOERROR",
+          "addresses": [],
+          "cname_chain": [],
+          "ttl": null,
+          "ms": 5.7
+        },
+        "tcp": {},
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": "http",
+        "failure_code": "HTTP_429",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "34.36.209.50"
+          ],
+          "cname_chain": [],
+          "ttl": 150,
+          "ms": 1.3
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "34.36.209.50",
+              "ok": true,
+              "ms": 71.1
+            }
+          ],
+          "shim": false,
+          "addr": "34.36.209.50"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "www.sonic.fdp.api.flipkart.com",
+          "cert_not_after": "Jan 30 04:16:54 2027 GMT",
+          "ms": 206.1
+        },
+        "http": {
+          "status": 429,
+          "reason": "Too Many Requests",
+          "location": null,
+          "server": null,
+          "ms": 303.7,
+          "ok": false
+        }
+      }
+    },
+    "https://js-agent.newrelic.com:443": {
+      "origin": "https://js-agent.newrelic.com:443",
+      "host": "js-agent.newrelic.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://js-agent.newrelic.com/nr-spa-1.317.0.min.js",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2602:816:5001::39"
+          ],
+          "cname_chain": [],
+          "ttl": 210,
+          "ms": 1.1,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2602:816:5001::39",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.1
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "162.247.243.39"
+          ],
+          "cname_chain": [],
+          "ttl": 1864,
+          "ms": 6.8
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "162.247.243.39",
+              "ok": true,
+              "ms": 277.7
+            }
+          ],
+          "shim": false,
+          "addr": "162.247.243.39"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "js-agent.newrelic.com",
+          "cert_not_after": "Dec 27 19:58:07 2026 GMT",
+          "ms": 406.7
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 612.4,
+          "ok": true
+        }
+      }
+    },
+    "https://1.rome.api.flipkart.com:443": {
+      "origin": "https://1.rome.api.flipkart.com:443",
+      "host": "1.rome.api.flipkart.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://1.rome.api.flipkart.com/4/user/state",
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "dns",
+        "failure_code": "DNS_NO_AAAA",
+        "dns": {
+          "ok": false,
+          "rcode": "NOERROR",
+          "addresses": [],
+          "cname_chain": [],
+          "ttl": null,
+          "ms": 3.2
+        },
+        "tcp": {},
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": "http",
+        "failure_code": "HTTP_TIMEOUT",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "103.243.33.5"
+          ],
+          "cname_chain": [],
+          "ttl": 48,
+          "ms": 5.1
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "103.243.33.5",
+              "ok": true,
+              "ms": 66.7
+            }
+          ],
+          "shim": false,
+          "addr": "103.243.33.5"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.2",
+          "cipher": "ECDHE-ECDSA-AES128-GCM-SHA256",
+          "cert_cn": "www.rome.api.flipkart.net",
+          "cert_not_after": "Feb 25 03:36:31 2027 GMT",
+          "ms": 309.0
+        },
+        "http": {
+          "ms": 5004.8,
+          "ok": false,
+          "error": "TimeoutError: The read operation timed out"
+        }
+      }
+    },
+    "https://2.sonic.fdp.api.flipkart.com:443": {
+      "origin": "https://2.sonic.fdp.api.flipkart.com:443",
+      "host": "2.sonic.fdp.api.flipkart.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://2.sonic.fdp.api.flipkart.com/4/data/collector/business",
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "dns",
+        "failure_code": "DNS_NO_AAAA",
+        "dns": {
+          "ok": false,
+          "rcode": "NOERROR",
+          "addresses": [],
+          "cname_chain": [],
+          "ttl": null,
+          "ms": 6.0
+        },
+        "tcp": {},
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": "http",
+        "failure_code": "HTTP_403",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "34.36.209.50"
+          ],
+          "cname_chain": [],
+          "ttl": 151,
+          "ms": 0.5
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "34.36.209.50",
+              "ok": true,
+              "ms": 70.6
+            }
+          ],
+          "shim": false,
+          "addr": "34.36.209.50"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "www.sonic.fdp.api.flipkart.com",
+          "cert_not_after": "Jan 30 04:16:54 2027 GMT",
+          "ms": 199.8
+        },
+        "http": {
+          "status": 403,
+          "reason": "Forbidden",
+          "location": null,
+          "server": null,
+          "ms": 197.8,
+          "ok": false
+        }
+      }
+    },
+    "https://bam.nr-data.net:443": {
+      "origin": "https://bam.nr-data.net:443",
+      "host": "bam.nr-data.net",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://bam.nr-data.net/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.317.0&t=Unnamed%20Transaction&rst=5243&ck=0&s=1f8af2b549eec0a0&ref=https://www.flipkart.com/&ptid=52e730e73e9780b6&af=err,spa,xhr,stn,ins&be=1010&fe=3100&dc=2253&fsh=1&perf=%7B%22timing%22:%7B%22of%22:1792388418490,%22n%22:0,%22f%22:26,%22dn%22:30,%22dne%22:30,%22c%22:30,%22s%22:99,%22ce%22:218,%22rq%22:218,%22rp%22:1011,%22rpe%22:1425,%22di%22:1824,%22ds%22:3263,%22de%22:3263,%22dc%22:4106,%22l%22:4106,%22le%22:4110%7D,%22navigation%22:%7B%7D%7D&fp=1868&fcp=1868",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "::ffff:a2f7:f31d"
+          ],
+          "cname_chain": [
+            "bam.cell.nr-data.net",
+            "fastly-tls12-bam.nr-data.net"
+          ],
+          "ttl": 2422,
+          "ms": 4.2,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "::ffff:a2f7:f31d",
+              "ok": true,
+              "ms": 289.4
+            }
+          ],
+          "shim": false,
+          "addr": "::ffff:a2f7:f31d"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "*.nr-data.net",
+          "cert_not_after": "Jan 20 23:59:59 2027 GMT",
+          "ms": 389.3
+        },
+        "http": {
+          "status": 200,
+          "reason": "",
+          "location": null,
+          "server": null,
+          "ms": 635.9,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "162.247.243.29"
+          ],
+          "cname_chain": [
+            "bam.cell.nr-data.net",
+            "fastly-tls12-bam.nr-data.net"
+          ],
+          "ttl": 21,
+          "ms": 2.5
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "162.247.243.29",
+              "ok": true,
+              "ms": 381.1
+            }
+          ],
+          "shim": false,
+          "addr": "162.247.243.29"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "*.nr-data.net",
+          "cert_not_after": "Jan 20 23:59:59 2027 GMT",
+          "ms": 413.1
+        },
+        "http": {
+          "status": 200,
+          "reason": "",
+          "location": null,
+          "server": null,
+          "ms": 630.2,
+          "ok": true
+        }
+      }
+    }
+  },
+  "site": {
+    "category": "E-commerce",
+    "name": "Flipkart",
+    "url": "https://www.flipkart.com/"
+  }
+}

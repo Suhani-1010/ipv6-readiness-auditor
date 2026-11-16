@@ -1,0 +1,1421 @@
+{
+  "schema": "ipv6-readiness-audit/1",
+  "page": "https://www.bench.test:8440/",
+  "final_url": "https://www.bench.test:8440/",
+  "started_utc": "2026-10-19T05:23:05+00:00",
+  "load_seconds": 3.16,
+  "vantage": {
+    "nat64_prefixes": [],
+    "ipv6_stack": true,
+    "ipv6_default_route": false,
+    "ipv4_default_route": true,
+    "lab_v6_shim": false,
+    "pathway": "ipv4-only"
+  },
+  "capture_errors": [],
+  "summary": {
+    "page_verdict": "BROKEN_ON_IPV6",
+    "root_verdict": "READY",
+    "root_has_aaaa": true,
+    "resources_total": 13,
+    "origins_total": 12,
+    "resources_by_verdict": {
+      "READY": 4,
+      "IPV6_TCP_FAIL": 1,
+      "IPV4_ONLY": 3,
+      "IPV6_TLS_FAIL": 1,
+      "IPV6_HTTP_FAIL": 2,
+      "IPV4_ONLY_NAT64": 1,
+      "BROKEN_BOTH": 1
+    },
+    "origins_by_verdict": {
+      "READY": 3,
+      "IPV6_TCP_FAIL": 1,
+      "IPV4_ONLY": 3,
+      "IPV6_TLS_FAIL": 1,
+      "IPV6_HTTP_FAIL": 2,
+      "IPV4_ONLY_NAT64": 1,
+      "BROKEN_BOTH": 1
+    },
+    "ipv6_failures_by_stage": {
+      "tcp": 1,
+      "dns": 4,
+      "tls": 1,
+      "http": 2
+    },
+    "ipv6_failing_resources": 8,
+    "inconclusive_resources": 0,
+    "ipv6_failing_critical": 5,
+    "ipv6_failing_third_party": 0,
+    "resource_ipv6_ready_pct": 30.8,
+    "ipv4_only_hosts": [
+      "api-v4.bench.test",
+      "cdn.bench.test",
+      "v4only.bench.test"
+    ],
+    "aaaa_but_broken_hosts": [
+      "forbid6.bench.test",
+      "redir6.bench.test",
+      "tcpdrop.bench.test",
+      "tlsbad.bench.test"
+    ],
+    "root_host": "www.bench.test"
+  },
+  "tree": {
+    "root": "https://www.bench.test:8440/",
+    "edges": [
+      [
+        "https://www.bench.test:8440/",
+        "https://static.bench.test:8441/style.css"
+      ],
+      [
+        "https://www.bench.test:8440/",
+        "https://tcpdrop.bench.test:8445/broken.css"
+      ],
+      [
+        "https://www.bench.test:8440/",
+        "https://static.bench.test:8441/app.js"
+      ],
+      [
+        "https://www.bench.test:8440/",
+        "https://cdn.bench.test:8444/lib.js"
+      ],
+      [
+        "https://www.bench.test:8440/",
+        "https://tlsbad.bench.test:8446/widget.js"
+      ],
+      [
+        "https://www.bench.test:8440/",
+        "https://v4only.bench.test:8443/logo.png"
+      ],
+      [
+        "https://www.bench.test:8440/",
+        "https://redir6.bench.test:8448/banner.png"
+      ],
+      [
+        "https://www.bench.test:8440/",
+        "https://synth.bench.test:8451/pixel.png"
+      ],
+      [
+        "https://www.bench.test:8440/",
+        "https://broken-both.bench.test:8450/missing.png"
+      ],
+      [
+        "https://static.bench.test:8441/app.js",
+        "https://forbid6.bench.test:8447/api/data.json"
+      ],
+      [
+        "https://static.bench.test:8441/app.js",
+        "https://api-v4.bench.test:8449/api/v.json"
+      ],
+      [
+        "https://static.bench.test:8441/style.css",
+        "https://fonts.bench.test:8442/bench.woff2"
+      ]
+    ]
+  },
+  "resources": {
+    "https://www.bench.test:8440/": {
+      "url": "https://www.bench.test:8440/",
+      "resource_type": "Document",
+      "initiator_type": "other",
+      "parent": null,
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "127.0.0.1",
+      "count": 1,
+      "depth": 0,
+      "host": "www.bench.test",
+      "origin": "https://www.bench.test:8440",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://static.bench.test:8441/style.css": {
+      "url": "https://static.bench.test:8441/style.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.bench.test:8440/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "127.0.0.1",
+      "count": 1,
+      "depth": 1,
+      "host": "static.bench.test",
+      "origin": "https://static.bench.test:8441",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://tcpdrop.bench.test:8445/broken.css": {
+      "url": "https://tcpdrop.bench.test:8445/broken.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.bench.test:8440/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "127.0.0.1",
+      "count": 1,
+      "depth": 1,
+      "host": "tcpdrop.bench.test",
+      "origin": "https://tcpdrop.bench.test:8445",
+      "third_party": false,
+      "verdict": "IPV6_TCP_FAIL",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_REFUSED",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://static.bench.test:8441/app.js": {
+      "url": "https://static.bench.test:8441/app.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.bench.test:8440/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "127.0.0.1",
+      "count": 1,
+      "depth": 1,
+      "host": "static.bench.test",
+      "origin": "https://static.bench.test:8441",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://cdn.bench.test:8444/lib.js": {
+      "url": "https://cdn.bench.test:8444/lib.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.bench.test:8440/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "127.0.0.1",
+      "count": 1,
+      "depth": 1,
+      "host": "cdn.bench.test",
+      "origin": "https://cdn.bench.test:8444",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://tlsbad.bench.test:8446/widget.js": {
+      "url": "https://tlsbad.bench.test:8446/widget.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.bench.test:8440/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "127.0.0.1",
+      "count": 1,
+      "depth": 1,
+      "host": "tlsbad.bench.test",
+      "origin": "https://tlsbad.bench.test:8446",
+      "third_party": false,
+      "verdict": "IPV6_TLS_FAIL",
+      "failed_stage": "tls",
+      "failure_code": "TLS_CERT_NAME_MISMATCH",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://v4only.bench.test:8443/logo.png": {
+      "url": "https://v4only.bench.test:8443/logo.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.bench.test:8440/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "127.0.0.1",
+      "count": 1,
+      "depth": 1,
+      "host": "v4only.bench.test",
+      "origin": "https://v4only.bench.test:8443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://redir6.bench.test:8448/banner.png": {
+      "url": "https://redir6.bench.test:8448/banner.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.bench.test:8440/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "127.0.0.1",
+      "count": 1,
+      "depth": 1,
+      "host": "redir6.bench.test",
+      "origin": "https://redir6.bench.test:8448",
+      "third_party": false,
+      "verdict": "IPV6_HTTP_FAIL",
+      "failed_stage": "http",
+      "failure_code": "HTTP_REDIRECT_TO_IPV4_ONLY",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://synth.bench.test:8451/pixel.png": {
+      "url": "https://synth.bench.test:8451/pixel.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.bench.test:8440/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "127.0.0.1",
+      "count": 1,
+      "depth": 1,
+      "host": "synth.bench.test",
+      "origin": "https://synth.bench.test:8451",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://broken-both.bench.test:8450/missing.png": {
+      "url": "https://broken-both.bench.test:8450/missing.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.bench.test:8440/",
+      "status": 500,
+      "browser_error": null,
+      "remote_ip": "127.0.0.1",
+      "count": 1,
+      "depth": 1,
+      "host": "broken-both.bench.test",
+      "origin": "https://broken-both.bench.test:8450",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_500",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://forbid6.bench.test:8447/api/data.json": {
+      "url": "https://forbid6.bench.test:8447/api/data.json",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://static.bench.test:8441/app.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "127.0.0.1",
+      "count": 1,
+      "depth": 2,
+      "host": "forbid6.bench.test",
+      "origin": "https://forbid6.bench.test:8447",
+      "third_party": false,
+      "verdict": "IPV6_HTTP_FAIL",
+      "failed_stage": "http",
+      "failure_code": "HTTP_403",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://api-v4.bench.test:8449/api/v.json": {
+      "url": "https://api-v4.bench.test:8449/api/v.json",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://static.bench.test:8441/app.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "127.0.0.1",
+      "count": 1,
+      "depth": 2,
+      "host": "api-v4.bench.test",
+      "origin": "https://api-v4.bench.test:8449",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://fonts.bench.test:8442/bench.woff2": {
+      "url": "https://fonts.bench.test:8442/bench.woff2",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://static.bench.test:8441/style.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "127.0.0.1",
+      "count": 1,
+      "depth": 2,
+      "host": "fonts.bench.test",
+      "origin": "https://fonts.bench.test:8442",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    }
+  },
+  "origins": {
+    "https://www.bench.test:8440": {
+      "origin": "https://www.bench.test:8440",
+      "host": "www.bench.test",
+      "port": 8440,
+      "scheme": "https",
+      "probe_url": "https://www.bench.test:8440/",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "::1"
+          ],
+          "cname_chain": [],
+          "ttl": 60,
+          "ms": 0.9,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "::1",
+              "ok": true,
+              "ms": 5.3
+            }
+          ],
+          "shim": false,
+          "addr": "::1"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.bench.test",
+          "cert_not_after": "Jan 20 18:52:26 2029 GMT",
+          "ms": 374.7
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "IPv6Bench/1.0 Python/3.12.3",
+          "ms": 15.6,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "127.0.0.1"
+          ],
+          "cname_chain": [],
+          "ttl": 60,
+          "ms": 17.8
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "127.0.0.1",
+              "ok": true,
+              "ms": 0.2
+            }
+          ],
+          "shim": false,
+          "addr": "127.0.0.1"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.bench.test",
+          "cert_not_after": "Jan 20 18:52:26 2029 GMT",
+          "ms": 217.8
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "IPv6Bench/1.0 Python/3.12.3",
+          "ms": 2.3,
+          "ok": true
+        }
+      }
+    },
+    "https://static.bench.test:8441": {
+      "origin": "https://static.bench.test:8441",
+      "host": "static.bench.test",
+      "port": 8441,
+      "scheme": "https",
+      "probe_url": "https://static.bench.test:8441/style.css",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "::1"
+          ],
+          "cname_chain": [],
+          "ttl": 60,
+          "ms": 2.2,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "::1",
+              "ok": true,
+              "ms": 0.7
+            }
+          ],
+          "shim": false,
+          "addr": "::1"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.bench.test",
+          "cert_not_after": "Jan 20 18:52:26 2029 GMT",
+          "ms": 346.6
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "IPv6Bench/1.0 Python/3.12.3",
+          "ms": 11.4,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "127.0.0.1"
+          ],
+          "cname_chain": [],
+          "ttl": 60,
+          "ms": 16.2
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "127.0.0.1",
+              "ok": true,
+              "ms": 0.2
+            }
+          ],
+          "shim": false,
+          "addr": "127.0.0.1"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.bench.test",
+          "cert_not_after": "Jan 20 18:52:26 2029 GMT",
+          "ms": 224.6
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "IPv6Bench/1.0 Python/3.12.3",
+          "ms": 2.9,
+          "ok": true
+        }
+      }
+    },
+    "https://tcpdrop.bench.test:8445": {
+      "origin": "https://tcpdrop.bench.test:8445",
+      "host": "tcpdrop.bench.test",
+      "port": 8445,
+      "scheme": "https",
+      "probe_url": "https://tcpdrop.bench.test:8445/broken.css",
+      "verdict": "IPV6_TCP_FAIL",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_REFUSED",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_REFUSED",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "::1"
+          ],
+          "cname_chain": [],
+          "ttl": 60,
+          "ms": 5.3,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "::1",
+              "ok": false,
+              "code": "TCP_REFUSED",
+              "error": "ConnectionRefusedError: [Errno 111] Connection refused",
+              "ms": 8.6
+            }
+          ],
+          "shim": false,
+          "error": "ConnectionRefusedError: [Errno 111] Connection refused"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "127.0.0.1"
+          ],
+          "cname_chain": [],
+          "ttl": 60,
+          "ms": 6.3
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "127.0.0.1",
+              "ok": true,
+              "ms": 0.1
+            }
+          ],
+          "shim": false,
+          "addr": "127.0.0.1"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.bench.test",
+          "cert_not_after": "Jan 20 18:52:26 2029 GMT",
+          "ms": 332.3
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "IPv6Bench/1.0 Python/3.12.3",
+          "ms": 25.8,
+          "ok": true
+        }
+      }
+    },
+    "https://cdn.bench.test:8444": {
+      "origin": "https://cdn.bench.test:8444",
+      "host": "cdn.bench.test",
+      "port": 8444,
+      "scheme": "https",
+      "probe_url": "https://cdn.bench.test:8444/lib.js",
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "dns",
+        "failure_code": "DNS_NO_AAAA",
+        "dns": {
+          "ok": false,
+          "rcode": "NOERROR",
+          "addresses": [],
+          "cname_chain": [
+            "origin-v4.bench.test"
+          ],
+          "ttl": null,
+          "ms": 25.8
+        },
+        "tcp": {},
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "127.0.0.1"
+          ],
+          "cname_chain": [
+            "origin-v4.bench.test"
+          ],
+          "ttl": 60,
+          "ms": 15.0
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "127.0.0.1",
+              "ok": true,
+              "ms": 0.6
+            }
+          ],
+          "shim": false,
+          "addr": "127.0.0.1"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.bench.test",
+          "cert_not_after": "Jan 20 18:52:26 2029 GMT",
+          "ms": 358.2
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "IPv6Bench/1.0 Python/3.12.3",
+          "ms": 12.8,
+          "ok": true
+        }
+      }
+    },
+    "https://tlsbad.bench.test:8446": {
+      "origin": "https://tlsbad.bench.test:8446",
+      "host": "tlsbad.bench.test",
+      "port": 8446,
+      "scheme": "https",
+      "probe_url": "https://tlsbad.bench.test:8446/widget.js",
+      "verdict": "IPV6_TLS_FAIL",
+      "failed_stage": "tls",
+      "failure_code": "TLS_CERT_NAME_MISMATCH",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tls",
+        "failure_code": "TLS_CERT_NAME_MISMATCH",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "::1"
+          ],
+          "cname_chain": [],
+          "ttl": 60,
+          "ms": 9.3,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "::1",
+              "ok": true,
+              "ms": 0.7
+            }
+          ],
+          "shim": false,
+          "addr": "::1"
+        },
+        "tls": {
+          "ms": 371.3,
+          "ok": false,
+          "error": "SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'tlsbad.bench.test'. (_ssl.c:1000)"
+        },
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "127.0.0.1"
+          ],
+          "cname_chain": [],
+          "ttl": 60,
+          "ms": 5.0
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "127.0.0.1",
+              "ok": true,
+              "ms": 15.1
+            }
+          ],
+          "shim": false,
+          "addr": "127.0.0.1"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.bench.test",
+          "cert_not_after": "Jan 20 18:52:26 2029 GMT",
+          "ms": 212.0
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "IPv6Bench/1.0 Python/3.12.3",
+          "ms": 3.1,
+          "ok": true
+        }
+      }
+    },
+    "https://v4only.bench.test:8443": {
+      "origin": "https://v4only.bench.test:8443",
+      "host": "v4only.bench.test",
+      "port": 8443,
+      "scheme": "https",
+      "probe_url": "https://v4only.bench.test:8443/logo.png",
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "dns",
+        "failure_code": "DNS_NO_AAAA",
+        "dns": {
+          "ok": false,
+          "rcode": "NOERROR",
+          "addresses": [],
+          "cname_chain": [],
+          "ttl": null,
+          "ms": 7.6
+        },
+        "tcp": {},
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "127.0.0.1"
+          ],
+          "cname_chain": [],
+          "ttl": 60,
+          "ms": 17.3
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "127.0.0.1",
+              "ok": true,
+              "ms": 0.1
+            }
+          ],
+          "shim": false,
+          "addr": "127.0.0.1"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.bench.test",
+          "cert_not_after": "Jan 20 18:52:26 2029 GMT",
+          "ms": 322.3
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "IPv6Bench/1.0 Python/3.12.3",
+          "ms": 23.2,
+          "ok": true
+        }
+      }
+    },
+    "https://redir6.bench.test:8448": {
+      "origin": "https://redir6.bench.test:8448",
+      "host": "redir6.bench.test",
+      "port": 8448,
+      "scheme": "https",
+      "probe_url": "https://redir6.bench.test:8448/banner.png",
+      "verdict": "IPV6_HTTP_FAIL",
+      "failed_stage": "http",
+      "failure_code": "HTTP_REDIRECT_TO_IPV4_ONLY",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "http",
+        "failure_code": "HTTP_REDIRECT_TO_IPV4_ONLY",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "::1"
+          ],
+          "cname_chain": [],
+          "ttl": 60,
+          "ms": 11.0,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "::1",
+              "ok": true,
+              "ms": 0.2
+            }
+          ],
+          "shim": false,
+          "addr": "::1"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.bench.test",
+          "cert_not_after": "Jan 20 18:52:26 2029 GMT",
+          "ms": 387.1
+        },
+        "http": {
+          "status": 302,
+          "reason": "Found",
+          "location": "https://v4only.bench.test:8443/moved.png",
+          "server": "IPv6Bench/1.0 Python/3.12.3",
+          "ms": 12.4,
+          "ok": false,
+          "redirect_host": "v4only.bench.test",
+          "redirect_host_has_aaaa": false,
+          "error": "redirects to v4only.bench.test which has no AAAA"
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "127.0.0.1"
+          ],
+          "cname_chain": [],
+          "ttl": 60,
+          "ms": 6.9
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "127.0.0.1",
+              "ok": true,
+              "ms": 3.9
+            }
+          ],
+          "shim": false,
+          "addr": "127.0.0.1"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.bench.test",
+          "cert_not_after": "Jan 20 18:52:26 2029 GMT",
+          "ms": 194.4
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "IPv6Bench/1.0 Python/3.12.3",
+          "ms": 1.6,
+          "ok": true
+        }
+      }
+    },
+    "https://synth.bench.test:8451": {
+      "origin": "https://synth.bench.test:8451",
+      "host": "synth.bench.test",
+      "port": 8451,
+      "scheme": "https",
+      "probe_url": "https://synth.bench.test:8451/pixel.png",
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "64:ff9b::7f00:1"
+          ],
+          "cname_chain": [],
+          "ttl": 60,
+          "ms": 8.2,
+          "synthesized": true
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "64:ff9b::7f00:1",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.1
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "127.0.0.1"
+          ],
+          "cname_chain": [],
+          "ttl": 60,
+          "ms": 21.6
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "127.0.0.1",
+              "ok": true,
+              "ms": 0.1
+            }
+          ],
+          "shim": false,
+          "addr": "127.0.0.1"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.bench.test",
+          "cert_not_after": "Jan 20 18:52:26 2029 GMT",
+          "ms": 310.5
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "IPv6Bench/1.0 Python/3.12.3",
+          "ms": 19.5,
+          "ok": true
+        }
+      }
+    },
+    "https://broken-both.bench.test:8450": {
+      "origin": "https://broken-both.bench.test:8450",
+      "host": "broken-both.bench.test",
+      "port": 8450,
+      "scheme": "https",
+      "probe_url": "https://broken-both.bench.test:8450/missing.png",
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_500",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "http",
+        "failure_code": "HTTP_500",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "::1"
+          ],
+          "cname_chain": [],
+          "ttl": 60,
+          "ms": 15.7,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "::1",
+              "ok": true,
+              "ms": 0.2
+            }
+          ],
+          "shim": false,
+          "addr": "::1"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.bench.test",
+          "cert_not_after": "Jan 20 18:52:26 2029 GMT",
+          "ms": 328.6
+        },
+        "http": {
+          "status": 500,
+          "reason": "Internal Server Error",
+          "location": null,
+          "server": "IPv6Bench/1.0 Python/3.12.3",
+          "ms": 25.1,
+          "ok": false
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": "http",
+        "failure_code": "HTTP_500",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "127.0.0.1"
+          ],
+          "cname_chain": [],
+          "ttl": 60,
+          "ms": 3.5
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "127.0.0.1",
+              "ok": true,
+              "ms": 8.4
+            }
+          ],
+          "shim": false,
+          "addr": "127.0.0.1"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.bench.test",
+          "cert_not_after": "Jan 20 18:52:26 2029 GMT",
+          "ms": 144.9
+        },
+        "http": {
+          "status": 500,
+          "reason": "Internal Server Error",
+          "location": null,
+          "server": "IPv6Bench/1.0 Python/3.12.3",
+          "ms": 4.7,
+          "ok": false
+        }
+      }
+    },
+    "https://forbid6.bench.test:8447": {
+      "origin": "https://forbid6.bench.test:8447",
+      "host": "forbid6.bench.test",
+      "port": 8447,
+      "scheme": "https",
+      "probe_url": "https://forbid6.bench.test:8447/api/data.json",
+      "verdict": "IPV6_HTTP_FAIL",
+      "failed_stage": "http",
+      "failure_code": "HTTP_403",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "http",
+        "failure_code": "HTTP_403",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "::1"
+          ],
+          "cname_chain": [],
+          "ttl": 60,
+          "ms": 15.8,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "::1",
+              "ok": true,
+              "ms": 0.2
+            }
+          ],
+          "shim": false,
+          "addr": "::1"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.bench.test",
+          "cert_not_after": "Jan 20 18:52:26 2029 GMT",
+          "ms": 361.5
+        },
+        "http": {
+          "status": 403,
+          "reason": "Forbidden",
+          "location": null,
+          "server": "IPv6Bench/1.0 Python/3.12.3",
+          "ms": 10.3,
+          "ok": false
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "127.0.0.1"
+          ],
+          "cname_chain": [],
+          "ttl": 60,
+          "ms": 3.0
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "127.0.0.1",
+              "ok": true,
+              "ms": 0.1
+            }
+          ],
+          "shim": false,
+          "addr": "127.0.0.1"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.bench.test",
+          "cert_not_after": "Jan 20 18:52:26 2029 GMT",
+          "ms": 198.2
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "IPv6Bench/1.0 Python/3.12.3",
+          "ms": 10.1,
+          "ok": true
+        }
+      }
+    },
+    "https://api-v4.bench.test:8449": {
+      "origin": "https://api-v4.bench.test:8449",
+      "host": "api-v4.bench.test",
+      "port": 8449,
+      "scheme": "https",
+      "probe_url": "https://api-v4.bench.test:8449/api/v.json",
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "dns",
+        "failure_code": "DNS_NO_AAAA",
+        "dns": {
+          "ok": false,
+          "rcode": "NOERROR",
+          "addresses": [],
+          "cname_chain": [],
+          "ttl": null,
+          "ms": 27.9
+        },
+        "tcp": {},
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "127.0.0.1"
+          ],
+          "cname_chain": [],
+          "ttl": 60,
+          "ms": 4.3
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "127.0.0.1",
+              "ok": true,
+              "ms": 0.1
+            }
+          ],
+          "shim": false,
+          "addr": "127.0.0.1"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.bench.test",
+          "cert_not_after": "Jan 20 18:52:26 2029 GMT",
+          "ms": 364.0
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "IPv6Bench/1.0 Python/3.12.3",
+          "ms": 10.5,
+          "ok": true
+        }
+      }
+    },
+    "https://fonts.bench.test:8442": {
+      "origin": "https://fonts.bench.test:8442",
+      "host": "fonts.bench.test",
+      "port": 8442,
+      "scheme": "https",
+      "probe_url": "https://fonts.bench.test:8442/bench.woff2",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "::1"
+          ],
+          "cname_chain": [],
+          "ttl": 60,
+          "ms": 27.6,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "::1",
+              "ok": true,
+              "ms": 0.2
+            }
+          ],
+          "shim": false,
+          "addr": "::1"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.bench.test",
+          "cert_not_after": "Jan 20 18:52:26 2029 GMT",
+          "ms": 322.2
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "IPv6Bench/1.0 Python/3.12.3",
+          "ms": 12.6,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "127.0.0.1"
+          ],
+          "cname_chain": [],
+          "ttl": 60,
+          "ms": 13.6
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "127.0.0.1",
+              "ok": true,
+              "ms": 0.4
+            }
+          ],
+          "shim": false,
+          "addr": "127.0.0.1"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.bench.test",
+          "cert_not_after": "Jan 20 18:52:26 2029 GMT",
+          "ms": 71.7
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "IPv6Bench/1.0 Python/3.12.3",
+          "ms": 4.4,
+          "ok": true
+        }
+      }
+    }
+  }
+}

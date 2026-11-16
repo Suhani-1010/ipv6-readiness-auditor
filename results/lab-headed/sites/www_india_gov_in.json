@@ -1,0 +1,4945 @@
+{
+  "schema": "ipv6-readiness-audit/1",
+  "page": "https://www.india.gov.in/",
+  "final_url": "https://www.india.gov.in/",
+  "started_utc": "2026-10-19T05:36:14+00:00",
+  "load_seconds": 8.87,
+  "vantage": {
+    "nat64_prefixes": [],
+    "ipv6_stack": true,
+    "ipv6_default_route": false,
+    "ipv4_default_route": true,
+    "lab_v6_shim": false,
+    "pathway": "ipv4-only"
+  },
+  "capture_errors": [],
+  "summary": {
+    "page_verdict": "INCONCLUSIVE_NO_IPV6",
+    "root_verdict": "INCONCLUSIVE_NO_IPV6",
+    "root_has_aaaa": true,
+    "resources_total": 162,
+    "origins_total": 13,
+    "resources_by_verdict": {
+      "INCONCLUSIVE_NO_IPV6": 138,
+      "IPV4_ONLY": 24
+    },
+    "origins_by_verdict": {
+      "INCONCLUSIVE_NO_IPV6": 10,
+      "IPV4_ONLY": 3
+    },
+    "ipv6_failures_by_stage": {
+      "dns": 3
+    },
+    "ipv6_failing_resources": 24,
+    "inconclusive_resources": 138,
+    "ipv6_failing_critical": 22,
+    "ipv6_failing_third_party": 6,
+    "resource_ipv6_ready_pct": 0.0,
+    "ipv4_only_hosts": [
+      "static.india.gov.in",
+      "swalekh.blob.core.windows.net",
+      "translation-plugin.bhashini.co.in"
+    ],
+    "aaaa_but_broken_hosts": [],
+    "root_host": "www.india.gov.in"
+  },
+  "tree": {
+    "root": "https://www.india.gov.in/",
+    "edges": [
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/image/icons/Group_145.svg"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/image/appQR.svg"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/css/773d3d9c137ae05a.css"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/css/1caf98fe5afcf686.css"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/css/7c4b455c56926ef3.css"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/css/e6c5daf09d42192a.css"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/css/f17484a730f05f94.css"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/css/968f32e949c6b0ba.css"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/css/75a05c45c473aa0b.css"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/css/304be6acfab6d78f.css"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/webpack-10ed33032664d8b1.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/fd9d1056-4178a25c2e929229.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/2117-52e1d74653ccdbac.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/main-app-5294d1645fe5526e.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/9081a741-e789f328cd24e31f.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/39209d7c-7c81834a8cf8e1f3.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/bc9c3264-1b623f6be7cf1d72.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/39aecf79-b851afef7d993619.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/b5c10047-670c18a7d5ac7552.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/4f9d9cd8-af9fbb187ebd5a11.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/e685ae08-b6fc443b169fae11.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/07115393-910319e55ef53f31.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/00cbbcb7-9cda0f102222ea91.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/ec3863c0-b59987586d274053.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/93854f56-851372217593054a.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/3627521c-4ad2d9eb8729a0b5.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/8e68d877-34d9b0bd669e190d.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/8dc5345f-588aa3d8871ff9e6.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/4f53ad1b-e842d8b664982074.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/358ff52d-6ef889cb9e9394c5.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/623-111f50f8b6fb4bf8.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/5856-9c44ea48b9af410a.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/6137-bac00d6a3729a579.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/7122-073d285f5cece9ba.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/1575-4d1bdc1bc3b17e53.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/5657-e70b5277598e0d0f.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/8126-61a19593d2352609.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/2972-7c47aa0e84f48dd2.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/1517-16bdf27171edf271.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/4650-2d018c0082b4ed6e.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/521-0c3f0c003dddbc1d.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/8807-f1532edff6bf834c.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/957-95777021c5900105.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/2701-f6129749a54cbfc8.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/2667-13fe0bfcda58b5bd.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/8946-c7c2d3d80adbe8bd.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/app/layout-05c3990ec25cd937.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/4613-de9c60c195515c8b.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/3909-512339777a5070a0.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/2172-4c49c3d9802d4539.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/app/not-found-41ec5c3748a50578.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/app/global-error-2e95d2138604216f.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.googletagmanager.com/gtag/js?id=G-XSZTHBMN8B"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/js/cookieconsent.min.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://code.jquery.com/jquery-3.7.1.min.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://swalekh.blob.core.windows.net/swk-version/nic-dec-2024-build-swalekh-main.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://cdn.jsdelivr.net/npm/reverie-stt-sdk/dist/bundle.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/13b76428-986370a7a95036bb.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/8274-2c5f0d09f26dbae2.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/8886-ced22e1699fa0da3.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/1029-6b535764f9880aac.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/9467-6d39bb2858f28a80.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/static/chunks/app/page-eb881f5dedcd9417.js"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/image/npi_logo.svg"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/image/Left_quotes.svg"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/image/Right_quotes.svg"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://static2.india.gov.in/npiprod/uploads/water_e055dd1642.jpg"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://static2.india.gov.in/npiprod/uploads/NCERT_b7c03d904c.jpg"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://static2.india.gov.in/npiprod/uploads/agmarknet_a46d292c72.jpg"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://static2.india.gov.in/npiprod/uploads/interact_With_PM_08736f3c1e.jpg"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://static2.india.gov.in/npiprod/uploads/job_seekers_8bb287414e.jpg"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://static2.india.gov.in/npiprod/uploads/e_sanjeevani_626f9eef48.jpg"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://static2.india.gov.in/npiprod/uploads/Bhavisya_6a3973f00b.jpg"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://static2.india.gov.in/npiprod/uploads/ujjwala_77aade7ab0.jpg"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://cbpssubscriber.mygov.in/assets/uploads/3rpbtfC38B9muoRQ?v=1"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://static2.india.gov.in/npiprod/uploads/PM_rahat_9d7680eb34.jpg"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://static2.india.gov.in/npiprod/uploads/Smile_c0773976f3.jpg"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://static2.india.gov.in/npiprod/uploads/seva_first_9fa83bff1c.png"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://static2.india.gov.in/npiprod/uploads/dbn_7d3352cf91.png"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/image/static/whowho-landing-vector.svg"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/image/myscheme-logo.svg"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/image/pibDefaultLogo.png"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/image/ddDefaultLogo.png"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/image/airDefaultLogo.png"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://static2.india.gov.in/npiprod/uploads/pm_rahat_home_439d4f7a94.png"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/image/static/ExploreBharatBGLeftVector.png"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/image/static/ExploreBharatBGRightVector.png"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://static2.india.gov.in/npiprod/uploads/Hawa_Mahal_be58ad6eb9.jpg"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://static2.india.gov.in/npiprod/uploads/culinary_740698f49c.png"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://static2.india.gov.in/npiprod/uploads/Group_1000004357_1_11b4946099.png"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://static2.india.gov.in/npiprod/uploads/a_g_Yu_Qg_N_Yku1_M8_unsplash_1_1b182a0ec2.jpg"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://static2.india.gov.in/npiprod/uploads/teracotta_23519ecedc_73d7e7c01d.jpg"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://static.mygov.in/static/resources/s3fs-public/2026-10/mygov_1792065593_c42284df.jpg"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://static.mygov.in/static/resources/s3fs-public/2026-10/mygov_1791792075_a8ebdb6b.jpeg"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://static.mygov.in/static/resources/s3fs-public/2026-10/mygov_1791895369_62efa4e7.jpeg"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/css/1caf98fe5afcf686.css",
+        "https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      ],
+      [
+        "https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+        "https://fonts.gstatic.com/s/notosans/v42/o-0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5a7duw.woff2"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/_next/image?url=%2Fimage%2Ficons%2FNIC_logo%201.png&w=256&q=75"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/css/f17484a730f05f94.css",
+        "https://www.india.gov.in/image/indiagate.jpg"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/css/1caf98fe5afcf686.css",
+        "https://www.india.gov.in/image/down-arrow-svgrepo-com.svg"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://static2.india.gov.in/npiprod/uploads/homepage_pm_1d70759837.jpg"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/css/1caf98fe5afcf686.css",
+        "https://www.india.gov.in/image/static/GovernmentDirectoriesVector.png"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/5657-e70b5277598e0d0f.js",
+        "https://www.india.gov.in/internal/cms"
+      ],
+      [
+        "https://www.googletagmanager.com/gtag/js?id=G-XSZTHBMN8B",
+        "https://www.google-analytics.com/g/collect?v=2&tid=G-XSZTHBMN8B&gtm=45je6ae1v9200502906za208zd9200502906xf1&_p=1792388178403&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1850409693.1792388179&frm=0&ngs=1&pscdl=noapi&rcb=13&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-in&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&sid=1792388178&sct=1&seg=0&dl=https%3A%2F%2Fwww.india.gov.in%2F&dt=Home%20%7C%20National%20Portal%20of%20India&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=3128"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://static2.india.gov.in/npiprod/uploads/rti_58e91f92db.png"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://static2.india.gov.in/npiprod/uploads/cpgrams_7d090b6de0.png"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://static2.india.gov.in/npiprod/uploads/data_gov_122b109c19.png"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://static2.india.gov.in/npiprod/uploads/pm_india_42c2e111a2.png"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://static2.india.gov.in/npiprod/uploads/digital_india_4ecbdd6d1b.png"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://static2.india.gov.in/npiprod/uploads/my_gov_525fb1a2f9.png"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://static2.india.gov.in/npiprod/uploads/Umang_logo_1_6f854656aa.png"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/faviconFlag.jpg"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/app/layout-05c3990ec25cd937.js",
+        "https://www.india.gov.in/image/icons/feedback.svg"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/2117-52e1d74653ccdbac.js",
+        "https://www.india.gov.in/calendar?_rsc=19zvn"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/webpack-10ed33032664d8b1.js",
+        "https://www.india.gov.in/_next/static/chunks/app/calendar/layout-06e5a26c7866bd90.js"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+        "https://static.india.gov.in/npiprod/uploads/agri_1716e0993b.svg"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+        "https://static.india.gov.in/npiprod/uploads/social_f2dafb4745.svg"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+        "https://static.india.gov.in/npiprod/uploads/business_a2f0a0991b.svg"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+        "https://static.india.gov.in/npiprod/uploads/visa_65061df23a.svg"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+        "https://static.india.gov.in/npiprod/uploads/defence_5f17996c77.svg"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+        "https://static.india.gov.in/npiprod/uploads/transport_a3b69970bc.svg"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+        "https://static.india.gov.in/npiprod/uploads/edu_7edee31842_e1e062420c.svg"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+        "https://static.india.gov.in/npiprod/uploads/gov_754fa011e4.svg"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+        "https://static.india.gov.in/npiprod/uploads/health_e0a6008ac1.svg"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+        "https://static.india.gov.in/npiprod/uploads/housing_d5a8b728fd.svg"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+        "https://static.india.gov.in/npiprod/uploads/infra_96ce53a607.svg"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+        "https://static.india.gov.in/npiprod/uploads/jobs_e93aedf17e_65e716f46a.svg"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+        "https://static.india.gov.in/npiprod/uploads/justice_dcc5a8cdcf.svg"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+        "https://static.india.gov.in/npiprod/uploads/money_f47faaf6b2.svg"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+        "https://static.india.gov.in/npiprod/uploads/science_8e7a1d1a9a.svg"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+        "https://static.india.gov.in/npiprod/uploads/travel_a16131d433.svg"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+        "https://static.india.gov.in/npiprod/uploads/family_cc67f5ee43.svg"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+        "https://static.india.gov.in/npiprod/uploads/youth_cdc6732e75.svg"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/5657-e70b5277598e0d0f.js",
+        "https://www.india.gov.in/newsservices/npinewsservice"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/2117-52e1d74653ccdbac.js",
+        "https://www.india.gov.in/services?_rsc=19zvn"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/2117-52e1d74653ccdbac.js",
+        "https://www.india.gov.in/my-government/schemes/search?_rsc=19zvn"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/2117-52e1d74653ccdbac.js",
+        "https://www.india.gov.in/mygov-activities?_rsc=19zvn"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/2117-52e1d74653ccdbac.js",
+        "https://www.india.gov.in/explore-india/travel-and-tourism?_rsc=19zvn"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/2117-52e1d74653ccdbac.js",
+        "https://www.india.gov.in/explore-india/odop?_rsc=19zvn"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/app/layout-05c3990ec25cd937.js",
+        "https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/webpack-10ed33032664d8b1.js",
+        "https://www.india.gov.in/_next/static/chunks/app/services/layout-6c42d9c8dc1e03e6.js"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/2117-52e1d74653ccdbac.js",
+        "https://www.india.gov.in/category?_rsc=19zvn"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/2117-52e1d74653ccdbac.js",
+        "https://www.india.gov.in/services/ministry?_rsc=19zvn"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/webpack-10ed33032664d8b1.js",
+        "https://www.india.gov.in/_next/static/chunks/app/mygov-activities/error-baa76fa994f34743.js"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/2117-52e1d74653ccdbac.js",
+        "https://www.india.gov.in/services/state?_rsc=19zvn"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/2117-52e1d74653ccdbac.js",
+        "https://www.india.gov.in/services/category?_rsc=19zvn"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://static2.india.gov.in/npiprod/uploads/D_Dnews_Vector_634e10fb78.svg"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/image/icons/AIRnewsVector.png"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://www.india.gov.in/image/icons/pibNewsLogo.svg"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/2117-52e1d74653ccdbac.js",
+        "https://www.india.gov.in/services/details/write-to-national-water-development-agency?_rsc=19zvn"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/2117-52e1d74653ccdbac.js",
+        "https://www.india.gov.in/services/details/online-textbooks-of-national-council-of-educational-research-and-training?_rsc=19zvn"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/2117-52e1d74653ccdbac.js",
+        "https://www.india.gov.in/services/details/check-prices-and-arrivals-of-agricultural-commodities?_rsc=19zvn"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/chunks/2117-52e1d74653ccdbac.js",
+        "https://www.india.gov.in/services/details/interact-with-honble-prime-minister?_rsc=19zvn"
+      ],
+      [
+        "https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js",
+        "https://translation-plugin.bhashini.co.in/v3/website_translation_utility.css"
+      ],
+      [
+        "https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js",
+        "https://translation-plugin.bhashini.co.in/redirection/language?domain=https%3A%2F%2Fwww.india.gov.in%2F"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://translation-plugin.bhashini.co.in/v3/bhashini-logo.png"
+      ],
+      [
+        "https://www.india.gov.in/",
+        "https://translation-plugin.bhashini.co.in/v3/feedback.svg"
+      ],
+      [
+        "https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+        "https://fonts.gstatic.com/s/notosans/v42/o-0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5a_du2ui.woff2"
+      ],
+      [
+        "https://translation-plugin.bhashini.co.in/v3/website_translation_utility.css",
+        "https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      ],
+      [
+        "https://www.india.gov.in/_next/static/css/f17484a730f05f94.css",
+        "https://www.india.gov.in/image/landing-photo.jpg"
+      ]
+    ]
+  },
+  "resources": {
+    "https://www.india.gov.in/": {
+      "url": "https://www.india.gov.in/",
+      "resource_type": "Document",
+      "initiator_type": "other",
+      "parent": null,
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 0,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/image/icons/Group_145.svg": {
+      "url": "https://www.india.gov.in/image/icons/Group_145.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/image/appQR.svg": {
+      "url": "https://www.india.gov.in/image/appQR.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/css/773d3d9c137ae05a.css": {
+      "url": "https://www.india.gov.in/_next/static/css/773d3d9c137ae05a.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/css/1caf98fe5afcf686.css": {
+      "url": "https://www.india.gov.in/_next/static/css/1caf98fe5afcf686.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/css/7c4b455c56926ef3.css": {
+      "url": "https://www.india.gov.in/_next/static/css/7c4b455c56926ef3.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/css/e6c5daf09d42192a.css": {
+      "url": "https://www.india.gov.in/_next/static/css/e6c5daf09d42192a.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/css/f17484a730f05f94.css": {
+      "url": "https://www.india.gov.in/_next/static/css/f17484a730f05f94.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/css/968f32e949c6b0ba.css": {
+      "url": "https://www.india.gov.in/_next/static/css/968f32e949c6b0ba.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/css/75a05c45c473aa0b.css": {
+      "url": "https://www.india.gov.in/_next/static/css/75a05c45c473aa0b.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/css/304be6acfab6d78f.css": {
+      "url": "https://www.india.gov.in/_next/static/css/304be6acfab6d78f.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/webpack-10ed33032664d8b1.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/webpack-10ed33032664d8b1.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/fd9d1056-4178a25c2e929229.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/fd9d1056-4178a25c2e929229.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/2117-52e1d74653ccdbac.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/2117-52e1d74653ccdbac.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/main-app-5294d1645fe5526e.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/main-app-5294d1645fe5526e.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/9081a741-e789f328cd24e31f.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/9081a741-e789f328cd24e31f.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/39209d7c-7c81834a8cf8e1f3.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/39209d7c-7c81834a8cf8e1f3.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/bc9c3264-1b623f6be7cf1d72.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/bc9c3264-1b623f6be7cf1d72.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/39aecf79-b851afef7d993619.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/39aecf79-b851afef7d993619.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/b5c10047-670c18a7d5ac7552.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/b5c10047-670c18a7d5ac7552.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/4f9d9cd8-af9fbb187ebd5a11.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/4f9d9cd8-af9fbb187ebd5a11.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/e685ae08-b6fc443b169fae11.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/e685ae08-b6fc443b169fae11.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/07115393-910319e55ef53f31.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/07115393-910319e55ef53f31.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/00cbbcb7-9cda0f102222ea91.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/00cbbcb7-9cda0f102222ea91.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/ec3863c0-b59987586d274053.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/ec3863c0-b59987586d274053.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/93854f56-851372217593054a.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/93854f56-851372217593054a.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/3627521c-4ad2d9eb8729a0b5.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/3627521c-4ad2d9eb8729a0b5.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/8e68d877-34d9b0bd669e190d.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/8e68d877-34d9b0bd669e190d.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/8dc5345f-588aa3d8871ff9e6.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/8dc5345f-588aa3d8871ff9e6.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/4f53ad1b-e842d8b664982074.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/4f53ad1b-e842d8b664982074.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/358ff52d-6ef889cb9e9394c5.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/358ff52d-6ef889cb9e9394c5.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/623-111f50f8b6fb4bf8.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/623-111f50f8b6fb4bf8.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/5856-9c44ea48b9af410a.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/5856-9c44ea48b9af410a.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/6137-bac00d6a3729a579.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/6137-bac00d6a3729a579.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/7122-073d285f5cece9ba.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/7122-073d285f5cece9ba.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/1575-4d1bdc1bc3b17e53.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/1575-4d1bdc1bc3b17e53.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/5657-e70b5277598e0d0f.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/5657-e70b5277598e0d0f.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/8126-61a19593d2352609.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/8126-61a19593d2352609.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/2972-7c47aa0e84f48dd2.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/2972-7c47aa0e84f48dd2.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/1517-16bdf27171edf271.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/1517-16bdf27171edf271.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/4650-2d018c0082b4ed6e.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/4650-2d018c0082b4ed6e.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/521-0c3f0c003dddbc1d.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/521-0c3f0c003dddbc1d.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/8807-f1532edff6bf834c.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/8807-f1532edff6bf834c.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/957-95777021c5900105.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/957-95777021c5900105.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/2701-f6129749a54cbfc8.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/2701-f6129749a54cbfc8.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/2667-13fe0bfcda58b5bd.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/2667-13fe0bfcda58b5bd.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/8946-c7c2d3d80adbe8bd.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/8946-c7c2d3d80adbe8bd.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/app/layout-05c3990ec25cd937.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/app/layout-05c3990ec25cd937.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/4613-de9c60c195515c8b.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/4613-de9c60c195515c8b.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/3909-512339777a5070a0.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/3909-512339777a5070a0.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/2172-4c49c3d9802d4539.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/2172-4c49c3d9802d4539.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/app/not-found-41ec5c3748a50578.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/app/not-found-41ec5c3748a50578.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/app/global-error-2e95d2138604216f.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/app/global-error-2e95d2138604216f.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.googletagmanager.com/gtag/js?id=G-XSZTHBMN8B": {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-XSZTHBMN8B",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "142.251.220.104",
+      "count": 1,
+      "depth": 1,
+      "host": "www.googletagmanager.com",
+      "origin": "https://www.googletagmanager.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/js/cookieconsent.min.js": {
+      "url": "https://www.india.gov.in/js/cookieconsent.min.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://code.jquery.com/jquery-3.7.1.min.js": {
+      "url": "https://code.jquery.com/jquery-3.7.1.min.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "151.101.65.155",
+      "count": 1,
+      "depth": 1,
+      "host": "code.jquery.com",
+      "origin": "https://code.jquery.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://swalekh.blob.core.windows.net/swk-version/nic-dec-2024-build-swalekh-main.js": {
+      "url": "https://swalekh.blob.core.windows.net/swk-version/nic-dec-2024-build-swalekh-main.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": null,
+      "browser_error": "net::ERR_BLOCKED_BY_ORB",
+      "remote_ip": null,
+      "count": 1,
+      "depth": 1,
+      "host": "swalekh.blob.core.windows.net",
+      "origin": "https://swalekh.blob.core.windows.net:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://cdn.jsdelivr.net/npm/reverie-stt-sdk/dist/bundle.js": {
+      "url": "https://cdn.jsdelivr.net/npm/reverie-stt-sdk/dist/bundle.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "104.17.208.5",
+      "count": 1,
+      "depth": 1,
+      "host": "cdn.jsdelivr.net",
+      "origin": "https://cdn.jsdelivr.net:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/13b76428-986370a7a95036bb.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/13b76428-986370a7a95036bb.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/8274-2c5f0d09f26dbae2.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/8274-2c5f0d09f26dbae2.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/8886-ced22e1699fa0da3.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/8886-ced22e1699fa0da3.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/1029-6b535764f9880aac.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/1029-6b535764f9880aac.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/9467-6d39bb2858f28a80.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/9467-6d39bb2858f28a80.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/app/page-eb881f5dedcd9417.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/app/page-eb881f5dedcd9417.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/image/npi_logo.svg": {
+      "url": "https://www.india.gov.in/image/npi_logo.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/image/Left_quotes.svg": {
+      "url": "https://www.india.gov.in/image/Left_quotes.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/image/Right_quotes.svg": {
+      "url": "https://www.india.gov.in/image/Right_quotes.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://static2.india.gov.in/npiprod/uploads/water_e055dd1642.jpg": {
+      "url": "https://static2.india.gov.in/npiprod/uploads/water_e055dd1642.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.89",
+      "count": 1,
+      "depth": 1,
+      "host": "static2.india.gov.in",
+      "origin": "https://static2.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://static2.india.gov.in/npiprod/uploads/NCERT_b7c03d904c.jpg": {
+      "url": "https://static2.india.gov.in/npiprod/uploads/NCERT_b7c03d904c.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.89",
+      "count": 1,
+      "depth": 1,
+      "host": "static2.india.gov.in",
+      "origin": "https://static2.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://static2.india.gov.in/npiprod/uploads/agmarknet_a46d292c72.jpg": {
+      "url": "https://static2.india.gov.in/npiprod/uploads/agmarknet_a46d292c72.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.89",
+      "count": 1,
+      "depth": 1,
+      "host": "static2.india.gov.in",
+      "origin": "https://static2.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://static2.india.gov.in/npiprod/uploads/interact_With_PM_08736f3c1e.jpg": {
+      "url": "https://static2.india.gov.in/npiprod/uploads/interact_With_PM_08736f3c1e.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.89",
+      "count": 1,
+      "depth": 1,
+      "host": "static2.india.gov.in",
+      "origin": "https://static2.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://static2.india.gov.in/npiprod/uploads/job_seekers_8bb287414e.jpg": {
+      "url": "https://static2.india.gov.in/npiprod/uploads/job_seekers_8bb287414e.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.89",
+      "count": 1,
+      "depth": 1,
+      "host": "static2.india.gov.in",
+      "origin": "https://static2.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://static2.india.gov.in/npiprod/uploads/e_sanjeevani_626f9eef48.jpg": {
+      "url": "https://static2.india.gov.in/npiprod/uploads/e_sanjeevani_626f9eef48.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.89",
+      "count": 1,
+      "depth": 1,
+      "host": "static2.india.gov.in",
+      "origin": "https://static2.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://static2.india.gov.in/npiprod/uploads/Bhavisya_6a3973f00b.jpg": {
+      "url": "https://static2.india.gov.in/npiprod/uploads/Bhavisya_6a3973f00b.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.89",
+      "count": 1,
+      "depth": 1,
+      "host": "static2.india.gov.in",
+      "origin": "https://static2.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://static2.india.gov.in/npiprod/uploads/ujjwala_77aade7ab0.jpg": {
+      "url": "https://static2.india.gov.in/npiprod/uploads/ujjwala_77aade7ab0.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.89",
+      "count": 1,
+      "depth": 1,
+      "host": "static2.india.gov.in",
+      "origin": "https://static2.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://cbpssubscriber.mygov.in/assets/uploads/3rpbtfC38B9muoRQ?v=1": {
+      "url": "https://cbpssubscriber.mygov.in/assets/uploads/3rpbtfC38B9muoRQ?v=1",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.36.177.153",
+      "count": 1,
+      "depth": 1,
+      "host": "cbpssubscriber.mygov.in",
+      "origin": "https://cbpssubscriber.mygov.in:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://static2.india.gov.in/npiprod/uploads/PM_rahat_9d7680eb34.jpg": {
+      "url": "https://static2.india.gov.in/npiprod/uploads/PM_rahat_9d7680eb34.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.89",
+      "count": 1,
+      "depth": 1,
+      "host": "static2.india.gov.in",
+      "origin": "https://static2.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://static2.india.gov.in/npiprod/uploads/Smile_c0773976f3.jpg": {
+      "url": "https://static2.india.gov.in/npiprod/uploads/Smile_c0773976f3.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.89",
+      "count": 1,
+      "depth": 1,
+      "host": "static2.india.gov.in",
+      "origin": "https://static2.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://static2.india.gov.in/npiprod/uploads/seva_first_9fa83bff1c.png": {
+      "url": "https://static2.india.gov.in/npiprod/uploads/seva_first_9fa83bff1c.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.89",
+      "count": 1,
+      "depth": 1,
+      "host": "static2.india.gov.in",
+      "origin": "https://static2.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://static2.india.gov.in/npiprod/uploads/dbn_7d3352cf91.png": {
+      "url": "https://static2.india.gov.in/npiprod/uploads/dbn_7d3352cf91.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.89",
+      "count": 1,
+      "depth": 1,
+      "host": "static2.india.gov.in",
+      "origin": "https://static2.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/image/static/whowho-landing-vector.svg": {
+      "url": "https://www.india.gov.in/image/static/whowho-landing-vector.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/image/myscheme-logo.svg": {
+      "url": "https://www.india.gov.in/image/myscheme-logo.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/image/pibDefaultLogo.png": {
+      "url": "https://www.india.gov.in/image/pibDefaultLogo.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/image/ddDefaultLogo.png": {
+      "url": "https://www.india.gov.in/image/ddDefaultLogo.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/image/airDefaultLogo.png": {
+      "url": "https://www.india.gov.in/image/airDefaultLogo.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://static2.india.gov.in/npiprod/uploads/pm_rahat_home_439d4f7a94.png": {
+      "url": "https://static2.india.gov.in/npiprod/uploads/pm_rahat_home_439d4f7a94.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.89",
+      "count": 1,
+      "depth": 1,
+      "host": "static2.india.gov.in",
+      "origin": "https://static2.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/image/static/ExploreBharatBGLeftVector.png": {
+      "url": "https://www.india.gov.in/image/static/ExploreBharatBGLeftVector.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/image/static/ExploreBharatBGRightVector.png": {
+      "url": "https://www.india.gov.in/image/static/ExploreBharatBGRightVector.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://static2.india.gov.in/npiprod/uploads/Hawa_Mahal_be58ad6eb9.jpg": {
+      "url": "https://static2.india.gov.in/npiprod/uploads/Hawa_Mahal_be58ad6eb9.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.89",
+      "count": 1,
+      "depth": 1,
+      "host": "static2.india.gov.in",
+      "origin": "https://static2.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://static2.india.gov.in/npiprod/uploads/culinary_740698f49c.png": {
+      "url": "https://static2.india.gov.in/npiprod/uploads/culinary_740698f49c.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.89",
+      "count": 1,
+      "depth": 1,
+      "host": "static2.india.gov.in",
+      "origin": "https://static2.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://static2.india.gov.in/npiprod/uploads/Group_1000004357_1_11b4946099.png": {
+      "url": "https://static2.india.gov.in/npiprod/uploads/Group_1000004357_1_11b4946099.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.89",
+      "count": 1,
+      "depth": 1,
+      "host": "static2.india.gov.in",
+      "origin": "https://static2.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://static2.india.gov.in/npiprod/uploads/a_g_Yu_Qg_N_Yku1_M8_unsplash_1_1b182a0ec2.jpg": {
+      "url": "https://static2.india.gov.in/npiprod/uploads/a_g_Yu_Qg_N_Yku1_M8_unsplash_1_1b182a0ec2.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.89",
+      "count": 1,
+      "depth": 1,
+      "host": "static2.india.gov.in",
+      "origin": "https://static2.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://static2.india.gov.in/npiprod/uploads/teracotta_23519ecedc_73d7e7c01d.jpg": {
+      "url": "https://static2.india.gov.in/npiprod/uploads/teracotta_23519ecedc_73d7e7c01d.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.89",
+      "count": 1,
+      "depth": 1,
+      "host": "static2.india.gov.in",
+      "origin": "https://static2.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://static.mygov.in/static/resources/s3fs-public/2026-10/mygov_1792065593_c42284df.jpg": {
+      "url": "https://static.mygov.in/static/resources/s3fs-public/2026-10/mygov_1792065593_c42284df.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.36.177.153",
+      "count": 1,
+      "depth": 1,
+      "host": "static.mygov.in",
+      "origin": "https://static.mygov.in:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://static.mygov.in/static/resources/s3fs-public/2026-10/mygov_1791792075_a8ebdb6b.jpeg": {
+      "url": "https://static.mygov.in/static/resources/s3fs-public/2026-10/mygov_1791792075_a8ebdb6b.jpeg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.36.177.153",
+      "count": 1,
+      "depth": 1,
+      "host": "static.mygov.in",
+      "origin": "https://static.mygov.in:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://static.mygov.in/static/resources/s3fs-public/2026-10/mygov_1791895369_62efa4e7.jpeg": {
+      "url": "https://static.mygov.in/static/resources/s3fs-public/2026-10/mygov_1791895369_62efa4e7.jpeg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "23.36.177.153",
+      "count": 1,
+      "depth": 1,
+      "host": "static.mygov.in",
+      "origin": "https://static.mygov.in:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap": {
+      "url": "https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/_next/static/css/1caf98fe5afcf686.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "142.250.134.95",
+      "count": 1,
+      "depth": 2,
+      "host": "fonts.googleapis.com",
+      "origin": "https://fonts.googleapis.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://fonts.gstatic.com/s/notosans/v42/o-0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5a7duw.woff2": {
+      "url": "https://fonts.gstatic.com/s/notosans/v42/o-0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5a7duw.woff2",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "142.250.146.94",
+      "count": 1,
+      "depth": 3,
+      "host": "fonts.gstatic.com",
+      "origin": "https://fonts.gstatic.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/image?url=%2Fimage%2Ficons%2FNIC_logo%201.png&w=256&q=75": {
+      "url": "https://www.india.gov.in/_next/image?url=%2Fimage%2Ficons%2FNIC_logo%201.png&w=256&q=75",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/image/indiagate.jpg": {
+      "url": "https://www.india.gov.in/image/indiagate.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/_next/static/css/f17484a730f05f94.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 2,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/image/down-arrow-svgrepo-com.svg": {
+      "url": "https://www.india.gov.in/image/down-arrow-svgrepo-com.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/_next/static/css/1caf98fe5afcf686.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 2,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://static2.india.gov.in/npiprod/uploads/homepage_pm_1d70759837.jpg": {
+      "url": "https://static2.india.gov.in/npiprod/uploads/homepage_pm_1d70759837.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.89",
+      "count": 1,
+      "depth": 1,
+      "host": "static2.india.gov.in",
+      "origin": "https://static2.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/image/static/GovernmentDirectoriesVector.png": {
+      "url": "https://www.india.gov.in/image/static/GovernmentDirectoriesVector.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/_next/static/css/1caf98fe5afcf686.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 2,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/internal/cms": {
+      "url": "https://www.india.gov.in/internal/cms",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/5657-e70b5277598e0d0f.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 4,
+      "depth": 2,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.google-analytics.com/g/collect?v=2&tid=G-XSZTHBMN8B&gtm=45je6ae1v9200502906za208zd9200502906xf1&_p=1792388178403&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1850409693.1792388179&frm=0&ngs=1&pscdl=noapi&rcb=13&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-in&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&sid=1792388178&sct=1&seg=0&dl=https%3A%2F%2Fwww.india.gov.in%2F&dt=Home%20%7C%20National%20Portal%20of%20India&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=3128": {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XSZTHBMN8B&gtm=45je6ae1v9200502906za208zd9200502906xf1&_p=1792388178403&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1850409693.1792388179&frm=0&ngs=1&pscdl=noapi&rcb=13&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-in&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&sid=1792388178&sct=1&seg=0&dl=https%3A%2F%2Fwww.india.gov.in%2F&dt=Home%20%7C%20National%20Portal%20of%20India&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=3128",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtag/js?id=G-XSZTHBMN8B",
+      "status": 204,
+      "browser_error": "net::ERR_ABORTED",
+      "remote_ip": "142.250.67.46",
+      "count": 1,
+      "depth": 2,
+      "host": "www.google-analytics.com",
+      "origin": "https://www.google-analytics.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://static2.india.gov.in/npiprod/uploads/rti_58e91f92db.png": {
+      "url": "https://static2.india.gov.in/npiprod/uploads/rti_58e91f92db.png",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.89",
+      "count": 1,
+      "depth": 1,
+      "host": "static2.india.gov.in",
+      "origin": "https://static2.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://static2.india.gov.in/npiprod/uploads/cpgrams_7d090b6de0.png": {
+      "url": "https://static2.india.gov.in/npiprod/uploads/cpgrams_7d090b6de0.png",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.89",
+      "count": 1,
+      "depth": 1,
+      "host": "static2.india.gov.in",
+      "origin": "https://static2.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://static2.india.gov.in/npiprod/uploads/data_gov_122b109c19.png": {
+      "url": "https://static2.india.gov.in/npiprod/uploads/data_gov_122b109c19.png",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.89",
+      "count": 1,
+      "depth": 1,
+      "host": "static2.india.gov.in",
+      "origin": "https://static2.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://static2.india.gov.in/npiprod/uploads/pm_india_42c2e111a2.png": {
+      "url": "https://static2.india.gov.in/npiprod/uploads/pm_india_42c2e111a2.png",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.89",
+      "count": 1,
+      "depth": 1,
+      "host": "static2.india.gov.in",
+      "origin": "https://static2.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://static2.india.gov.in/npiprod/uploads/digital_india_4ecbdd6d1b.png": {
+      "url": "https://static2.india.gov.in/npiprod/uploads/digital_india_4ecbdd6d1b.png",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.89",
+      "count": 1,
+      "depth": 1,
+      "host": "static2.india.gov.in",
+      "origin": "https://static2.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://static2.india.gov.in/npiprod/uploads/my_gov_525fb1a2f9.png": {
+      "url": "https://static2.india.gov.in/npiprod/uploads/my_gov_525fb1a2f9.png",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.89",
+      "count": 1,
+      "depth": 1,
+      "host": "static2.india.gov.in",
+      "origin": "https://static2.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://static2.india.gov.in/npiprod/uploads/Umang_logo_1_6f854656aa.png": {
+      "url": "https://static2.india.gov.in/npiprod/uploads/Umang_logo_1_6f854656aa.png",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.89",
+      "count": 1,
+      "depth": 1,
+      "host": "static2.india.gov.in",
+      "origin": "https://static2.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/faviconFlag.jpg": {
+      "url": "https://www.india.gov.in/faviconFlag.jpg",
+      "resource_type": "Other",
+      "initiator_type": "other",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/image/icons/feedback.svg": {
+      "url": "https://www.india.gov.in/image/icons/feedback.svg",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/app/layout-05c3990ec25cd937.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 2,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/calendar?_rsc=19zvn": {
+      "url": "https://www.india.gov.in/calendar?_rsc=19zvn",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/2117-52e1d74653ccdbac.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 2,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/app/calendar/layout-06e5a26c7866bd90.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/app/calendar/layout-06e5a26c7866bd90.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/webpack-10ed33032664d8b1.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 2,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://static.india.gov.in/npiprod/uploads/agri_1716e0993b.svg": {
+      "url": "https://static.india.gov.in/npiprod/uploads/agri_1716e0993b.svg",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "164.100.220.40",
+      "count": 1,
+      "depth": 2,
+      "host": "static.india.gov.in",
+      "origin": "https://static.india.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://static.india.gov.in/npiprod/uploads/social_f2dafb4745.svg": {
+      "url": "https://static.india.gov.in/npiprod/uploads/social_f2dafb4745.svg",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "164.100.220.40",
+      "count": 1,
+      "depth": 2,
+      "host": "static.india.gov.in",
+      "origin": "https://static.india.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://static.india.gov.in/npiprod/uploads/business_a2f0a0991b.svg": {
+      "url": "https://static.india.gov.in/npiprod/uploads/business_a2f0a0991b.svg",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "164.100.220.40",
+      "count": 1,
+      "depth": 2,
+      "host": "static.india.gov.in",
+      "origin": "https://static.india.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://static.india.gov.in/npiprod/uploads/visa_65061df23a.svg": {
+      "url": "https://static.india.gov.in/npiprod/uploads/visa_65061df23a.svg",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "164.100.220.40",
+      "count": 1,
+      "depth": 2,
+      "host": "static.india.gov.in",
+      "origin": "https://static.india.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://static.india.gov.in/npiprod/uploads/defence_5f17996c77.svg": {
+      "url": "https://static.india.gov.in/npiprod/uploads/defence_5f17996c77.svg",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "164.100.220.40",
+      "count": 1,
+      "depth": 2,
+      "host": "static.india.gov.in",
+      "origin": "https://static.india.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://static.india.gov.in/npiprod/uploads/transport_a3b69970bc.svg": {
+      "url": "https://static.india.gov.in/npiprod/uploads/transport_a3b69970bc.svg",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "164.100.220.40",
+      "count": 1,
+      "depth": 2,
+      "host": "static.india.gov.in",
+      "origin": "https://static.india.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://static.india.gov.in/npiprod/uploads/edu_7edee31842_e1e062420c.svg": {
+      "url": "https://static.india.gov.in/npiprod/uploads/edu_7edee31842_e1e062420c.svg",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "164.100.220.40",
+      "count": 1,
+      "depth": 2,
+      "host": "static.india.gov.in",
+      "origin": "https://static.india.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://static.india.gov.in/npiprod/uploads/gov_754fa011e4.svg": {
+      "url": "https://static.india.gov.in/npiprod/uploads/gov_754fa011e4.svg",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "164.100.220.40",
+      "count": 1,
+      "depth": 2,
+      "host": "static.india.gov.in",
+      "origin": "https://static.india.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://static.india.gov.in/npiprod/uploads/health_e0a6008ac1.svg": {
+      "url": "https://static.india.gov.in/npiprod/uploads/health_e0a6008ac1.svg",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "164.100.220.40",
+      "count": 1,
+      "depth": 2,
+      "host": "static.india.gov.in",
+      "origin": "https://static.india.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://static.india.gov.in/npiprod/uploads/housing_d5a8b728fd.svg": {
+      "url": "https://static.india.gov.in/npiprod/uploads/housing_d5a8b728fd.svg",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "164.100.220.40",
+      "count": 1,
+      "depth": 2,
+      "host": "static.india.gov.in",
+      "origin": "https://static.india.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://static.india.gov.in/npiprod/uploads/infra_96ce53a607.svg": {
+      "url": "https://static.india.gov.in/npiprod/uploads/infra_96ce53a607.svg",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "164.100.220.40",
+      "count": 1,
+      "depth": 2,
+      "host": "static.india.gov.in",
+      "origin": "https://static.india.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://static.india.gov.in/npiprod/uploads/jobs_e93aedf17e_65e716f46a.svg": {
+      "url": "https://static.india.gov.in/npiprod/uploads/jobs_e93aedf17e_65e716f46a.svg",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "164.100.220.40",
+      "count": 1,
+      "depth": 2,
+      "host": "static.india.gov.in",
+      "origin": "https://static.india.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://static.india.gov.in/npiprod/uploads/justice_dcc5a8cdcf.svg": {
+      "url": "https://static.india.gov.in/npiprod/uploads/justice_dcc5a8cdcf.svg",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "164.100.220.40",
+      "count": 1,
+      "depth": 2,
+      "host": "static.india.gov.in",
+      "origin": "https://static.india.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://static.india.gov.in/npiprod/uploads/money_f47faaf6b2.svg": {
+      "url": "https://static.india.gov.in/npiprod/uploads/money_f47faaf6b2.svg",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "164.100.220.40",
+      "count": 1,
+      "depth": 2,
+      "host": "static.india.gov.in",
+      "origin": "https://static.india.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://static.india.gov.in/npiprod/uploads/science_8e7a1d1a9a.svg": {
+      "url": "https://static.india.gov.in/npiprod/uploads/science_8e7a1d1a9a.svg",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "164.100.220.40",
+      "count": 1,
+      "depth": 2,
+      "host": "static.india.gov.in",
+      "origin": "https://static.india.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://static.india.gov.in/npiprod/uploads/travel_a16131d433.svg": {
+      "url": "https://static.india.gov.in/npiprod/uploads/travel_a16131d433.svg",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "164.100.220.40",
+      "count": 1,
+      "depth": 2,
+      "host": "static.india.gov.in",
+      "origin": "https://static.india.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://static.india.gov.in/npiprod/uploads/family_cc67f5ee43.svg": {
+      "url": "https://static.india.gov.in/npiprod/uploads/family_cc67f5ee43.svg",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "164.100.220.40",
+      "count": 1,
+      "depth": 2,
+      "host": "static.india.gov.in",
+      "origin": "https://static.india.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://static.india.gov.in/npiprod/uploads/youth_cdc6732e75.svg": {
+      "url": "https://static.india.gov.in/npiprod/uploads/youth_cdc6732e75.svg",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/5053-5a231c3581beecc0.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "164.100.220.40",
+      "count": 1,
+      "depth": 2,
+      "host": "static.india.gov.in",
+      "origin": "https://static.india.gov.in:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/newsservices/npinewsservice": {
+      "url": "https://www.india.gov.in/newsservices/npinewsservice",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/5657-e70b5277598e0d0f.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 2,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/services?_rsc=19zvn": {
+      "url": "https://www.india.gov.in/services?_rsc=19zvn",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/2117-52e1d74653ccdbac.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 2,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/my-government/schemes/search?_rsc=19zvn": {
+      "url": "https://www.india.gov.in/my-government/schemes/search?_rsc=19zvn",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/2117-52e1d74653ccdbac.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 2,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/mygov-activities?_rsc=19zvn": {
+      "url": "https://www.india.gov.in/mygov-activities?_rsc=19zvn",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/2117-52e1d74653ccdbac.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 2,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/explore-india/travel-and-tourism?_rsc=19zvn": {
+      "url": "https://www.india.gov.in/explore-india/travel-and-tourism?_rsc=19zvn",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/2117-52e1d74653ccdbac.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 2,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/explore-india/odop?_rsc=19zvn": {
+      "url": "https://www.india.gov.in/explore-india/odop?_rsc=19zvn",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/2117-52e1d74653ccdbac.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 2,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js": {
+      "url": "https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/app/layout-05c3990ec25cd937.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.114.152.114",
+      "count": 1,
+      "depth": 2,
+      "host": "translation-plugin.bhashini.co.in",
+      "origin": "https://translation-plugin.bhashini.co.in:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/app/services/layout-6c42d9c8dc1e03e6.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/app/services/layout-6c42d9c8dc1e03e6.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/webpack-10ed33032664d8b1.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 2,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/category?_rsc=19zvn": {
+      "url": "https://www.india.gov.in/category?_rsc=19zvn",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/2117-52e1d74653ccdbac.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 2,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/services/ministry?_rsc=19zvn": {
+      "url": "https://www.india.gov.in/services/ministry?_rsc=19zvn",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/2117-52e1d74653ccdbac.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 2,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/_next/static/chunks/app/mygov-activities/error-baa76fa994f34743.js": {
+      "url": "https://www.india.gov.in/_next/static/chunks/app/mygov-activities/error-baa76fa994f34743.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/webpack-10ed33032664d8b1.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 2,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/services/state?_rsc=19zvn": {
+      "url": "https://www.india.gov.in/services/state?_rsc=19zvn",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/2117-52e1d74653ccdbac.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 2,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/services/category?_rsc=19zvn": {
+      "url": "https://www.india.gov.in/services/category?_rsc=19zvn",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/2117-52e1d74653ccdbac.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 2,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://static2.india.gov.in/npiprod/uploads/D_Dnews_Vector_634e10fb78.svg": {
+      "url": "https://static2.india.gov.in/npiprod/uploads/D_Dnews_Vector_634e10fb78.svg",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.89",
+      "count": 1,
+      "depth": 1,
+      "host": "static2.india.gov.in",
+      "origin": "https://static2.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/image/icons/AIRnewsVector.png": {
+      "url": "https://www.india.gov.in/image/icons/AIRnewsVector.png",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/image/icons/pibNewsLogo.svg": {
+      "url": "https://www.india.gov.in/image/icons/pibNewsLogo.svg",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 1,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/services/details/write-to-national-water-development-agency?_rsc=19zvn": {
+      "url": "https://www.india.gov.in/services/details/write-to-national-water-development-agency?_rsc=19zvn",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/2117-52e1d74653ccdbac.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 2,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/services/details/online-textbooks-of-national-council-of-educational-research-and-training?_rsc=19zvn": {
+      "url": "https://www.india.gov.in/services/details/online-textbooks-of-national-council-of-educational-research-and-training?_rsc=19zvn",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/2117-52e1d74653ccdbac.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 2,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/services/details/check-prices-and-arrivals-of-agricultural-commodities?_rsc=19zvn": {
+      "url": "https://www.india.gov.in/services/details/check-prices-and-arrivals-of-agricultural-commodities?_rsc=19zvn",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/2117-52e1d74653ccdbac.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 2,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.india.gov.in/services/details/interact-with-honble-prime-minister?_rsc=19zvn": {
+      "url": "https://www.india.gov.in/services/details/interact-with-honble-prime-minister?_rsc=19zvn",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.india.gov.in/_next/static/chunks/2117-52e1d74653ccdbac.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 2,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://translation-plugin.bhashini.co.in/v3/website_translation_utility.css": {
+      "url": "https://translation-plugin.bhashini.co.in/v3/website_translation_utility.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "script",
+      "parent": "https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.114.152.114",
+      "count": 1,
+      "depth": 3,
+      "host": "translation-plugin.bhashini.co.in",
+      "origin": "https://translation-plugin.bhashini.co.in:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js"
+    },
+    "https://translation-plugin.bhashini.co.in/redirection/language?domain=https%3A%2F%2Fwww.india.gov.in%2F": {
+      "url": "https://translation-plugin.bhashini.co.in/redirection/language?domain=https%3A%2F%2Fwww.india.gov.in%2F",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js",
+      "status": 404,
+      "browser_error": null,
+      "remote_ip": "103.114.152.114",
+      "count": 1,
+      "depth": 3,
+      "host": "translation-plugin.bhashini.co.in",
+      "origin": "https://translation-plugin.bhashini.co.in:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": true,
+      "blocked_by": "https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js"
+    },
+    "https://translation-plugin.bhashini.co.in/v3/bhashini-logo.png": {
+      "url": "https://translation-plugin.bhashini.co.in/v3/bhashini-logo.png",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.114.152.114",
+      "count": 1,
+      "depth": 1,
+      "host": "translation-plugin.bhashini.co.in",
+      "origin": "https://translation-plugin.bhashini.co.in:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://translation-plugin.bhashini.co.in/v3/feedback.svg": {
+      "url": "https://translation-plugin.bhashini.co.in/v3/feedback.svg",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.india.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "103.114.152.114",
+      "count": 1,
+      "depth": 1,
+      "host": "translation-plugin.bhashini.co.in",
+      "origin": "https://translation-plugin.bhashini.co.in:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://fonts.gstatic.com/s/notosans/v42/o-0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5a_du2ui.woff2": {
+      "url": "https://fonts.gstatic.com/s/notosans/v42/o-0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5a_du2ui.woff2",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "142.250.146.94",
+      "count": 1,
+      "depth": 3,
+      "host": "fonts.gstatic.com",
+      "origin": "https://fonts.gstatic.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap": {
+      "url": "https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://translation-plugin.bhashini.co.in/v3/website_translation_utility.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "142.250.134.95",
+      "count": 1,
+      "depth": 4,
+      "host": "fonts.googleapis.com",
+      "origin": "https://fonts.googleapis.com:443",
+      "third_party": true,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": true,
+      "blocked_by": "https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js"
+    },
+    "https://www.india.gov.in/image/landing-photo.jpg": {
+      "url": "https://www.india.gov.in/image/landing-photo.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.india.gov.in/_next/static/css/f17484a730f05f94.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "184.84.221.83",
+      "count": 1,
+      "depth": 2,
+      "host": "www.india.gov.in",
+      "origin": "https://www.india.gov.in:443",
+      "third_party": false,
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "critical": false,
+      "blocked_by": null
+    }
+  },
+  "origins": {
+    "https://www.india.gov.in:443": {
+      "origin": "https://www.india.gov.in:443",
+      "host": "www.india.gov.in",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.india.gov.in/",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2600:1417:2c::6011:b61a",
+            "2600:1417:2c::6011:b613"
+          ],
+          "cname_chain": [
+            "www.india.gov.in.edgesuite.net",
+            "a510.dscb.akamai.net"
+          ],
+          "ttl": 20,
+          "ms": 126.7,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2600:1417:2c::6011:b61a",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 3.2
+            },
+            {
+              "addr": "2600:1417:2c::6011:b613",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 2.6
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "184.84.221.72",
+            "184.84.221.83"
+          ],
+          "cname_chain": [
+            "www.india.gov.in.edgesuite.net",
+            "a510.dscb.akamai.net"
+          ],
+          "ttl": 11,
+          "ms": 4.6
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "184.84.221.72",
+              "ok": true,
+              "ms": 89.2
+            }
+          ],
+          "shim": false,
+          "addr": "184.84.221.72"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "www.india.gov.in",
+          "cert_not_after": "Oct 27 08:08:13 2026 GMT",
+          "ms": 309.3
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 209.1,
+          "ok": true
+        }
+      }
+    },
+    "https://www.googletagmanager.com:443": {
+      "origin": "https://www.googletagmanager.com:443",
+      "host": "www.googletagmanager.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.googletagmanager.com/gtag/js?id=G-XSZTHBMN8B",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4007:82f::2008"
+          ],
+          "cname_chain": [],
+          "ttl": 235,
+          "ms": 4.3,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2404:6800:4007:82f::2008",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 2.6
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.251.220.104"
+          ],
+          "cname_chain": [],
+          "ttl": 75,
+          "ms": 1.9
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.251.220.104",
+              "ok": true,
+              "ms": 50.5
+            }
+          ],
+          "shim": false,
+          "addr": "142.251.220.104"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google-analytics.com",
+          "cert_not_after": "Dec 21 18:38:19 2026 GMT",
+          "ms": 185.3
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "Google Tag Manager",
+          "ms": 179.8,
+          "ok": true
+        }
+      }
+    },
+    "https://code.jquery.com:443": {
+      "origin": "https://code.jquery.com:443",
+      "host": "code.jquery.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://code.jquery.com/jquery-3.7.1.min.js",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2a04:4e42:600::411",
+            "2a04:4e42:200::411",
+            "2a04:4e42::411",
+            "2a04:4e42:400::411"
+          ],
+          "cname_chain": [],
+          "ttl": 10,
+          "ms": 126.0,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2a04:4e42:600::411",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 2.1
+            },
+            {
+              "addr": "2a04:4e42:200::411",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.0
+            },
+            {
+              "addr": "2a04:4e42::411",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.0
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "151.101.129.155",
+            "151.101.193.155",
+            "151.101.65.155",
+            "151.101.1.155"
+          ],
+          "cname_chain": [],
+          "ttl": 49,
+          "ms": 0.7
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "151.101.129.155",
+              "ok": false,
+              "code": "TCP_TIMEOUT",
+              "error": "TimeoutError: timed out",
+              "ms": 5005.6
+            },
+            {
+              "addr": "151.101.193.155",
+              "ok": true,
+              "ms": 102.5
+            }
+          ],
+          "shim": false,
+          "addr": "151.101.193.155"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "*.jquery.com",
+          "cert_not_after": "Dec  4 23:59:59 2026 GMT",
+          "ms": 117.7
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "nginx",
+          "ms": 189.6,
+          "ok": true
+        }
+      }
+    },
+    "https://swalekh.blob.core.windows.net:443": {
+      "origin": "https://swalekh.blob.core.windows.net:443",
+      "host": "swalekh.blob.core.windows.net",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://swalekh.blob.core.windows.net/swk-version/nic-dec-2024-build-swalekh-main.js",
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "dns",
+        "failure_code": "DNS_NO_AAAA",
+        "dns": {
+          "ok": false,
+          "rcode": "NOERROR",
+          "addresses": [],
+          "cname_chain": [
+            "swalekh.privatelink.blob.core.windows.net",
+            "blob.jga20prdstr01a.store.core.windows.net"
+          ],
+          "ttl": null,
+          "ms": 133.0
+        },
+        "tcp": {},
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": "http",
+        "failure_code": "HTTP_403",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "20.150.65.4"
+          ],
+          "cname_chain": [
+            "swalekh.privatelink.blob.core.windows.net",
+            "blob.jga20prdstr01a.store.core.windows.net"
+          ],
+          "ttl": 51,
+          "ms": 0.7
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "20.150.65.4",
+              "ok": true,
+              "ms": 83.3
+            }
+          ],
+          "shim": false,
+          "addr": "20.150.65.4"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.blob.core.windows.net",
+          "cert_not_after": "Jan  3 08:18:19 2027 GMT",
+          "ms": 419.1
+        },
+        "http": {
+          "status": 403,
+          "reason": "This request is not authorized to perform this operation.",
+          "location": null,
+          "server": "Microsoft-HTTPAPI/2.0",
+          "ms": 195.9,
+          "ok": false
+        }
+      }
+    },
+    "https://cdn.jsdelivr.net:443": {
+      "origin": "https://cdn.jsdelivr.net:443",
+      "host": "cdn.jsdelivr.net",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://cdn.jsdelivr.net/npm/reverie-stt-sdk/dist/bundle.js",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2606:4700::6811:cf05",
+            "2606:4700::6811:d005"
+          ],
+          "cname_chain": [
+            "cdn.jsdelivr.net.cdn.cloudflare.net"
+          ],
+          "ttl": 85,
+          "ms": 4.7,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2606:4700::6811:cf05",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.8
+            },
+            {
+              "addr": "2606:4700::6811:d005",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.9
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "104.17.207.5",
+            "104.17.208.5"
+          ],
+          "cname_chain": [
+            "cdn.jsdelivr.net.cdn.cloudflare.net"
+          ],
+          "ttl": 15,
+          "ms": 2.6
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "104.17.207.5",
+              "ok": true,
+              "ms": 103.1
+            }
+          ],
+          "shim": false,
+          "addr": "104.17.207.5"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.jsdelivr.net",
+          "cert_not_after": "May  2 23:59:59 2027 GMT",
+          "ms": 217.9
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "cloudflare",
+          "ms": 197.7,
+          "ok": true
+        }
+      }
+    },
+    "https://static2.india.gov.in:443": {
+      "origin": "https://static2.india.gov.in:443",
+      "host": "static2.india.gov.in",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://static2.india.gov.in/npiprod/uploads/water_e055dd1642.jpg",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2600:1417:2c::6011:b671",
+            "2600:1417:2c::6011:b619"
+          ],
+          "cname_chain": [
+            "static2.india.gov.in.edgesuite.net",
+            "a1591.dscb.akamai.net"
+          ],
+          "ttl": 20,
+          "ms": 116.7,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2600:1417:2c::6011:b671",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.1
+            },
+            {
+              "addr": "2600:1417:2c::6011:b619",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.0
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "184.84.221.80",
+            "184.84.221.89"
+          ],
+          "cname_chain": [
+            "static2.india.gov.in.edgesuite.net",
+            "a1591.dscb.akamai.net"
+          ],
+          "ttl": 12,
+          "ms": 1.2
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "184.84.221.80",
+              "ok": true,
+              "ms": 102.5
+            }
+          ],
+          "shim": false,
+          "addr": "184.84.221.80"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "www.india.gov.in",
+          "cert_not_after": "Oct 27 08:08:13 2026 GMT",
+          "ms": 318.6
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 215.3,
+          "ok": true
+        }
+      }
+    },
+    "https://cbpssubscriber.mygov.in:443": {
+      "origin": "https://cbpssubscriber.mygov.in:443",
+      "host": "cbpssubscriber.mygov.in",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://cbpssubscriber.mygov.in/assets/uploads/3rpbtfC38B9muoRQ?v=1",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2600:1417:6d::170f:223b",
+            "2600:1417:6d::170f:2261"
+          ],
+          "cname_chain": [
+            "cbpssubscriber.mygov.in.akamaized.net",
+            "a1928.dscd.akamai.net"
+          ],
+          "ttl": 20,
+          "ms": 112.7,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2600:1417:6d::170f:223b",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.1
+            },
+            {
+              "addr": "2600:1417:6d::170f:2261",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.0
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "23.36.177.139",
+            "23.36.177.153"
+          ],
+          "cname_chain": [
+            "cbpssubscriber.mygov.in.akamaized.net",
+            "a1928.dscd.akamai.net"
+          ],
+          "ttl": 12,
+          "ms": 2.7
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "23.36.177.139",
+              "ok": true,
+              "ms": 101.1
+            }
+          ],
+          "shim": false,
+          "addr": "23.36.177.139"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "mygov.in",
+          "cert_not_after": "Jan 22 23:59:59 2027 GMT",
+          "ms": 321.2
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 202.0,
+          "ok": true
+        }
+      }
+    },
+    "https://static.mygov.in:443": {
+      "origin": "https://static.mygov.in:443",
+      "host": "static.mygov.in",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://static.mygov.in/static/resources/s3fs-public/2026-10/mygov_1792065593_c42284df.jpg",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2600:1417:6d::170f:2253",
+            "2600:1417:6d::170f:2233"
+          ],
+          "cname_chain": [
+            "static.mygov.in.akamaized.net",
+            "a1897.dscd.akamai.net"
+          ],
+          "ttl": 20,
+          "ms": 108.5,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2600:1417:6d::170f:2253",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.1
+            },
+            {
+              "addr": "2600:1417:6d::170f:2233",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.0
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "23.36.177.136",
+            "23.36.177.153"
+          ],
+          "cname_chain": [
+            "static.mygov.in.akamaized.net",
+            "a1897.dscd.akamai.net"
+          ],
+          "ttl": 12,
+          "ms": 2.6
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "23.36.177.136",
+              "ok": true,
+              "ms": 99.9
+            }
+          ],
+          "shim": false,
+          "addr": "23.36.177.136"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "mygov.in",
+          "cert_not_after": "Jan 22 23:59:59 2027 GMT",
+          "ms": 549.0
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 196.9,
+          "ok": true
+        }
+      }
+    },
+    "https://fonts.googleapis.com:443": {
+      "origin": "https://fonts.googleapis.com:443",
+      "host": "fonts.googleapis.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4000:1006::5f"
+          ],
+          "cname_chain": [],
+          "ttl": 233,
+          "ms": 1.8,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2404:6800:4000:1006::5f",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 1.9
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.250.134.95"
+          ],
+          "cname_chain": [],
+          "ttl": 5,
+          "ms": 3.6
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.250.134.95",
+              "ok": true,
+              "ms": 96.0
+            }
+          ],
+          "shim": false,
+          "addr": "142.250.134.95"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "upload.video.google.com",
+          "cert_not_after": "Dec 21 18:40:11 2026 GMT",
+          "ms": 316.2
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "ESF",
+          "ms": 216.1,
+          "ok": true
+        }
+      }
+    },
+    "https://fonts.gstatic.com:443": {
+      "origin": "https://fonts.gstatic.com:443",
+      "host": "fonts.gstatic.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://fonts.gstatic.com/s/notosans/v42/o-0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5a7duw.woff2",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4000:100e::5e"
+          ],
+          "cname_chain": [],
+          "ttl": 232,
+          "ms": 1.1,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2404:6800:4000:100e::5e",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.1
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.250.146.94"
+          ],
+          "cname_chain": [],
+          "ttl": 188,
+          "ms": 3.7
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.250.146.94",
+              "ok": true,
+              "ms": 94.9
+            }
+          ],
+          "shim": false,
+          "addr": "142.250.146.94"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.gstatic.com",
+          "cert_not_after": "Dec 21 18:40:05 2026 GMT",
+          "ms": 312.5
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "sffe",
+          "ms": 201.4,
+          "ok": true
+        }
+      }
+    },
+    "https://www.google-analytics.com:443": {
+      "origin": "https://www.google-analytics.com:443",
+      "host": "www.google-analytics.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XSZTHBMN8B&gtm=45je6ae1v9200502906za208zd9200502906xf1&_p=1792388178403&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1850409693.1792388179&frm=0&ngs=1&pscdl=noapi&rcb=13&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-in&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&sid=1792388178&sct=1&seg=0&dl=https%3A%2F%2Fwww.india.gov.in%2F&dt=Home%20%7C%20National%20Portal%20of%20India&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=3128",
+      "verdict": "INCONCLUSIVE_NO_IPV6",
+      "failed_stage": "tcp",
+      "failure_code": "TCP_UNREACHABLE",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "tcp",
+        "failure_code": "TCP_UNREACHABLE",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4007:805::200e"
+          ],
+          "cname_chain": [],
+          "ttl": 270,
+          "ms": 5.6,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": false,
+          "attempts": [
+            {
+              "addr": "2404:6800:4007:805::200e",
+              "ok": false,
+              "code": "TCP_UNREACHABLE",
+              "error": "OSError: [Errno 101] Network is unreachable",
+              "ms": 0.1
+            }
+          ],
+          "shim": false,
+          "error": "OSError: [Errno 101] Network is unreachable"
+        },
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.250.67.46"
+          ],
+          "cname_chain": [],
+          "ttl": 104,
+          "ms": 1.6
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.250.67.46",
+              "ok": true,
+              "ms": 91.9
+            }
+          ],
+          "shim": false,
+          "addr": "142.250.67.46"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google-analytics.com",
+          "cert_not_after": "Dec 21 18:38:19 2026 GMT",
+          "ms": 313.4
+        },
+        "http": {
+          "status": 204,
+          "reason": "No Content",
+          "location": null,
+          "server": "Golfe2",
+          "ms": 196.9,
+          "ok": true
+        }
+      }
+    },
+    "https://static.india.gov.in:443": {
+      "origin": "https://static.india.gov.in:443",
+      "host": "static.india.gov.in",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://static.india.gov.in/npiprod/uploads/agri_1716e0993b.svg",
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "dns",
+        "failure_code": "DNS_NO_AAAA",
+        "dns": {
+          "ok": false,
+          "rcode": "NOERROR",
+          "addresses": [],
+          "cname_chain": [],
+          "ttl": null,
+          "ms": 39.8
+        },
+        "tcp": {},
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "164.100.220.40"
+          ],
+          "cname_chain": [],
+          "ttl": 210,
+          "ms": 0.6
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "164.100.220.40",
+              "ok": true,
+              "ms": 69.8
+            }
+          ],
+          "shim": false,
+          "addr": "164.100.220.40"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.india.gov.in",
+          "cert_not_after": "Jan 14 05:34:53 2027 GMT",
+          "ms": 215.3
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 183.5,
+          "ok": true
+        }
+      }
+    },
+    "https://translation-plugin.bhashini.co.in:443": {
+      "origin": "https://translation-plugin.bhashini.co.in:443",
+      "host": "translation-plugin.bhashini.co.in",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js",
+      "verdict": "IPV4_ONLY",
+      "failed_stage": "dns",
+      "failure_code": "DNS_NO_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "dns",
+        "failure_code": "DNS_NO_AAAA",
+        "dns": {
+          "ok": false,
+          "rcode": "NOERROR",
+          "addresses": [],
+          "cname_chain": [],
+          "ttl": null,
+          "ms": 403.1
+        },
+        "tcp": {},
+        "tls": {},
+        "http": {}
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "103.114.152.114"
+          ],
+          "cname_chain": [],
+          "ttl": 212,
+          "ms": 0.4
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "103.114.152.114",
+              "ok": true,
+              "ms": 106.4
+            }
+          ],
+          "shim": false,
+          "addr": "103.114.152.114"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.bhashini.co.in",
+          "cert_not_after": "Oct 26 11:28:39 2026 GMT",
+          "ms": 121.2
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 282.3,
+          "ok": true
+        }
+      }
+    }
+  },
+  "site": {
+    "category": "Government",
+    "name": "India.gov.in",
+    "url": "https://www.india.gov.in/"
+  }
+}

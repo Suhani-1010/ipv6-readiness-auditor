@@ -1,0 +1,1900 @@
+{
+  "schema": "ipv6-readiness-audit/1",
+  "page": "https://www.digilocker.gov.in/",
+  "final_url": "https://www.digilocker.gov.in/",
+  "started_utc": "2026-10-24T09:46:00+00:00",
+  "load_seconds": 8.67,
+  "vantage": {
+    "nat64_prefixes": [
+      "64:ff9b::/96"
+    ],
+    "ipv6_stack": true,
+    "ipv6_default_route": true,
+    "ipv4_default_route": true,
+    "lab_v6_shim": false,
+    "pathway": "dual-stack + DNS64/NAT64"
+  },
+  "capture_errors": [],
+  "summary": {
+    "page_verdict": "BROKEN_ON_IPV6",
+    "root_verdict": "READY",
+    "root_has_aaaa": true,
+    "resources_total": 43,
+    "origins_total": 8,
+    "resources_by_verdict": {
+      "READY": 34,
+      "IPV4_ONLY_NAT64": 9
+    },
+    "origins_by_verdict": {
+      "READY": 5,
+      "IPV4_ONLY_NAT64": 3
+    },
+    "ipv6_failures_by_stage": {
+      "dns": 3
+    },
+    "ipv6_failing_resources": 9,
+    "inconclusive_resources": 0,
+    "ipv6_failing_critical": 2,
+    "ipv6_failing_third_party": 9,
+    "resource_ipv6_ready_pct": 79.1,
+    "ipv4_only_hosts": [
+      "cf-media.api-setu.in",
+      "doc.ux4g.gov.in",
+      "nationale-governancedivisionnegdm2.my.salesforce-scrt.com"
+    ],
+    "aaaa_but_broken_hosts": [],
+    "root_host": "www.digilocker.gov.in",
+    "root_http_parity": false
+  },
+  "tree": {
+    "root": "https://www.digilocker.gov.in/",
+    "edges": [
+      [
+        "https://www.digilocker.gov.in/",
+        "https://www.digilocker.gov.in/assets/js/swiper-bundle.min.css"
+      ],
+      [
+        "https://www.digilocker.gov.in/",
+        "https://www.digilocker.gov.in/assets/js/swiper-bundle.min.js"
+      ],
+      [
+        "https://www.digilocker.gov.in/",
+        "https://cdn.digilocker.gov.in/ux4g/UX4G@1.0.2/css/ux4g-min.css"
+      ],
+      [
+        "https://www.digilocker.gov.in/",
+        "https://www.digilocker.gov.in/assets/landing/css/custom-v32.css"
+      ],
+      [
+        "https://www.digilocker.gov.in/",
+        "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/fontawesome/css/all.css"
+      ],
+      [
+        "https://www.digilocker.gov.in/",
+        "https://www.digilocker.gov.in/assets/landing/css/cards-backgroud-colors-v1.css"
+      ],
+      [
+        "https://www.digilocker.gov.in/",
+        "https://www.digilocker.gov.in/assets/img/uil_language_white.svg"
+      ],
+      [
+        "https://www.digilocker.gov.in/",
+        "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/js/jquery-3.7.1.min.js"
+      ],
+      [
+        "https://www.digilocker.gov.in/",
+        "https://www.digilocker.gov.in/assets/landing/css/owl.carousel.min.css"
+      ],
+      [
+        "https://www.digilocker.gov.in/",
+        "https://www.digilocker.gov.in/assets/landing/css/owl.theme.default.min.css"
+      ],
+      [
+        "https://www.digilocker.gov.in/",
+        "https://www.digilocker.gov.in/assets/landing/js/owl.carousel.min.js"
+      ],
+      [
+        "https://www.digilocker.gov.in/",
+        "https://www.digilocker.gov.in/assets/landing/js/all-dl-v20.js"
+      ],
+      [
+        "https://www.digilocker.gov.in/",
+        "https://www.digilocker.gov.in/assets/js/popper.min.js"
+      ],
+      [
+        "https://www.digilocker.gov.in/",
+        "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/js/bootstrap.min.js"
+      ],
+      [
+        "https://www.digilocker.gov.in/",
+        "https://www.digilocker.gov.in/assets/landing/js/newInDigiLocker-v1.js"
+      ],
+      [
+        "https://www.digilocker.gov.in/",
+        "https://www.digilocker.gov.in/assets/landing/js/citizen-chatbot.js"
+      ],
+      [
+        "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/fontawesome/css/all.css",
+        "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/fontawesome/webfonts/fa-solid-900.woff2"
+      ],
+      [
+        "https://www.digilocker.gov.in/",
+        "https://doc.ux4g.gov.in/assets/img/icon/in-flag.png"
+      ],
+      [
+        "https://www.digilocker.gov.in/",
+        "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/img/banner/web-banner-1.jpg"
+      ],
+      [
+        "https://www.digilocker.gov.in/",
+        "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/img/banner/web-banner-2.jpg"
+      ],
+      [
+        "https://www.digilocker.gov.in/assets/landing/js/citizen-chatbot.js",
+        "https://nationale-governancedivisionnegdm2.my.site.com/ESWNeGDBotMessa1791796373874/assets/js/bootstrap.min.js"
+      ],
+      [
+        "https://www.digilocker.gov.in/assets/landing/js/all-dl-v20.js",
+        "https://www.digilocker.gov.in/assets/landing/language/en.json"
+      ],
+      [
+        "https://www.digilocker.gov.in/assets/landing/js/all-dl-v20.js",
+        "https://recommend-prod.dl6.in/v1/top-documents"
+      ],
+      [
+        "https://www.digilocker.gov.in/",
+        "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/img/banner/web-banner-4.jpg"
+      ],
+      [
+        "https://www.digilocker.gov.in/",
+        "https://recommend-prod.dl6.in/assets/trending.svg"
+      ],
+      [
+        "https://nationale-governancedivisionnegdm2.my.site.com/ESWNeGDBotMessa1791796373874/assets/js/bootstrap.min.js",
+        "https://nationale-governancedivisionnegdm2.my.site.com/ESWNeGDBotMessa1791796373874/assets/styles/bootstrap.min.css"
+      ],
+      [
+        "https://nationale-governancedivisionnegdm2.my.site.com/ESWNeGDBotMessa1791796373874/assets/js/bootstrap.min.js",
+        "https://nationale-governancedivisionnegdm2.my.salesforce-scrt.com/embeddedservice/v1/embedded-service-config?orgId=00Df600000814Mj&esConfigName=NeGD_Bot_Messaging_Channel_Not_Logged&language=en_US"
+      ],
+      [
+        "https://nationale-governancedivisionnegdm2.my.site.com/ESWNeGDBotMessa1791796373874/assets/js/bootstrap.min.js",
+        "https://nationale-governancedivisionnegdm2.my.salesforce-scrt.com/embeddedservice/v1/businesshours?orgId=00Df600000814Mj&esConfigName=NeGD_Bot_Messaging_Channel_Not_Logged"
+      ],
+      [
+        "https://www.digilocker.gov.in/",
+        "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/img/meta/favicon-32x32.png"
+      ],
+      [
+        "https://www.digilocker.gov.in/",
+        "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/img/DigilockerLogo.svg"
+      ],
+      [
+        "https://www.digilocker.gov.in/assets/landing/js/newInDigiLocker-v1.js",
+        "https://www.digilocker.gov.in/assets/landing/newInDigiLocker.json"
+      ],
+      [
+        "https://www.digilocker.gov.in/",
+        "https://cf-media.api-setu.in/logo/issuers/098978.png"
+      ],
+      [
+        "https://www.digilocker.gov.in/",
+        "https://cf-media.api-setu.in/logo/issuers/085291.png"
+      ],
+      [
+        "https://www.digilocker.gov.in/",
+        "https://cf-media.api-setu.in/logo/issuers/131387.png"
+      ],
+      [
+        "https://www.digilocker.gov.in/",
+        "https://cf-media.api-setu.in/logo/issuers/142103.png"
+      ],
+      [
+        "https://www.digilocker.gov.in/",
+        "https://cf-media.api-setu.in/logo/issuers/138045.png"
+      ],
+      [
+        "https://www.digilocker.gov.in/",
+        "https://cf-media.api-setu.in/logo/issuers/133165.png"
+      ],
+      [
+        "https://nationale-governancedivisionnegdm2.my.site.com/ESWNeGDBotMessa1791796373874/assets/js/bootstrap.min.js",
+        "https://nationale-governancedivisionnegdm2.my.site.com/ESWNeGDBotMessa1791796373874/assets/htdocs/sitecontext.min.html?parent_domain=https%3A%2F%2Fwww.digilocker.gov.in"
+      ],
+      [
+        "https://www.digilocker.gov.in/",
+        "https://nationale-governancedivisionnegdm2--uat.sandbox.my.site.com/resource/BotImage"
+      ],
+      [
+        "https://www.digilocker.gov.in/",
+        "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/img/banner/web-banner-3.jpg"
+      ],
+      [
+        "https://nationale-governancedivisionnegdm2.my.site.com/ESWNeGDBotMessa1791796373874/assets/htdocs/sitecontext.min.html?parent_domain=https%3A%2F%2Fwww.digilocker.gov.in",
+        "https://nationale-governancedivisionnegdm2.my.site.com/ESWNeGDBotMessa1791796373874/assets/js/sitecontext.min.js"
+      ],
+      [
+        "https://nationale-governancedivisionnegdm2.my.site.com/ESWNeGDBotMessa1791796373874/assets/htdocs/sitecontext.min.html?parent_domain=https%3A%2F%2Fwww.digilocker.gov.in",
+        "https://nationale-governancedivisionnegdm2.my.site.com/ESWNeGDBotMessa1791796373874/?lwc.mode=prod&lwr.linkHeaders=true"
+      ]
+    ]
+  },
+  "resources": {
+    "https://www.digilocker.gov.in/": {
+      "url": "https://www.digilocker.gov.in/",
+      "resource_type": "Document",
+      "initiator_type": "other",
+      "parent": null,
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:9000:20c7:7c00:10:b32f:1cc0:93a1]",
+      "count": 1,
+      "depth": 0,
+      "host": "www.digilocker.gov.in",
+      "origin": "https://www.digilocker.gov.in:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.digilocker.gov.in/assets/js/swiper-bundle.min.css": {
+      "url": "https://www.digilocker.gov.in/assets/js/swiper-bundle.min.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.digilocker.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:9000:20c7:7c00:10:b32f:1cc0:93a1]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.digilocker.gov.in",
+      "origin": "https://www.digilocker.gov.in:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.digilocker.gov.in/assets/js/swiper-bundle.min.js": {
+      "url": "https://www.digilocker.gov.in/assets/js/swiper-bundle.min.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.digilocker.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:9000:20c7:7c00:10:b32f:1cc0:93a1]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.digilocker.gov.in",
+      "origin": "https://www.digilocker.gov.in:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://cdn.digilocker.gov.in/ux4g/UX4G@1.0.2/css/ux4g-min.css": {
+      "url": "https://cdn.digilocker.gov.in/ux4g/UX4G@1.0.2/css/ux4g-min.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.digilocker.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:9000:20c7:ce00:5:b42a:f7c0:93a1]",
+      "count": 1,
+      "depth": 1,
+      "host": "cdn.digilocker.gov.in",
+      "origin": "https://cdn.digilocker.gov.in:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.digilocker.gov.in/assets/landing/css/custom-v32.css": {
+      "url": "https://www.digilocker.gov.in/assets/landing/css/custom-v32.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.digilocker.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:9000:20c7:7c00:10:b32f:1cc0:93a1]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.digilocker.gov.in",
+      "origin": "https://www.digilocker.gov.in:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/fontawesome/css/all.css": {
+      "url": "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/fontawesome/css/all.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.digilocker.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:9000:20c7:ce00:5:b42a:f7c0:93a1]",
+      "count": 1,
+      "depth": 1,
+      "host": "cdn.digilocker.gov.in",
+      "origin": "https://cdn.digilocker.gov.in:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.digilocker.gov.in/assets/landing/css/cards-backgroud-colors-v1.css": {
+      "url": "https://www.digilocker.gov.in/assets/landing/css/cards-backgroud-colors-v1.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.digilocker.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:9000:20c7:7c00:10:b32f:1cc0:93a1]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.digilocker.gov.in",
+      "origin": "https://www.digilocker.gov.in:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.digilocker.gov.in/assets/img/uil_language_white.svg": {
+      "url": "https://www.digilocker.gov.in/assets/img/uil_language_white.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.digilocker.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:9000:20c7:7c00:10:b32f:1cc0:93a1]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.digilocker.gov.in",
+      "origin": "https://www.digilocker.gov.in:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/js/jquery-3.7.1.min.js": {
+      "url": "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/js/jquery-3.7.1.min.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.digilocker.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:9000:20c7:ce00:5:b42a:f7c0:93a1]",
+      "count": 1,
+      "depth": 1,
+      "host": "cdn.digilocker.gov.in",
+      "origin": "https://cdn.digilocker.gov.in:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.digilocker.gov.in/assets/landing/css/owl.carousel.min.css": {
+      "url": "https://www.digilocker.gov.in/assets/landing/css/owl.carousel.min.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.digilocker.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:9000:20c7:7c00:10:b32f:1cc0:93a1]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.digilocker.gov.in",
+      "origin": "https://www.digilocker.gov.in:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.digilocker.gov.in/assets/landing/css/owl.theme.default.min.css": {
+      "url": "https://www.digilocker.gov.in/assets/landing/css/owl.theme.default.min.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.digilocker.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:9000:20c7:7c00:10:b32f:1cc0:93a1]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.digilocker.gov.in",
+      "origin": "https://www.digilocker.gov.in:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.digilocker.gov.in/assets/landing/js/owl.carousel.min.js": {
+      "url": "https://www.digilocker.gov.in/assets/landing/js/owl.carousel.min.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.digilocker.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:9000:20c7:7c00:10:b32f:1cc0:93a1]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.digilocker.gov.in",
+      "origin": "https://www.digilocker.gov.in:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.digilocker.gov.in/assets/landing/js/all-dl-v20.js": {
+      "url": "https://www.digilocker.gov.in/assets/landing/js/all-dl-v20.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.digilocker.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:9000:20c7:7c00:10:b32f:1cc0:93a1]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.digilocker.gov.in",
+      "origin": "https://www.digilocker.gov.in:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.digilocker.gov.in/assets/js/popper.min.js": {
+      "url": "https://www.digilocker.gov.in/assets/js/popper.min.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.digilocker.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:9000:20c7:7c00:10:b32f:1cc0:93a1]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.digilocker.gov.in",
+      "origin": "https://www.digilocker.gov.in:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/js/bootstrap.min.js": {
+      "url": "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/js/bootstrap.min.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.digilocker.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:9000:20c7:ce00:5:b42a:f7c0:93a1]",
+      "count": 1,
+      "depth": 1,
+      "host": "cdn.digilocker.gov.in",
+      "origin": "https://cdn.digilocker.gov.in:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.digilocker.gov.in/assets/landing/js/newInDigiLocker-v1.js": {
+      "url": "https://www.digilocker.gov.in/assets/landing/js/newInDigiLocker-v1.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.digilocker.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:9000:20c7:7c00:10:b32f:1cc0:93a1]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.digilocker.gov.in",
+      "origin": "https://www.digilocker.gov.in:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.digilocker.gov.in/assets/landing/js/citizen-chatbot.js": {
+      "url": "https://www.digilocker.gov.in/assets/landing/js/citizen-chatbot.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.digilocker.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:9000:20c7:7c00:10:b32f:1cc0:93a1]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.digilocker.gov.in",
+      "origin": "https://www.digilocker.gov.in:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/fontawesome/webfonts/fa-solid-900.woff2": {
+      "url": "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/fontawesome/webfonts/fa-solid-900.woff2",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/fontawesome/css/all.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:9000:20c7:ce00:5:b42a:f7c0:93a1]",
+      "count": 1,
+      "depth": 2,
+      "host": "cdn.digilocker.gov.in",
+      "origin": "https://cdn.digilocker.gov.in:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://doc.ux4g.gov.in/assets/img/icon/in-flag.png": {
+      "url": "https://doc.ux4g.gov.in/assets/img/icon/in-flag.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.digilocker.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::dcd:17fa]",
+      "count": 1,
+      "depth": 1,
+      "host": "doc.ux4g.gov.in",
+      "origin": "https://doc.ux4g.gov.in:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/img/banner/web-banner-1.jpg": {
+      "url": "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/img/banner/web-banner-1.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.digilocker.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:9000:20c7:ce00:5:b42a:f7c0:93a1]",
+      "count": 1,
+      "depth": 1,
+      "host": "cdn.digilocker.gov.in",
+      "origin": "https://cdn.digilocker.gov.in:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/img/banner/web-banner-2.jpg": {
+      "url": "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/img/banner/web-banner-2.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.digilocker.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:9000:20c7:ce00:5:b42a:f7c0:93a1]",
+      "count": 1,
+      "depth": 1,
+      "host": "cdn.digilocker.gov.in",
+      "origin": "https://cdn.digilocker.gov.in:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://nationale-governancedivisionnegdm2.my.site.com/ESWNeGDBotMessa1791796373874/assets/js/bootstrap.min.js": {
+      "url": "https://nationale-governancedivisionnegdm2.my.site.com/ESWNeGDBotMessa1791796373874/assets/js/bootstrap.min.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.digilocker.gov.in/assets/landing/js/citizen-chatbot.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2606:4700:8d91:5ecd:aca8:57a:9593:d5e7]",
+      "count": 1,
+      "depth": 2,
+      "host": "nationale-governancedivisionnegdm2.my.site.com",
+      "origin": "https://nationale-governancedivisionnegdm2.my.site.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.digilocker.gov.in/assets/landing/language/en.json": {
+      "url": "https://www.digilocker.gov.in/assets/landing/language/en.json",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.digilocker.gov.in/assets/landing/js/all-dl-v20.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:9000:20c7:7c00:10:b32f:1cc0:93a1]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.digilocker.gov.in",
+      "origin": "https://www.digilocker.gov.in:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://recommend-prod.dl6.in/v1/top-documents": {
+      "url": "https://recommend-prod.dl6.in/v1/top-documents",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.digilocker.gov.in/assets/landing/js/all-dl-v20.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2406:da1a:391:6c2e:8e51:19d:b27a:d7dd]",
+      "count": 1,
+      "depth": 2,
+      "host": "recommend-prod.dl6.in",
+      "origin": "https://recommend-prod.dl6.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/img/banner/web-banner-4.jpg": {
+      "url": "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/img/banner/web-banner-4.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.digilocker.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:9000:20c7:ce00:5:b42a:f7c0:93a1]",
+      "count": 1,
+      "depth": 1,
+      "host": "cdn.digilocker.gov.in",
+      "origin": "https://cdn.digilocker.gov.in:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://recommend-prod.dl6.in/assets/trending.svg": {
+      "url": "https://recommend-prod.dl6.in/assets/trending.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.digilocker.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2406:da1a:391:6c2e:8e51:19d:b27a:d7dd]",
+      "count": 1,
+      "depth": 1,
+      "host": "recommend-prod.dl6.in",
+      "origin": "https://recommend-prod.dl6.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://nationale-governancedivisionnegdm2.my.site.com/ESWNeGDBotMessa1791796373874/assets/styles/bootstrap.min.css": {
+      "url": "https://nationale-governancedivisionnegdm2.my.site.com/ESWNeGDBotMessa1791796373874/assets/styles/bootstrap.min.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "script",
+      "parent": "https://nationale-governancedivisionnegdm2.my.site.com/ESWNeGDBotMessa1791796373874/assets/js/bootstrap.min.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2606:4700:8d91:5ecd:aca8:57a:9593:d5e7]",
+      "count": 1,
+      "depth": 3,
+      "host": "nationale-governancedivisionnegdm2.my.site.com",
+      "origin": "https://nationale-governancedivisionnegdm2.my.site.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://nationale-governancedivisionnegdm2.my.salesforce-scrt.com/embeddedservice/v1/embedded-service-config?orgId=00Df600000814Mj&esConfigName=NeGD_Bot_Messaging_Channel_Not_Logged&language=en_US": {
+      "url": "https://nationale-governancedivisionnegdm2.my.salesforce-scrt.com/embeddedservice/v1/embedded-service-config?orgId=00Df600000814Mj&esConfigName=NeGD_Bot_Messaging_Channel_Not_Logged&language=en_US",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://nationale-governancedivisionnegdm2.my.site.com/ESWNeGDBotMessa1791796373874/assets/js/bootstrap.min.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::8da3:d8e6]",
+      "count": 1,
+      "depth": 3,
+      "host": "nationale-governancedivisionnegdm2.my.salesforce-scrt.com",
+      "origin": "https://nationale-governancedivisionnegdm2.my.salesforce-scrt.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://nationale-governancedivisionnegdm2.my.salesforce-scrt.com/embeddedservice/v1/businesshours?orgId=00Df600000814Mj&esConfigName=NeGD_Bot_Messaging_Channel_Not_Logged": {
+      "url": "https://nationale-governancedivisionnegdm2.my.salesforce-scrt.com/embeddedservice/v1/businesshours?orgId=00Df600000814Mj&esConfigName=NeGD_Bot_Messaging_Channel_Not_Logged",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://nationale-governancedivisionnegdm2.my.site.com/ESWNeGDBotMessa1791796373874/assets/js/bootstrap.min.js",
+      "status": 204,
+      "browser_error": "net::ERR_ABORTED",
+      "remote_ip": "[64:ff9b::8da3:d8e6]",
+      "count": 1,
+      "depth": 3,
+      "host": "nationale-governancedivisionnegdm2.my.salesforce-scrt.com",
+      "origin": "https://nationale-governancedivisionnegdm2.my.salesforce-scrt.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/img/meta/favicon-32x32.png": {
+      "url": "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/img/meta/favicon-32x32.png",
+      "resource_type": "Other",
+      "initiator_type": "other",
+      "parent": "https://www.digilocker.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:9000:20c7:ce00:5:b42a:f7c0:93a1]",
+      "count": 1,
+      "depth": 1,
+      "host": "cdn.digilocker.gov.in",
+      "origin": "https://cdn.digilocker.gov.in:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/img/DigilockerLogo.svg": {
+      "url": "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/img/DigilockerLogo.svg",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.digilocker.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:9000:20c7:ce00:5:b42a:f7c0:93a1]",
+      "count": 1,
+      "depth": 1,
+      "host": "cdn.digilocker.gov.in",
+      "origin": "https://cdn.digilocker.gov.in:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.digilocker.gov.in/assets/landing/newInDigiLocker.json": {
+      "url": "https://www.digilocker.gov.in/assets/landing/newInDigiLocker.json",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.digilocker.gov.in/assets/landing/js/newInDigiLocker-v1.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:9000:20c7:7c00:10:b32f:1cc0:93a1]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.digilocker.gov.in",
+      "origin": "https://www.digilocker.gov.in:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://cf-media.api-setu.in/logo/issuers/098978.png": {
+      "url": "https://cf-media.api-setu.in/logo/issuers/098978.png",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.digilocker.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::d23:145c]",
+      "count": 1,
+      "depth": 1,
+      "host": "cf-media.api-setu.in",
+      "origin": "https://cf-media.api-setu.in:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://cf-media.api-setu.in/logo/issuers/085291.png": {
+      "url": "https://cf-media.api-setu.in/logo/issuers/085291.png",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.digilocker.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::d23:145c]",
+      "count": 1,
+      "depth": 1,
+      "host": "cf-media.api-setu.in",
+      "origin": "https://cf-media.api-setu.in:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://cf-media.api-setu.in/logo/issuers/131387.png": {
+      "url": "https://cf-media.api-setu.in/logo/issuers/131387.png",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.digilocker.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::d23:145c]",
+      "count": 1,
+      "depth": 1,
+      "host": "cf-media.api-setu.in",
+      "origin": "https://cf-media.api-setu.in:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://cf-media.api-setu.in/logo/issuers/142103.png": {
+      "url": "https://cf-media.api-setu.in/logo/issuers/142103.png",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.digilocker.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::d23:145c]",
+      "count": 1,
+      "depth": 1,
+      "host": "cf-media.api-setu.in",
+      "origin": "https://cf-media.api-setu.in:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://cf-media.api-setu.in/logo/issuers/138045.png": {
+      "url": "https://cf-media.api-setu.in/logo/issuers/138045.png",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.digilocker.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::d23:145c]",
+      "count": 1,
+      "depth": 1,
+      "host": "cf-media.api-setu.in",
+      "origin": "https://cf-media.api-setu.in:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://cf-media.api-setu.in/logo/issuers/133165.png": {
+      "url": "https://cf-media.api-setu.in/logo/issuers/133165.png",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.digilocker.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::d23:145c]",
+      "count": 1,
+      "depth": 1,
+      "host": "cf-media.api-setu.in",
+      "origin": "https://cf-media.api-setu.in:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://nationale-governancedivisionnegdm2.my.site.com/ESWNeGDBotMessa1791796373874/assets/htdocs/sitecontext.min.html?parent_domain=https%3A%2F%2Fwww.digilocker.gov.in": {
+      "url": "https://nationale-governancedivisionnegdm2.my.site.com/ESWNeGDBotMessa1791796373874/assets/htdocs/sitecontext.min.html?parent_domain=https%3A%2F%2Fwww.digilocker.gov.in",
+      "resource_type": "Document",
+      "initiator_type": "script",
+      "parent": "https://nationale-governancedivisionnegdm2.my.site.com/ESWNeGDBotMessa1791796373874/assets/js/bootstrap.min.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2606:4700:8d91:5ecd:aca8:57a:9593:d5e7]",
+      "count": 1,
+      "depth": 3,
+      "host": "nationale-governancedivisionnegdm2.my.site.com",
+      "origin": "https://nationale-governancedivisionnegdm2.my.site.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://nationale-governancedivisionnegdm2--uat.sandbox.my.site.com/resource/BotImage": {
+      "url": "https://nationale-governancedivisionnegdm2--uat.sandbox.my.site.com/resource/BotImage",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.digilocker.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2606:4700:8d91:8276:53a6:57e:c65c:4f4a]",
+      "count": 1,
+      "depth": 1,
+      "host": "nationale-governancedivisionnegdm2--uat.sandbox.my.site.com",
+      "origin": "https://nationale-governancedivisionnegdm2--uat.sandbox.my.site.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/img/banner/web-banner-3.jpg": {
+      "url": "https://cdn.digilocker.gov.in/digilocker-landing-page/assets/img/banner/web-banner-3.jpg",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.digilocker.gov.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:9000:20c7:ce00:5:b42a:f7c0:93a1]",
+      "count": 1,
+      "depth": 1,
+      "host": "cdn.digilocker.gov.in",
+      "origin": "https://cdn.digilocker.gov.in:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://nationale-governancedivisionnegdm2.my.site.com/ESWNeGDBotMessa1791796373874/assets/js/sitecontext.min.js": {
+      "url": "https://nationale-governancedivisionnegdm2.my.site.com/ESWNeGDBotMessa1791796373874/assets/js/sitecontext.min.js",
+      "resource_type": "script",
+      "initiator_type": "frame",
+      "parent": "https://nationale-governancedivisionnegdm2.my.site.com/ESWNeGDBotMessa1791796373874/assets/htdocs/sitecontext.min.html?parent_domain=https%3A%2F%2Fwww.digilocker.gov.in",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 4,
+      "host": "nationale-governancedivisionnegdm2.my.site.com",
+      "origin": "https://nationale-governancedivisionnegdm2.my.site.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://nationale-governancedivisionnegdm2.my.site.com/ESWNeGDBotMessa1791796373874/?lwc.mode=prod&lwr.linkHeaders=true": {
+      "url": "https://nationale-governancedivisionnegdm2.my.site.com/ESWNeGDBotMessa1791796373874/?lwc.mode=prod&lwr.linkHeaders=true",
+      "resource_type": "xhr",
+      "initiator_type": "frame",
+      "parent": "https://nationale-governancedivisionnegdm2.my.site.com/ESWNeGDBotMessa1791796373874/assets/htdocs/sitecontext.min.html?parent_domain=https%3A%2F%2Fwww.digilocker.gov.in",
+      "status": null,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 4,
+      "host": "nationale-governancedivisionnegdm2.my.site.com",
+      "origin": "https://nationale-governancedivisionnegdm2.my.site.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    }
+  },
+  "origins": {
+    "https://www.digilocker.gov.in:443": {
+      "origin": "https://www.digilocker.gov.in:443",
+      "host": "www.digilocker.gov.in",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.digilocker.gov.in/",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2600:9000:20c7:7a00:10:b32f:1cc0:93a1",
+            "2600:9000:20c7:8800:10:b32f:1cc0:93a1",
+            "2600:9000:20c7:2a00:10:b32f:1cc0:93a1",
+            "2600:9000:20c7:ec00:10:b32f:1cc0:93a1",
+            "2600:9000:20c7:1200:10:b32f:1cc0:93a1",
+            "2600:9000:20c7:a600:10:b32f:1cc0:93a1",
+            "2600:9000:20c7:2600:10:b32f:1cc0:93a1",
+            "2600:9000:20c7:7c00:10:b32f:1cc0:93a1"
+          ],
+          "cname_chain": [
+            "d1dfndjwdsfipf.cloudfront.net"
+          ],
+          "ttl": 42,
+          "ms": 6.5,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2600:9000:20c7:7a00:10:b32f:1cc0:93a1",
+              "ok": true,
+              "ms": 109.8
+            }
+          ],
+          "shim": false,
+          "addr": "2600:9000:20c7:7a00:10:b32f:1cc0:93a1"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "*.digilocker.gov.in",
+          "cert_not_after": "Feb 19 23:59:59 2027 GMT",
+          "ms": 318.0
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "DigiLocker",
+          "ms": 2006.9,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "13.35.20.11",
+            "13.35.20.60",
+            "13.35.20.81",
+            "13.35.20.85"
+          ],
+          "cname_chain": [
+            "d1dfndjwdsfipf.cloudfront.net"
+          ],
+          "ttl": 1,
+          "ms": 686.2
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "13.35.20.11",
+              "ok": true,
+              "ms": 65.2
+            }
+          ],
+          "shim": false,
+          "addr": "13.35.20.11"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "*.digilocker.gov.in",
+          "cert_not_after": "Feb 19 23:59:59 2027 GMT",
+          "ms": 835.8
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "DigiLocker",
+          "ms": 1323.5,
+          "ok": true
+        }
+      }
+    },
+    "https://cdn.digilocker.gov.in:443": {
+      "origin": "https://cdn.digilocker.gov.in:443",
+      "host": "cdn.digilocker.gov.in",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://cdn.digilocker.gov.in/ux4g/UX4G@1.0.2/css/ux4g-min.css",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2600:9000:20c7:f600:5:b42a:f7c0:93a1",
+            "2600:9000:20c7:2000:5:b42a:f7c0:93a1",
+            "2600:9000:20c7:fc00:5:b42a:f7c0:93a1",
+            "2600:9000:20c7:e400:5:b42a:f7c0:93a1",
+            "2600:9000:20c7:a800:5:b42a:f7c0:93a1",
+            "2600:9000:20c7:ea00:5:b42a:f7c0:93a1",
+            "2600:9000:20c7:d200:5:b42a:f7c0:93a1",
+            "2600:9000:20c7:ce00:5:b42a:f7c0:93a1"
+          ],
+          "cname_chain": [
+            "d29jqskgkm8gkf.cloudfront.net"
+          ],
+          "ttl": 44,
+          "ms": 7.0,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2600:9000:20c7:f600:5:b42a:f7c0:93a1",
+              "ok": true,
+              "ms": 112.2
+            }
+          ],
+          "shim": false,
+          "addr": "2600:9000:20c7:f600:5:b42a:f7c0:93a1"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "*.digilocker.gov.in",
+          "cert_not_after": "Feb 19 23:59:59 2027 GMT",
+          "ms": 345.9
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "nginx",
+          "ms": 2106.8,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "13.35.20.119",
+            "13.35.20.58",
+            "13.35.20.13",
+            "13.35.20.83"
+          ],
+          "cname_chain": [
+            "d29jqskgkm8gkf.cloudfront.net"
+          ],
+          "ttl": 37,
+          "ms": 17.9
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "13.35.20.119",
+              "ok": true,
+              "ms": 108.6
+            }
+          ],
+          "shim": false,
+          "addr": "13.35.20.119"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "*.digilocker.gov.in",
+          "cert_not_after": "Feb 19 23:59:59 2027 GMT",
+          "ms": 556.7
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "nginx",
+          "ms": 1067.0,
+          "ok": true
+        }
+      }
+    },
+    "https://doc.ux4g.gov.in:443": {
+      "origin": "https://doc.ux4g.gov.in:443",
+      "host": "doc.ux4g.gov.in",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://doc.ux4g.gov.in/assets/img/icon/in-flag.png",
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "64:ff9b::dcf:1041",
+            "64:ff9b::dca:45dc",
+            "64:ff9b::dcd:17fa"
+          ],
+          "cname_chain": [
+            "govin-appstore-public-alb-1822135337.ap-south-1.elb.amazonaws.com"
+          ],
+          "ttl": 24,
+          "ms": 7.0,
+          "synthesized": true
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "64:ff9b::dcf:1041",
+              "ok": true,
+              "ms": 177.9
+            }
+          ],
+          "shim": false,
+          "addr": "64:ff9b::dcf:1041"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "*.ux4g.gov.in",
+          "cert_not_after": "Mar  2 23:59:59 2027 GMT",
+          "ms": 615.2
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "nginx",
+          "ms": 2095.6,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "13.202.69.220",
+            "13.205.23.250",
+            "13.207.16.65"
+          ],
+          "cname_chain": [
+            "govin-appstore-public-alb-1822135337.ap-south-1.elb.amazonaws.com"
+          ],
+          "ttl": 22,
+          "ms": 25.6
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "13.202.69.220",
+              "ok": true,
+              "ms": 70.8
+            }
+          ],
+          "shim": false,
+          "addr": "13.202.69.220"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "*.ux4g.gov.in",
+          "cert_not_after": "Mar  2 23:59:59 2027 GMT",
+          "ms": 633.7
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "nginx",
+          "ms": 1724.3,
+          "ok": true
+        }
+      }
+    },
+    "https://nationale-governancedivisionnegdm2.my.site.com:443": {
+      "origin": "https://nationale-governancedivisionnegdm2.my.site.com:443",
+      "host": "nationale-governancedivisionnegdm2.my.site.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://nationale-governancedivisionnegdm2.my.site.com/ESWNeGDBotMessa1791796373874/assets/js/bootstrap.min.js",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2606:4700:8d91:5ecd:aca8:57a:9593:d5e7"
+          ],
+          "cname_chain": [
+            "nationale-governancedivisionnegdm2.my.site.com.cdn.cloudflare.net"
+          ],
+          "ttl": 39,
+          "ms": 36.3,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2606:4700:8d91:5ecd:aca8:57a:9593:d5e7",
+              "ok": true,
+              "ms": 148.1
+            }
+          ],
+          "shim": false,
+          "addr": "2606:4700:8d91:5ecd:aca8:57a:9593:d5e7"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.my.site.com",
+          "cert_not_after": "Jan  7 19:58:08 2027 GMT",
+          "ms": 650.1
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "cloudflare",
+          "ms": 2063.8,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "104.21.22.26",
+            "172.67.202.14"
+          ],
+          "cname_chain": [
+            "nationale-governancedivisionnegdm2.my.site.com.cdn.cloudflare.net"
+          ],
+          "ttl": 183,
+          "ms": 22.3
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "104.21.22.26",
+              "ok": true,
+              "ms": 131.9
+            }
+          ],
+          "shim": false,
+          "addr": "104.21.22.26"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.my.site.com",
+          "cert_not_after": "Jan  7 19:58:08 2027 GMT",
+          "ms": 864.5
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "cloudflare",
+          "ms": 1456.8,
+          "ok": true
+        }
+      }
+    },
+    "https://recommend-prod.dl6.in:443": {
+      "origin": "https://recommend-prod.dl6.in:443",
+      "host": "recommend-prod.dl6.in",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://recommend-prod.dl6.in/v1/top-documents",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2406:da1a:391:6c02:4513:85d4:d6f5:2d07",
+            "2406:da1a:391:6c16:eb91:91e4:4992:67c6",
+            "2406:da1a:391:6c2e:8e51:19d:b27a:d7dd"
+          ],
+          "cname_chain": [
+            "dl-misc-alb-944388740.ap-south-1.elb.amazonaws.com"
+          ],
+          "ttl": 38,
+          "ms": 117.0,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2406:da1a:391:6c02:4513:85d4:d6f5:2d07",
+              "ok": true,
+              "ms": 152.3
+            }
+          ],
+          "shim": false,
+          "addr": "2406:da1a:391:6c02:4513:85d4:d6f5:2d07"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "*.dl6.in",
+          "cert_not_after": "Jan 18 23:59:59 2027 GMT",
+          "ms": 1357.5
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "DigiLocker",
+          "ms": 1680.7,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "65.1.71.70",
+            "65.0.214.99",
+            "13.204.229.237"
+          ],
+          "cname_chain": [
+            "dl-misc-alb-944388740.ap-south-1.elb.amazonaws.com"
+          ],
+          "ttl": 35,
+          "ms": 716.3
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "65.1.71.70",
+              "ok": true,
+              "ms": 153.5
+            }
+          ],
+          "shim": false,
+          "addr": "65.1.71.70"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "*.dl6.in",
+          "cert_not_after": "Jan 18 23:59:59 2027 GMT",
+          "ms": 1148.1
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "DigiLocker",
+          "ms": 211.9,
+          "ok": true
+        }
+      }
+    },
+    "https://nationale-governancedivisionnegdm2.my.salesforce-scrt.com:443": {
+      "origin": "https://nationale-governancedivisionnegdm2.my.salesforce-scrt.com:443",
+      "host": "nationale-governancedivisionnegdm2.my.salesforce-scrt.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://nationale-governancedivisionnegdm2.my.salesforce-scrt.com/embeddedservice/v1/embedded-service-config?orgId=00Df600000814Mj&esConfigName=NeGD_Bot_Messaging_Channel_Not_Logged&language=en_US",
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "64:ff9b::8da3:cde8",
+            "64:ff9b::8da3:cde4",
+            "64:ff9b::8da3:cde3"
+          ],
+          "cname_chain": [
+            "h.edge2.salesforce.com",
+            "st.edge.india.edge2.salesforce.com",
+            "st1.edge.sfdc-y37hzm.edge2.salesforce.com"
+          ],
+          "ttl": 5,
+          "ms": 207.3,
+          "synthesized": true
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "64:ff9b::8da3:cde8",
+              "ok": true,
+              "ms": 214.9
+            }
+          ],
+          "shim": false,
+          "addr": "64:ff9b::8da3:cde8"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "sfdc-y37hzm.edge.my.salesforce-scrt.com",
+          "cert_not_after": "Feb 25 23:59:59 2027 GMT",
+          "ms": 1740.7
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "sfdcedge",
+          "ms": 1858.1,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "141.163.205.228",
+            "141.163.205.227",
+            "141.163.205.232"
+          ],
+          "cname_chain": [
+            "h.edge2.salesforce.com",
+            "st.edge.india.edge2.salesforce.com",
+            "st1.edge.sfdc-y37hzm.edge2.salesforce.com"
+          ],
+          "ttl": 19,
+          "ms": 424.4
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "141.163.205.228",
+              "ok": true,
+              "ms": 869.2
+            }
+          ],
+          "shim": false,
+          "addr": "141.163.205.228"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "sfdc-y37hzm.edge.my.salesforce-scrt.com",
+          "cert_not_after": "Feb 25 23:59:59 2027 GMT",
+          "ms": 183.4
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "sfdcedge",
+          "ms": 411.6,
+          "ok": true
+        }
+      }
+    },
+    "https://cf-media.api-setu.in:443": {
+      "origin": "https://cf-media.api-setu.in:443",
+      "host": "cf-media.api-setu.in",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://cf-media.api-setu.in/logo/issuers/098978.png",
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "64:ff9b::d23:143b",
+            "64:ff9b::d23:143e",
+            "64:ff9b::d23:144c",
+            "64:ff9b::d23:145c"
+          ],
+          "cname_chain": [
+            "d3u8mzfswo79cg.cloudfront.net"
+          ],
+          "ttl": 8,
+          "ms": 35.0,
+          "synthesized": true
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "64:ff9b::d23:143b",
+              "ok": true,
+              "ms": 78.3
+            }
+          ],
+          "shim": false,
+          "addr": "64:ff9b::d23:143b"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "*.api-setu.in",
+          "cert_not_after": "Jan 19 23:59:59 2027 GMT",
+          "ms": 335.2
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "AmazonS3",
+          "ms": 2036.3,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "13.35.20.59",
+            "13.35.20.92",
+            "13.35.20.76",
+            "13.35.20.62"
+          ],
+          "cname_chain": [
+            "d3u8mzfswo79cg.cloudfront.net"
+          ],
+          "ttl": 34,
+          "ms": 6.2
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "13.35.20.59",
+              "ok": true,
+              "ms": 82.7
+            }
+          ],
+          "shim": false,
+          "addr": "13.35.20.59"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "*.api-setu.in",
+          "cert_not_after": "Jan 19 23:59:59 2027 GMT",
+          "ms": 653.9
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "AmazonS3",
+          "ms": 1200.2,
+          "ok": true
+        }
+      }
+    },
+    "https://nationale-governancedivisionnegdm2--uat.sandbox.my.site.com:443": {
+      "origin": "https://nationale-governancedivisionnegdm2--uat.sandbox.my.site.com:443",
+      "host": "nationale-governancedivisionnegdm2--uat.sandbox.my.site.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://nationale-governancedivisionnegdm2--uat.sandbox.my.site.com/resource/BotImage",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2606:4700:8d91:8276:530c:57a:c65c:4f4a"
+          ],
+          "cname_chain": [
+            "nationale-governancedivisionnegdm2--uat.sandbox.my.site.com.cdn.cloudflare.net"
+          ],
+          "ttl": 1,
+          "ms": 114.1,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2606:4700:8d91:8276:530c:57a:c65c:4f4a",
+              "ok": true,
+              "ms": 154.2
+            }
+          ],
+          "shim": false,
+          "addr": "2606:4700:8d91:8276:530c:57a:c65c:4f4a"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.sandbox.my.site.com",
+          "cert_not_after": "Jan  7 09:33:05 2027 GMT",
+          "ms": 1002.1
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "cloudflare",
+          "ms": 2057.8,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "104.21.54.87",
+            "172.67.137.78"
+          ],
+          "cname_chain": [
+            "nationale-governancedivisionnegdm2--uat.sandbox.my.site.com.cdn.cloudflare.net"
+          ],
+          "ttl": 50,
+          "ms": 696.2
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "104.21.54.87",
+              "ok": true,
+              "ms": 208.4
+            }
+          ],
+          "shim": false,
+          "addr": "104.21.54.87"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.sandbox.my.site.com",
+          "cert_not_after": "Jan  7 09:33:05 2027 GMT",
+          "ms": 1149.5
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "cloudflare",
+          "ms": 331.6,
+          "ok": true
+        }
+      }
+    }
+  },
+  "site": {
+    "category": "Government",
+    "name": "DigiLocker",
+    "url": "https://www.digilocker.gov.in/"
+  }
+}

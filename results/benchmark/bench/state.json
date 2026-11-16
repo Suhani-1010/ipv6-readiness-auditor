@@ -1,0 +1,82 @@
+{
+  "zone": "bench.test",
+  "dns": "127.0.0.1:5354",
+  "ca_file": "/home/suhani/ipv6-auditor/bench/certs/ca.crt",
+  "root_url": "https://www.bench.test:8440/",
+  "native_ipv6": true,
+  "v6_shim": {},
+  "expected": {
+    "https://www.bench.test:8440": {
+      "verdict": "READY",
+      "stage": null,
+      "code": null,
+      "why": "root page, healthy"
+    },
+    "https://static.bench.test:8441": {
+      "verdict": "READY",
+      "stage": null,
+      "code": null,
+      "why": "first-party CSS/JS, healthy"
+    },
+    "https://fonts.bench.test:8442": {
+      "verdict": "READY",
+      "stage": null,
+      "code": null,
+      "why": "font loaded from CSS (nested), healthy"
+    },
+    "https://v4only.bench.test:8443": {
+      "verdict": "IPV4_ONLY",
+      "stage": "dns",
+      "code": "DNS_NO_AAAA",
+      "why": "DNS: no AAAA record"
+    },
+    "https://cdn.bench.test:8444": {
+      "verdict": "IPV4_ONLY",
+      "stage": "dns",
+      "code": "DNS_NO_AAAA",
+      "why": "DNS: CNAME to an IPv4-only origin"
+    },
+    "https://tcpdrop.bench.test:8445": {
+      "verdict": "IPV6_TCP_FAIL",
+      "stage": "tcp",
+      "code": "TCP_REFUSED",
+      "why": "TCP: AAAA exists but nothing listens on IPv6"
+    },
+    "https://tlsbad.bench.test:8446": {
+      "verdict": "IPV6_TLS_FAIL",
+      "stage": "tls",
+      "code": "TLS_CERT_NAME_MISMATCH",
+      "why": "TLS: IPv6 server presents a certificate for the wrong name"
+    },
+    "https://forbid6.bench.test:8447": {
+      "verdict": "IPV6_HTTP_FAIL",
+      "stage": "http",
+      "code": "HTTP_403",
+      "why": "HTTP: 403 Forbidden only over IPv6 (fetched by a script)"
+    },
+    "https://redir6.bench.test:8448": {
+      "verdict": "IPV6_HTTP_FAIL",
+      "stage": "http",
+      "code": "HTTP_REDIRECT_TO_IPV4_ONLY",
+      "why": "HTTP: IPv6 clients redirected to an IPv4-only host"
+    },
+    "https://api-v4.bench.test:8449": {
+      "verdict": "IPV4_ONLY",
+      "stage": "dns",
+      "code": "DNS_NO_AAAA",
+      "why": "DNS: API called by JavaScript has no AAAA (nested dependency)"
+    },
+    "https://broken-both.bench.test:8450": {
+      "verdict": "BROKEN_BOTH",
+      "stage": "http",
+      "code": "HTTP_500",
+      "why": "control: 500 on IPv4 AND IPv6, must NOT be blamed on IPv6"
+    },
+    "https://synth.bench.test:8451": {
+      "verdict": "IPV4_ONLY_NAT64",
+      "stage": "dns",
+      "code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "why": "DNS: only a NAT64-synthesized AAAA (64:ff9b::/96)"
+    }
+  }
+}

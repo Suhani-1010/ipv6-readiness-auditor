@@ -1,0 +1,4 @@
+page,origin,host,verdict,failed_stage,failure_code,v6_dns_rcode,v6_addresses,v6_synthesized,v6_tcp,v6_tls,v6_http_status,v6_failure_code,v4_addresses,v4_failure_code,v4_http_status,probe_url
+https://github.com/,https://github.com:443,github.com,IPV4_ONLY,dns,DNS_NO_AAAA,NOERROR,,,-,-,,DNS_NO_AAAA,20.207.73.82,,200,https://github.com/
+https://github.com/,https://github.githubassets.com:443,github.githubassets.com,INCONCLUSIVE_NO_IPV6,tcp,TCP_UNREACHABLE,NOERROR,2606:50c0:8003::215 2606:50c0:8001::215 2606:50c0:8000::215 2606:50c0:8002::215,False,FAIL,-,,TCP_UNREACHABLE,185.199.108.215 185.199.109.215 185.199.110.215 185.199.111.215,,200,https://github.githubassets.com/assets/react-e27d1b3e03961e68.js
+https://github.com/,https://collector.github.com:443,collector.github.com,IPV4_ONLY,dns,DNS_NO_AAAA,NOERROR,,,-,-,,DNS_NO_AAAA,140.82.113.22,HTTP_404,404,https://collector.github.com/github/collect

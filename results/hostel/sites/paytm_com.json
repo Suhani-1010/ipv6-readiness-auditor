@@ -1,0 +1,4004 @@
+{
+  "schema": "ipv6-readiness-audit/1",
+  "page": "https://paytm.com/",
+  "final_url": "https://paytm.com/",
+  "started_utc": "2026-10-24T09:47:56+00:00",
+  "load_seconds": 8.42,
+  "vantage": {
+    "nat64_prefixes": [
+      "64:ff9b::/96"
+    ],
+    "ipv6_stack": true,
+    "ipv6_default_route": true,
+    "ipv4_default_route": true,
+    "lab_v6_shim": false,
+    "pathway": "dual-stack + DNS64/NAT64"
+  },
+  "capture_errors": [],
+  "summary": {
+    "page_verdict": "NOT_READY",
+    "root_verdict": "IPV4_ONLY_NAT64",
+    "root_has_aaaa": false,
+    "resources_total": 86,
+    "origins_total": 19,
+    "resources_by_verdict": {
+      "IPV4_ONLY_NAT64": 42,
+      "READY": 39,
+      "BROKEN_BOTH": 5
+    },
+    "origins_by_verdict": {
+      "IPV4_ONLY_NAT64": 2,
+      "READY": 13,
+      "BROKEN_BOTH": 4
+    },
+    "ipv6_failures_by_stage": {
+      "dns": 2
+    },
+    "ipv6_failing_resources": 42,
+    "inconclusive_resources": 0,
+    "ipv6_failing_critical": 8,
+    "ipv6_failing_third_party": 0,
+    "resource_ipv6_ready_pct": 45.3,
+    "ipv4_only_hosts": [
+      "assetscdn1.paytm.com",
+      "paytm.com"
+    ],
+    "aaaa_but_broken_hosts": [],
+    "root_host": "paytm.com",
+    "root_http_parity": false
+  },
+  "tree": {
+    "root": "https://paytm.com/",
+    "edges": [
+      [
+        "https://paytm.com/",
+        "https://pwebassets.paytm.com/frontendcommonweb/js/528997d5.vendors.js"
+      ],
+      [
+        "https://paytm.com/",
+        "https://pwebassets.paytm.com/frontendcommonweb/js/ee0d25d0.client.js"
+      ],
+      [
+        "https://paytm.com/",
+        "https://pwebassets.paytm.com/frontendcommonweb/js/fe1b5634.common.js"
+      ],
+      [
+        "https://paytm.com/",
+        "https://pwebassets.paytm.com/frontendcommonweb/js/5e2a2303.homepage.js"
+      ],
+      [
+        "https://paytm.com/",
+        "https://www.googletagmanager.com/gtm.js?id=GTM-NK58PSKJ"
+      ],
+      [
+        "https://paytm.com/",
+        "https://www.googletagmanager.com/gtm.js?id=GTM-K7MSG83N"
+      ],
+      [
+        "https://paytm.com/",
+        "https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/logo_new.svg"
+      ],
+      [
+        "https://paytm.com/",
+        "https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/downloadApp.svg"
+      ],
+      [
+        "https://paytm.com/",
+        "https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/logoutImg.svg"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/catalog/view_item/3179318/36886801089433092.png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/catalog/view_item/3179321/4291158023212300.png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/catalog/view_item/3179320/67050918934984.png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/catalog/view_item/3179317/36886820392724710.png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/catalog/view_item/3238780/1792648419066137.png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/catalog/view_item/3179323/17103808700486.png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/catalog/view_item/3179324/17120113824819.png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/catalog/view_item/3179319/36886901834673050.png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/catalog/view_item/3179326/2323337009767875.png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/catalog/view_item/3179327/1995512275286656.png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/catalog/view_item/2988609/4291841603322316.png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/catalog/view_item/3022660/4291820506003774.png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/catalog/view_item/3134667/36887499051496070.png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://paytmtravel-images-akamai.paytm.com/icons/Paytm_Travel_Logo.svg"
+      ],
+      [
+        "https://paytm.com/",
+        "https://pwebassets.paytm.com/frontendcommonweb/static/e5e744ba..png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://pwebassets.paytm.com/frontendcommonweb/static/a6fdca89..png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/catalog/view/342367/1725447383123.png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/catalog/view_item/2834703/1725432129171.png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/catalog/view_item/2834704/1725432148873.png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/catalog/view/1752741641420.png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/catalog/view_item/2832559/1725599834382.png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/catalog/view_item/2988623/27220898816562102.png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/catalog/view_item/1741675100265.png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/catalog/view_item/2988623/27221716933469500.png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/catalog/view_item/2834804/1725623952233.png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/catalog/view_item/2988624/27217428616091880.png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/catalog/view/308774/1617696247991.png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/catalog/view/1763534762757.jpg"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/catalog/view/342368/1725447964962.png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/catalog/view/1785411970685.png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/catalog/view_item/1725638720587.png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://pwebassets.paytm.com/commonwebassets/paytmweb/fonts/Inter/Inter.woff2"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/wap/production/20260128/1769583668741.png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/wap/production/20260128/1769583668464.png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/wap/production/20260128/1769583668110.png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/wap/production/20260128/1769583667725.png"
+      ],
+      [
+        "https://paytm.com/",
+        "https://pwebassets.paytm.com/commonwebassets/paytmweb/footer/images/paytmLogo.svg"
+      ],
+      [
+        "https://paytm.com/",
+        "https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/cross.svg"
+      ],
+      [
+        "https://paytm.com/",
+        "https://paytm.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+      ],
+      [
+        "https://paytm.com/",
+        "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092"
+      ],
+      [
+        "https://pwebassets.paytm.com/frontendcommonweb/js/ee0d25d0.client.js",
+        "https://webappsstatic.paytm.com/signalsdk-web/v1/config-2.2.2.min.js"
+      ],
+      [
+        "https://pwebassets.paytm.com/frontendcommonweb/js/ee0d25d0.client.js",
+        "https://webappsstatic.paytm.com/hawkeyeweb/v1/hawkeye.min.js"
+      ],
+      [
+        "https://www.googletagmanager.com/gtm.js?id=GTM-K7MSG83N",
+        "https://www.googletagmanager.com/gtag/js?id=G-J88W1YE2F3&cx=c&gtm=4e6am0h2"
+      ],
+      [
+        "https://pwebassets.paytm.com/frontendcommonweb/js/ee0d25d0.client.js",
+        "https://paytm.com/v1/api/user/details?channel=web&child_site_id=1&site_id=1&version=2"
+      ],
+      [
+        "https://paytm.com/",
+        "https://paytm.com/cdn-cgi/challenge-platform/scripts/jsd/main.js"
+      ],
+      [
+        "https://www.googletagmanager.com/gtm.js?id=GTM-NK58PSKJ",
+        "https://www.googletagmanager.com/gtag/js?id=AW-868525818&cx=c&gtm=4e6al1"
+      ],
+      [
+        "https://www.googletagmanager.com/gtm.js?id=GTM-NK58PSKJ",
+        "https://www.googletagmanager.com/gtag/js?id=AW-17730086296&cx=c&gtm=4e6al1"
+      ],
+      [
+        "https://www.googletagmanager.com/gtm.js?id=GTM-NK58PSKJ",
+        "https://www.googletagmanager.com/gtag/js?id=G-9C45298BC8&cx=c&gtm=4e6al1"
+      ],
+      [
+        "https://www.googletagmanager.com/gtm.js?id=GTM-NK58PSKJ",
+        "https://websdk.appsflyersdk.com/?st=banners&"
+      ],
+      [
+        "https://www.googletagmanager.com/gtm.js?id=GTM-NK58PSKJ",
+        "https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=1&ae=g&auid=459713190.1792835280&dt=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&en=page_view&dl=https%3A%2F%2Fpaytm.com%2F&scrsrc=www.googletagmanager.com&rnd=535431220.1792835280&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6al1v9193891433za200zd9193891433xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120385423~120469145~120469153~121246026~121246034&tft=1792835280420&tfd=2312&fmt=8"
+      ],
+      [
+        "https://www.googletagmanager.com/gtm.js?id=GTM-NK58PSKJ",
+        "https://ad.doubleclick.net/ccm/s/collect?auid=459713190.1792835280&gtm=45He6al1v9193891433za200zd9193891433xeaxf1&fmt=8"
+      ],
+      [
+        "https://paytm.com/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+        "https://paytm.com/cdn-cgi/challenge-platform/h/b/scripts/jsd/d2d3316b729e/main.js?"
+      ],
+      [
+        "https://paytm.com/",
+        "https://storefront.paytm.com/v2/h/paytm-web-homepage-ads?platform_version=S2(New)&channel=web&child_site_id=1&site_id=1&version=2"
+      ],
+      [
+        "https://paytm.com/",
+        "https://storefront.paytm.com/v2/h/all_services_web?platform_version=S2(New)&channel=web&child_site_id=1&site_id=1&version=2"
+      ],
+      [
+        "https://paytm.com/",
+        "https://travel.paytm.com/api/flights/v1/search_filters?origin=DEL&trip_type=oneway&destination=BOM&client=web"
+      ],
+      [
+        "https://pwebassets.paytm.com/frontendcommonweb/js/fe1b5634.common.js",
+        "https://paytm.com/v1/api/user/details"
+      ],
+      [
+        "https://paytm.com/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+        "https://paytm.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d2d3316b729e/0.11591597821189459:1792833021:nCGBz7jfdYSwtJOrb4kDRet4kfyYEfP71128QiElJ_k/a4f8101f98d4937f"
+      ],
+      [
+        "https://webappsstatic.paytm.com/hawkeyeweb/v1/hawkeye.min.js",
+        "https://www.google-analytics.com/g/collect?v=2&tid=G-J88W1YE2F3&gtm=45je6am0h2v871131640za20ozb9191141531zd9191141531xf1&_p=1792835278547&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1213754957.1792835281&frm=0&ngs=1&pscdl=noapi&rcb=18&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&_s=1&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&sid=1792835280&sct=1&seg=0&dl=https%3A%2F%2Fpaytm.com%2F&dt=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=2829"
+      ],
+      [
+        "https://www.googletagmanager.com/gtag/js?id=AW-868525818&cx=c&gtm=4e6al1",
+        "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/868525818/?random=1792835281305&cv=11&fst=1792835281305&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9122696915za20ozb9193891433zd9193891433xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fpaytm.com%2F&rcb=15&frm=0&tiba=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=459713190.1792835280&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4"
+      ],
+      [
+        "https://webappsstatic.paytm.com/hawkeyeweb/v1/hawkeye.min.js",
+        "https://www.google.com/rmkt/collect/868525818/?random=1792835281305&cv=11&fst=1792835281305&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9122696915za20ozb9193891433zd9193891433xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fpaytm.com%2F&rcb=15&frm=0&tiba=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=459713190.1792835280&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5"
+      ],
+      [
+        "https://webappsstatic.paytm.com/hawkeyeweb/v1/hawkeye.min.js",
+        "https://www.google.com/ccm/collect?rcb=15&frm=0&apvc=0&auid=459713190.1792835280&dt=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&tid=AW-868525818&en=page_view&dl=https%3A%2F%2Fpaytm.com%2F&scrsrc=www.googletagmanager.com&rnd=535431220.1792835280&navt=n&npa=0&gtm=45be6al1v9122696915za20ozb9193891433zd9193891433xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792835281381&tfd=3273&tids=AW-868525818&fmt=8"
+      ],
+      [
+        "https://paytm.com/",
+        "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/868525818/?random=1792835281305&cv=11&fst=1792835281305&fmt=3&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9122696915za20ozb9193891433zd9193891433xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fpaytm.com%2F&rcb=15&frm=0&tiba=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=459713190.1792835280&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9"
+      ],
+      [
+        "https://www.googletagmanager.com/gtag/js?id=AW-17730086296&cx=c&gtm=4e6al1",
+        "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17730086296/?random=1792835281491&cv=11&fst=1792835281491&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9241228203za20ozb9193891433zd9193891433xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fpaytm.com%2F&rcb=9&frm=0&tiba=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=459713190.1792835280&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4"
+      ],
+      [
+        "https://webappsstatic.paytm.com/hawkeyeweb/v1/hawkeye.min.js",
+        "https://www.google.com/rmkt/collect/17730086296/?random=1792835281491&cv=11&fst=1792835281491&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9241228203za20ozb9193891433zd9193891433xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fpaytm.com%2F&rcb=9&frm=0&tiba=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=459713190.1792835280&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5"
+      ],
+      [
+        "https://webappsstatic.paytm.com/hawkeyeweb/v1/hawkeye.min.js",
+        "https://www.google.com/ccm/collect?rcb=9&frm=0&apvc=0&auid=459713190.1792835280&dt=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&tid=AW-17730086296&en=page_view&dl=https%3A%2F%2Fpaytm.com%2F&scrsrc=www.googletagmanager.com&rnd=535431220.1792835280&navt=n&npa=0&gtm=45be6al1v9241228203za20ozb9193891433zd9193891433xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792835281553&tfd=3445&tids=AW-17730086296&fmt=8"
+      ],
+      [
+        "https://paytm.com/",
+        "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17730086296/?random=1792835281491&cv=11&fst=1792835281491&fmt=3&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9241228203za20ozb9193891433zd9193891433xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fpaytm.com%2F&rcb=9&frm=0&tiba=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=459713190.1792835280&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9"
+      ],
+      [
+        "https://webappsstatic.paytm.com/hawkeyeweb/v1/hawkeye.min.js",
+        "https://sig.paytm.com/v2/api/signals/batch"
+      ],
+      [
+        "https://paytm.com/",
+        "https://assetscdn1.paytm.com/images/catalog/view_item/3179325/4291045606114157.png"
+      ],
+      [
+        "https://webappsstatic.paytm.com/hawkeyeweb/v1/hawkeye.min.js",
+        "https://www.google.com/measurement/conversion?random=1792835281717&cv=11&tid=G-9C45298BC8&fst=1792835281717&fmt=8&en=session_start&gtm=45je6al1v9138789555za20ozb9193891433zd9193891433xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123620775&u_w=1366&u_h=768&url=https%3A%2F%2Fpaytm.com%2F&gacid=1213754957.1792835281&hn=www.googleadservices.com&frm=0&tiba=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&npa=0&pscdl=noapi&auid=459713190.1792835280&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&rcb=2"
+      ],
+      [
+        "https://webappsstatic.paytm.com/hawkeyeweb/v1/hawkeye.min.js",
+        "https://analytics.google.com/g/collect?v=2&tid=G-9C45298BC8&gtm=45je6al1v9138789555za20ozb9193891433zd9193891433xf1&_p=1792835278547&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&_prs=ok&cid=1213754957.1792835281&frm=0&pscdl=noapi&rcb=2&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&gaf=2&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123620775&sid=1792835281&sct=1&seg=0&dl=https%3A%2F%2Fpaytm.com%2F&dt=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&en=page_view&_fv=1&_ss=2&tfd=3654"
+      ],
+      [
+        "https://www.googletagmanager.com/gtag/js?id=G-9C45298BC8&cx=c&gtm=4e6al1",
+        "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-9C45298BC8&cid=1213754957.1792835281&gtm=45je6al1v9138789555za20ozb9193891433zd9193891433xf1&rcb=2&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123620775"
+      ],
+      [
+        "https://paytm.com/",
+        "https://www.google.co.in/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-9C45298BC8&cid=1213754957.1792835281&gtm=45je6al1v9138789555za20ozb9193891433zd9193891433xf1&rcb=2&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123620775&z=1116144305"
+      ],
+      [
+        "https://webappsstatic.paytm.com/hawkeyeweb/v1/hawkeye.min.js",
+        "https://paytm.com/cdn-cgi/rum?"
+      ],
+      [
+        "https://paytm.com/",
+        "https://www.googletagmanager.com/a?v=3&t=l&pid=1108763201&rv=6al1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u=AAAAAAAIAAAAACA&ut=AgAAgA&h=Ag&gtm=45be6al1v9241228203za20gzb9193891433zd9193891433xf1&ccid=241228203&cid=AW-17730086296&l=L438.S99.B87.E359.I2159.TC10.HTC0.F836.C3~gtm.init_consent.S6.V5.E96~gtm.init.S1.V1.E91.TS5ogtautoevents.TI9.TE0.TS5ogt1pdatav2.TI11.TE1.TS5ccdadsfirst.TI17.TE0.TS5ccdpreautopii.TI16.TE0.TS5ccdemform.TI15.TE1.TS5ccdenablecm.TI14.TE0.TS5ccdadd1pdata.TI13.TE0.TS5ccdadslast.TI12.TE0.TS5destaw.TI4.TE2~gtm.js.S1.V1.E79.TS5rep.TI7.TE59~gtm.dom.S0.V0.E15~gtm.load.S1.V0.E23"
+      ],
+      [
+        "https://paytm.com/",
+        "https://paytm.com/favicon.ico"
+      ],
+      [
+        "https://webappsstatic.paytm.com/hawkeyeweb/v1/hawkeye.min.js",
+        "https://hawkeye-api.paytm.com/appdebuganalytics/triggers/save"
+      ]
+    ]
+  },
+  "resources": {
+    "https://paytm.com/": {
+      "url": "https://paytm.com/",
+      "resource_type": "Document",
+      "initiator_type": "other",
+      "parent": null,
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::ac41:4033]",
+      "count": 1,
+      "depth": 0,
+      "host": "paytm.com",
+      "origin": "https://paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://pwebassets.paytm.com/frontendcommonweb/js/528997d5.vendors.js": {
+      "url": "https://pwebassets.paytm.com/frontendcommonweb/js/528997d5.vendors.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:600:1ae::39e2]",
+      "count": 1,
+      "depth": 1,
+      "host": "pwebassets.paytm.com",
+      "origin": "https://pwebassets.paytm.com:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://pwebassets.paytm.com/frontendcommonweb/js/ee0d25d0.client.js": {
+      "url": "https://pwebassets.paytm.com/frontendcommonweb/js/ee0d25d0.client.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:600:1ae::39e2]",
+      "count": 1,
+      "depth": 1,
+      "host": "pwebassets.paytm.com",
+      "origin": "https://pwebassets.paytm.com:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://pwebassets.paytm.com/frontendcommonweb/js/fe1b5634.common.js": {
+      "url": "https://pwebassets.paytm.com/frontendcommonweb/js/fe1b5634.common.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:600:1ae::39e2]",
+      "count": 1,
+      "depth": 1,
+      "host": "pwebassets.paytm.com",
+      "origin": "https://pwebassets.paytm.com:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://pwebassets.paytm.com/frontendcommonweb/js/5e2a2303.homepage.js": {
+      "url": "https://pwebassets.paytm.com/frontendcommonweb/js/5e2a2303.homepage.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:600:1ae::39e2]",
+      "count": 1,
+      "depth": 1,
+      "host": "pwebassets.paytm.com",
+      "origin": "https://pwebassets.paytm.com:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://www.googletagmanager.com/gtm.js?id=GTM-NK58PSKJ": {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NK58PSKJ",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4013:804::61]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.googletagmanager.com",
+      "origin": "https://www.googletagmanager.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://www.googletagmanager.com/gtm.js?id=GTM-K7MSG83N": {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K7MSG83N",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4013:804::61]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.googletagmanager.com",
+      "origin": "https://www.googletagmanager.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/logo_new.svg": {
+      "url": "https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/logo_new.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:600:1ae::39e2]",
+      "count": 1,
+      "depth": 1,
+      "host": "pwebassets.paytm.com",
+      "origin": "https://pwebassets.paytm.com:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/downloadApp.svg": {
+      "url": "https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/downloadApp.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:600:1ae::39e2]",
+      "count": 1,
+      "depth": 1,
+      "host": "pwebassets.paytm.com",
+      "origin": "https://pwebassets.paytm.com:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/logoutImg.svg": {
+      "url": "https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/logoutImg.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:600:1ae::39e2]",
+      "count": 1,
+      "depth": 1,
+      "host": "pwebassets.paytm.com",
+      "origin": "https://pwebassets.paytm.com:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/catalog/view_item/3179318/36886801089433092.png": {
+      "url": "https://assetscdn1.paytm.com/images/catalog/view_item/3179318/36886801089433092.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/catalog/view_item/3179321/4291158023212300.png": {
+      "url": "https://assetscdn1.paytm.com/images/catalog/view_item/3179321/4291158023212300.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/catalog/view_item/3179320/67050918934984.png": {
+      "url": "https://assetscdn1.paytm.com/images/catalog/view_item/3179320/67050918934984.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/catalog/view_item/3179317/36886820392724710.png": {
+      "url": "https://assetscdn1.paytm.com/images/catalog/view_item/3179317/36886820392724710.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/catalog/view_item/3238780/1792648419066137.png": {
+      "url": "https://assetscdn1.paytm.com/images/catalog/view_item/3238780/1792648419066137.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/catalog/view_item/3179323/17103808700486.png": {
+      "url": "https://assetscdn1.paytm.com/images/catalog/view_item/3179323/17103808700486.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/catalog/view_item/3179324/17120113824819.png": {
+      "url": "https://assetscdn1.paytm.com/images/catalog/view_item/3179324/17120113824819.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/catalog/view_item/3179319/36886901834673050.png": {
+      "url": "https://assetscdn1.paytm.com/images/catalog/view_item/3179319/36886901834673050.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/catalog/view_item/3179326/2323337009767875.png": {
+      "url": "https://assetscdn1.paytm.com/images/catalog/view_item/3179326/2323337009767875.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/catalog/view_item/3179327/1995512275286656.png": {
+      "url": "https://assetscdn1.paytm.com/images/catalog/view_item/3179327/1995512275286656.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/catalog/view_item/2988609/4291841603322316.png": {
+      "url": "https://assetscdn1.paytm.com/images/catalog/view_item/2988609/4291841603322316.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/catalog/view_item/3022660/4291820506003774.png": {
+      "url": "https://assetscdn1.paytm.com/images/catalog/view_item/3022660/4291820506003774.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/catalog/view_item/3134667/36887499051496070.png": {
+      "url": "https://assetscdn1.paytm.com/images/catalog/view_item/3134667/36887499051496070.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://paytmtravel-images-akamai.paytm.com/icons/Paytm_Travel_Logo.svg": {
+      "url": "https://paytmtravel-images-akamai.paytm.com/icons/Paytm_Travel_Logo.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:600:1b1::39e2]",
+      "count": 1,
+      "depth": 1,
+      "host": "paytmtravel-images-akamai.paytm.com",
+      "origin": "https://paytmtravel-images-akamai.paytm.com:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://pwebassets.paytm.com/frontendcommonweb/static/e5e744ba..png": {
+      "url": "https://pwebassets.paytm.com/frontendcommonweb/static/e5e744ba..png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:600:1ae::39e2]",
+      "count": 1,
+      "depth": 1,
+      "host": "pwebassets.paytm.com",
+      "origin": "https://pwebassets.paytm.com:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://pwebassets.paytm.com/frontendcommonweb/static/a6fdca89..png": {
+      "url": "https://pwebassets.paytm.com/frontendcommonweb/static/a6fdca89..png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:600:1ae::39e2]",
+      "count": 1,
+      "depth": 1,
+      "host": "pwebassets.paytm.com",
+      "origin": "https://pwebassets.paytm.com:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/catalog/view/342367/1725447383123.png": {
+      "url": "https://assetscdn1.paytm.com/images/catalog/view/342367/1725447383123.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/catalog/view_item/2834703/1725432129171.png": {
+      "url": "https://assetscdn1.paytm.com/images/catalog/view_item/2834703/1725432129171.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/catalog/view_item/2834704/1725432148873.png": {
+      "url": "https://assetscdn1.paytm.com/images/catalog/view_item/2834704/1725432148873.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/catalog/view/1752741641420.png": {
+      "url": "https://assetscdn1.paytm.com/images/catalog/view/1752741641420.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/catalog/view_item/2832559/1725599834382.png": {
+      "url": "https://assetscdn1.paytm.com/images/catalog/view_item/2832559/1725599834382.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/catalog/view_item/2988623/27220898816562102.png": {
+      "url": "https://assetscdn1.paytm.com/images/catalog/view_item/2988623/27220898816562102.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/catalog/view_item/1741675100265.png": {
+      "url": "https://assetscdn1.paytm.com/images/catalog/view_item/1741675100265.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/catalog/view_item/2988623/27221716933469500.png": {
+      "url": "https://assetscdn1.paytm.com/images/catalog/view_item/2988623/27221716933469500.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/catalog/view_item/2834804/1725623952233.png": {
+      "url": "https://assetscdn1.paytm.com/images/catalog/view_item/2834804/1725623952233.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/catalog/view_item/2988624/27217428616091880.png": {
+      "url": "https://assetscdn1.paytm.com/images/catalog/view_item/2988624/27217428616091880.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/catalog/view/308774/1617696247991.png": {
+      "url": "https://assetscdn1.paytm.com/images/catalog/view/308774/1617696247991.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/catalog/view/1763534762757.jpg": {
+      "url": "https://assetscdn1.paytm.com/images/catalog/view/1763534762757.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/catalog/view/342368/1725447964962.png": {
+      "url": "https://assetscdn1.paytm.com/images/catalog/view/342368/1725447964962.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/catalog/view/1785411970685.png": {
+      "url": "https://assetscdn1.paytm.com/images/catalog/view/1785411970685.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/catalog/view_item/1725638720587.png": {
+      "url": "https://assetscdn1.paytm.com/images/catalog/view_item/1725638720587.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://pwebassets.paytm.com/commonwebassets/paytmweb/fonts/Inter/Inter.woff2": {
+      "url": "https://pwebassets.paytm.com/commonwebassets/paytmweb/fonts/Inter/Inter.woff2",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:600:1ae::39e2]",
+      "count": 1,
+      "depth": 1,
+      "host": "pwebassets.paytm.com",
+      "origin": "https://pwebassets.paytm.com:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/wap/production/20260128/1769583668741.png": {
+      "url": "https://assetscdn1.paytm.com/images/wap/production/20260128/1769583668741.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/wap/production/20260128/1769583668464.png": {
+      "url": "https://assetscdn1.paytm.com/images/wap/production/20260128/1769583668464.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/wap/production/20260128/1769583668110.png": {
+      "url": "https://assetscdn1.paytm.com/images/wap/production/20260128/1769583668110.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/wap/production/20260128/1769583667725.png": {
+      "url": "https://assetscdn1.paytm.com/images/wap/production/20260128/1769583667725.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://pwebassets.paytm.com/commonwebassets/paytmweb/footer/images/paytmLogo.svg": {
+      "url": "https://pwebassets.paytm.com/commonwebassets/paytmweb/footer/images/paytmLogo.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:600:1ae::39e2]",
+      "count": 1,
+      "depth": 1,
+      "host": "pwebassets.paytm.com",
+      "origin": "https://pwebassets.paytm.com:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/cross.svg": {
+      "url": "https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/cross.svg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:600:1ae::39e2]",
+      "count": 1,
+      "depth": 1,
+      "host": "pwebassets.paytm.com",
+      "origin": "https://pwebassets.paytm.com:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://paytm.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js": {
+      "url": "https://paytm.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::ac41:4033]",
+      "count": 1,
+      "depth": 1,
+      "host": "paytm.com",
+      "origin": "https://paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092": {
+      "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2606:4700:8d90:fe72:83a8:5aa:6810:4f49]",
+      "count": 1,
+      "depth": 1,
+      "host": "static.cloudflareinsights.com",
+      "origin": "https://static.cloudflareinsights.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://webappsstatic.paytm.com/signalsdk-web/v1/config-2.2.2.min.js": {
+      "url": "https://webappsstatic.paytm.com/signalsdk-web/v1/config-2.2.2.min.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://pwebassets.paytm.com/frontendcommonweb/js/ee0d25d0.client.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:600:1ba::39e2]",
+      "count": 1,
+      "depth": 2,
+      "host": "webappsstatic.paytm.com",
+      "origin": "https://webappsstatic.paytm.com:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://webappsstatic.paytm.com/hawkeyeweb/v1/hawkeye.min.js": {
+      "url": "https://webappsstatic.paytm.com/hawkeyeweb/v1/hawkeye.min.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://pwebassets.paytm.com/frontendcommonweb/js/ee0d25d0.client.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:600:1ba::39e2]",
+      "count": 1,
+      "depth": 2,
+      "host": "webappsstatic.paytm.com",
+      "origin": "https://webappsstatic.paytm.com:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://www.googletagmanager.com/gtag/js?id=G-J88W1YE2F3&cx=c&gtm=4e6am0h2": {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-J88W1YE2F3&cx=c&gtm=4e6am0h2",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtm.js?id=GTM-K7MSG83N",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4013:804::61]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.googletagmanager.com",
+      "origin": "https://www.googletagmanager.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://paytm.com/v1/api/user/details?channel=web&child_site_id=1&site_id=1&version=2": {
+      "url": "https://paytm.com/v1/api/user/details?channel=web&child_site_id=1&site_id=1&version=2",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://pwebassets.paytm.com/frontendcommonweb/js/ee0d25d0.client.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::ac41:4033]",
+      "count": 1,
+      "depth": 2,
+      "host": "paytm.com",
+      "origin": "https://paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://paytm.com/cdn-cgi/challenge-platform/scripts/jsd/main.js": {
+      "url": "https://paytm.com/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://paytm.com/",
+      "status": 302,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 1,
+      "host": "paytm.com",
+      "origin": "https://paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://www.googletagmanager.com/gtag/js?id=AW-868525818&cx=c&gtm=4e6al1": {
+      "url": "https://www.googletagmanager.com/gtag/js?id=AW-868525818&cx=c&gtm=4e6al1",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtm.js?id=GTM-NK58PSKJ",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4013:804::61]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.googletagmanager.com",
+      "origin": "https://www.googletagmanager.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://www.googletagmanager.com/gtag/js?id=AW-17730086296&cx=c&gtm=4e6al1": {
+      "url": "https://www.googletagmanager.com/gtag/js?id=AW-17730086296&cx=c&gtm=4e6al1",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtm.js?id=GTM-NK58PSKJ",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4013:804::61]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.googletagmanager.com",
+      "origin": "https://www.googletagmanager.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://www.googletagmanager.com/gtag/js?id=G-9C45298BC8&cx=c&gtm=4e6al1": {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-9C45298BC8&cx=c&gtm=4e6al1",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtm.js?id=GTM-NK58PSKJ",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4013:804::61]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.googletagmanager.com",
+      "origin": "https://www.googletagmanager.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://websdk.appsflyersdk.com/?st=banners&": {
+      "url": "https://websdk.appsflyersdk.com/?st=banners&",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtm.js?id=GTM-NK58PSKJ",
+      "status": null,
+      "browser_error": "failed",
+      "remote_ip": null,
+      "count": 1,
+      "depth": 2,
+      "host": "websdk.appsflyersdk.com",
+      "origin": "https://websdk.appsflyersdk.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=1&ae=g&auid=459713190.1792835280&dt=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&en=page_view&dl=https%3A%2F%2Fpaytm.com%2F&scrsrc=www.googletagmanager.com&rnd=535431220.1792835280&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6al1v9193891433za200zd9193891433xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120385423~120469145~120469153~121246026~121246034&tft=1792835280420&tfd=2312&fmt=8": {
+      "url": "https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=1&ae=g&auid=459713190.1792835280&dt=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&en=page_view&dl=https%3A%2F%2Fpaytm.com%2F&scrsrc=www.googletagmanager.com&rnd=535431220.1792835280&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6al1v9193891433za200zd9193891433xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120385423~120469145~120469153~121246026~121246034&tft=1792835280420&tfd=2312&fmt=8",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtm.js?id=GTM-NK58PSKJ",
+      "status": 200,
+      "browser_error": "net::ERR_ABORTED",
+      "remote_ip": "[2001:4860:482b:7700::]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.google.com",
+      "origin": "https://www.google.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://ad.doubleclick.net/ccm/s/collect?auid=459713190.1792835280&gtm=45He6al1v9193891433za200zd9193891433xeaxf1&fmt=8": {
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=459713190.1792835280&gtm=45He6al1v9193891433za200zd9193891433xeaxf1&fmt=8",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtm.js?id=GTM-NK58PSKJ",
+      "status": 204,
+      "browser_error": "net::ERR_ABORTED",
+      "remote_ip": "[64:ff9b::8efa:1d94]",
+      "count": 1,
+      "depth": 2,
+      "host": "ad.doubleclick.net",
+      "origin": "https://ad.doubleclick.net:443",
+      "third_party": true,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_405",
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://paytm.com/cdn-cgi/challenge-platform/h/b/scripts/jsd/d2d3316b729e/main.js?": {
+      "url": "https://paytm.com/cdn-cgi/challenge-platform/h/b/scripts/jsd/d2d3316b729e/main.js?",
+      "resource_type": "Script",
+      "initiator_type": "redirect",
+      "parent": "https://paytm.com/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::ac41:4033]",
+      "count": 1,
+      "depth": 2,
+      "host": "paytm.com",
+      "origin": "https://paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://storefront.paytm.com/v2/h/paytm-web-homepage-ads?platform_version=S2(New)&channel=web&child_site_id=1&site_id=1&version=2": {
+      "url": "https://storefront.paytm.com/v2/h/paytm-web-homepage-ads?platform_version=S2(New)&channel=web&child_site_id=1&site_id=1&version=2",
+      "resource_type": "Other",
+      "initiator_type": "preflight",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:600:1a8::186d]",
+      "count": 2,
+      "depth": 1,
+      "host": "storefront.paytm.com",
+      "origin": "https://storefront.paytm.com:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_400",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://storefront.paytm.com/v2/h/all_services_web?platform_version=S2(New)&channel=web&child_site_id=1&site_id=1&version=2": {
+      "url": "https://storefront.paytm.com/v2/h/all_services_web?platform_version=S2(New)&channel=web&child_site_id=1&site_id=1&version=2",
+      "resource_type": "Other",
+      "initiator_type": "preflight",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:600:1a8::186d]",
+      "count": 2,
+      "depth": 1,
+      "host": "storefront.paytm.com",
+      "origin": "https://storefront.paytm.com:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_400",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://travel.paytm.com/api/flights/v1/search_filters?origin=DEL&trip_type=oneway&destination=BOM&client=web": {
+      "url": "https://travel.paytm.com/api/flights/v1/search_filters?origin=DEL&trip_type=oneway&destination=BOM&client=web",
+      "resource_type": "Other",
+      "initiator_type": "preflight",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:600:1b0::1a5e]",
+      "count": 2,
+      "depth": 1,
+      "host": "travel.paytm.com",
+      "origin": "https://travel.paytm.com:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://paytm.com/v1/api/user/details": {
+      "url": "https://paytm.com/v1/api/user/details",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://pwebassets.paytm.com/frontendcommonweb/js/fe1b5634.common.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::ac41:4033]",
+      "count": 1,
+      "depth": 2,
+      "host": "paytm.com",
+      "origin": "https://paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://paytm.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d2d3316b729e/0.11591597821189459:1792833021:nCGBz7jfdYSwtJOrb4kDRet4kfyYEfP71128QiElJ_k/a4f8101f98d4937f": {
+      "url": "https://paytm.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d2d3316b729e/0.11591597821189459:1792833021:nCGBz7jfdYSwtJOrb4kDRet4kfyYEfP71128QiElJ_k/a4f8101f98d4937f",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://paytm.com/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::ac41:4033]",
+      "count": 1,
+      "depth": 2,
+      "host": "paytm.com",
+      "origin": "https://paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://www.google-analytics.com/g/collect?v=2&tid=G-J88W1YE2F3&gtm=45je6am0h2v871131640za20ozb9191141531zd9191141531xf1&_p=1792835278547&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1213754957.1792835281&frm=0&ngs=1&pscdl=noapi&rcb=18&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&_s=1&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&sid=1792835280&sct=1&seg=0&dl=https%3A%2F%2Fpaytm.com%2F&dt=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=2829": {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-J88W1YE2F3&gtm=45je6am0h2v871131640za20ozb9191141531zd9191141531xf1&_p=1792835278547&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1213754957.1792835281&frm=0&ngs=1&pscdl=noapi&rcb=18&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&_s=1&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&sid=1792835280&sct=1&seg=0&dl=https%3A%2F%2Fpaytm.com%2F&dt=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=2829",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://webappsstatic.paytm.com/hawkeyeweb/v1/hawkeye.min.js",
+      "status": 204,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4007:838::200e]",
+      "count": 1,
+      "depth": 3,
+      "host": "www.google-analytics.com",
+      "origin": "https://www.google-analytics.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/868525818/?random=1792835281305&cv=11&fst=1792835281305&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9122696915za20ozb9193891433zd9193891433xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fpaytm.com%2F&rcb=15&frm=0&tiba=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=459713190.1792835280&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4": {
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/868525818/?random=1792835281305&cv=11&fst=1792835281305&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9122696915za20ozb9193891433zd9193891433xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fpaytm.com%2F&rcb=15&frm=0&tiba=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=459713190.1792835280&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtag/js?id=AW-868525818&cx=c&gtm=4e6al1",
+      "status": null,
+      "browser_error": "failed",
+      "remote_ip": null,
+      "count": 1,
+      "depth": 3,
+      "host": "googleads.g.doubleclick.net",
+      "origin": "https://googleads.g.doubleclick.net:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://www.google.com/rmkt/collect/868525818/?random=1792835281305&cv=11&fst=1792835281305&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9122696915za20ozb9193891433zd9193891433xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fpaytm.com%2F&rcb=15&frm=0&tiba=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=459713190.1792835280&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5": {
+      "url": "https://www.google.com/rmkt/collect/868525818/?random=1792835281305&cv=11&fst=1792835281305&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9122696915za20ozb9193891433zd9193891433xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fpaytm.com%2F&rcb=15&frm=0&tiba=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=459713190.1792835280&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://webappsstatic.paytm.com/hawkeyeweb/v1/hawkeye.min.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2001:4860:482b:7700::]",
+      "count": 1,
+      "depth": 3,
+      "host": "www.google.com",
+      "origin": "https://www.google.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://www.google.com/ccm/collect?rcb=15&frm=0&apvc=0&auid=459713190.1792835280&dt=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&tid=AW-868525818&en=page_view&dl=https%3A%2F%2Fpaytm.com%2F&scrsrc=www.googletagmanager.com&rnd=535431220.1792835280&navt=n&npa=0&gtm=45be6al1v9122696915za20ozb9193891433zd9193891433xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792835281381&tfd=3273&tids=AW-868525818&fmt=8": {
+      "url": "https://www.google.com/ccm/collect?rcb=15&frm=0&apvc=0&auid=459713190.1792835280&dt=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&tid=AW-868525818&en=page_view&dl=https%3A%2F%2Fpaytm.com%2F&scrsrc=www.googletagmanager.com&rnd=535431220.1792835280&navt=n&npa=0&gtm=45be6al1v9122696915za20ozb9193891433zd9193891433xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792835281381&tfd=3273&tids=AW-868525818&fmt=8",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://webappsstatic.paytm.com/hawkeyeweb/v1/hawkeye.min.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2001:4860:482b:7700::]",
+      "count": 1,
+      "depth": 3,
+      "host": "www.google.com",
+      "origin": "https://www.google.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/868525818/?random=1792835281305&cv=11&fst=1792835281305&fmt=3&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9122696915za20ozb9193891433zd9193891433xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fpaytm.com%2F&rcb=15&frm=0&tiba=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=459713190.1792835280&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9": {
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/868525818/?random=1792835281305&cv=11&fst=1792835281305&fmt=3&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9122696915za20ozb9193891433zd9193891433xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fpaytm.com%2F&rcb=15&frm=0&tiba=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=459713190.1792835280&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": null,
+      "browser_error": "failed",
+      "remote_ip": null,
+      "count": 1,
+      "depth": 1,
+      "host": "googleads.g.doubleclick.net",
+      "origin": "https://googleads.g.doubleclick.net:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17730086296/?random=1792835281491&cv=11&fst=1792835281491&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9241228203za20ozb9193891433zd9193891433xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fpaytm.com%2F&rcb=9&frm=0&tiba=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=459713190.1792835280&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4": {
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17730086296/?random=1792835281491&cv=11&fst=1792835281491&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9241228203za20ozb9193891433zd9193891433xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fpaytm.com%2F&rcb=9&frm=0&tiba=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=459713190.1792835280&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtag/js?id=AW-17730086296&cx=c&gtm=4e6al1",
+      "status": null,
+      "browser_error": "failed",
+      "remote_ip": null,
+      "count": 1,
+      "depth": 3,
+      "host": "googleads.g.doubleclick.net",
+      "origin": "https://googleads.g.doubleclick.net:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://www.google.com/rmkt/collect/17730086296/?random=1792835281491&cv=11&fst=1792835281491&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9241228203za20ozb9193891433zd9193891433xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fpaytm.com%2F&rcb=9&frm=0&tiba=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=459713190.1792835280&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5": {
+      "url": "https://www.google.com/rmkt/collect/17730086296/?random=1792835281491&cv=11&fst=1792835281491&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9241228203za20ozb9193891433zd9193891433xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fpaytm.com%2F&rcb=9&frm=0&tiba=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=459713190.1792835280&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://webappsstatic.paytm.com/hawkeyeweb/v1/hawkeye.min.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2001:4860:482b:7700::]",
+      "count": 1,
+      "depth": 3,
+      "host": "www.google.com",
+      "origin": "https://www.google.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://www.google.com/ccm/collect?rcb=9&frm=0&apvc=0&auid=459713190.1792835280&dt=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&tid=AW-17730086296&en=page_view&dl=https%3A%2F%2Fpaytm.com%2F&scrsrc=www.googletagmanager.com&rnd=535431220.1792835280&navt=n&npa=0&gtm=45be6al1v9241228203za20ozb9193891433zd9193891433xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792835281553&tfd=3445&tids=AW-17730086296&fmt=8": {
+      "url": "https://www.google.com/ccm/collect?rcb=9&frm=0&apvc=0&auid=459713190.1792835280&dt=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&tid=AW-17730086296&en=page_view&dl=https%3A%2F%2Fpaytm.com%2F&scrsrc=www.googletagmanager.com&rnd=535431220.1792835280&navt=n&npa=0&gtm=45be6al1v9241228203za20ozb9193891433zd9193891433xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792835281553&tfd=3445&tids=AW-17730086296&fmt=8",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://webappsstatic.paytm.com/hawkeyeweb/v1/hawkeye.min.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2001:4860:482b:7700::]",
+      "count": 1,
+      "depth": 3,
+      "host": "www.google.com",
+      "origin": "https://www.google.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17730086296/?random=1792835281491&cv=11&fst=1792835281491&fmt=3&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9241228203za20ozb9193891433zd9193891433xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fpaytm.com%2F&rcb=9&frm=0&tiba=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=459713190.1792835280&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9": {
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17730086296/?random=1792835281491&cv=11&fst=1792835281491&fmt=3&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9241228203za20ozb9193891433zd9193891433xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fpaytm.com%2F&rcb=9&frm=0&tiba=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=459713190.1792835280&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": null,
+      "browser_error": "failed",
+      "remote_ip": null,
+      "count": 1,
+      "depth": 1,
+      "host": "googleads.g.doubleclick.net",
+      "origin": "https://googleads.g.doubleclick.net:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://sig.paytm.com/v2/api/signals/batch": {
+      "url": "https://sig.paytm.com/v2/api/signals/batch",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://webappsstatic.paytm.com/hawkeyeweb/v1/hawkeye.min.js",
+      "status": 202,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::36c:2d54]",
+      "count": 2,
+      "depth": 3,
+      "host": "sig.paytm.com",
+      "origin": "https://sig.paytm.com:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_404",
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://assetscdn1.paytm.com/images/catalog/view_item/3179325/4291045606114157.png": {
+      "url": "https://assetscdn1.paytm.com/images/catalog/view_item/3179325/4291045606114157.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::217:33d0]",
+      "count": 1,
+      "depth": 1,
+      "host": "assetscdn1.paytm.com",
+      "origin": "https://assetscdn1.paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://www.google.com/measurement/conversion?random=1792835281717&cv=11&tid=G-9C45298BC8&fst=1792835281717&fmt=8&en=session_start&gtm=45je6al1v9138789555za20ozb9193891433zd9193891433xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123620775&u_w=1366&u_h=768&url=https%3A%2F%2Fpaytm.com%2F&gacid=1213754957.1792835281&hn=www.googleadservices.com&frm=0&tiba=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&npa=0&pscdl=noapi&auid=459713190.1792835280&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&rcb=2": {
+      "url": "https://www.google.com/measurement/conversion?random=1792835281717&cv=11&tid=G-9C45298BC8&fst=1792835281717&fmt=8&en=session_start&gtm=45je6al1v9138789555za20ozb9193891433zd9193891433xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123620775&u_w=1366&u_h=768&url=https%3A%2F%2Fpaytm.com%2F&gacid=1213754957.1792835281&hn=www.googleadservices.com&frm=0&tiba=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&npa=0&pscdl=noapi&auid=459713190.1792835280&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&rcb=2",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://webappsstatic.paytm.com/hawkeyeweb/v1/hawkeye.min.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2001:4860:482b:7700::]",
+      "count": 1,
+      "depth": 3,
+      "host": "www.google.com",
+      "origin": "https://www.google.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://analytics.google.com/g/collect?v=2&tid=G-9C45298BC8&gtm=45je6al1v9138789555za20ozb9193891433zd9193891433xf1&_p=1792835278547&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&_prs=ok&cid=1213754957.1792835281&frm=0&pscdl=noapi&rcb=2&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&gaf=2&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123620775&sid=1792835281&sct=1&seg=0&dl=https%3A%2F%2Fpaytm.com%2F&dt=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&en=page_view&_fv=1&_ss=2&tfd=3654": {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-9C45298BC8&gtm=45je6al1v9138789555za20ozb9193891433zd9193891433xf1&_p=1792835278547&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&_prs=ok&cid=1213754957.1792835281&frm=0&pscdl=noapi&rcb=2&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&gaf=2&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123620775&sid=1792835281&sct=1&seg=0&dl=https%3A%2F%2Fpaytm.com%2F&dt=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&en=page_view&_fv=1&_ss=2&tfd=3654",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://webappsstatic.paytm.com/hawkeyeweb/v1/hawkeye.min.js",
+      "status": 204,
+      "browser_error": null,
+      "remote_ip": "[2001:4860:4802:38::181]",
+      "count": 1,
+      "depth": 3,
+      "host": "analytics.google.com",
+      "origin": "https://analytics.google.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-9C45298BC8&cid=1213754957.1792835281&gtm=45je6al1v9138789555za20ozb9193891433zd9193891433xf1&rcb=2&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123620775": {
+      "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-9C45298BC8&cid=1213754957.1792835281&gtm=45je6al1v9138789555za20ozb9193891433zd9193891433xf1&rcb=2&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123620775",
+      "resource_type": "Ping",
+      "initiator_type": "script",
+      "parent": "https://www.googletagmanager.com/gtag/js?id=G-9C45298BC8&cx=c&gtm=4e6al1",
+      "status": 204,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4013:813::9a]",
+      "count": 1,
+      "depth": 3,
+      "host": "stats.g.doubleclick.net",
+      "origin": "https://stats.g.doubleclick.net:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://www.google.co.in/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-9C45298BC8&cid=1213754957.1792835281&gtm=45je6al1v9138789555za20ozb9193891433zd9193891433xf1&rcb=2&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123620775&z=1116144305": {
+      "url": "https://www.google.co.in/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-9C45298BC8&cid=1213754957.1792835281&gtm=45je6al1v9138789555za20ozb9193891433zd9193891433xf1&rcb=2&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123620775&z=1116144305",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://paytm.com/",
+      "status": null,
+      "browser_error": "failed",
+      "remote_ip": null,
+      "count": 1,
+      "depth": 1,
+      "host": "www.google.co.in",
+      "origin": "https://www.google.co.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://paytm.com/cdn-cgi/rum?": {
+      "url": "https://paytm.com/cdn-cgi/rum?",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://webappsstatic.paytm.com/hawkeyeweb/v1/hawkeye.min.js",
+      "status": 204,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::ac41:4033]",
+      "count": 1,
+      "depth": 3,
+      "host": "paytm.com",
+      "origin": "https://paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://www.googletagmanager.com/a?v=3&t=l&pid=1108763201&rv=6al1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u=AAAAAAAIAAAAACA&ut=AgAAgA&h=Ag&gtm=45be6al1v9241228203za20gzb9193891433zd9193891433xf1&ccid=241228203&cid=AW-17730086296&l=L438.S99.B87.E359.I2159.TC10.HTC0.F836.C3~gtm.init_consent.S6.V5.E96~gtm.init.S1.V1.E91.TS5ogtautoevents.TI9.TE0.TS5ogt1pdatav2.TI11.TE1.TS5ccdadsfirst.TI17.TE0.TS5ccdpreautopii.TI16.TE0.TS5ccdemform.TI15.TE1.TS5ccdenablecm.TI14.TE0.TS5ccdadd1pdata.TI13.TE0.TS5ccdadslast.TI12.TE0.TS5destaw.TI4.TE2~gtm.js.S1.V1.E79.TS5rep.TI7.TE59~gtm.dom.S0.V0.E15~gtm.load.S1.V0.E23": {
+      "url": "https://www.googletagmanager.com/a?v=3&t=l&pid=1108763201&rv=6al1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u=AAAAAAAIAAAAACA&ut=AgAAgA&h=Ag&gtm=45be6al1v9241228203za20gzb9193891433zd9193891433xf1&ccid=241228203&cid=AW-17730086296&l=L438.S99.B87.E359.I2159.TC10.HTC0.F836.C3~gtm.init_consent.S6.V5.E96~gtm.init.S1.V1.E91.TS5ogtautoevents.TI9.TE0.TS5ogt1pdatav2.TI11.TE1.TS5ccdadsfirst.TI17.TE0.TS5ccdpreautopii.TI16.TE0.TS5ccdemform.TI15.TE1.TS5ccdenablecm.TI14.TE0.TS5ccdadd1pdata.TI13.TE0.TS5ccdadslast.TI12.TE0.TS5destaw.TI4.TE2~gtm.js.S1.V1.E79.TS5rep.TI7.TE59~gtm.dom.S0.V0.E15~gtm.load.S1.V0.E23",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://paytm.com/",
+      "status": null,
+      "browser_error": "failed",
+      "remote_ip": null,
+      "count": 1,
+      "depth": 1,
+      "host": "www.googletagmanager.com",
+      "origin": "https://www.googletagmanager.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://paytm.com/favicon.ico": {
+      "url": "https://paytm.com/favicon.ico",
+      "resource_type": "Other",
+      "initiator_type": "other",
+      "parent": "https://paytm.com/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::ac41:4033]",
+      "count": 1,
+      "depth": 1,
+      "host": "paytm.com",
+      "origin": "https://paytm.com:443",
+      "third_party": false,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": "https://paytm.com/"
+    },
+    "https://hawkeye-api.paytm.com/appdebuganalytics/triggers/save": {
+      "url": "https://hawkeye-api.paytm.com/appdebuganalytics/triggers/save",
+      "resource_type": "Fetch",
+      "initiator_type": "script",
+      "parent": "https://webappsstatic.paytm.com/hawkeyeweb/v1/hawkeye.min.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::1071:a738]",
+      "count": 3,
+      "depth": 3,
+      "host": "hawkeye-api.paytm.com",
+      "origin": "https://hawkeye-api.paytm.com:443",
+      "third_party": false,
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_404",
+      "critical": true,
+      "blocked_by": "https://paytm.com/"
+    }
+  },
+  "origins": {
+    "https://paytm.com:443": {
+      "origin": "https://paytm.com:443",
+      "host": "paytm.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://paytm.com/",
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "64:ff9b::ac41:4032",
+            "64:ff9b::ac41:4033"
+          ],
+          "cname_chain": [],
+          "ttl": 3481,
+          "ms": 9.1,
+          "synthesized": true
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "64:ff9b::ac41:4032",
+              "ok": true,
+              "ms": 110.7
+            }
+          ],
+          "shim": false,
+          "addr": "64:ff9b::ac41:4032"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.paytm.com",
+          "cert_not_after": "Mar 10 23:59:59 2027 GMT",
+          "ms": 345.9
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "cloudflare",
+          "ms": 1885.8,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "172.65.64.50",
+            "172.65.64.51"
+          ],
+          "cname_chain": [],
+          "ttl": 3426,
+          "ms": 4.7
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "172.65.64.50",
+              "ok": true,
+              "ms": 809.7
+            }
+          ],
+          "shim": false,
+          "addr": "172.65.64.50"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.paytm.com",
+          "cert_not_after": "Mar 10 23:59:59 2027 GMT",
+          "ms": 528.2
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "cloudflare",
+          "ms": 1579.9,
+          "ok": true
+        }
+      }
+    },
+    "https://pwebassets.paytm.com:443": {
+      "origin": "https://pwebassets.paytm.com:443",
+      "host": "pwebassets.paytm.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://pwebassets.paytm.com/frontendcommonweb/js/528997d5.vendors.js",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2600:140f:600:196::39e2",
+            "2600:140f:600:18d::39e2",
+            "2600:140f:600:18f::39e2",
+            "2600:140f:600:18e::39e2",
+            "2600:140f:600:194::39e2"
+          ],
+          "cname_chain": [
+            "pwebassets.paytm.com.edgekey.net",
+            "e14818.dsca.akamaiedge.net"
+          ],
+          "ttl": 20,
+          "ms": 55.3,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2600:140f:600:196::39e2",
+              "ok": true,
+              "ms": 164.7
+            }
+          ],
+          "shim": false,
+          "addr": "2600:140f:600:196::39e2"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "secure.paytm.com",
+          "cert_not_after": "Feb 15 23:59:59 2027 GMT",
+          "ms": 312.6
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "AmazonS3",
+          "ms": 1851.6,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "23.45.186.26"
+          ],
+          "cname_chain": [
+            "pwebassets.paytm.com.edgekey.net",
+            "e14818.dsca.akamaiedge.net"
+          ],
+          "ttl": 19,
+          "ms": 782.6
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "23.45.186.26",
+              "ok": true,
+              "ms": 323.8
+            }
+          ],
+          "shim": false,
+          "addr": "23.45.186.26"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "secure.paytm.com",
+          "cert_not_after": "Feb 15 23:59:59 2027 GMT",
+          "ms": 360.4
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "AmazonS3",
+          "ms": 2579.4,
+          "ok": true
+        }
+      }
+    },
+    "https://www.googletagmanager.com:443": {
+      "origin": "https://www.googletagmanager.com:443",
+      "host": "www.googletagmanager.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.googletagmanager.com/gtm.js?id=GTM-NK58PSKJ",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4013:802::61"
+          ],
+          "cname_chain": [],
+          "ttl": 162,
+          "ms": 52.5,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2404:6800:4013:802::61",
+              "ok": true,
+              "ms": 136.0
+            }
+          ],
+          "shim": false,
+          "addr": "2404:6800:4013:802::61"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google-analytics.com",
+          "cert_not_after": "Dec 21 18:38:19 2026 GMT",
+          "ms": 223.9
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "Google Tag Manager",
+          "ms": 1419.6,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.250.29.97"
+          ],
+          "cname_chain": [],
+          "ttl": 171,
+          "ms": 24.6
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.250.29.97",
+              "ok": true,
+              "ms": 1176.6
+            }
+          ],
+          "shim": false,
+          "addr": "142.250.29.97"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google-analytics.com",
+          "cert_not_after": "Dec 21 18:38:19 2026 GMT",
+          "ms": 548.6
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "Google Tag Manager",
+          "ms": 828.7,
+          "ok": true
+        }
+      }
+    },
+    "https://assetscdn1.paytm.com:443": {
+      "origin": "https://assetscdn1.paytm.com:443",
+      "host": "assetscdn1.paytm.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://assetscdn1.paytm.com/images/catalog/view_item/3179318/36886801089433092.png",
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "64:ff9b::217:33d0"
+          ],
+          "cname_chain": [
+            "assetscdn1.paytm.com.edgekey.net",
+            "e14818.j.akamaiedge.net"
+          ],
+          "ttl": 8,
+          "ms": 8.3,
+          "synthesized": true
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "64:ff9b::217:33d0",
+              "ok": true,
+              "ms": 92.4
+            }
+          ],
+          "shim": false,
+          "addr": "64:ff9b::217:33d0"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "secure.paytm.com",
+          "cert_not_after": "Feb 15 23:59:59 2027 GMT",
+          "ms": 256.1
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "Akamai Image Manager",
+          "ms": 251.1,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2.23.51.208"
+          ],
+          "cname_chain": [
+            "assetscdn1.paytm.com.edgekey.net",
+            "e14818.j.akamaiedge.net"
+          ],
+          "ttl": 10,
+          "ms": 5.7
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2.23.51.208",
+              "ok": true,
+              "ms": 1189.7
+            }
+          ],
+          "shim": false,
+          "addr": "2.23.51.208"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "secure.paytm.com",
+          "cert_not_after": "Feb 15 23:59:59 2027 GMT",
+          "ms": 1639.9
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "Akamai Image Manager",
+          "ms": 401.7,
+          "ok": true
+        }
+      }
+    },
+    "https://paytmtravel-images-akamai.paytm.com:443": {
+      "origin": "https://paytmtravel-images-akamai.paytm.com:443",
+      "host": "paytmtravel-images-akamai.paytm.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://paytmtravel-images-akamai.paytm.com/icons/Paytm_Travel_Logo.svg",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2600:140f:600:1a4::39e2",
+            "2600:140f:600:19f::39e2",
+            "2600:140f:600:1a5::39e2",
+            "2600:140f:600:1a3::39e2",
+            "2600:140f:600:1a7::39e2"
+          ],
+          "cname_chain": [
+            "paytmtravel-images-akamai.paytm.com.edgekey.net",
+            "e14818.dsca.akamaiedge.net"
+          ],
+          "ttl": 20,
+          "ms": 52.5,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2600:140f:600:1a4::39e2",
+              "ok": true,
+              "ms": 78.0
+            }
+          ],
+          "shim": false,
+          "addr": "2600:140f:600:1a4::39e2"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "secure.paytm.com",
+          "cert_not_after": "Feb 15 23:59:59 2027 GMT",
+          "ms": 399.3
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "AmazonS3",
+          "ms": 2043.6,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "23.45.186.26"
+          ],
+          "cname_chain": [
+            "paytmtravel-images-akamai.paytm.com.edgekey.net",
+            "e14818.dsca.akamaiedge.net"
+          ],
+          "ttl": 18,
+          "ms": 18.9
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "23.45.186.26",
+              "ok": true,
+              "ms": 606.0
+            }
+          ],
+          "shim": false,
+          "addr": "23.45.186.26"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "secure.paytm.com",
+          "cert_not_after": "Feb 15 23:59:59 2027 GMT",
+          "ms": 2033.4
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "AmazonS3",
+          "ms": 1309.5,
+          "ok": true
+        }
+      }
+    },
+    "https://static.cloudflareinsights.com:443": {
+      "origin": "https://static.cloudflareinsights.com:443",
+      "host": "static.cloudflareinsights.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2606:4700:8d90:fe72:83ef:5a0:6810:4f49"
+          ],
+          "cname_chain": [],
+          "ttl": 47,
+          "ms": 50.9,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2606:4700:8d90:fe72:83ef:5a0:6810:4f49",
+              "ok": true,
+              "ms": 135.7
+            }
+          ],
+          "shim": false,
+          "addr": "2606:4700:8d90:fe72:83ef:5a0:6810:4f49"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "cloudflareinsights.com",
+          "cert_not_after": "Jan 10 13:17:32 2027 GMT",
+          "ms": 346.8
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "cloudflare",
+          "ms": 2078.4,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "104.16.79.73",
+            "104.16.80.73"
+          ],
+          "cname_chain": [],
+          "ttl": 161,
+          "ms": 8.7
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "104.16.79.73",
+              "ok": true,
+              "ms": 578.3
+            }
+          ],
+          "shim": false,
+          "addr": "104.16.79.73"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "cloudflareinsights.com",
+          "cert_not_after": "Jan 10 13:17:32 2027 GMT",
+          "ms": 431.6
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "cloudflare",
+          "ms": 1684.1,
+          "ok": true
+        }
+      }
+    },
+    "https://webappsstatic.paytm.com:443": {
+      "origin": "https://webappsstatic.paytm.com:443",
+      "host": "webappsstatic.paytm.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://webappsstatic.paytm.com/signalsdk-web/v1/config-2.2.2.min.js",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2600:140f:600:185::39e2",
+            "2600:140f:600:1b6::39e2",
+            "2600:140f:600:184::39e2",
+            "2600:140f:600:1b5::39e2",
+            "2600:140f:600:1ba::39e2"
+          ],
+          "cname_chain": [
+            "webappsstatic.paytm.com-v1.edgekey.net",
+            "e14818.dsca.akamaiedge.net"
+          ],
+          "ttl": 12,
+          "ms": 7.0,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2600:140f:600:185::39e2",
+              "ok": true,
+              "ms": 44.2
+            }
+          ],
+          "shim": false,
+          "addr": "2600:140f:600:185::39e2"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "secure.paytm.com",
+          "cert_not_after": "Feb 15 23:59:59 2027 GMT",
+          "ms": 273.3
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 282.5,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "23.45.186.26"
+          ],
+          "cname_chain": [
+            "webappsstatic.paytm.com-v1.edgekey.net",
+            "e14818.dsca.akamaiedge.net"
+          ],
+          "ttl": 19,
+          "ms": 983.8
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "23.45.186.26",
+              "ok": true,
+              "ms": 1409.5
+            }
+          ],
+          "shim": false,
+          "addr": "23.45.186.26"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "secure.paytm.com",
+          "cert_not_after": "Feb 15 23:59:59 2027 GMT",
+          "ms": 626.1
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 625.1,
+          "ok": true
+        }
+      }
+    },
+    "https://websdk.appsflyersdk.com:443": {
+      "origin": "https://websdk.appsflyersdk.com:443",
+      "host": "websdk.appsflyersdk.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://websdk.appsflyersdk.com/?st=banners&",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2600:9000:2003:1a00:5:c156:4340:93a1",
+            "2600:9000:2003:da00:5:c156:4340:93a1",
+            "2600:9000:2003:ea00:5:c156:4340:93a1",
+            "2600:9000:2003:a00:5:c156:4340:93a1",
+            "2600:9000:2003:4e00:5:c156:4340:93a1",
+            "2600:9000:2003:9800:5:c156:4340:93a1",
+            "2600:9000:2003:800:5:c156:4340:93a1",
+            "2600:9000:2003:6000:5:c156:4340:93a1"
+          ],
+          "cname_chain": [
+            "dbo0t3pcsxcel.cloudfront.net"
+          ],
+          "ttl": 20,
+          "ms": 98.1,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2600:9000:2003:1a00:5:c156:4340:93a1",
+              "ok": true,
+              "ms": 107.5
+            }
+          ],
+          "shim": false,
+          "addr": "2600:9000:2003:1a00:5:c156:4340:93a1"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "*.appsflyer.com",
+          "cert_not_after": "Jan  1 23:59:59 2027 GMT",
+          "ms": 222.0
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "AmazonS3",
+          "ms": 193.1,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "54.192.151.72",
+            "54.192.151.23",
+            "54.192.151.38",
+            "54.192.151.45"
+          ],
+          "cname_chain": [
+            "dbo0t3pcsxcel.cloudfront.net"
+          ],
+          "ttl": 26,
+          "ms": 1580.1
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "54.192.151.72",
+              "ok": true,
+              "ms": 843.2
+            }
+          ],
+          "shim": false,
+          "addr": "54.192.151.72"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "*.appsflyer.com",
+          "cert_not_after": "Jan  1 23:59:59 2027 GMT",
+          "ms": 456.4
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "AmazonS3",
+          "ms": 874.8,
+          "ok": true
+        }
+      }
+    },
+    "https://www.google.com:443": {
+      "origin": "https://www.google.com:443",
+      "host": "www.google.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=1&ae=g&auid=459713190.1792835280&dt=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&en=page_view&dl=https%3A%2F%2Fpaytm.com%2F&scrsrc=www.googletagmanager.com&rnd=535431220.1792835280&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6al1v9193891433za200zd9193891433xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120385423~120469145~120469153~121246026~121246034&tft=1792835280420&tfd=2312&fmt=8",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2001:4860:4828:7700::",
+            "2001:4860:482b:7700::",
+            "2001:4860:4829:7700::",
+            "2001:4860:482c:7700::",
+            "2001:4860:4827:7700::",
+            "2001:4860:4826:7700::",
+            "2001:4860:482d:7700::",
+            "2001:4860:482a:7700::"
+          ],
+          "cname_chain": [],
+          "ttl": 255,
+          "ms": 6.2,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2001:4860:4828:7700::",
+              "ok": true,
+              "ms": 107.9
+            }
+          ],
+          "shim": false,
+          "addr": "2001:4860:4828:7700::"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "www.google.com",
+          "cert_not_after": "Dec 21 18:41:20 2026 GMT",
+          "ms": 206.3
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "scaffolding on HTTPServer2",
+          "ms": 1531.5,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.251.152.119",
+            "142.251.154.119",
+            "142.251.155.119",
+            "142.251.157.119",
+            "142.251.150.119",
+            "142.251.151.119",
+            "142.251.156.119",
+            "142.251.153.119"
+          ],
+          "cname_chain": [],
+          "ttl": 254,
+          "ms": 6.6
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.251.152.119",
+              "ok": true,
+              "ms": 1181.0
+            }
+          ],
+          "shim": false,
+          "addr": "142.251.152.119"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "www.google.com",
+          "cert_not_after": "Dec 21 18:41:20 2026 GMT",
+          "ms": 578.5
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "scaffolding on HTTPServer2",
+          "ms": 789.2,
+          "ok": true
+        }
+      }
+    },
+    "https://ad.doubleclick.net:443": {
+      "origin": "https://ad.doubleclick.net:443",
+      "host": "ad.doubleclick.net",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://ad.doubleclick.net/ccm/s/collect?auid=459713190.1792835280&gtm=45He6al1v9193891433za200zd9193891433xeaxf1&fmt=8",
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_405",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "http",
+        "failure_code": "HTTP_405",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "64:ff9b::8efa:1d95",
+            "64:ff9b::8efa:1d94"
+          ],
+          "cname_chain": [],
+          "ttl": 259,
+          "ms": 7.0,
+          "synthesized": true
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "64:ff9b::8efa:1d95",
+              "ok": true,
+              "ms": 107.2
+            }
+          ],
+          "shim": false,
+          "addr": "64:ff9b::8efa:1d95"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.doubleclick.net",
+          "cert_not_after": "Dec 21 18:38:02 2026 GMT",
+          "ms": 299.6
+        },
+        "http": {
+          "status": 405,
+          "reason": "Method Not Allowed",
+          "location": null,
+          "server": "scaffolding on HTTPServer2",
+          "ms": 1437.5,
+          "ok": false
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": "http",
+        "failure_code": "HTTP_405",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.250.29.149",
+            "142.250.29.148"
+          ],
+          "cname_chain": [],
+          "ttl": 258,
+          "ms": 6.9
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.250.29.149",
+              "ok": true,
+              "ms": 1170.3
+            }
+          ],
+          "shim": false,
+          "addr": "142.250.29.149"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.doubleclick.net",
+          "cert_not_after": "Dec 21 18:38:02 2026 GMT",
+          "ms": 589.9
+        },
+        "http": {
+          "status": 405,
+          "reason": "Method Not Allowed",
+          "location": null,
+          "server": "scaffolding on HTTPServer2",
+          "ms": 789.1,
+          "ok": false
+        }
+      }
+    },
+    "https://storefront.paytm.com:443": {
+      "origin": "https://storefront.paytm.com:443",
+      "host": "storefront.paytm.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://storefront.paytm.com/v2/h/paytm-web-homepage-ads?platform_version=S2(New)&channel=web&child_site_id=1&site_id=1&version=2",
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_400",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "http",
+        "failure_code": "HTTP_400",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2600:140f:600:1b7::186d",
+            "2600:140f:600:19c::186d",
+            "2600:140f:600:1b2::186d",
+            "2600:140f:600:18d::186d",
+            "2600:140f:600:1a8::186d"
+          ],
+          "cname_chain": [
+            "storefront.paytm.com-v1.edgekey.net",
+            "e6253.dsca.akamaiedge.net"
+          ],
+          "ttl": 8,
+          "ms": 11.1,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2600:140f:600:1b7::186d",
+              "ok": true,
+              "ms": 35.7
+            }
+          ],
+          "shim": false,
+          "addr": "2600:140f:600:1b7::186d"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.paytm.com",
+          "cert_not_after": "Nov 25 23:59:59 2026 GMT",
+          "ms": 208.4
+        },
+        "http": {
+          "status": 400,
+          "reason": "Bad Request",
+          "location": null,
+          "server": null,
+          "ms": 691.4,
+          "ok": false
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": "http",
+        "failure_code": "HTTP_400",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "95.100.4.183"
+          ],
+          "cname_chain": [
+            "storefront.paytm.com-v1.edgekey.net",
+            "e6253.dsca.akamaiedge.net"
+          ],
+          "ttl": 13,
+          "ms": 24.9
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "95.100.4.183",
+              "ok": true,
+              "ms": 1951.1
+            }
+          ],
+          "shim": false,
+          "addr": "95.100.4.183"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.paytm.com",
+          "cert_not_after": "Nov 25 23:59:59 2026 GMT",
+          "ms": 443.7
+        },
+        "http": {
+          "status": 400,
+          "reason": "Bad Request",
+          "location": null,
+          "server": null,
+          "ms": 776.3,
+          "ok": false
+        }
+      }
+    },
+    "https://travel.paytm.com:443": {
+      "origin": "https://travel.paytm.com:443",
+      "host": "travel.paytm.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://travel.paytm.com/api/flights/v1/search_filters?origin=DEL&trip_type=oneway&destination=BOM&client=web",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2600:140f:600:196::1a5e",
+            "2600:140f:600:1b0::1a5e"
+          ],
+          "cname_chain": [],
+          "ttl": 4,
+          "ms": 10.6,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2600:140f:600:196::1a5e",
+              "ok": true,
+              "ms": 34.9
+            }
+          ],
+          "shim": false,
+          "addr": "2600:140f:600:196::1a5e"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "travel.paytm.com",
+          "cert_not_after": "Jan 29 23:59:59 2027 GMT",
+          "ms": 273.5
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 1879.6,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "95.100.6.166"
+          ],
+          "cname_chain": [],
+          "ttl": 1,
+          "ms": 876.2
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "95.100.6.166",
+              "ok": true,
+              "ms": 349.8
+            }
+          ],
+          "shim": false,
+          "addr": "95.100.6.166"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "travel.paytm.com",
+          "cert_not_after": "Jan 29 23:59:59 2027 GMT",
+          "ms": 367.8
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 2075.2,
+          "ok": true
+        }
+      }
+    },
+    "https://www.google-analytics.com:443": {
+      "origin": "https://www.google-analytics.com:443",
+      "host": "www.google-analytics.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.google-analytics.com/g/collect?v=2&tid=G-J88W1YE2F3&gtm=45je6am0h2v871131640za20ozb9191141531zd9191141531xf1&_p=1792835278547&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1213754957.1792835281&frm=0&ngs=1&pscdl=noapi&rcb=18&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&_s=1&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&sid=1792835280&sct=1&seg=0&dl=https%3A%2F%2Fpaytm.com%2F&dt=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=2829",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4007:838::200e"
+          ],
+          "cname_chain": [],
+          "ttl": 210,
+          "ms": 7.5,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2404:6800:4007:838::200e",
+              "ok": true,
+              "ms": 104.4
+            }
+          ],
+          "shim": false,
+          "addr": "2404:6800:4007:838::200e"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google-analytics.com",
+          "cert_not_after": "Dec 21 18:38:19 2026 GMT",
+          "ms": 295.9
+        },
+        "http": {
+          "status": 204,
+          "reason": "No Content",
+          "location": null,
+          "server": "Golfe2",
+          "ms": 1276.5,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.251.43.206"
+          ],
+          "cname_chain": [],
+          "ttl": 170,
+          "ms": 7.1
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.251.43.206",
+              "ok": true,
+              "ms": 1289.7
+            }
+          ],
+          "shim": false,
+          "addr": "142.251.43.206"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google-analytics.com",
+          "cert_not_after": "Dec 21 18:38:19 2026 GMT",
+          "ms": 632.8
+        },
+        "http": {
+          "status": 204,
+          "reason": "No Content",
+          "location": null,
+          "server": "Golfe2",
+          "ms": 1648.2,
+          "ok": true
+        }
+      }
+    },
+    "https://googleads.g.doubleclick.net:443": {
+      "origin": "https://googleads.g.doubleclick.net:443",
+      "host": "googleads.g.doubleclick.net",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/868525818/?random=1792835281305&cv=11&fst=1792835281305&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9122696915za20ozb9193891433zd9193891433xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1366&u_h=768&url=https%3A%2F%2Fpaytm.com%2F&rcb=15&frm=0&tiba=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=459713190.1792835280&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4002:827::2002"
+          ],
+          "cname_chain": [],
+          "ttl": 261,
+          "ms": 93.7,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2404:6800:4002:827::2002",
+              "ok": true,
+              "ms": 108.2
+            }
+          ],
+          "shim": false,
+          "addr": "2404:6800:4002:827::2002"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.g.doubleclick.net",
+          "cert_not_after": "Dec 21 18:38:12 2026 GMT",
+          "ms": 229.4
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "cafe",
+          "ms": 1767.7,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "192.178.158.154",
+            "192.178.158.157",
+            "192.178.158.155",
+            "192.178.158.156"
+          ],
+          "cname_chain": [],
+          "ttl": 179,
+          "ms": 851.3
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "192.178.158.154",
+              "ok": true,
+              "ms": 373.4
+            }
+          ],
+          "shim": false,
+          "addr": "192.178.158.154"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.g.doubleclick.net",
+          "cert_not_after": "Dec 21 18:38:12 2026 GMT",
+          "ms": 371.4
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "cafe",
+          "ms": 2035.5,
+          "ok": true
+        }
+      }
+    },
+    "https://sig.paytm.com:443": {
+      "origin": "https://sig.paytm.com:443",
+      "host": "sig.paytm.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://sig.paytm.com/v2/api/signals/batch",
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_404",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "http",
+        "failure_code": "HTTP_404",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "64:ff9b::239a:2031",
+            "64:ff9b::ffc:7f95",
+            "64:ff9b::36f:9e63",
+            "64:ff9b::1004:585b",
+            "64:ff9b::2bcc:48e7",
+            "64:ff9b::36c:2d54"
+          ],
+          "cname_chain": [],
+          "ttl": 18,
+          "ms": 22.3,
+          "synthesized": true
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "64:ff9b::239a:2031",
+              "ok": true,
+              "ms": 146.5
+            }
+          ],
+          "shim": false,
+          "addr": "64:ff9b::239a:2031"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "*.paytm.com",
+          "cert_not_after": "Mar 10 23:59:59 2027 GMT",
+          "ms": 241.8
+        },
+        "http": {
+          "status": 404,
+          "reason": "Not Found",
+          "location": null,
+          "server": null,
+          "ms": 529.6,
+          "ok": false
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": "http",
+        "failure_code": "HTTP_404",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "43.204.72.231",
+            "15.252.127.149",
+            "16.4.88.91",
+            "3.111.158.99",
+            "35.154.32.49",
+            "3.108.45.84"
+          ],
+          "cname_chain": [],
+          "ttl": 33,
+          "ms": 26.5
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "43.204.72.231",
+              "ok": true,
+              "ms": 1956.1
+            }
+          ],
+          "shim": false,
+          "addr": "43.204.72.231"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "*.paytm.com",
+          "cert_not_after": "Mar 10 23:59:59 2027 GMT",
+          "ms": 717.5
+        },
+        "http": {
+          "status": 404,
+          "reason": "Not Found",
+          "location": null,
+          "server": null,
+          "ms": 607.3,
+          "ok": false
+        }
+      }
+    },
+    "https://analytics.google.com:443": {
+      "origin": "https://analytics.google.com:443",
+      "host": "analytics.google.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://analytics.google.com/g/collect?v=2&tid=G-9C45298BC8&gtm=45je6al1v9138789555za20ozb9193891433zd9193891433xf1&_p=1792835278547&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&_prs=ok&cid=1213754957.1792835281&frm=0&pscdl=noapi&rcb=2&sr=1366x768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-in&gaf=2&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123620775&sid=1792835281&sct=1&seg=0&dl=https%3A%2F%2Fpaytm.com%2F&dt=Paytm%3A%20Secure%20%26%20Fast%20UPI%20Payments%2C%20Recharge%20Mobile%20%26%20Pay%20Bills&en=page_view&_fv=1&_ss=2&tfd=3654",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2001:4860:4802:34::181",
+            "2001:4860:4802:32::181",
+            "2001:4860:4802:36::181",
+            "2001:4860:4802:38::181"
+          ],
+          "cname_chain": [
+            "analytics-alv.google.com"
+          ],
+          "ttl": 225,
+          "ms": 12.9,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2001:4860:4802:34::181",
+              "ok": true,
+              "ms": 153.7
+            }
+          ],
+          "shim": false,
+          "addr": "2001:4860:4802:34::181"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google.com",
+          "cert_not_after": "Dec 21 18:38:32 2026 GMT",
+          "ms": 357.2
+        },
+        "http": {
+          "status": 204,
+          "reason": "No Content",
+          "location": null,
+          "server": "Golfe2",
+          "ms": 2342.1,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "216.239.32.181",
+            "216.239.38.181",
+            "216.239.36.181",
+            "216.239.34.181"
+          ],
+          "cname_chain": [
+            "analytics-alv.google.com"
+          ],
+          "ttl": 37,
+          "ms": 18.1
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "216.239.32.181",
+              "ok": true,
+              "ms": 303.8
+            }
+          ],
+          "shim": false,
+          "addr": "216.239.32.181"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google.com",
+          "cert_not_after": "Dec 21 18:38:32 2026 GMT",
+          "ms": 484.5
+        },
+        "http": {
+          "status": 204,
+          "reason": "No Content",
+          "location": null,
+          "server": "Golfe2",
+          "ms": 724.0,
+          "ok": true
+        }
+      }
+    },
+    "https://stats.g.doubleclick.net:443": {
+      "origin": "https://stats.g.doubleclick.net:443",
+      "host": "stats.g.doubleclick.net",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-9C45298BC8&cid=1213754957.1792835281&gtm=45je6al1v9138789555za20ozb9193891433zd9193891433xf1&rcb=2&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123620775",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4013:813::9c",
+            "2404:6800:4013:813::9b",
+            "2404:6800:4013:813::9d",
+            "2404:6800:4013:813::9a"
+          ],
+          "cname_chain": [],
+          "ttl": 61,
+          "ms": 37.6,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2404:6800:4013:813::9c",
+              "ok": true,
+              "ms": 494.9
+            }
+          ],
+          "shim": false,
+          "addr": "2404:6800:4013:813::9c"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.g.doubleclick.net",
+          "cert_not_after": "Dec 21 18:38:12 2026 GMT",
+          "ms": 1793.8
+        },
+        "http": {
+          "status": 204,
+          "reason": "No Content",
+          "location": null,
+          "server": "Golfe2",
+          "ms": 680.0,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "192.178.158.157",
+            "192.178.158.155",
+            "192.178.158.154",
+            "192.178.158.156"
+          ],
+          "cname_chain": [],
+          "ttl": 157,
+          "ms": 6.7
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "192.178.158.157",
+              "ok": true,
+              "ms": 125.1
+            }
+          ],
+          "shim": false,
+          "addr": "192.178.158.157"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.g.doubleclick.net",
+          "cert_not_after": "Dec 21 18:38:12 2026 GMT",
+          "ms": 202.0
+        },
+        "http": {
+          "status": 204,
+          "reason": "No Content",
+          "location": null,
+          "server": "Golfe2",
+          "ms": 640.2,
+          "ok": true
+        }
+      }
+    },
+    "https://www.google.co.in:443": {
+      "origin": "https://www.google.co.in:443",
+      "host": "www.google.co.in",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.google.co.in/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-9C45298BC8&cid=1213754957.1792835281&gtm=45je6al1v9138789555za20ozb9193891433zd9193891433xf1&rcb=2&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123620775&z=1116144305",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4013:813::5e"
+          ],
+          "cname_chain": [],
+          "ttl": 154,
+          "ms": 1320.2,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2404:6800:4013:813::5e",
+              "ok": true,
+              "ms": 960.9
+            }
+          ],
+          "shim": false,
+          "addr": "2404:6800:4013:813::5e"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google.co.in",
+          "cert_not_after": "Dec 21 18:41:46 2026 GMT",
+          "ms": 433.5
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "cafe",
+          "ms": 323.8,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "192.178.158.94"
+          ],
+          "cname_chain": [],
+          "ttl": 243,
+          "ms": 100.0
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "192.178.158.94",
+              "ok": true,
+              "ms": 380.5
+            }
+          ],
+          "shim": false,
+          "addr": "192.178.158.94"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google.co.in",
+          "cert_not_after": "Dec 21 18:41:46 2026 GMT",
+          "ms": 235.7
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "cafe",
+          "ms": 246.1,
+          "ok": true
+        }
+      }
+    },
+    "https://hawkeye-api.paytm.com:443": {
+      "origin": "https://hawkeye-api.paytm.com:443",
+      "host": "hawkeye-api.paytm.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://hawkeye-api.paytm.com/appdebuganalytics/triggers/save",
+      "verdict": "BROKEN_BOTH",
+      "failed_stage": "http",
+      "failure_code": "HTTP_404",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": "http",
+        "failure_code": "HTTP_404",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "64:ff9b::1071:1291",
+            "64:ff9b::1071:5d97",
+            "64:ff9b::1070:f21b",
+            "64:ff9b::1070:5dba",
+            "64:ff9b::1071:70a8",
+            "64:ff9b::1071:a738",
+            "64:ff9b::28c0:351e",
+            "64:ff9b::1071:7cd0"
+          ],
+          "cname_chain": [],
+          "ttl": 56,
+          "ms": 1804.1,
+          "synthesized": true
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "64:ff9b::1071:1291",
+              "ok": true,
+              "ms": 431.7
+            }
+          ],
+          "shim": false,
+          "addr": "64:ff9b::1071:1291"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "*.paytm.com",
+          "cert_not_after": "Mar 10 23:59:59 2027 GMT",
+          "ms": 378.6
+        },
+        "http": {
+          "status": 404,
+          "reason": "Not Found",
+          "location": null,
+          "server": null,
+          "ms": 315.3,
+          "ok": false
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": "http",
+        "failure_code": "HTTP_404",
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "16.113.167.56",
+            "16.112.93.186",
+            "16.112.242.27",
+            "16.113.112.168",
+            "16.113.93.151",
+            "40.192.53.30",
+            "16.113.18.145",
+            "16.113.124.208"
+          ],
+          "cname_chain": [],
+          "ttl": 48,
+          "ms": 102.9
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "16.113.167.56",
+              "ok": true,
+              "ms": 381.2
+            }
+          ],
+          "shim": false,
+          "addr": "16.113.167.56"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "*.paytm.com",
+          "cert_not_after": "Mar 10 23:59:59 2027 GMT",
+          "ms": 232.0
+        },
+        "http": {
+          "status": 404,
+          "reason": "Not Found",
+          "location": null,
+          "server": null,
+          "ms": 235.9,
+          "ok": false
+        }
+      }
+    }
+  },
+  "site": {
+    "category": "Banking & payments",
+    "name": "Paytm",
+    "url": "https://paytm.com/"
+  }
+}

@@ -1,0 +1,1458 @@
+{
+  "schema": "ipv6-readiness-audit/1",
+  "page": "https://www.onlinesbi.sbi/",
+  "final_url": "https://onlinesbi.sbi.bank.in/",
+  "started_utc": "2026-10-24T09:47:17+00:00",
+  "load_seconds": 19.66,
+  "vantage": {
+    "nat64_prefixes": [
+      "64:ff9b::/96"
+    ],
+    "ipv6_stack": true,
+    "ipv6_default_route": true,
+    "ipv4_default_route": true,
+    "lab_v6_shim": false,
+    "pathway": "dual-stack + DNS64/NAT64"
+  },
+  "capture_errors": [],
+  "summary": {
+    "page_verdict": "DEGRADED_ON_IPV6",
+    "root_verdict": "READY",
+    "root_has_aaaa": true,
+    "resources_total": 48,
+    "origins_total": 3,
+    "resources_by_verdict": {
+      "READY": 47,
+      "IPV4_ONLY_NAT64": 1
+    },
+    "origins_by_verdict": {
+      "READY": 2,
+      "IPV4_ONLY_NAT64": 1
+    },
+    "ipv6_failures_by_stage": {
+      "dns": 1
+    },
+    "ipv6_failing_resources": 1,
+    "inconclusive_resources": 0,
+    "ipv6_failing_critical": 0,
+    "ipv6_failing_third_party": 1,
+    "resource_ipv6_ready_pct": 97.9,
+    "ipv4_only_hosts": [
+      "cdn.page-source.com"
+    ],
+    "aaaa_but_broken_hosts": [],
+    "root_host": "www.onlinesbi.sbi",
+    "root_http_parity": false
+  },
+  "tree": {
+    "root": "https://www.onlinesbi.sbi/",
+    "edges": [
+      [
+        "https://www.onlinesbi.sbi/",
+        "https://onlinesbi.sbi.bank.in/"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/css/bootstrap-5.3.8.min.css"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/css/bootstrap-select.css"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/css/jquery.smartmenus.bootstrap-4.css"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/css/generic_style.css?v=3"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/js/jquery-3.7.1.min.js"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/js/bootstrap.bundle-5.3.8.min.js"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/js/scroll_default.js"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/js/generic_common.js"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/yono_netbanking.png"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/arrow.png"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/ybbi_corp.png"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/PPF_acc_opening.jpg"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/js/jquery.smartmenus.min.js"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/js/jquery.smartmenus.bootstrap-4.js"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/sbijava/js/jquery-3.7.1.min.js",
+        "https://onlinesbi.sbi.bank.in/scroller/tickermessages"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/sbijava/css/generic_style.css?v=3",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/body_bg.jpg"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/sbijava/css/generic_style.css?v=3",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/sprite.png"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/sbijava/css/generic_style.css?v=3",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/icon-pause.png"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/sbijava/css/generic_style.css?v=3",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/register.png"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/sbijava/css/generic_style.css?v=3",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/faq.png"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/sbijava/css/generic_style.css?v=3",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/cust_care.png"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/sbijava/css/generic_style.css?v=3",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/unlock_user.png"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/sbijava/css/generic_style.css?v=3",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/icon_usefulLinks.png"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/sbijava/js/jquery-3.7.1.min.js",
+        "https://onlinesbi.sbi.bank.in/sbijava/js/banner_data.json"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/banner15.jpg"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/FX_Retail_banner.png"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/banner16.jpg"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/banner18.jpg"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/banner13.jpg"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/banner9.jpg"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/banner7.jpg"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/banner51.jpg"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/banner10.jpg"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/banner12.jpg"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/banner3.jpg"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/banner8.jpg"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/banner11.jpg"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/banner14.jpg"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/banner6.jpg"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/banner4.jpg"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/banner5.jpg"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/banner33.jpg"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/banner29.jpg"
+      ],
+      [
+        "https://onlinesbi.sbi.bank.in/",
+        "https://onlinesbi.sbi.bank.in/sbijava/images/banner1.jpg"
+      ],
+      [
+        "https://www.onlinesbi.sbi/",
+        "https://cdn.page-source.com/resizeimage.ashx?ig=onlinesbi.sbi.bank.in&sz=105405"
+      ],
+      [
+        "https://www.onlinesbi.sbi/",
+        "https://onlinesbi.sbi.bank.in/favicon.ico"
+      ]
+    ]
+  },
+  "resources": {
+    "https://www.onlinesbi.sbi/": {
+      "url": "https://www.onlinesbi.sbi/",
+      "resource_type": "Document",
+      "initiator_type": "other",
+      "parent": null,
+      "status": 307,
+      "browser_error": null,
+      "remote_ip": null,
+      "count": 1,
+      "depth": 0,
+      "host": "www.onlinesbi.sbi",
+      "origin": "https://www.onlinesbi.sbi:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/": {
+      "url": "https://onlinesbi.sbi.bank.in/",
+      "resource_type": "Document",
+      "initiator_type": "redirect",
+      "parent": "https://www.onlinesbi.sbi/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 1,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/css/bootstrap-5.3.8.min.css": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/css/bootstrap-5.3.8.min.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/css/bootstrap-select.css": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/css/bootstrap-select.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/css/jquery.smartmenus.bootstrap-4.css": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/css/jquery.smartmenus.bootstrap-4.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/css/generic_style.css?v=3": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/css/generic_style.css?v=3",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/js/jquery-3.7.1.min.js": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/js/jquery-3.7.1.min.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/js/bootstrap.bundle-5.3.8.min.js": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/js/bootstrap.bundle-5.3.8.min.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/js/scroll_default.js": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/js/scroll_default.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/js/generic_common.js": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/js/generic_common.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/yono_netbanking.png": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/yono_netbanking.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/arrow.png": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/arrow.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/ybbi_corp.png": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/ybbi_corp.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/PPF_acc_opening.jpg": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/PPF_acc_opening.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/js/jquery.smartmenus.min.js": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/js/jquery.smartmenus.min.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/js/jquery.smartmenus.bootstrap-4.js": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/js/jquery.smartmenus.bootstrap-4.js",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/scroller/tickermessages": {
+      "url": "https://onlinesbi.sbi.bank.in/scroller/tickermessages",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://onlinesbi.sbi.bank.in/sbijava/js/jquery-3.7.1.min.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 3,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/body_bg.jpg": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/body_bg.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/sbijava/css/generic_style.css?v=3",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 3,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/sprite.png": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/sprite.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/sbijava/css/generic_style.css?v=3",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 3,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/icon-pause.png": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/icon-pause.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/sbijava/css/generic_style.css?v=3",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 3,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/register.png": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/register.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/sbijava/css/generic_style.css?v=3",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 3,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/faq.png": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/faq.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/sbijava/css/generic_style.css?v=3",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 3,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/cust_care.png": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/cust_care.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/sbijava/css/generic_style.css?v=3",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 3,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/unlock_user.png": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/unlock_user.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/sbijava/css/generic_style.css?v=3",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 3,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/icon_usefulLinks.png": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/icon_usefulLinks.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/sbijava/css/generic_style.css?v=3",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 3,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/js/banner_data.json": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/js/banner_data.json",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://onlinesbi.sbi.bank.in/sbijava/js/jquery-3.7.1.min.js",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 3,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/banner15.jpg": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/banner15.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/FX_Retail_banner.png": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/FX_Retail_banner.png",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/banner16.jpg": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/banner16.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/banner18.jpg": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/banner18.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/banner13.jpg": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/banner13.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/banner9.jpg": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/banner9.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/banner7.jpg": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/banner7.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/banner51.jpg": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/banner51.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/banner10.jpg": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/banner10.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/banner12.jpg": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/banner12.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/banner3.jpg": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/banner3.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/banner8.jpg": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/banner8.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/banner11.jpg": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/banner11.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/banner14.jpg": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/banner14.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/banner6.jpg": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/banner6.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/banner4.jpg": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/banner4.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/banner5.jpg": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/banner5.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/banner33.jpg": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/banner33.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/banner29.jpg": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/banner29.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/sbijava/images/banner1.jpg": {
+      "url": "https://onlinesbi.sbi.bank.in/sbijava/images/banner1.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://onlinesbi.sbi.bank.in/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 2,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://cdn.page-source.com/resizeimage.ashx?ig=onlinesbi.sbi.bank.in&sz=105405": {
+      "url": "https://cdn.page-source.com/resizeimage.ashx?ig=onlinesbi.sbi.bank.in&sz=105405",
+      "resource_type": "Image",
+      "initiator_type": "other",
+      "parent": "https://www.onlinesbi.sbi/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[64:ff9b::3359:ea86]",
+      "count": 1,
+      "depth": 1,
+      "host": "cdn.page-source.com",
+      "origin": "https://cdn.page-source.com:443",
+      "third_party": true,
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://onlinesbi.sbi.bank.in/favicon.ico": {
+      "url": "https://onlinesbi.sbi.bank.in/favicon.ico",
+      "resource_type": "Other",
+      "initiator_type": "other",
+      "parent": "https://www.onlinesbi.sbi/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:a700:14:17b::14]",
+      "count": 1,
+      "depth": 1,
+      "host": "onlinesbi.sbi.bank.in",
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    }
+  },
+  "origins": {
+    "https://www.onlinesbi.sbi:443": {
+      "origin": "https://www.onlinesbi.sbi:443",
+      "host": "www.onlinesbi.sbi",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.onlinesbi.sbi/",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2405:a700:14:17b::14"
+          ],
+          "cname_chain": [
+            "onlinesbi.sbi"
+          ],
+          "ttl": 582,
+          "ms": 69.1,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2405:a700:14:17b::14",
+              "ok": true,
+              "ms": 82.9
+            }
+          ],
+          "shim": false,
+          "addr": "2405:a700:14:17b::14"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "www.onlinesbi.sbi",
+          "cert_not_after": "Nov 29 23:59:59 2026 GMT",
+          "ms": 139.3
+        },
+        "http": {
+          "status": 307,
+          "reason": "Temporary Redirect",
+          "location": "https://onlinesbi.sbi.bank.in/",
+          "server": null,
+          "ms": 186.5,
+          "ok": true,
+          "redirect_host": "onlinesbi.sbi.bank.in",
+          "redirect_host_has_aaaa": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "103.209.97.9"
+          ],
+          "cname_chain": [
+            "onlinesbi.sbi"
+          ],
+          "ttl": 3,
+          "ms": 6.0
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "103.209.97.9",
+              "ok": true,
+              "ms": 94.1
+            }
+          ],
+          "shim": false,
+          "addr": "103.209.97.9"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "www.onlinesbi.sbi",
+          "cert_not_after": "Nov 29 23:59:59 2026 GMT",
+          "ms": 157.7
+        },
+        "http": {
+          "status": 307,
+          "reason": "Temporary Redirect",
+          "location": "https://onlinesbi.sbi.bank.in/",
+          "server": null,
+          "ms": 517.0,
+          "ok": true
+        }
+      }
+    },
+    "https://onlinesbi.sbi.bank.in:443": {
+      "origin": "https://onlinesbi.sbi.bank.in:443",
+      "host": "onlinesbi.sbi.bank.in",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://onlinesbi.sbi.bank.in/",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2405:a700:14:17b::14"
+          ],
+          "cname_chain": [],
+          "ttl": 94,
+          "ms": 14.9,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2405:a700:14:17b::14",
+              "ok": true,
+              "ms": 114.2
+            }
+          ],
+          "shim": false,
+          "addr": "2405:a700:14:17b::14"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "onlinesbi.sbi.bank.in",
+          "cert_not_after": "Mar 25 23:59:59 2027 GMT",
+          "ms": 147.4
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 210.3,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "103.209.97.9"
+          ],
+          "cname_chain": [],
+          "ttl": 93,
+          "ms": 4.8
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "103.209.97.9",
+              "ok": true,
+              "ms": 81.0
+            }
+          ],
+          "shim": false,
+          "addr": "103.209.97.9"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_128_GCM_SHA256",
+          "cert_cn": "onlinesbi.sbi.bank.in",
+          "cert_not_after": "Mar 25 23:59:59 2027 GMT",
+          "ms": 170.5
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": null,
+          "ms": 476.1,
+          "ok": true
+        }
+      }
+    },
+    "https://cdn.page-source.com:443": {
+      "origin": "https://cdn.page-source.com:443",
+      "host": "cdn.page-source.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://cdn.page-source.com/resizeimage.ashx?ig=onlinesbi.sbi.bank.in&sz=105405",
+      "verdict": "IPV4_ONLY_NAT64",
+      "failed_stage": "dns",
+      "failure_code": "DNS_ONLY_SYNTHESIZED_AAAA",
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "64:ff9b::3359:ea86"
+          ],
+          "cname_chain": [],
+          "ttl": 1553,
+          "ms": 14.6,
+          "synthesized": true
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "64:ff9b::3359:ea86",
+              "ok": true,
+              "ms": 215.2
+            }
+          ],
+          "shim": false,
+          "addr": "64:ff9b::3359:ea86"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.2",
+          "cipher": "ECDHE-RSA-AES256-GCM-SHA384",
+          "cert_cn": "*.page-source.com",
+          "cert_not_after": "Jan 29 23:59:59 2027 GMT",
+          "ms": 481.2
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "Microsoft-IIS/10.0",
+          "ms": 309.5,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "51.89.234.134"
+          ],
+          "cname_chain": [],
+          "ttl": 428,
+          "ms": 112.1
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "51.89.234.134",
+              "ok": true,
+              "ms": 213.4
+            }
+          ],
+          "shim": false,
+          "addr": "51.89.234.134"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.2",
+          "cipher": "ECDHE-RSA-AES256-GCM-SHA384",
+          "cert_cn": "*.page-source.com",
+          "cert_not_after": "Jan 29 23:59:59 2027 GMT",
+          "ms": 538.1
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "Microsoft-IIS/10.0",
+          "ms": 323.7,
+          "ok": true
+        }
+      }
+    }
+  },
+  "site": {
+    "category": "Banking & payments",
+    "name": "SBI",
+    "url": "https://www.onlinesbi.sbi/"
+  }
+}

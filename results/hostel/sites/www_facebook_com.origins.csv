@@ -1,0 +1,4 @@
+page,origin,host,verdict,failed_stage,failure_code,v6_dns_rcode,v6_addresses,v6_synthesized,v6_tcp,v6_tls,v6_http_status,v6_failure_code,v4_addresses,v4_failure_code,v4_http_status,probe_url
+https://www.facebook.com/,https://www.facebook.com:443,www.facebook.com,BROKEN_BOTH,http,HTTP_400,NOERROR,2a03:2880:f346:1:face:b00c:0:25de,False,ok,ok,400,HTTP_400,57.144.142.1,HTTP_400,400,https://www.facebook.com/
+https://www.facebook.com/,https://static.xx.fbcdn.net:443,static.xx.fbcdn.net,READY,,,NOERROR,2a03:2880:f34f:80:face:b00c:0:3,False,ok,ok,200,,57.144.158.128,,200,"https://static.xx.fbcdn.net/rsrc.php/v5/yC/l/0,cross/dSGoqd4iEjgyv_EGKxiJ1f7TF2-QXH5TP-dLXVOe24GtT9DWDYPz6DhfgQe914iiBfONMKn3YhINqU49pVNahkCk.css"
+https://www.facebook.com/,https://www.instagram.com:443,www.instagram.com,READY,,,NOERROR,2a03:2880:f347:22:face:b00c:0:4420,False,ok,ok,200,,57.144.142.34,,200,https://www.instagram.com/accounts/xuserid/

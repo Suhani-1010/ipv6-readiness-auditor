@@ -1,0 +1,358 @@
+host,verdict,sites_affected,site_names
+ad.doubleclick.net,IPV4_ONLY (DNS_NO_AAAA),7,HDFC Bank; JioHotstar; Myntra; NDTV; Paytm; PhonePe; Swiggy
+dpm.demdex.net,IPV4_ONLY (DNS_NO_AAAA),7,Amazon India; BBC; HDFC Bank; LinkedIn; Microsoft; NDTV; Times of India
+cm.g.doubleclick.net,IPV4_ONLY (DNS_NO_AAAA),5,Amazon India; HDFC Bank; LinkedIn; NDTV; Times of India
+csync.loopme.me,IPV4_ONLY (DNS_NO_AAAA),4,Amazon India; BBC; NDTV; Times of India
+eb2.3lift.com,IPV4_ONLY (DNS_NO_AAAA),4,Amazon India; BBC; NDTV; Times of India
+ib.adnxs.com,IPV4_ONLY (DNS_NO_AAAA),4,Amazon India; BBC; NDTV; Times of India
+id5-sync.com,IPV4_ONLY (DNS_NO_AAAA),4,Amazon India; BBC; NDTV; Times of India
+image2.pubmatic.com,IPV4_ONLY (DNS_NO_AAAA),4,Amazon India; BBC; NDTV; Times of India
+image4.pubmatic.com,IPV4_ONLY (DNS_NO_AAAA),4,Amazon India; BBC; NDTV; Times of India
+pixel.rubiconproject.com,IPV4_ONLY (DNS_NO_AAAA),4,Amazon India; BBC; NDTV; Times of India
+pixel.tapad.com,IPV4_ONLY (DNS_NO_AAAA),4,BBC; Myntra; NDTV; Times of India
+ps.eyeota.net,IPV4_ONLY (DNS_NO_AAAA),4,BBC; HDFC Bank; NDTV; Times of India
+us-u.openx.net,IPV4_ONLY (DNS_NO_AAAA),4,Amazon India; BBC; NDTV; Times of India
+x.bidswitch.net,IPV4_ONLY (DNS_NO_AAAA),4,Amazon India; BBC; NDTV; Times of India
+aa.agkn.com,IPV4_ONLY (DNS_NO_AAAA),3,HDFC Bank; NDTV; Times of India
+accounts.google.com,IPV4_ONLY (DNS_NO_AAAA),3,NDTV; Times of India; YouTube
+ad.360yield.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+ads.pubmatic.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+ads.yieldmo.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+b1sync.outbrain.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+bh.contextweb.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+c.amazon-adsystem.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+c1.adform.net,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+config.aps.amazon-adsystem.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+crb.kargo.com,IPV4_ONLY (DNS_NO_AAAA),3,Amazon India; NDTV; Times of India
+creativecdn.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+cs.admanmedia.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+dsum-sec.casalemedia.com,IPV4_ONLY (DNS_NO_AAAA),3,Amazon India; NDTV; Times of India
+eus.rubiconproject.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+hb.trustedstack.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+id.rlcdn.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+idsync.rlcdn.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+image6.pubmatic.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+image8.pubmatic.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+jadserve.postrelease.com,IPV4_ONLY (DNS_NO_AAAA),3,Amazon India; NDTV; Times of India
+lb.eu-1-id5-sync.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+match.adsrvr.org,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+match.deepintent.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+match.prod.bidr.io,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+match.sharethrough.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+ms-cookie-sync.presage.io,IPV4_ONLY (DNS_NO_AAAA),3,Amazon India; NDTV; Times of India
+onetag-sys.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+p.rfihub.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+pippio.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+pixel-apac.rubiconproject.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+pixel-sync.sitescout.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+pool.liftdsp.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+rtb-csync.smartadserver.com,IPV4_ONLY (DNS_NO_AAAA),3,Amazon India; NDTV; Times of India
+rtb.mfadsrvr.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+rtb.openx.net,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+sb.scorecardresearch.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+secure-assets.rubiconproject.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+simage2.pubmatic.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+simage4.pubmatic.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+ssbsync-global.smartadserver.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+ssbsync.smartadserver.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+sync-tm.everesttech.net,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+sync.1rx.io,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+sync.cootlogix.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+sync.crwdcntrl.net,IPV4_ONLY (DNS_NO_AAAA),3,HDFC Bank; NDTV; Times of India
+sync.mathtag.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+sync.pmbmonetize.live,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+sync.srv.stackadapt.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+sync.targeting.unrulymedia.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+t.adx.opera.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+t.oa.opera.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+token.rubiconproject.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+uipglob.semasio.net,IPV4_ONLY (DNS_NO_AAAA),3,Amazon India; NDTV; Times of India
+um.simpli.fi,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+ut.pubmatic.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+web-banner.ads.aps.amazon-adsystem.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+www.temu.com,IPV4_ONLY (DNS_NO_AAAA),3,BBC; NDTV; Times of India
+ap.lijit.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+api.id5-sync.com,IPV4_ONLY (DNS_NO_AAAA),2,BBC; Times of India
+b1sync.zemanta.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+bam.nr-data.net,IPV4_ONLY (DNS_NO_AAAA),2,Myntra; Swiggy
+bcp.crwdcntrl.net,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+bidder.smartytouch.co,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+bypass.ad-stir.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+cdn.taboola.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+ce.lijit.com,IPV4_ONLY (DNS_NO_AAAA),2,BBC; NDTV
+cm-mx.advolve.io,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+cm-supply-web.gammaplatform.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+cm.adform.net,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+cm.adgrx.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+cm.ambientdsp.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+cm.anyrtb.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+core.iprom.net,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+cpm.chocolateplatform.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+cr-p10.ladsp.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+cr-p3.ladsp.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+cs-server-s2s.yellowblue.io,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+cs.krushmedia.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+cs.media.net,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+cs.playdigo.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+ds.uncn.jp,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+dsp-ap.eskimi.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+dsp.360yield.com,IPV4_ONLY (DNS_NO_AAAA),2,BBC; NDTV
+dsp.adkernel.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+dsp.nrich.ai,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+elb.the-ozone-project.com,IPV4_ONLY (DNS_NO_AAAA),2,BBC; Times of India
+go.mediagotechnology.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+gocm.c.appier.net,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+gw-iad-bid.ymmobi.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+hbopenbid.pubmatic.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+images.taboola.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+invstatic101.creativecdn.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+ipac.ctnsnet.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+ittpx-asia.eskimi.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+ittpx.eskimi.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+jp-u.openx.net,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+live.primis.tech,IPV4_ONLY (DNS_NO_AAAA),2,BBC; NDTV
+measureadv.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+oa.openxcdn.net,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+pbs-cs.yellowblue.io,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+pixel-eu.rubiconproject.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+pixel-us-east.rubiconproject.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+pm-widget.taboola.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+prebid.a-mo.net,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+prebid.media.net,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+public-prod-dspcookiematching.dmxleo.com,IPV4_ONLY (DNS_NO_AAAA),2,Amazon India; NDTV
+r.clarity.ms,IPV4_ONLY (DNS_NO_AAAA),2,Microsoft; Times of India
+rtb.gamoshi.io,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+rum.hlx.page,IPV4_ONLY (DNS_NO_AAAA),2,HDFC Bank; Microsoft
+s.ad.smaato.net,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+s.c.appier.net,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+s.company-target.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+s.console.adtarget.com.tr,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+sea1-sync.a-mo.net,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+secure.adnxs.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+sg-trc-events.taboola.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+sg.semasio.net,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+ssbsync-us.smartadserver.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+ssc-cms.33across.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+ssum-sec.casalemedia.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+ssum.casalemedia.com,IPV4_ONLY (DNS_NO_AAAA),2,BBC; NDTV
+static.ads-twitter.com,IPV4_ONLY (DNS_NO_AAAA),2,JioHotstar; PhonePe
+sync-dsp.ad-m.asia,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+sync.a-mo.net,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+sync.adkernel.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+sync.adtelligent.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+sync.aralego.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+sync.inmobi.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+sync.ipredictive.com,IPV4_ONLY (DNS_NO_AAAA),2,BBC; Times of India
+sync.kueezrtb.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+sync.pinklion.io,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+sync.rbstsystems.live,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+sync.richaudience.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+sync.sparteo.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+sync.taboola.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+sync.thecas.xyz,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+syncingbridge.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+tags.crwdcntrl.net,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+tg.socdm.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+tr.blismedia.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+trace.mediago.io,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+tracker-shr.ortb.net,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+tracker.rtb-oveeo.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+translation-plugin.bhashini.co.in,IPV4_ONLY (DNS_NO_AAAA),2,India.gov.in; UIDAI (Aadhaar)
+u.openx.net,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+us.ck-ie.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+usermatch.targeting.unrulymedia.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+usersync.gumgum.com,IPV4_ONLY (DNS_NO_AAAA),2,Amazon India; BBC
+usr.undertone.com,IPV4_ONLY (DNS_NO_AAAA),2,BBC; NDTV
+vop.sundaysky.com,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+wt.rqtrk.eu,IPV4_ONLY (DNS_NO_AAAA),2,NDTV; Times of India
+www.clarity.ms,IPV4_ONLY (DNS_NO_AAAA),2,Microsoft; Times of India
+1.rome.api.flipkart.com,IPV4_ONLY (DNS_NO_AAAA),1,Flipkart
+2.sonic.fdp.api.flipkart.com,IPV4_ONLY (DNS_NO_AAAA),1,Flipkart
+5977010.fls.doubleclick.net,IPV4_ONLY (DNS_NO_AAAA),1,JioHotstar
+9929096.fls.doubleclick.net,IPV4_ONLY (DNS_NO_AAAA),1,JioHotstar
+a.quora.com,IPV4_ONLY (DNS_NO_AAAA),1,JioHotstar
+a.sportradarserving.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+a.teads.tv,IPV4_ONLY (DNS_NO_AAAA),1,Times of India
+a1.api.bbc.com,IPV4_ONLY (DNS_NO_AAAA),1,BBC
+aax.amazon-adsystem.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+acdn.adnxs.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+ad.yieldlab.net,IPV4_ONLY (DNS_NO_AAAA),1,Amazon India
+adobedc.demdex.net,IPV4_ONLY (DNS_NO_AAAA),1,HDFC Bank
+ads.assemblyexchange.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+ads.betweendigital.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+ads.scorecardresearch.com,IPV4_ONLY (DNS_NO_AAAA),1,HDFC Bank
+ads.stickyadstv.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+aes.eu-south.ono.axp.amazon-adsystem.com,IPV4_ONLY (DNS_NO_AAAA),1,Amazon India
+analytics.swiggy.com,IPV4_ONLY (DNS_NO_AAAA),1,Swiggy
+analytics.twitter.com,IPV4_ONLY (DNS_NO_AAAA),1,PhonePe
+aorta.clickagy.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+api.permutive.app,IPV4_ONLY (DNS_NO_AAAA),1,BBC
+api.stores.eu-south-2.prod.paets.advertising.amazon.dev,IPV4_ONLY (DNS_NO_AAAA),1,Amazon India
+api.w.inmobi.com,IPV4_ONLY (DNS_NO_AAAA),1,Times of India
+assetscdn1.paytm.com,IPV4_ONLY (DNS_NO_AAAA),1,Paytm
+audex.userreport.com,IPV4_ONLY (DNS_NO_AAAA),1,Amazon India
+b67f7794189c.edge.sdk.awswaf.com,IPV4_ONLY (DNS_NO_AAAA),1,Swiggy
+b67f7794189c.f957f42c.ap-south-1.token.awswaf.com,IPV4_ONLY (DNS_NO_AAAA),1,Swiggy
+backend.uidai.gov.in,IPV4_ONLY (DNS_NO_AAAA),1,UIDAI (Aadhaar)
+browser.events.data.microsoft.com,IPV4_ONLY (DNS_NO_AAAA),1,Microsoft
+bttrack.com,IPV4_ONLY (DNS_NO_AAAA),1,Times of India
+c.az.clicktale.net,IPV4_ONLY (DNS_NO_AAAA),1,Microsoft
+capi.connatix.com,IPV4_ONLY (DNS_NO_AAAA),1,Amazon India
+carbon-cdn.ccgateway.net,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+cdn.page-source.com,IPV4_ONLY (DNS_NO_AAAA),1,SBI
+cdn.speedcurve.com,IPV4_ONLY (DNS_NO_AAAA),1,BBC
+cds.taboola.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+cf-media.api-setu.in,IPV4_ONLY (DNS_NO_AAAA),1,DigiLocker
+client.protechts.net,IPV4_ONLY (DNS_NO_AAAA),1,LinkedIn
+collector-pxdojv695v.protechts.net,IPV4_ONLY (DNS_NO_AAAA),1,LinkedIn
+collector.github.com,IPV4_ONLY (DNS_NO_AAAA),1,GitHub
+comcluster.cxense.com,IPV4_ONLY (DNS_NO_AAAA),1,BBC
+cookie.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+cookies.nextmillmedia.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+cs.nexxen-es.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+cs.pgammedia.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+cs.startappnetwork.com,IPV4_ONLY (DNS_NO_AAAA),1,Times of India
+css.page-source.com,IPV4_ONLY (DNS_NO_AAAA),1,PhonePe
+csync.copper6.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+data.adsrvr.org,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+dc.services.visualstudio.com,IPV4_ONLY (DNS_NO_AAAA),1,Microsoft
+ddei5-0-ctp.trendmicro.com,IPV4_ONLY (DNS_NO_AAAA),1,IRCTC
+de.tynt.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+direct.adsrvr.org,IPV4_ONLY (DNS_NO_AAAA),1,Times of India
+display.bidder.taboola.com,IPV4_ONLY (DNS_NO_AAAA),1,Times of India
+dm-eu.hybrid.ai,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+dmp.dexerto.media,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+doc.ux4g.gov.in,IPV4_ONLY (DNS_NO_AAAA),1,DigiLocker
+dp1.33across.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+dsp-2.presage.io,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+dsum.casalemedia.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+dynalyst-sync.adtdp.com,IPV4_ONLY (DNS_NO_AAAA),1,Times of India
+e3.adpushup.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+e488cdb0-e7cb-4d91-9648-60d437d8e491.prmutv.co,IPV4_ONLY (DNS_NO_AAAA),1,BBC
+edigitalsurvey.com,IPV4_ONLY (DNS_NO_AAAA),1,BBC
+eu-sync.richaudience.com,IPV4_ONLY (DNS_NO_AAAA),1,Amazon India
+eu-u.openx.net,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+event-api.notifyvisitors.com,IPV4_ONLY (DNS_NO_AAAA),1,HDFC Bank
+events.newsroom.bi,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+evt.undertone.com,IPV4_ONLY (DNS_NO_AAAA),1,BBC
+ext-api.notifyvisitors.com,IPV4_ONLY (DNS_NO_AAAA),1,HDFC Bank
+federated-id.live.api.bbc.co.uk,IPV4_ONLY (DNS_NO_AAAA),1,BBC
+files.codingninjas.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+fls-eu.amazon.in,IPV4_ONLY (DNS_NO_AAAA),1,Amazon India
+geo.ads.audio.thisisdax.com,IPV4_ONLY (DNS_NO_AAAA),1,Amazon India
+github.com,IPV4_ONLY (DNS_NO_AAAA),1,GitHub
+gn-web-assets.api.bbc.com,IPV4_ONLY (DNS_NO_AAAA),1,BBC
+hawkeye-api.paytm.com,IPV4_ONLY (DNS_NO_AAAA),1,Paytm
+hbchat.senseforth.com,IPV4_ONLY (DNS_NO_AAAA),1,HDFC Bank
+hbx.media.net,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+hde.tynt.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+hdfcbank.demdex.net,IPV4_ONLY (DNS_NO_AAAA),1,HDFC Bank
+he.lijit.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+htlb.casalemedia.com,IPV4_ONLY (DNS_NO_AAAA),1,Times of India
+i.liadm.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+i.w55c.net,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+icu.newsroom.bi,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+id.crwdcntrl.net,IPV4_ONLY (DNS_NO_AAAA),1,Times of India
+id.cxense.com,IPV4_ONLY (DNS_NO_AAAA),1,BBC
+ih.adscale.de,IPV4_ONLY (DNS_NO_AAAA),1,Amazon India
+imprsgmp.taboola.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+insights-collector.newrelic.com,IPV4_ONLY (DNS_NO_AAAA),1,Swiggy
+js-sec.indexww.com,IPV4_ONLY (DNS_NO_AAAA),1,Times of India
+k.af.clicktale.net,IPV4_ONLY (DNS_NO_AAAA),1,Microsoft
+li.protechts.net,IPV4_ONLY (DNS_NO_AAAA),1,LinkedIn
+lnkd.demdex.net,IPV4_ONLY (DNS_NO_AAAA),1,LinkedIn
+loadus.exelator.com,IPV4_ONLY (DNS_NO_AAAA),1,Amazon India
+login.live.com,IPV4_ONLY (DNS_NO_AAAA),1,Microsoft
+logx.optimizely.com,IPV4_ONLY (DNS_NO_AAAA),1,BBC
+maestro-ae1.tps.dv.tech,IPV4_ONLY (DNS_NO_AAAA),1,BBC
+marfeelexperimentsexperienceengine.mrf.io,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+match.360yield.com,IPV4_ONLY (DNS_NO_AAAA),1,Amazon India
+media-assets.swiggy.com,IPV4_ONLY (DNS_NO_AAAA),1,Swiggy
+ml314.com,IPV4_ONLY (DNS_NO_AAAA),1,HDFC Bank
+msftenterprise.sc.omtrdc.net,IPV4_ONLY (DNS_NO_AAAA),1,Microsoft
+nationale-governancedivisionnegdm2.my.salesforce-scrt.com,IPV4_ONLY (DNS_NO_AAAA),1,DigiLocker
+nptel.ac.in,IPV4_ONLY (DNS_NO_AAAA),1,NPTEL
+odr.mookie1.com,IPV4_ONLY (DNS_NO_AAAA),1,Amazon India
+paytm.com,IPV4_ONLY (DNS_NO_AAAA),1,Paytm
+pb-ing-02.ccgateway.net,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+pbs2.cpmstar.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+pbsj.bricks-co.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+ping.chartbeat.net,IPV4_ONLY (DNS_NO_AAAA),1,BBC
+pixel.everesttech.net,IPV4_ONLY (DNS_NO_AAAA),1,Microsoft
+pm.w55c.net,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+prebid.the-ozone-project.com,IPV4_ONLY (DNS_NO_AAAA),1,BBC
+privacy-location-edge.ccgateway.net,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+protected-by.clarium.io,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+push.notifyvisitors.com,IPV4_ONLY (DNS_NO_AAAA),1,HDFC Bank
+q.quora.com,IPV4_ONLY (DNS_NO_AAAA),1,JioHotstar
+rd.frontend.weborama.fr,IPV4_ONLY (DNS_NO_AAAA),1,Amazon India
+router.infolinks.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+rtb.gumgum.com,IPV4_ONLY (DNS_NO_AAAA),1,BBC
+rtd-tm.everesttech.net,IPV4_ONLY (DNS_NO_AAAA),1,Microsoft
+rukminim2.flixcart.com,IPV4_ONLY (DNS_NO_AAAA),1,Flipkart
+s-cs.rmp.rakuten.com,IPV4_ONLY (DNS_NO_AAAA),1,Times of India
+s2s.yieldlove-ad-serving.net,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+sc-static.net,IPV4_ONLY (DNS_NO_AAAA),1,Myntra
+script-api.ccgateway.net,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+secure.cdn.fastclick.net,IPV4_ONLY (DNS_NO_AAAA),1,Times of India
+server.cpmstar.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+sg-match.taboola.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+sg-vid-events.taboola.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+sg-wf.taboola.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+shb.richaudience.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+sig.paytm.com,IPV4_ONLY (DNS_NO_AAAA),1,Paytm
+smetrics.hdfcbank.com,IPV4_ONLY (DNS_NO_AAAA),1,HDFC Bank
+sonic.fdp.api.flipkart.com,IPV4_ONLY (DNS_NO_AAAA),1,Flipkart
+static-assets-web.flixcart.com,IPV4_ONLY (DNS_NO_AAAA),1,Flipkart
+static.hj.contentsquare.net,IPV4_ONLY (DNS_NO_AAAA),1,Microsoft
+static.india.gov.in,IPV4_ONLY (DNS_NO_AAAA),1,India.gov.in
+static.qovani.com,IPV4_ONLY (DNS_NO_AAAA),1,Times of India
+static.tblcontent.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+stats-collector.cxense.com,IPV4_ONLY (DNS_NO_AAAA),1,BBC
+swalekh.blob.core.windows.net,IPV4_ONLY (DNS_NO_AAAA),1,India.gov.in
+sync-t1.taboola.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+sync.adotmob.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+sync.aniview.com,IPV4_ONLY (DNS_NO_AAAA),1,Times of India
+sync.bidmatic.io,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+sync.console.adtarget.com.tr,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+sync.iqzonertb.live,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+sync.ottadvisors.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+sync.outbrain.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+sync.radian.mobi,IPV4_ONLY (DNS_NO_AAAA),1,Times of India
+sync.rfp.fout.jp,IPV4_ONLY (DNS_NO_AAAA),1,Amazon India
+sync.springserve.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+sync.sxp.smartclip.net,IPV4_ONLY (DNS_NO_AAAA),1,Amazon India
+t.co,IPV4_ONLY (DNS_NO_AAAA),1,PhonePe
+t.contentsquare.net,IPV4_ONLY (DNS_NO_AAAA),1,Myntra
+target.digitalaudience.io,IPV4_ONLY (DNS_NO_AAAA),1,Amazon India
+target.microsoft.com,IPV4_ONLY (DNS_NO_AAAA),1,Microsoft
+thrtle.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+timesinternet-d.openx.net,IPV4_ONLY (DNS_NO_AAAA),1,Times of India
+tps.doubleverify.com,IPV4_ONLY (DNS_NO_AAAA),1,BBC
+tr.snapchat.com,IPV4_ONLY (DNS_NO_AAAA),1,Myntra
+track.adform.net,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+tracker.cbx-rtb.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+tracker.pgamrtb.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+trkn.us,IPV4_ONLY (DNS_NO_AAAA),1,LinkedIn
+tsdtocl.com,IPV4_ONLY (DNS_NO_AAAA),1,Times of India
+tzm.protechts.net,IPV4_ONLY (DNS_NO_AAAA),1,LinkedIn
+uidai.gov.in,IPV4_ONLY (DNS_NO_AAAA),1,UIDAI (Aadhaar)
+uk-script.dotmetrics.net,IPV4_ONLY (DNS_NO_AAAA),1,BBC
+unagi-eu.amazon.com,IPV4_ONLY (DNS_NO_AAAA),1,Amazon India
+unagi.amazon.in,IPV4_ONLY (DNS_NO_AAAA),1,Amazon India
+us-east.pgammedia.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+us4.shb-sync.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+usersvc.hotstar.com,IPV4_ONLY (DNS_NO_AAAA),1,JioHotstar
+vidstat.taboola.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+visitor-pgammedia.omnitagjs.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+visitor.omnitagjs.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+web-video.ads.aps.amazon-adsystem.com,IPV4_ONLY (DNS_NO_AAAA),1,NDTV
+www.bbc.co.uk,IPV4_ONLY (DNS_NO_AAAA),1,BBC
+www.bbc.com,IPV4_ONLY (DNS_NO_AAAA),1,BBC
+www.flipkart.com,IPV4_ONLY (DNS_NO_AAAA),1,Flipkart
+www.iitb.ac.in,IPV4_ONLY (DNS_NO_AAAA),1,IIT Bombay
+www.iitg.ac.in,IPV4_ONLY (DNS_NO_AAAA),1,IIT Guwahati
+www.iitm.ac.in,IPV4_ONLY (DNS_NO_AAAA),1,IIT Madras
+www.imprzd.com,IPV4_ONLY (DNS_NO_AAAA),1,NPTEL
+www.notifyvisitors.com,IPV4_ONLY (DNS_NO_AAAA),1,HDFC Bank
+www.swiggy.com,IPV4_ONLY (DNS_NO_AAAA),1,Swiggy

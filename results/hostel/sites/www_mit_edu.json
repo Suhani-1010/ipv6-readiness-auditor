@@ -1,0 +1,1014 @@
+{
+  "schema": "ipv6-readiness-audit/1",
+  "page": "https://www.mit.edu/",
+  "final_url": "https://www.mit.edu/",
+  "started_utc": "2026-10-24T09:44:41+00:00",
+  "load_seconds": 8.26,
+  "vantage": {
+    "nat64_prefixes": [
+      "64:ff9b::/96"
+    ],
+    "ipv6_stack": true,
+    "ipv6_default_route": true,
+    "ipv4_default_route": true,
+    "lab_v6_shim": false,
+    "pathway": "dual-stack + DNS64/NAT64"
+  },
+  "capture_errors": [],
+  "summary": {
+    "page_verdict": "FULLY_READY",
+    "root_verdict": "READY",
+    "root_has_aaaa": true,
+    "resources_total": 24,
+    "origins_total": 4,
+    "resources_by_verdict": {
+      "READY": 24
+    },
+    "origins_by_verdict": {
+      "READY": 4
+    },
+    "ipv6_failures_by_stage": {},
+    "ipv6_failing_resources": 0,
+    "inconclusive_resources": 0,
+    "ipv6_failing_critical": 0,
+    "ipv6_failing_third_party": 0,
+    "resource_ipv6_ready_pct": 100.0,
+    "ipv4_only_hosts": [],
+    "aaaa_but_broken_hosts": [],
+    "root_host": "www.mit.edu",
+    "root_http_parity": false
+  },
+  "tree": {
+    "root": "https://www.mit.edu/",
+    "edges": [
+      [
+        "https://www.mit.edu/",
+        "https://www.mit.edu/themes/mit/assets/css/main.css?tf13vj"
+      ],
+      [
+        "https://www.mit.edu/",
+        "https://www.mit.edu/files/images/202610/MIT-Veronica_Calzadilla-_Sosa-SL.jpg"
+      ],
+      [
+        "https://www.mit.edu/",
+        "https://www.mit.edu/themes/mit/assets/js/modernizr.js?tf13vj"
+      ],
+      [
+        "https://www.mit.edu/",
+        "https://www.mit.edu/themes/mit/assets/js/main.js?tf13vj"
+      ],
+      [
+        "https://www.mit.edu/themes/mit/assets/css/main.css?tf13vj",
+        "https://use.typekit.net/uby1wjv.css"
+      ],
+      [
+        "https://use.typekit.net/uby1wjv.css",
+        "https://p.typekit.net/p.css?s=1&k=uby1wjv&ht=tk&f=39496.39497.39498.39499.39500.39501.39502.39503.39504.39505.39506.39507.39508.39509&a=53548716&app=typekit&e=css"
+      ],
+      [
+        "https://www.mit.edu/",
+        "https://www.googletagmanager.com/gtm.js?id=GTM-M8MGV4P"
+      ],
+      [
+        "https://use.typekit.net/uby1wjv.css",
+        "https://use.typekit.net/af/912d1e/00000000000000007735bb33/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3"
+      ],
+      [
+        "https://use.typekit.net/uby1wjv.css",
+        "https://use.typekit.net/af/2288cb/00000000000000007735bb39/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3"
+      ],
+      [
+        "https://use.typekit.net/uby1wjv.css",
+        "https://use.typekit.net/af/c002e2/00000000000000007735bb32/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3"
+      ],
+      [
+        "https://use.typekit.net/uby1wjv.css",
+        "https://use.typekit.net/af/216c2e/00000000000000007735bb6a/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3"
+      ],
+      [
+        "https://use.typekit.net/uby1wjv.css",
+        "https://use.typekit.net/af/174ae3/00000000000000007735bb5a/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3"
+      ],
+      [
+        "https://www.mit.edu/",
+        "https://www.mit.edu/files/images/202610/MIT_Blue-Energy-SLsub.jpg"
+      ],
+      [
+        "https://www.mit.edu/",
+        "https://www.mit.edu/files/images/202610/MIT_SanaHeal-SLsub.jpg"
+      ],
+      [
+        "https://www.mit.edu/",
+        "https://www.mit.edu/files/images/202610/MIT-Synthetic-Narratives-sub.jpg"
+      ],
+      [
+        "https://www.mit.edu/",
+        "https://www.mit.edu/files/images/202610/MIT_Nobel-Economics-home.jpg"
+      ],
+      [
+        "https://www.mit.edu/themes/mit/assets/js/main.js?tf13vj",
+        "https://www.mit.edu/spotlights-export/suggested-links/?_format=json"
+      ],
+      [
+        "https://www.mit.edu/themes/mit/assets/js/main.js?tf13vj",
+        "https://www.mit.edu/themes/mit/assets/js/SpotlightsExploreMoreLink.24ae33fb185156d3181a.js"
+      ],
+      [
+        "https://www.mit.edu/themes/mit/assets/js/main.js?tf13vj",
+        "https://www.mit.edu/themes/mit/assets/js/SpotlightsRecent.d6a3aa4b97b1659f1bbb.js"
+      ],
+      [
+        "https://www.mit.edu/themes/mit/assets/js/main.js?tf13vj",
+        "https://www.mit.edu/themes/mit/assets/js/Notification.11fc703b491d61aecf97.js"
+      ],
+      [
+        "https://www.mit.edu/themes/mit/assets/js/main.js?tf13vj",
+        "https://www.mit.edu/spotlights-export/recent/?_format=json"
+      ],
+      [
+        "https://www.mit.edu/themes/mit/assets/js/main.js?tf13vj",
+        "https://www.mit.edu/spotlights-export/announcements/?_format=json"
+      ],
+      [
+        "https://www.mit.edu/",
+        "https://www.mit.edu/themes/mit/assets/favicon/favicon.svg"
+      ]
+    ]
+  },
+  "resources": {
+    "https://www.mit.edu/": {
+      "url": "https://www.mit.edu/",
+      "resource_type": "Document",
+      "initiator_type": "other",
+      "parent": null,
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:201:688::255e]",
+      "count": 1,
+      "depth": 0,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.mit.edu/themes/mit/assets/css/main.css?tf13vj": {
+      "url": "https://www.mit.edu/themes/mit/assets/css/main.css?tf13vj",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.mit.edu/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:201:688::255e]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.mit.edu/files/images/202610/MIT-Veronica_Calzadilla-_Sosa-SL.jpg": {
+      "url": "https://www.mit.edu/files/images/202610/MIT-Veronica_Calzadilla-_Sosa-SL.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.mit.edu/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:201:688::255e]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.mit.edu/themes/mit/assets/js/modernizr.js?tf13vj": {
+      "url": "https://www.mit.edu/themes/mit/assets/js/modernizr.js?tf13vj",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.mit.edu/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:201:688::255e]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.mit.edu/themes/mit/assets/js/main.js?tf13vj": {
+      "url": "https://www.mit.edu/themes/mit/assets/js/main.js?tf13vj",
+      "resource_type": "Script",
+      "initiator_type": "parser",
+      "parent": "https://www.mit.edu/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:201:688::255e]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://use.typekit.net/uby1wjv.css": {
+      "url": "https://use.typekit.net/uby1wjv.css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://www.mit.edu/themes/mit/assets/css/main.css?tf13vj",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::b854:dd4a]",
+      "count": 1,
+      "depth": 2,
+      "host": "use.typekit.net",
+      "origin": "https://use.typekit.net:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://p.typekit.net/p.css?s=1&k=uby1wjv&ht=tk&f=39496.39497.39498.39499.39500.39501.39502.39503.39504.39505.39506.39507.39508.39509&a=53548716&app=typekit&e=css": {
+      "url": "https://p.typekit.net/p.css?s=1&k=uby1wjv&ht=tk&f=39496.39497.39498.39499.39500.39501.39502.39503.39504.39505.39506.39507.39508.39509&a=53548716&app=typekit&e=css",
+      "resource_type": "Stylesheet",
+      "initiator_type": "parser",
+      "parent": "https://use.typekit.net/uby1wjv.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::b854:dd58]",
+      "count": 1,
+      "depth": 3,
+      "host": "p.typekit.net",
+      "origin": "https://p.typekit.net:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.googletagmanager.com/gtm.js?id=GTM-M8MGV4P": {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-M8MGV4P",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.mit.edu/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2404:6800:4013:804::61]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.googletagmanager.com",
+      "origin": "https://www.googletagmanager.com:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://use.typekit.net/af/912d1e/00000000000000007735bb33/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3": {
+      "url": "https://use.typekit.net/af/912d1e/00000000000000007735bb33/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://use.typekit.net/uby1wjv.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::b854:dd4a]",
+      "count": 1,
+      "depth": 3,
+      "host": "use.typekit.net",
+      "origin": "https://use.typekit.net:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://use.typekit.net/af/2288cb/00000000000000007735bb39/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3": {
+      "url": "https://use.typekit.net/af/2288cb/00000000000000007735bb39/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://use.typekit.net/uby1wjv.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::b854:dd4a]",
+      "count": 1,
+      "depth": 3,
+      "host": "use.typekit.net",
+      "origin": "https://use.typekit.net:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://use.typekit.net/af/c002e2/00000000000000007735bb32/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3": {
+      "url": "https://use.typekit.net/af/c002e2/00000000000000007735bb32/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://use.typekit.net/uby1wjv.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::b854:dd4a]",
+      "count": 1,
+      "depth": 3,
+      "host": "use.typekit.net",
+      "origin": "https://use.typekit.net:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://use.typekit.net/af/216c2e/00000000000000007735bb6a/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3": {
+      "url": "https://use.typekit.net/af/216c2e/00000000000000007735bb6a/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://use.typekit.net/uby1wjv.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::b854:dd4a]",
+      "count": 1,
+      "depth": 3,
+      "host": "use.typekit.net",
+      "origin": "https://use.typekit.net:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://use.typekit.net/af/174ae3/00000000000000007735bb5a/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3": {
+      "url": "https://use.typekit.net/af/174ae3/00000000000000007735bb5a/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3",
+      "resource_type": "Font",
+      "initiator_type": "parser",
+      "parent": "https://use.typekit.net/uby1wjv.css",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2405:200:1630:1300::b854:dd4a]",
+      "count": 1,
+      "depth": 3,
+      "host": "use.typekit.net",
+      "origin": "https://use.typekit.net:443",
+      "third_party": true,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.mit.edu/files/images/202610/MIT_Blue-Energy-SLsub.jpg": {
+      "url": "https://www.mit.edu/files/images/202610/MIT_Blue-Energy-SLsub.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.mit.edu/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:201:688::255e]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.mit.edu/files/images/202610/MIT_SanaHeal-SLsub.jpg": {
+      "url": "https://www.mit.edu/files/images/202610/MIT_SanaHeal-SLsub.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.mit.edu/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:201:688::255e]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.mit.edu/files/images/202610/MIT-Synthetic-Narratives-sub.jpg": {
+      "url": "https://www.mit.edu/files/images/202610/MIT-Synthetic-Narratives-sub.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.mit.edu/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:201:688::255e]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.mit.edu/files/images/202610/MIT_Nobel-Economics-home.jpg": {
+      "url": "https://www.mit.edu/files/images/202610/MIT_Nobel-Economics-home.jpg",
+      "resource_type": "Image",
+      "initiator_type": "parser",
+      "parent": "https://www.mit.edu/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:201:688::255e]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    },
+    "https://www.mit.edu/spotlights-export/suggested-links/?_format=json": {
+      "url": "https://www.mit.edu/spotlights-export/suggested-links/?_format=json",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.mit.edu/themes/mit/assets/js/main.js?tf13vj",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:201:688::255e]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.mit.edu/themes/mit/assets/js/SpotlightsExploreMoreLink.24ae33fb185156d3181a.js": {
+      "url": "https://www.mit.edu/themes/mit/assets/js/SpotlightsExploreMoreLink.24ae33fb185156d3181a.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.mit.edu/themes/mit/assets/js/main.js?tf13vj",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:201:688::255e]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.mit.edu/themes/mit/assets/js/SpotlightsRecent.d6a3aa4b97b1659f1bbb.js": {
+      "url": "https://www.mit.edu/themes/mit/assets/js/SpotlightsRecent.d6a3aa4b97b1659f1bbb.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.mit.edu/themes/mit/assets/js/main.js?tf13vj",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:201:688::255e]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.mit.edu/themes/mit/assets/js/Notification.11fc703b491d61aecf97.js": {
+      "url": "https://www.mit.edu/themes/mit/assets/js/Notification.11fc703b491d61aecf97.js",
+      "resource_type": "Script",
+      "initiator_type": "script",
+      "parent": "https://www.mit.edu/themes/mit/assets/js/main.js?tf13vj",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:201:688::255e]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.mit.edu/spotlights-export/recent/?_format=json": {
+      "url": "https://www.mit.edu/spotlights-export/recent/?_format=json",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.mit.edu/themes/mit/assets/js/main.js?tf13vj",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:201:688::255e]",
+      "count": 2,
+      "depth": 2,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.mit.edu/spotlights-export/announcements/?_format=json": {
+      "url": "https://www.mit.edu/spotlights-export/announcements/?_format=json",
+      "resource_type": "XHR",
+      "initiator_type": "script",
+      "parent": "https://www.mit.edu/themes/mit/assets/js/main.js?tf13vj",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:201:688::255e]",
+      "count": 1,
+      "depth": 2,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": true,
+      "blocked_by": null
+    },
+    "https://www.mit.edu/themes/mit/assets/favicon/favicon.svg": {
+      "url": "https://www.mit.edu/themes/mit/assets/favicon/favicon.svg",
+      "resource_type": "Other",
+      "initiator_type": "other",
+      "parent": "https://www.mit.edu/",
+      "status": 200,
+      "browser_error": null,
+      "remote_ip": "[2600:140f:201:688::255e]",
+      "count": 1,
+      "depth": 1,
+      "host": "www.mit.edu",
+      "origin": "https://www.mit.edu:443",
+      "third_party": false,
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "critical": false,
+      "blocked_by": null
+    }
+  },
+  "origins": {
+    "https://www.mit.edu:443": {
+      "origin": "https://www.mit.edu:443",
+      "host": "www.mit.edu",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.mit.edu/",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2600:140f:201:68e::255e",
+            "2600:140f:201:688::255e"
+          ],
+          "cname_chain": [
+            "www.mit.edu.edgekey.net",
+            "e9566.dscb.akamaiedge.net"
+          ],
+          "ttl": 12,
+          "ms": 12.5,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2600:140f:201:68e::255e",
+              "ok": true,
+              "ms": 37.9
+            }
+          ],
+          "shim": false,
+          "addr": "2600:140f:201:68e::255e"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.2",
+          "cipher": "ECDHE-RSA-AES256-GCM-SHA384",
+          "cert_cn": "web.mit.edu",
+          "cert_not_after": "Nov 13 23:59:59 2026 GMT",
+          "ms": 213.6
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "Apache",
+          "ms": 701.6,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2.23.33.163"
+          ],
+          "cname_chain": [
+            "www.mit.edu.edgekey.net",
+            "e9566.dscb.akamaiedge.net"
+          ],
+          "ttl": 11,
+          "ms": 7.8
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2.23.33.163",
+              "ok": true,
+              "ms": 52.2
+            }
+          ],
+          "shim": false,
+          "addr": "2.23.33.163"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.2",
+          "cipher": "ECDHE-RSA-AES256-GCM-SHA384",
+          "cert_cn": "web.mit.edu",
+          "cert_not_after": "Nov 13 23:59:59 2026 GMT",
+          "ms": 196.9
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "Apache",
+          "ms": 101.8,
+          "ok": true
+        }
+      }
+    },
+    "https://use.typekit.net:443": {
+      "origin": "https://use.typekit.net:443",
+      "host": "use.typekit.net",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://use.typekit.net/uby1wjv.css",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2405:200:1630:1300::b854:dd48",
+            "2405:200:1630:1300::b854:dd4a"
+          ],
+          "cname_chain": [
+            "use-stls.adobe.com.edgesuite.net",
+            "a1988.dscg1.akamai.net"
+          ],
+          "ttl": 16,
+          "ms": 74.7,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2405:200:1630:1300::b854:dd48",
+              "ok": true,
+              "ms": 24.5
+            }
+          ],
+          "shim": false,
+          "addr": "2405:200:1630:1300::b854:dd48"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "use.typekit.net",
+          "cert_not_after": "Dec 13 23:59:59 2026 GMT",
+          "ms": 108.5
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "nginx",
+          "ms": 76.2,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "184.84.221.72",
+            "184.84.221.74"
+          ],
+          "cname_chain": [
+            "use-stls.adobe.com.edgesuite.net",
+            "a1988.dscg1.akamai.net"
+          ],
+          "ttl": 7,
+          "ms": 6.5
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "184.84.221.72",
+              "ok": true,
+              "ms": 39.7
+            }
+          ],
+          "shim": false,
+          "addr": "184.84.221.72"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "use.typekit.net",
+          "cert_not_after": "Dec 13 23:59:59 2026 GMT",
+          "ms": 112.0
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "nginx",
+          "ms": 74.2,
+          "ok": true
+        }
+      }
+    },
+    "https://p.typekit.net:443": {
+      "origin": "https://p.typekit.net:443",
+      "host": "p.typekit.net",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://p.typekit.net/p.css?s=1&k=uby1wjv&ht=tk&f=39496.39497.39498.39499.39500.39501.39502.39503.39504.39505.39506.39507.39508.39509&a=53548716&app=typekit&e=css",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2405:200:1630:1300::b854:dd59",
+            "2405:200:1630:1300::b854:dd58"
+          ],
+          "cname_chain": [
+            "p.typekit.net-stls-v3.edgesuite.net",
+            "a1874.dscg1.akamai.net"
+          ],
+          "ttl": 6,
+          "ms": 31.6,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2405:200:1630:1300::b854:dd59",
+              "ok": true,
+              "ms": 52.6
+            }
+          ],
+          "shim": false,
+          "addr": "2405:200:1630:1300::b854:dd59"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "use.typekit.net",
+          "cert_not_after": "Dec 13 23:59:59 2026 GMT",
+          "ms": 106.4
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "nginx",
+          "ms": 74.6,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "184.84.221.88",
+            "184.84.221.89"
+          ],
+          "cname_chain": [
+            "p.typekit.net-stls-v3.edgesuite.net",
+            "a1874.dscg1.akamai.net"
+          ],
+          "ttl": 18,
+          "ms": 62.9
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "184.84.221.88",
+              "ok": true,
+              "ms": 61.8
+            }
+          ],
+          "shim": false,
+          "addr": "184.84.221.88"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "use.typekit.net",
+          "cert_not_after": "Dec 13 23:59:59 2026 GMT",
+          "ms": 102.3
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "nginx",
+          "ms": 84.0,
+          "ok": true
+        }
+      }
+    },
+    "https://www.googletagmanager.com:443": {
+      "origin": "https://www.googletagmanager.com:443",
+      "host": "www.googletagmanager.com",
+      "port": 443,
+      "scheme": "https",
+      "probe_url": "https://www.googletagmanager.com/gtm.js?id=GTM-M8MGV4P",
+      "verdict": "READY",
+      "failed_stage": null,
+      "failure_code": null,
+      "ipv6": {
+        "family": 6,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "2404:6800:4013:804::61"
+          ],
+          "cname_chain": [],
+          "ttl": 188,
+          "ms": 18.3,
+          "synthesized": false
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "2404:6800:4013:804::61",
+              "ok": true,
+              "ms": 81.3
+            }
+          ],
+          "shim": false,
+          "addr": "2404:6800:4013:804::61"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google-analytics.com",
+          "cert_not_after": "Dec 21 18:38:19 2026 GMT",
+          "ms": 92.2
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "Google Tag Manager",
+          "ms": 225.9,
+          "ok": true
+        }
+      },
+      "ipv4": {
+        "family": 4,
+        "failed_stage": null,
+        "failure_code": null,
+        "dns": {
+          "ok": true,
+          "rcode": "NOERROR",
+          "addresses": [
+            "142.250.122.97"
+          ],
+          "cname_chain": [],
+          "ttl": 183,
+          "ms": 38.0
+        },
+        "tcp": {
+          "ok": true,
+          "attempts": [
+            {
+              "addr": "142.250.122.97",
+              "ok": true,
+              "ms": 121.8
+            }
+          ],
+          "shim": false,
+          "addr": "142.250.122.97"
+        },
+        "tls": {
+          "ok": true,
+          "version": "TLSv1.3",
+          "cipher": "TLS_AES_256_GCM_SHA384",
+          "cert_cn": "*.google-analytics.com",
+          "cert_not_after": "Dec 21 18:38:19 2026 GMT",
+          "ms": 118.6
+        },
+        "http": {
+          "status": 200,
+          "reason": "OK",
+          "location": null,
+          "server": "Google Tag Manager",
+          "ms": 236.0,
+          "ok": true
+        }
+      }
+    }
+  },
+  "site": {
+    "category": "Education",
+    "name": "MIT",
+    "url": "https://www.mit.edu/"
+  }
+}
