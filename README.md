@@ -192,4 +192,4 @@ Failure codes include `DNS_NO_AAAA`, `DNS_NXDOMAIN`, `DNS_ONLY_SYNTHESIZED_AAAA`
 - Full project report: [`report/`](report/)
 - Presentation slides: [`report/`](report/)
 
-Author: [Your name], [Roll number], Department of CSE, IIT Guwahati.
+Author: Suhani , 256101020 , Department of CSE, IIT Guwahati.
